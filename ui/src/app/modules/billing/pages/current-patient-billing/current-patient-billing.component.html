@@ -79,7 +79,7 @@
                     <div *ngIf="patientBillingDetails?.payments.length > 0 && patientBillingDetails.bills.length > 0">
                       <app-print-button [iconName]="'print'" [toolTipText]="'Click to print invoice and receipt in one document'"
                         [showText]="'Print All'"
-                        [ElementToBePrinted]="{Payments: patientBillingDetails?.payments, Bill: patientBillingDetails.bills, CurrentPatient: params?.currentPatient, FacilityDetails: params?.facilityDetails, Logo: params?.logo}" [
+                        [ElementToBePrinted]="{Payments: patientBillingDetails?.payments, Bill: patientBillingDetails.bills, CurrentPatient: params?.currentPatient, FacilityDetails: params?.facilityDetails, Logo: params?.logo}"
                         [classesList]="['float-right', 'button']" (print)="onPrint($event)"></app-print-button>
                     </div>
                     <div *ngIf="patientBillingDetails.bills.length > 0">
@@ -88,6 +88,11 @@
                         [ElementToBePrinted]="{Bill: patientBillingDetails.bills, CurrentPatient: params?.currentPatient, FacilityDetails: params?.facilityDetails, Logo: params?.logo}"
                         [currentPatient]="params?.currentPatient" [facilityDetails]="params?.facilityDetails" [logo]="params?.logo"
                         (print)="onPrint($event)"></app-print-button>
+                    </div>
+                    <div *ngIf="patientBillingDetails.bills.length > 0">
+                      <button class="float-left" mat-stroked-button matTooltip="Send patient to administration for exemption" (click)="requestExemption(patientBillingDetails)">
+                        Request Exemption
+                      </button>
                     </div>
                     
                   </div>
