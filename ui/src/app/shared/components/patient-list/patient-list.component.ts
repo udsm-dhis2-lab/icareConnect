@@ -50,6 +50,7 @@ export class PatientListComponent implements OnInit, OnChanges {
 
   page: number = 0;
   visits$: Observable<Visit[]>;
+  filteredVisits$: Observable<Visit[]>;
   searchTerm: string;
   loadingPatients: boolean;
   locationsUuids: string[] = [];
@@ -60,6 +61,7 @@ export class PatientListComponent implements OnInit, OnChanges {
   @Output() selectPatient = new EventEmitter<any>();
   visitAttributeType: any;
   paymentType: any;
+  filterBy: any;
   constructor(
     private visitService: VisitsService,
     private store: Store<AppState>,
@@ -81,6 +83,13 @@ export class PatientListComponent implements OnInit, OnChanges {
     }
     this.itemsPerPage = this.itemsPerPage ? this.itemsPerPage : 10;
     this.getVisits(this.visits);
+
+    this.visits$.subscribe({
+      next: (visits) => {
+       this.visits = visits
+      },
+    });
+
 
     /**
      * TODO: find the best place to put this
@@ -133,7 +142,8 @@ export class PatientListComponent implements OnInit, OnChanges {
             this.orderStatus,
             this.orderStatusCode,
             this.orderBy ? this.orderBy: "ENCOUNTER",
-            this.orderByDirection ? this.orderByDirection : "ASC"
+            this.orderByDirection ? this.orderByDirection : "ASC",
+            this.filterBy ? this.filterBy: ""
             )
           .pipe(
             tap(() => {
@@ -280,11 +290,25 @@ export class PatientListComponent implements OnInit, OnChanges {
   }
 
   filterPatientList(event: any){
-    this.visitAttributeType = event.visitAttributeType.value;
-    this.paymentType = event.paymentType.uuid;
 
-    // console.log(
-    //   `filterValue: ${this.visitAttributeType}==>${this.paymentType}`
-    // );
+    this.filterBy = event
+
+    this.filteredVisits$ = this.visitService.getAllVisits(
+          this.currentLocation,
+          false,
+          false,
+          null,
+          0,
+          this.itemsPerPage,
+          this.orderType,
+          this.orderStatus,
+          this.orderStatusCode,
+          this.orderBy ? this.orderBy : "ENCOUNTER",
+          this.orderByDirection ? this.orderByDirection : "ASC",
+          this.filterBy ? this.filterBy : "");
+
+    this.filteredVisits$.subscribe({
+      next: (visits) => this.visits = visits
+    })
   }
 }

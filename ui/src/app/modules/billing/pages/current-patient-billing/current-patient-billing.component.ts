@@ -81,7 +81,6 @@ export class CurrentPatientBillingComponent implements OnInit {
         const visit = res[0];
         const bills = res[1];
         const payments = res[2];
-
         return {
           visit,
           bills: bills.filter((bill) => !bill.isInsurance),
@@ -107,6 +106,12 @@ export class CurrentPatientBillingComponent implements OnInit {
 
   onPaymentSuccess() {
     this._getPatientDetails();
+  }
+
+  requestExemption(data) {
+    data.bills.map((bill) => {
+      console.log(bill);
+    });
   }
 
   onPrint(e: any): void {
@@ -208,7 +213,8 @@ export class CurrentPatientBillingComponent implements OnInit {
       }
     });
 
-    let patientMRN = e.CurrentPatient.MRN ||
+    let patientMRN =
+      e.CurrentPatient.MRN ||
       e.CurrentPatient.patient?.identifiers[0]?.identifier.replace(
         "MRN = ",
         ""
@@ -323,7 +329,6 @@ export class CurrentPatientBillingComponent implements OnInit {
         </table>`);
       }
     }
-    
 
     frameDoc.document.write(`
           <div class="footer">

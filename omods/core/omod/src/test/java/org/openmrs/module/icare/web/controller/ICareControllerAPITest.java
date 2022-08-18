@@ -409,7 +409,7 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		Patient patient = patientService.getPatientByUuid("1f6959e5-d15a-4025-bb48-340ee9e2c58d");
 		Visit newVisit = this.getVisit(patient);
 		
-		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid", "2msir5eb-5345-11e8-9922-40b034c3cfee"), new Parameter("OrderBy", "VISIT"), new Parameter("orderByDirection", "ASC")
+		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid", "2msir5eb-5345-11e8-9922-40b034c3cfee"), new Parameter("OrderBy", "ENCOUNTER"), new Parameter("orderByDirection", "ASC") , new Parameter("paymentStatus", "PAID")
 		//7bc34d5bde5d829d31cc8c22a455896a97085951
 		//, new Parameter("fulfillerStatus","COMPL")
 		);
