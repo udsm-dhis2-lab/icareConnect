@@ -2,7 +2,10 @@
   *ngIf="{
     currentPatient: currentPatient$ | async,
     logo: facilityLogo$ | async,
-    facilityDetails: facilityDetails$ | async
+    facilityDetails: facilityDetails$ | async,
+    currentLocation: currentLocation$ | async,
+    provider: provider$ | async,
+    currentUser: currentUser$ | async
   } as params"
 >
   <!-- {{ params?.facilityDetails }} -->
@@ -90,7 +93,7 @@
                         (print)="onPrint($event)"></app-print-button>
                     </div>
                     <div *ngIf="patientBillingDetails.bills.length > 0">
-                      <button class="float-left" mat-stroked-button matTooltip="Send patient to administration for exemption" (click)="requestExemption(patientBillingDetails)">
+                      <button class="float-left" mat-stroked-button matTooltip="Send patient to administration for exemption" (click)="requestExemption(patientBillingDetails, params)">
                         Request Exemption
                       </button>
                     </div>

@@ -16,11 +16,13 @@ import { Bill } from "../../models/bill.model";
 import { PaymentInput } from "../../models/payment-input.model";
 import { BillingService } from "../../services/billing.service";
 import { PaymentService } from "../../services/payment.service";
-import { Store } from "@ngrx/store";
+import { select, Store } from "@ngrx/store";
 import { AppState } from "src/app/store/reducers";
-import { getParentLocation } from "src/app/store/selectors";
+import { getCurrentLocation, getParentLocation } from "src/app/store/selectors";
 import { DomSanitizer } from "@angular/platform-browser";
-import { getCurrentUserDetails } from "src/app/store/selectors/current-user.selectors";
+import { getCurrentUserDetails, getProviderDetails } from "src/app/store/selectors/current-user.selectors";
+import { EncountersService } from "src/app/shared/services/encounters.service";
+import { OrdersService } from "src/app/shared/resources/order/services/orders.service";
 
 @Component({
   selector: "app-current-patient-billing",
@@ -46,6 +48,8 @@ export class CurrentPatientBillingComponent implements OnInit {
   currentPatient$: Observable<Patient>;
   parentLocation$: Observable<any>;
   currentUser$: Observable<any>;
+  provider$: Observable<any>;
+  creatingOrdersResponse$: Observable<any>;
 
   constructor(
     private route: ActivatedRoute,
@@ -54,6 +58,8 @@ export class CurrentPatientBillingComponent implements OnInit {
     private paymentService: PaymentService,
     private patientService: PatientService,
     private configService: ConfigsService,
+    private encounterService: EncountersService,
+    private ordersService: OrdersService,
     private store: Store<AppState>
   ) {}
 
@@ -62,10 +68,12 @@ export class CurrentPatientBillingComponent implements OnInit {
     this._getPatientDetails();
 
     this.currentPatient$ = this.patientService.getPatient(this.patientId);
-
+    this.currentUser$ = this.store.select(getCurrentUserDetails);
     this.facilityDetails$ = this.configService.getFacilityDetails();
     this.facilityLogo$ = this.configService.getLogo();
     this.facilityDetails$ = this.store.select(getParentLocation);
+    this.currentLocation$ = this.store.pipe(select(getCurrentLocation));
+    this.provider$ = this.store.select(getProviderDetails);
   }
 
   private _getPatientDetails() {
@@ -108,9 +116,68 @@ export class CurrentPatientBillingComponent implements OnInit {
     this._getPatientDetails();
   }
 
-  requestExemption(data) {
-    data.bills.map((bill) => {
-      console.log(bill);
+  requestExemption(patientBillingDetails, params) {
+    
+    let currentDate = new Date();
+
+    let exemptionEncounterStart = {
+      visit: patientBillingDetails.visit?.uuid,
+      encounterDatetime: currentDate.toISOString(),
+      patient: params.currentPatient?.id,
+      encounterType: "51130033-46fe-4fe5-b407-32413fb9acfa",
+      location: params.currentLocation?.uuid,
+      // TODO: Find best way to get encounter provider details
+      encounterProviders: [
+        {
+          provider: params.provider?.uuid,
+          encounterRole: "240b26f9-dd88-4172-823d-4a8bfeb7841f",
+        },
+      ],
+    };
+
+      // Format date to yyyy-mm-dd hh:mm:ss
+    
+    let year = currentDate.getFullYear();
+    let month = String(currentDate.getMonth()).length > 1 ? currentDate.getMonth()+1 : `0${currentDate.getMonth()+1}`
+    let day = String(currentDate.getDate()).length > 1 ? currentDate.getDate() : `0${currentDate.getDate()}`
+    let hours = String(currentDate.getHours()).length > 1 ? currentDate.getHours() : `0${currentDate.getHours()}`
+    let minutes = String(currentDate.getMinutes()).length > 1 ? currentDate.getMinutes() : `0${currentDate.getMinutes()}`
+    let seconds = String(currentDate.getSeconds()).length > 1 ? currentDate.getSeconds() : `0${currentDate.getSeconds()}`
+
+    let formatedDate = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+
+    // 1. Create encounter
+    // 2. Use the encounter to create a requested order
+    
+
+    this.encounterService.createEncounter(exemptionEncounterStart).then((encounter) => {
+      if (encounter){
+        let order = {
+          orderType: "3b4a9d58-0224-474f-a0f0-7fac80897b07",
+          action: "NEW",
+          urgency: "ROUTINE",
+          encounter: encounter.uuid,
+          careSetting: !patientBillingDetails.visit?.isAdmitted
+            ? "OUTPATIENT"
+            : "INPATIENT",
+          patient: params.currentPatient?.id,
+          concept: "be767d14-db83-40af-8de3-4a2f4e158712",
+          orderer: params.provider?.uuid,
+          type: "order",
+        };
+
+        console.log(params.currentUser);
+        //When creating a resource that supports subclasses, you must indicate the particular subclass with a type property
+        // send a request to create order
+        this.ordersService.createOrder(order).then((order) => {
+          if (order) {
+            console.log("created order: ", order);
+          } else {
+            console.log("Failed to create order: ", order);
+          }
+        });
+      }
+      
     });
   }
 
