@@ -216,7 +216,7 @@
 
     <!--Payment-->
     <bl_payment payment_id="1" uuid="98b75eb-er45-12e8-9c7cs" invoice_id="11" reference_number="abc123" payment_type_id="500" received_by="abc" date_created="2020-12-27 00:00:00" voided="0" creator="1" />
-    <bl_payment_item order_id="301" item_id="123" amount="90" payment_id="1" />
+    <bl_payment_item order_id="301" item_id="123" amount="50" payment_id="1" />
 
     <!--Discount -->
     <bl_discount discount_id="1" uuid="8b75eb-er45-12e8" discount_criteria_id="500" patient_id="1000" creator="1" date_created="2020-12-27 00:00:00" voided="0" />

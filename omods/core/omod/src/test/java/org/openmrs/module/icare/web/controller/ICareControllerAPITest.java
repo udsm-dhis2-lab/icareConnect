@@ -299,17 +299,17 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		Map visitMap = (new ObjectMapper()).readValue(visitData, Map.class);
 		List<Map> visitDetails = (List<Map>) visitMap.get("results");
 		System.out.println(visitDetails.size());
-		assertThat("Should return a visit", visitDetails.size() == 1);
+		assertThat("Should return a visit", visitDetails.size() == 0);
 
 		//PENDING
-		// When testing for pending uncomment the below test and modify the records in billing-data.xml file
-//		 newGetRequest = newGetRequest("icare/visit", new Parameter("paymentStatus","PENDING"));
-//		 handle = handle(newGetRequest);
-//		 visitData = handle.getContentAsString();
-//		visitMap = (new ObjectMapper()).readValue(visitData, Map.class);
-//		 visitDetails = (List<Map>) visitMap.get("results");
-//		System.out.println(visitDetails.size());
-//		assertThat("Should return a visit", visitDetails.size() == 1);
+//		 When testing for pending uncomment the below test and modify the records in billing-data.xml file
+		 newGetRequest = newGetRequest("icare/visit", new Parameter("paymentStatus","PENDING"));
+		 handle = handle(newGetRequest);
+		 visitData = handle.getContentAsString();
+		 visitMap = (new ObjectMapper()).readValue(visitData, Map.class);
+		 visitDetails = (List<Map>) visitMap.get("results");
+		System.out.println(visitDetails.size());
+		assertThat("Should return a visit", visitDetails.size() == 1);
 
 	}
 

@@ -86,6 +86,7 @@ export class PatientListComponent implements OnInit, OnChanges {
 
     this.visits$.subscribe({
       next: (visits) => {
+        // console.log("Visits: ", visits)
        this.visits = visits
       },
     });
@@ -163,8 +164,7 @@ export class PatientListComponent implements OnInit, OnChanges {
 
   onLoadNewList(details): void {
     this.loadingPatients = true;
-    this.page =
-      details?.type === "next" ? Number(this.page) + 1 : Number(this.page) - 1;
+    this.page = details?.type === "next" ? Number(this.page) + 1 : Number(this.page) - 1;
 
     this.visits$ =
       this.service && this.service === "LABS"
@@ -201,26 +201,26 @@ export class PatientListComponent implements OnInit, OnChanges {
   onSearchPatient(e) {
     e.stopPropagation();
     this.searchTerm = e?.target?.value;
-    this.loadingPatients = true;
-    this.visits$ = this.visitService
-      .getAllVisits(
-        this.currentLocation,
-        false,
-        false,
-        this.searchTerm,
-        0,
-        this.itemsPerPage,
-        null,
-        null,
-        null,
-        "ENCOUNTER",
-        "ASC"
-      )
-      .pipe(
-        tap(() => {
-          this.loadingPatients = false;
-        })
-      );
+    // this.loadingPatients = true;
+    // this.visits$ = this.visitService
+    //   .getAllVisits(
+    //     this.currentLocation,
+    //     false,
+    //     false,
+    //     this.searchTerm,
+    //     0,
+    //     this.itemsPerPage,
+    //     null,
+    //     null,
+    //     null,
+    //     "ENCOUNTER",
+    //     "ASC"
+    //   )
+    //   .pipe(
+    //     tap(() => {
+    //       this.loadingPatients = false;
+    //     })
+    //   );
   }
 
   getLocationUuids(location) {
@@ -290,10 +290,11 @@ export class PatientListComponent implements OnInit, OnChanges {
   }
 
   filterPatientList(event: any){
+    this.loadingPatients = true;
 
-    this.filterBy = event
+    this.filterBy = event && typeof event === 'string' ? event : "";
 
-    this.filteredVisits$ = this.visitService.getAllVisits(
+    this.visits$ = this.visitService.getAllVisits(
           this.currentLocation,
           false,
           false,
@@ -305,10 +306,17 @@ export class PatientListComponent implements OnInit, OnChanges {
           this.orderStatusCode,
           this.orderBy ? this.orderBy : "ENCOUNTER",
           this.orderByDirection ? this.orderByDirection : "ASC",
-          this.filterBy ? this.filterBy : "");
+          this.filterBy);
 
-    this.filteredVisits$.subscribe({
-      next: (visits) => this.visits = visits
+    this.visits$.subscribe({
+      next: (visits) => {
+        // console.log(visits)
+        this.loadingPatients = false;
+        return this.visits = visits
+      },
+      error: (error) => {
+        this.loadingPatients = false;
+      }
     })
   }
 }
