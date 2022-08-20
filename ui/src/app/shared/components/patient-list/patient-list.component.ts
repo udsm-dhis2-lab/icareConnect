@@ -199,7 +199,7 @@ export class PatientListComponent implements OnInit, OnChanges {
   }
 
   onSearchPatient(e) {
-    e.stopPropagation();
+     e.stopPropagation();
     this.searchTerm = e?.target?.value;
     this.loadingPatients = true;
     this.visits$ = this.visitService
@@ -293,7 +293,7 @@ export class PatientListComponent implements OnInit, OnChanges {
 
     this.filterBy = event
 
-    this.filteredVisits$ = this.visitService.getAllVisits(
+    this.visits$ = this.visitService.getAllVisits(
           this.currentLocation,
           false,
           false,
@@ -307,7 +307,7 @@ export class PatientListComponent implements OnInit, OnChanges {
           this.orderByDirection ? this.orderByDirection : "ASC",
           this.filterBy ? this.filterBy : "");
 
-    this.filteredVisits$.subscribe({
+    this.visits$.subscribe({
       next: (visits) => this.visits = visits
     })
   }

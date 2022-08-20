@@ -13,7 +13,7 @@ import { getAllTreatmentLocations } from "src/app/store/selectors";
 import {
   getActiveVisit,
   getVisitLoadedState,
-} from "src/app/store/selectors/visit.selectors";onStartVisit()
+} from "src/app/store/selectors/visit.selectors";
 
 @Component({
   selector: "app-start-visit-model",
