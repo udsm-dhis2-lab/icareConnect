@@ -6466,6 +6466,7 @@ export class Api<SecurityDataType = any> extends HttpClient<SecurityDataType> {
         params
       ),
   };
+  
   encounter = {
     /**
      * @tags encounter
