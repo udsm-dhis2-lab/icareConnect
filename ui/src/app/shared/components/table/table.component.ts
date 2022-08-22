@@ -82,8 +82,11 @@ export class TableComponent implements OnInit {
       this.patientDrugOrdersStatuses$ =
         this.drugOrderService.getDrugOrderStatus(this.visit.uuid);
     }
-
-    this.data$?.pipe(filter((data) => data !== null)).subscribe((data) => {
+    
+    this.data$?.pipe(filter((data) => {
+      console.log("reached Here for data: ",data)
+      return data !== null
+    })).subscribe((data) => {
       this.dataSource = data;
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;

@@ -23,6 +23,7 @@ import { DomSanitizer } from "@angular/platform-browser";
 import { getCurrentUserDetails, getProviderDetails } from "src/app/store/selectors/current-user.selectors";
 import { EncountersService } from "src/app/shared/services/encounters.service";
 import { OrdersService } from "src/app/shared/resources/order/services/orders.service";
+import { any } from "cypress/types/bluebird";
 
 @Component({
   selector: "app-current-patient-billing",
@@ -50,7 +51,10 @@ export class CurrentPatientBillingComponent implements OnInit {
   currentUser$: Observable<any>;
   provider$: Observable<any>;
   creatingOrdersResponse$: Observable<any>;
-
+  discountItems: any;
+  discountItemsCount: any;
+  bill: Bill;
+  
   constructor(
     private route: ActivatedRoute,
     private visitService: VisitsService,
@@ -74,6 +78,57 @@ export class CurrentPatientBillingComponent implements OnInit {
     this.facilityDetails$ = this.store.select(getParentLocation);
     this.currentLocation$ = this.store.pipe(select(getCurrentLocation));
     this.provider$ = this.store.select(getProviderDetails);
+
+
+    this.billingService.getAllPatientBills(this.patientId).subscribe({
+      next: (bills) => {
+        bills.forEach((bill) => {
+          if(bill){
+            this.bill = bill;
+            //Get discounted Items
+            let paidAmount: number = 0;
+            let discountItems: any[];
+            let paidItems: any[];
+            let givenItems: any[]
+
+            this.discountItems = bill.billDetails.discountItems.filter((discountItem) => {
+              //Get total amount that is already paid for an item
+              bill.billDetails.payments.forEach((payment) => {
+                paidItems = payment.items.filter((paymentItem) =>{
+                  if(discountItem.item.uuid === paymentItem.item.uuid){
+                    return paymentItem;
+                  }
+                  console.log("Not returned; ", paymentItem)
+                }) 
+              });
+              
+              //Get total amount of the item from the list of items the patient has
+              givenItems = bill.billDetails.items.filter((givenItem) => {
+                if(discountItem.item.uuid === givenItem.item.uuid){
+                  return givenItem;
+                }
+              });
+
+              //calculate total amount paid
+              paidItems.forEach((paymentItem) => {
+                paidAmount = paidAmount + paymentItem.amount;
+              });
+
+              // return discount item if paid amount is less than item's price
+              if (paidAmount < givenItems[0].price){
+                console.log("Passed: ")
+                return discountItem;
+              }
+
+              console.log("Not returned; ", discountItem);
+            });
+
+            this.discountItemsCount = this.discountItems.length
+            
+          }
+        })
+      }
+    });
   }
 
   private _getPatientDetails() {
@@ -82,7 +137,7 @@ export class CurrentPatientBillingComponent implements OnInit {
     this.patientBillingDetails$ = zip(
       this.visitService.getActiveVisit(this.patientId, false),
       this.billingService.getPatientBills(this.patientId),
-      this.paymentService.getPatientPayments(this.patientId)
+      this.paymentService.getPatientPayments(this.patientId),
     ).pipe(
       map((res) => {
         this.loading = false;
@@ -96,7 +151,7 @@ export class CurrentPatientBillingComponent implements OnInit {
           paymentItemCount: payments
             .map((payment) => payment?.items?.length || 0)
             .reduce((sum, count) => sum + count, 0),
-          pendingPayments: bills.filter((bill) => bill.isInsurance),
+          pendingPayments: bills.filter((bill) => bill.isInsurance)
         };
       }),
       catchError((error) => {
@@ -163,17 +218,15 @@ export class CurrentPatientBillingComponent implements OnInit {
           patient: params.currentPatient?.id,
           concept: "be767d14-db83-40af-8de3-4a2f4e158712",
           orderer: params.provider?.uuid,
-          type: "order",
+          type: "order"
         };
-
-        console.log(params.currentUser);
-        //When creating a resource that supports subclasses, you must indicate the particular subclass with a type property
+         
         // send a request to create order
         this.ordersService.createOrder(order).then((order) => {
           if (order) {
-            console.log("created order: ", order);
+            console.log("created exemption order: ", order);
           } else {
-            console.log("Failed to create order: ", order);
+            console.log("Failed exemption to create order: ", order);
           }
         });
       }

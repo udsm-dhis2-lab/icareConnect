@@ -7,6 +7,7 @@ import { PaymentsComponent } from './payments/payments.component';
 import { PendingPaymentsComponent } from './pending-payments/pending-payments.component';
 import { QuotationItemComponent } from './quotation-item/quotation-item.component';
 import { QuotationsComponent } from './quotations/quotations.component';
+import { DiscountsComponent } from './discounts/discounts.component';
 
 export const billingComponents: any[] = [
   QuotationsComponent,
@@ -18,6 +19,7 @@ export const billingComponents: any[] = [
   ExemptionItemComponent,
   ExemptionConfirmationComponent,
   PendingPaymentsComponent,
+  DiscountsComponent
 ];
 
 export const billingEntryComponents: any[] = [
