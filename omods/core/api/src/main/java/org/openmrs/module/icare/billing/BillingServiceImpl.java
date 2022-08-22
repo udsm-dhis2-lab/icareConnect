@@ -587,5 +587,7 @@ public class BillingServiceImpl extends BaseOpenmrsService implements BillingSer
 		invoice.setInvoiceItems(items);
 		return invoice;
 	}
+
+
 	
 }

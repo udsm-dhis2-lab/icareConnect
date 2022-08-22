@@ -326,4 +326,8 @@ public class VisitWrapper {
 	public enum OrderByDirection {
 		ASC, DESC;
 	}
+	
+	public enum PaymentStatus {
+		PAID, PENDING;
+	}
 }

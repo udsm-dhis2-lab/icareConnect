@@ -263,7 +263,7 @@ public class ICareDao extends BaseDAO<Item> {
 	public List<Visit> getVisitsByOrderType(String search, String orderTypeUuid, String locationUuid,
 	        OrderStatus.OrderStatusCode orderStatusCode, Order.FulfillerStatus fulfillerStatus, Integer limit,
 	        Integer startIndex, VisitWrapper.OrderBy orderBy, VisitWrapper.OrderByDirection orderByDirection,
-	        String attributeValueReference, String paymentStatus) {
+	        String attributeValueReference, VisitWrapper.PaymentStatus paymentStatus) {
 		
 		Query query = null;
 		DbSession session = this.getSession();
@@ -371,7 +371,7 @@ public class ICareDao extends BaseDAO<Item> {
 		}
 		
 		if (paymentStatus != null) {
-			if (paymentStatus == "PAID") {
+			if (paymentStatus == VisitWrapper.PaymentStatus.PAID) {
 				queryStr1 += " WHERE v.id IN (SELECT invoice.visit FROM Invoice invoice"
 				        + " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di "
 				        + " WHERE item.id.invoice = pi.id.payment.invoice" + " AND pi.id.payment.invoice = di.id.invoice"
@@ -380,7 +380,7 @@ public class ICareDao extends BaseDAO<Item> {
 				
 			}
 			
-			if (paymentStatus == "PENDING") {
+			if (paymentStatus == VisitWrapper.PaymentStatus.PENDING) {
 				queryStr1 += " WHERE v.id IN (SELECT invoice.visit FROM Invoice invoice"
 				        + " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di "
 				        + " WHERE item.id.invoice = pi.id.payment.invoice"
