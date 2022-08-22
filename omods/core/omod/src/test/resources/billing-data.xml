@@ -220,6 +220,6 @@
 
     <!--Discount -->
     <bl_discount discount_id="1" uuid="8b75eb-er45-12e8" discount_criteria_id="500" patient_id="1000" creator="1" date_created="2020-12-27 00:00:00" voided="0" />
-    <bl_discount_invoice_item discount_id="1" invoice_id="11" item_id="123" amount="10" />
+    <bl_discount_invoice_item discount_id="1" invoice_id="11" item_id="123" amount="60" />
 
 </dataset>

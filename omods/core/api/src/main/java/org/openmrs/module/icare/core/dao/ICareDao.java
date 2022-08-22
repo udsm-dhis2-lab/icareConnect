@@ -262,22 +262,23 @@ public class ICareDao extends BaseDAO<Item> {
 	
 	public List<Visit> getVisitsByOrderType(String search, String orderTypeUuid, String locationUuid,
 	        OrderStatus.OrderStatusCode orderStatusCode, Order.FulfillerStatus fulfillerStatus, Integer limit,
-	        Integer startIndex, VisitWrapper.OrderBy orderBy, VisitWrapper.OrderByDirection orderByDirection,String attributeValueReference,String paymentStatus) {
-
+	        Integer startIndex, VisitWrapper.OrderBy orderBy, VisitWrapper.OrderByDirection orderByDirection,
+	        String attributeValueReference, VisitWrapper.PaymentStatus paymentStatus) {
+		
 		Query query = null;
 		DbSession session = this.getSession();
 		String queryStr1 = "SELECT distinct v FROM Visit v" + " INNER JOIN v.patient p" + " INNER JOIN p.names pname";
-
-		if(orderTypeUuid != null){
-			String queryStr = queryStr1 + " INNER JOIN v.encounters e" + " INNER JOIN e.orders o" + " INNER JOIN o.orderType ot"
-					+ " WHERE ot.uuid=:orderTypeUuid " + " AND v.stopDatetime IS NULL ";
-
+		
+		if (orderTypeUuid != null) {
+			String queryStr = queryStr1 + " INNER JOIN v.encounters e" + " INNER JOIN e.orders o"
+			        + " INNER JOIN o.orderType ot" + " WHERE ot.uuid=:orderTypeUuid " + " AND v.stopDatetime IS NULL ";
+			
 			if (fulfillerStatus != null) {
 				queryStr += " AND o.fulfillerStatus=:fulfillerStatus";
 			} else {
 				queryStr += " AND o.fulfillerStatus IS NULL";
 			}
-
+			
 			if (search != null) {
 				queryStr += " AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search)";
 			}
@@ -286,13 +287,13 @@ public class ICareDao extends BaseDAO<Item> {
 					queryStr += " AND o NOT IN (SELECT o2 FROM OrderStatus os" + "	INNER JOIN os.order o2)";
 				} else {
 					queryStr += " AND o IN (SELECT o2 FROM OrderStatus os"
-							+ "	INNER JOIN os.order o2 WHERE os.status=:orderStatusCode)";
+					        + "	INNER JOIN os.order o2 WHERE os.status=:orderStatusCode)";
 				}
 			}
 			if (locationUuid != null) {
 				queryStr += " AND v.location.uuid=:locationUuid ";
 			}
-
+			
 			if (orderBy == VisitWrapper.OrderBy.VISIT) {
 				queryStr += " ORDER BY v.startDatetime ";
 			} else if (orderBy == VisitWrapper.OrderBy.ENCOUNTER) {
@@ -302,7 +303,7 @@ public class ICareDao extends BaseDAO<Item> {
 			} else if (orderBy == VisitWrapper.OrderBy.OBSERVATION) {
 				queryStr += " ORDER BY e.dateChanged ";
 			}
-
+			
 			if (orderByDirection == VisitWrapper.OrderByDirection.ASC) {
 				queryStr += " ASC ";
 			} else if (orderByDirection == VisitWrapper.OrderByDirection.DESC) {
@@ -321,7 +322,7 @@ public class ICareDao extends BaseDAO<Item> {
 			}
 			if (orderStatusCode != null) {
 				if (orderStatusCode == OrderStatus.OrderStatusCode.EMPTY) {
-
+					
 				} else {
 					query.setParameter("orderStatusCode", orderStatusCode);
 				}
@@ -329,20 +330,19 @@ public class ICareDao extends BaseDAO<Item> {
 			//query.setParameter("fulfillerStatus", fulfillerStatus);
 			query.setFirstResult(startIndex);
 			query.setMaxResults(limit);
-
+			
 			//return query.list();
-		}
-		else {
+		} else {
 			String queryStr = queryStr1 + " INNER JOIN v.encounters e WHERE v.stopDatetime IS NULL ";
-
+			
 			if (search != null) {
 				queryStr += " AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search)";
 			}
-
+			
 			if (locationUuid != null) {
 				queryStr += " AND v.location.uuid=:locationUuid ";
 			}
-
+			
 			if (orderBy == VisitWrapper.OrderBy.VISIT) {
 				queryStr += " ORDER BY v.startDatetime ";
 			} else if (orderBy == VisitWrapper.OrderBy.ENCOUNTER) {
@@ -350,13 +350,13 @@ public class ICareDao extends BaseDAO<Item> {
 			} else if (orderBy == VisitWrapper.OrderBy.OBSERVATION) {
 				queryStr += " ORDER BY e.dateChanged ";
 			}
-
+			
 			if (orderByDirection == VisitWrapper.OrderByDirection.ASC) {
 				queryStr += " ASC ";
 			} else if (orderByDirection == VisitWrapper.OrderByDirection.DESC) {
 				queryStr += " DESC ";
 			}
-
+			
 			query = session.createQuery(queryStr);
 			if (locationUuid != null) {
 				query.setParameter("locationUuid", locationUuid);
@@ -366,33 +366,34 @@ public class ICareDao extends BaseDAO<Item> {
 			}
 			query.setFirstResult(startIndex);
 			query.setMaxResults(limit);
-
+			
 			//return query.list();
 		}
-
-		if(paymentStatus != null) {
-			if (paymentStatus == "PAID") {
+		
+		if (paymentStatus != null) {
+			if (paymentStatus == VisitWrapper.PaymentStatus.PAID) {
 				queryStr1 += " WHERE v.id IN (SELECT invoice.visit FROM Invoice invoice"
-							+ " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di "
-							+ " WHERE item.id.invoice = pi.id.payment.invoice"
-							+ " AND pi.id.payment.invoice = di.id.invoice"
-							+ " GROUP BY item.id.invoice" + " HAVING SUM(item.price*item.quantity) <= (SUM(pi.amount) + SUM(di.amount))))";
-
+				        + " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di "
+				        + " WHERE item.id.invoice = pi.id.payment.invoice" + " AND pi.id.payment.invoice = di.id.invoice"
+				        + " GROUP BY item.id.invoice"
+				        + " HAVING SUM(item.price*item.quantity) <= (SUM(pi.amount) + SUM(di.amount))))";
+				
 			}
-
-			if (paymentStatus == "PENDING") {
-				queryStr1 += " WHERE v.id IN (SELECT invoice.visit FROM Invoice invoice" 
-							+ " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di " 
-							+ " WHERE item.id.invoice = pi.id.payment.invoice" + " AND pi.id.payment.invoice = di.id.invoice" 
-							+ " GROUP BY item.id.invoice HAVING SUM(item.price*item.quantity) > (SUM(pi.amount) + SUM(di.amount))))";
+			
+			if (paymentStatus == VisitWrapper.PaymentStatus.PENDING) {
+				queryStr1 += " WHERE v.id IN (SELECT invoice.visit FROM Invoice invoice"
+				        + " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di "
+				        + " WHERE item.id.invoice = pi.id.payment.invoice"
+				        + " AND pi.id.payment.invoice = di.id.invoice"
+				        + " GROUP BY item.id.invoice HAVING SUM(item.price*item.quantity) > (SUM(pi.amount) + SUM(di.amount))))";
 			}
 			query = session.createQuery(queryStr1);
 		}
-
-		if(attributeValueReference != null && paymentStatus == null) {
+		
+		if (attributeValueReference != null && paymentStatus == null) {
 			if (search != null) {
 				queryStr1 += " WHERE (v.id IN ( SELECT va.visit FROM VisitAttribute va WHERE va.valueReference=:attributeValueReference) AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search))";
-
+				
 				query = session.createQuery(queryStr1);
 				query.setParameter("search", "%" + search.replace(" ", "%") + "%");
 				query = session.createQuery(queryStr1);
@@ -403,11 +404,11 @@ public class ICareDao extends BaseDAO<Item> {
 				query.setParameter("attributeValueReference", attributeValueReference);
 			}
 		}
-		if(attributeValueReference != null && paymentStatus != null) {
-
+		if (attributeValueReference != null && paymentStatus != null) {
+			
 			if (search != null) {
 				queryStr1 += " AND (v.id IN ( SELECT va.visit FROM VisitAttribute va WHERE va.valueReference=:attributeValueReference) AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search))";
-
+				
 				query = session.createQuery(queryStr1);
 				query.setParameter("search", "%" + search.replace(" ", "%") + "%");
 				query = session.createQuery(queryStr1);
@@ -417,9 +418,9 @@ public class ICareDao extends BaseDAO<Item> {
 				query = session.createQuery(queryStr1);
 				query.setParameter("attributeValueReference", attributeValueReference);
 			}
-
+			
 		}
-
+		
 		return query.list();
 	}
 	

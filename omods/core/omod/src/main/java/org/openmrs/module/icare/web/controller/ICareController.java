@@ -252,7 +252,7 @@ public class ICareController {
                                                @RequestParam(defaultValue = "DESC") VisitWrapper.OrderByDirection orderByDirection,
                                                @RequestParam(required = false) Order.FulfillerStatus fulfillerStatus,
 											   @RequestParam(required = false) String attributeValueReference,
-											   @RequestParam(required = false) String paymentStatus
+											   @RequestParam(required = false) VisitWrapper.PaymentStatus paymentStatus
 											   ) {
 
         List<Visit> visits = iCareService.getVisitsByOrderType(q, orderTypeUuid, locationUuid, orderStatusCode, fulfillerStatus, limit, startIndex, orderBy, orderByDirection, attributeValueReference, paymentStatus);
@@ -295,7 +295,7 @@ public class ICareController {
         return retults;
     }
 	
-		@RequestMapping(value = "visit/{visitUuid}/claimForm", method = RequestMethod.GET)
+	@RequestMapping(value = "visit/{visitUuid}/claimForm", method = RequestMethod.GET)
 	@ResponseBody
 	public Map<String, Object> getClaim(@PathVariable("visitUuid") String visitUuid) throws Exception {
 		Claim claim = iCareService.getClaimByVisitUuid(visitUuid);
