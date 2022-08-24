@@ -21,7 +21,7 @@ import { FieldComponent } from "../field/field.component";
   styleUrls: ["./form.component.scss"],
 })
 export class FormComponent implements OnInit, OnChanges {
-  @Input() fields: Field<string>[];
+  @Input() fields: Field<any>[];
   @Input() isFormHorizontal: boolean;
   @Input() showSaveButton: boolean;
   @Input() fieldsData: FieldsData;

@@ -48,33 +48,32 @@
       <div
         *ngFor="let member of formField?.setMembers"
         [ngClass]="{ 'd-none': legendControl[formField?.name] }"
-      >
+        >
         <div *ngIf="member?.formFields && member?.setMembers?.length == 0">
           <app-form
-            [fields]="member?.formFields"
-            [isFormHorizontal]="true"
-            [fieldsData]="params?.observations"
-            [isReport]="isReport"
-            (formUpdate)="onFormUpdate($event)"
+          [fields]="member?.formFields"
+          [isFormHorizontal]="true"
+          [fieldsData]="params?.observations"
+          [isReport]="isReport"
+          (formUpdate)="onFormUpdate($event)"
           >
-          </app-form>
-        </div>
+        </app-form>
+      </div>
         <div
-          *ngIf="
+        *ngIf="
             !member?.formFields &&
             !member?.formField &&
             member?.setMembers?.length == 0 &&
             member?.options?.length > 0
-          "
-        >
-          <!-- {{ member | json }} -->
-          <app-form
+            "
+            >
+            <app-form
             [fields]="[member]"
             [isFormHorizontal]="true"
             [fieldsData]="params?.observations"
             [isReport]="isReport"
             (formUpdate)="onFormUpdate($event)"
-          >
+            >
           </app-form>
         </div>
         <div
