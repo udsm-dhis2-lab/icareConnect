@@ -66,11 +66,11 @@ export class Visit {
   }
 
   get patientName(): string {
-    return this.visit?.patient?.display;
+    return this.visit?.patient?.name;
   }
 
   get patientGender(): string {
-    return this.patient?.gender;
+    return this.visit.patient?.gender;
   }
 
   get patientAge(): string {

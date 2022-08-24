@@ -84,7 +84,6 @@ export class TableComponent implements OnInit {
     }
     
     this.data$?.pipe(filter((data) => {
-      console.log("reached Here for data: ",data)
       return data !== null
     })).subscribe((data) => {
       this.dataSource = data;

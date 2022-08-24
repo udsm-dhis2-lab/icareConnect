@@ -36,7 +36,7 @@ export class ExemptionHomeComponent implements OnInit {
   filterBy: any;
   currentLocation: any;
   loadingPatients: boolean;
-  visits$: Observable<Visit[]>;
+  visits$: any;
   visitsLength: number;
 
 
@@ -121,7 +121,7 @@ export class ExemptionHomeComponent implements OnInit {
         this.orderType = orderType[0];
         this.getVisits(this.orderType).subscribe({
           next: (visits) => {
-            this.visits$ = of(visits)
+            this.visits$ = of(visits.map((visit) => new Visit(visit)));
             this.visitsLength = visits.length
           }
         })
@@ -129,30 +129,29 @@ export class ExemptionHomeComponent implements OnInit {
     });
   }
     
-    getVisits(orderType){
-      return this.visitService.getAllVisits(
-            this.currentLocation?.id,
-            false,
-            false,
-            null,
-            0,
-            10,
-            orderType?.value,
-            null,
-            null,
-            this.orderBy ? this.orderBy : "ENCOUNTER",
-            this.orderByDirection ? this.orderByDirection : "ASC",
-            this.filterBy ? this.filterBy : ""
-          )
-          .pipe(
-            tap(() => {
-              this.loadingVisits = false;
-            })
-          );
-    }
+  getVisits(orderType){
+    return this.visitService.getAllVisits(
+          null,
+          false,
+          false,
+          null,
+          0,
+          10,
+          orderType?.value,
+          null,
+          null,
+          this.orderBy ? this.orderBy : "ENCOUNTER",
+          this.orderByDirection ? this.orderByDirection : "ASC",
+          this.filterBy ? this.filterBy : ""
+        )
+        .pipe(
+          tap(() => {
+            this.loadingVisits = false;
+          })
+        );
+  }
         
-    onSelectVisit(visit: Visit) {
-
+  onSelectVisit(visit: Visit) {
     this.router.navigate([`/billing/${visit.patientUuid}/exempt`]);
   }
 }
