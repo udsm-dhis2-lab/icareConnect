@@ -1,20 +1,21 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { MatTableDataSource } from '@angular/material/table';
-import { Router } from '@angular/router';
-import { select, Store } from '@ngrx/store';
-import { Observable, of } from 'rxjs';
-import { catchError, tap } from 'rxjs/operators';
-import { SystemSettingsService } from 'src/app/core/services/system-settings.service';
-import { TableColumn } from 'src/app/shared/models/table-column.model';
-import { TableConfig } from 'src/app/shared/models/table-config.model';
-import { Api } from 'src/app/shared/resources/openmrs';
-import { Visit } from 'src/app/shared/resources/visits/models/visit.model';
+import { Component, EventEmitter, OnInit, Output } from "@angular/core";
+import { MatTableDataSource } from "@angular/material/table";
+import { Router } from "@angular/router";
+import { select, Store } from "@ngrx/store";
+import { Observable, of } from "rxjs";
+import { catchError, tap } from "rxjs/operators";
+import { SystemSettingsService } from "src/app/core/services/system-settings.service";
+import { TableColumn } from "src/app/shared/models/table-column.model";
+import { TableConfig } from "src/app/shared/models/table-config.model";
+import { Api } from "src/app/shared/resources/openmrs";
+import {
+  Visit,
+  VisitExt,
+} from "src/app/shared/resources/visits/models/visit.model";
 
 import { VisitsService } from "../../../../shared/resources/visits/services";
-import { AppState } from 'src/app/store/reducers';
-import {
-  getCurrentLocation
-} from "src/app/store/selectors";
+import { AppState } from "src/app/store/reducers";
+import { getCurrentLocation } from "src/app/store/selectors";
 
 @Component({
   selector: "app-exemption-home",
@@ -22,7 +23,6 @@ import {
   styleUrls: ["./exemption-home.component.scss"],
 })
 export class ExemptionHomeComponent implements OnInit {
-  
   visitsWithBiling$: Observable<MatTableDataSource<Visit>>;
   billingColumns: TableColumn[];
   loadingVisits: boolean;
@@ -39,16 +39,13 @@ export class ExemptionHomeComponent implements OnInit {
   visits$: any;
   visitsLength: number;
 
-
   constructor(
     private api: Api,
     private router: Router,
     private visitService: VisitsService,
     private systemSettingsService: SystemSettingsService,
     private store: Store<AppState>
-  ) {
-    
-  }
+  ) {}
 
   ngOnInit() {
     this.billingColumns = [
@@ -119,38 +116,42 @@ export class ExemptionHomeComponent implements OnInit {
     this.orderType$.subscribe({
       next: (orderType) => {
         this.orderType = orderType[0];
+
         this.getVisits(this.orderType).subscribe({
           next: (visits) => {
-            this.visits$ = of(visits.map((visit) => new Visit(visit)));
-            this.visitsLength = visits.length
-          }
-        })
-      }
+            this.visits$ = of(
+              new MatTableDataSource(visits.map((visit) => new VisitExt(visit)))
+            );
+            this.visitsLength = visits.length;
+          },
+        });
+      },
     });
   }
-    
-  getVisits(orderType){
-    return this.visitService.getAllVisits(
-          null,
-          false,
-          false,
-          null,
-          0,
-          10,
-          orderType?.value,
-          null,
-          null,
-          this.orderBy ? this.orderBy : "ENCOUNTER",
-          this.orderByDirection ? this.orderByDirection : "ASC",
-          this.filterBy ? this.filterBy : ""
-        )
-        .pipe(
-          tap(() => {
-            this.loadingVisits = false;
-          })
-        );
+
+  getVisits(orderType) {
+    return this.visitService
+      .getAllVisits(
+        null,
+        false,
+        false,
+        null,
+        0,
+        10,
+        orderType?.value,
+        null,
+        null,
+        this.orderBy ? this.orderBy : "ENCOUNTER",
+        this.orderByDirection ? this.orderByDirection : "ASC",
+        this.filterBy ? this.filterBy : ""
+      )
+      .pipe(
+        tap(() => {
+          this.loadingVisits = false;
+        })
+      );
   }
-        
+
   onSelectVisit(visit: Visit) {
     this.router.navigate([`/billing/${visit.patientUuid}/exempt`]);
   }
