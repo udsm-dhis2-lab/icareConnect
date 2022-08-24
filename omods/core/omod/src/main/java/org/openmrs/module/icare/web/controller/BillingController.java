@@ -100,11 +100,11 @@ public class BillingController extends BaseController {
 	public Discount onPostDiscountInvoice(Discount discount) throws Exception {
 		return billingService.discountInvoice(discount);
 	}
-
-	@RequestMapping(value="patient/allInvoices", method = RequestMethod.GET)
+	
+	@RequestMapping(value = "patient/allInvoices", method = RequestMethod.GET)
 	@ResponseBody
-	public List<Map<String, Object>> onGetAllPatientInvoices(@RequestParam(value = "patient", required = false) String patient)
-	{
+	public List<Map<String, Object>> onGetAllPatientInvoices(
+	        @RequestParam(value = "patient", required = false) String patient) {
 		List<Invoice> invoices = billingService.getPatientsInvoices(patient);
 		List<Map<String, Object>> invoiceMaps = new ArrayList<Map<String, Object>>();
 		for (Invoice invoice : invoices) {
