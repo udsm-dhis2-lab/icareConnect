@@ -19,9 +19,7 @@ export class BillConfirmationComponent implements OnInit {
     private billingService: BillingService
   ) {}
 
-  ngOnInit(): void {
-    console.log("Bill Data: ", this.data?.billItems)
-  }
+  ngOnInit(): void {}
 
   onCancel(e): void {
     e.stopPropagation();

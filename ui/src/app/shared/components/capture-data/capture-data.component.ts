@@ -46,41 +46,8 @@ export class CaptureDataComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    // Restructure options for coded Type fields to use uuid in value instead of label value
-    this.currentCustomForm = {
-      ...this.forms[0],
-      formFields: (this.forms[0]?.formFields || []).map((formField) => {
-        return {
-          ...formField,
-          setMembers: (formField?.setMembers || []).map((member) => {
-            return {
-              ...member,
-              options:
-                member?.dataType.toLowerCase() === "coded"
-                  ? (member?.options || []).map((option) => {
-                      return {
-                        ...option,
-                        value: option?.key ? option?.key : option?.value,
-                      };
-                    })
-                  : member.options,
-              formField: {
-                ...member.formField,
-                options:
-                  member?.dataType.toLowerCase() === "coded"
-                    ? (member?.formField?.options || []).map((option) => {
-                        return {
-                          ...option,
-                          value: option?.key ? option?.key : option?.value,
-                        };
-                      })
-                    : member.options,
-              },
-            };
-          }),
-        };
-      }),
-    };
+    this.currentCustomForm = this.forms[0];
+    
     /**
      * TODO: use global configurations for ICARE_CONFIG
      */
