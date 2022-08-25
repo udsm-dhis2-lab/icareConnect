@@ -45,9 +45,6 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
     private route: ActivatedRoute,
     private billingService: BillingService
   ) {}
-  ngAfterContentInit(): void {
-    throw new Error("Method not implemented.");
-  }
 
   ngOnInit() {
     this.patientId = this.route?.snapshot?.params?.patientId;
@@ -67,50 +64,14 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
     );
   }
 
-  AfterContentInit() {
+  ngAfterContentInit() {
     this.billingService.getAllPatientBills(this.patientId).subscribe({
       next: (bills) => {
         bills.forEach((bill) => {
           if (bill) {
+            // console.log("==> Exemption History", this.bill);
             this.bill = bill;
-            //Get discounted Items
-            let paidAmount: number = 0;
-            let discountItems: any[];
-            let paidItems: any[];
-            let givenItems: any[];
-
-            this.discountItems = bill.billDetails.discountItems.filter(
-              (discountItem) => {
-                //Get total amount that is already paid for an item
-                bill.billDetails.payments.forEach((payment) => {
-                  paidItems = payment.items.filter((paymentItem) => {
-                    if (discountItem.item.uuid === paymentItem.item.uuid) {
-                      return paymentItem;
-                    }
-                  });
-                });
-
-                //Get total amount of the item from the list of items the patient has
-                givenItems = bill.billDetails.items.filter((givenItem) => {
-                  if (discountItem.item.uuid === givenItem.item.uuid) {
-                    return givenItem;
-                  }
-                });
-
-                //calculate total amount paid
-                paidItems.forEach((paymentItem) => {
-                  paidAmount = paidAmount + paymentItem.amount;
-                });
-
-                // return discount item if paid amount is less than item's price
-                if (paidAmount >= givenItems[0].price) {
-                  return discountItem;
-                }
-
-                console.log("Not returned; ", discountItem);
-              }
-            );
-
+            this.discountItems = bill.billDetails.discountItems;
             this.discountItemsCount = this.discountItems.length;
           }
         });

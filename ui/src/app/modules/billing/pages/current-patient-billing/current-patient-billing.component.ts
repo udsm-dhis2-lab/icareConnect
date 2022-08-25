@@ -51,7 +51,7 @@ export class CurrentPatientBillingComponent implements OnInit {
   currentUser$: Observable<any>;
   provider$: Observable<any>;
   creatingOrdersResponse$: Observable<any>;
-  discountItems: any;
+  discountItems: any[] = [];
   discountItemsCount: any;
   bill: Bill;
   
@@ -87,18 +87,17 @@ export class CurrentPatientBillingComponent implements OnInit {
             this.bill = bill;
             //Get discounted Items
             let paidAmount: number = 0;
-            let discountItems: any[];
             let paidItems: any[];
+
             let givenItems: any[]
 
-            this.discountItems = bill.billDetails.discountItems.filter((discountItem) => {
+            bill.billDetails.discountItems.forEach((discountItem) => {
               //Get total amount that is already paid for an item
               bill.billDetails.payments.forEach((payment) => {
                 paidItems = payment.items.filter((paymentItem) =>{
                   if(discountItem.item.uuid === paymentItem.item.uuid){
                     return paymentItem;
                   }
-                  console.log("Not returned; ", paymentItem)
                 }) 
               });
               
@@ -116,11 +115,16 @@ export class CurrentPatientBillingComponent implements OnInit {
 
               // return discount item if paid amount is less than item's price
               if (paidAmount < givenItems[0].price){
-                console.log("Passed: ")
-                return discountItem;
-              }
+                givenItems[0] = {
+                  ...givenItems[0],
+                  price: discountItem.amount
+                }
+                this.discountItems =  [
+                  ...this.discountItems,
+                  givenItems[0]
+                ]  
 
-              console.log("Not returned; ", discountItem);
+              }
             });
 
             this.discountItemsCount = this.discountItems.length
@@ -224,9 +228,8 @@ export class CurrentPatientBillingComponent implements OnInit {
         // send a request to create order
         this.ordersService.createOrder(order).then((order) => {
           if (order) {
-            console.log("created exemption order: ", order);
           } else {
-            console.log("Failed exemption to create order: ", order);
+            console.log(" ==> Failed exemption to create order: ", order);
           }
         });
       }

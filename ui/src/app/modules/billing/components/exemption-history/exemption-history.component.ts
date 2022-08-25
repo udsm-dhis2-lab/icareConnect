@@ -15,14 +15,8 @@ import { SelectionModel } from '@angular/cdk/collections';
 export class ExemptionHistoryComponent implements OnInit {
   @Input() discountItems: any[];
   @Input() discountItemsCount;
-  @Input() currentPatient: any;
-  @Input() logo: any;
-  @Input() facilityDetails: any;
-  @Input() disableControls: boolean;
   @Input() bill: Bill;
 
-  @Output() confirmPayment = new EventEmitter<any>();
-  @Output() paymentSuccess = new EventEmitter<any>();
 
   dataSource: MatTableDataSource<any>;
   columns: any[];
@@ -32,10 +26,8 @@ export class ExemptionHistoryComponent implements OnInit {
   confirmedBillEntities: any;
   payableAmount: any;
   totalPaymentAmount: any;
-
- 
-
-  constructor(private dialog: MatDialog) {}
+  
+  constructor() {}
 
   ngOnInit() {
     let data = this.discountItems.map((discountItem) => {

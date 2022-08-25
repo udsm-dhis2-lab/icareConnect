@@ -33,8 +33,8 @@
         *ngIf="!params?.patientsBillsLoadedState"
         mode="indeterminate"
       ></mat-progress-bar>
-      <mat-card *ngIf="params?.patientsBillsLoadedState">
-        <app-exemption-history *ngIf="discountItemsCount > 0" 
+      <mat-card *ngIf="discountItemsCount > 0">
+        <app-exemption-history  
           [discountItems]="discountItems" [discountItemsCount]="discountItemsCount" [bill]="bill"
           id="exemptions">
         </app-exemption-history>
