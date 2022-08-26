@@ -428,6 +428,7 @@ public class ICareDao extends BaseDAO<Item> {
 		String queryStr = "SELECT distinct v FROM Visit v" + " INNER JOIN v.patient p" + " INNER JOIN p.names pname";
 
 		if (orderTypeUuid != null) {
+
 			 queryStr = queryStr + " INNER JOIN v.encounters e" + " INNER JOIN e.orders o"
 					+ " INNER JOIN o.orderType ot" + " WHERE ot.uuid=:orderTypeUuid " + " AND v.stopDatetime IS NULL ";
 
@@ -437,9 +438,6 @@ public class ICareDao extends BaseDAO<Item> {
 				queryStr += " AND o.fulfillerStatus IS NULL";
 			}
 
-//			if (search != null) {
-//				queryStr += " AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search)";
-//			}
 			if (orderStatusCode != null) {
 				if (orderStatusCode == OrderStatus.OrderStatusCode.EMPTY) {
 					queryStr += " AND o NOT IN (SELECT o2 FROM OrderStatus os" + "	INNER JOIN os.order o2)";
@@ -448,84 +446,23 @@ public class ICareDao extends BaseDAO<Item> {
 							+ "	INNER JOIN os.order o2 WHERE os.status=:orderStatusCode)";
 				}
 			}
-//			if (locationUuid != null) {
-//				queryStr += " AND v.location.uuid=:locationUuid ";
+			//query = session.createQuery(queryStr);
+			//query.setParameter("orderTypeUuid", orderTypeUuid);
+//			if (fulfillerStatus != null) {
+//				query.setParameter("fulfillerStatus", fulfillerStatus);
+//			}
+//
+//			if (orderStatusCode != null) {
+//				if (orderStatusCode == OrderStatus.OrderStatusCode.EMPTY) {
+//
+//				} else {
+//					query.setParameter("orderStatusCode", orderStatusCode);
+//				}
 //			}
 
-//			if (orderBy == VisitWrapper.OrderBy.VISIT) {
-//				queryStr += " ORDER BY v.startDatetime ";
-//			} else if (orderBy == VisitWrapper.OrderBy.ENCOUNTER) {
-//				queryStr += " ORDER BY e.encounterDatetime";
-//			} else if (orderBy == VisitWrapper.OrderBy.ORDER) {
-//				queryStr += " ORDER BY o.dateActivated ";
-//			} else if (orderBy == VisitWrapper.OrderBy.OBSERVATION) {
-//				queryStr += " ORDER BY e.dateChanged ";
-//			}
-
-//			if (orderByDirection == VisitWrapper.OrderByDirection.ASC) {
-//				queryStr += " ASC ";
-//			} else if (orderByDirection == VisitWrapper.OrderByDirection.DESC) {
-//				queryStr += " DESC ";
-//			}
-			query = session.createQuery(queryStr);
-			query.setParameter("orderTypeUuid", orderTypeUuid);
-			if (fulfillerStatus != null) {
-				query.setParameter("fulfillerStatus", fulfillerStatus);
-			}
-//			if (locationUuid != null) {
-//				query.setParameter("locationUuid", locationUuid);
-//			}
-//			if (search != null) {
-//				query.setParameter("search", "%" + search.replace(" ", "%") + "%");
-//			}
-			if (orderStatusCode != null) {
-				if (orderStatusCode == OrderStatus.OrderStatusCode.EMPTY) {
-
-				} else {
-					query.setParameter("orderStatusCode", orderStatusCode);
-				}
-			}
-			//query.setParameter("fulfillerStatus", fulfillerStatus);
-//			query.setFirstResult(startIndex);
-//			query.setMaxResults(limit);
-
-			//return query.list();
 		} else {
 			 queryStr = queryStr + " INNER JOIN v.encounters e WHERE v.stopDatetime IS NULL ";
 
-//			if (search != null) {
-//				queryStr += " AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search)";
-//			}
-//
-//			if (locationUuid != null) {
-//				queryStr += " AND v.location.uuid=:locationUuid ";
-//			}
-//
-//			if (orderBy == VisitWrapper.OrderBy.VISIT) {
-//				queryStr += " ORDER BY v.startDatetime ";
-//			} else if (orderBy == VisitWrapper.OrderBy.ENCOUNTER) {
-//				queryStr += " ORDER BY e.encounterDatetime";
-//			} else if (orderBy == VisitWrapper.OrderBy.OBSERVATION) {
-//				queryStr += " ORDER BY e.dateChanged ";
-//			}
-//
-//			if (orderByDirection == VisitWrapper.OrderByDirection.ASC) {
-//				queryStr += " ASC ";
-//			} else if (orderByDirection == VisitWrapper.OrderByDirection.DESC) {
-//				queryStr += " DESC ";
-//			}
-//
-//			query = session.createQuery(queryStr);
-//			if (locationUuid != null) {
-//				query.setParameter("locationUuid", locationUuid);
-//			}
-//			if (search != null) {
-//				query.setParameter("search", "%" + search.replace(" ", "%") + "%");
-//			}
-//			query.setFirstResult(startIndex);
-//			query.setMaxResults(limit);
-
-			//return query.list();
 		}
 
 		if (search != null) {
@@ -574,6 +511,22 @@ public class ICareDao extends BaseDAO<Item> {
 		}
 
 		query = session.createQuery(queryStr);
+		if(orderTypeUuid != null){
+			query.setParameter("orderTypeUuid", orderTypeUuid);
+		}
+
+		if (fulfillerStatus != null) {
+			query.setParameter("fulfillerStatus", fulfillerStatus);
+		}
+
+		if (orderStatusCode != null) {
+			if (orderStatusCode == OrderStatus.OrderStatusCode.EMPTY) {
+
+			} else {
+				query.setParameter("orderStatusCode", orderStatusCode);
+			}
+		}
+
 		if (locationUuid != null) {
 			query.setParameter("locationUuid", locationUuid);
 		}
@@ -583,65 +536,11 @@ public class ICareDao extends BaseDAO<Item> {
 		if(attributeValueReference != null){
 			query.setParameter("attributeValueReference", attributeValueReference);
 		}
+
 		query.setFirstResult(startIndex);
 		query.setMaxResults(limit);
 
-
-
-//		if (paymentStatus != null) {
-//			if (paymentStatus == VisitWrapper.PaymentStatus.PAID) {
-//				queryStr += " AND v.id IN (SELECT invoice.visit FROM Invoice invoice"
-//						+ " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di "
-//						+ " WHERE item.id.invoice = pi.id.payment.invoice" + " AND pi.id.payment.invoice = di.id.invoice"
-//						+ " GROUP BY item.id.invoice"
-//						+ " HAVING SUM(item.price*item.quantity) <= (SUM(pi.amount) + SUM(di.amount))))";
-//			}
-//
-//			if (paymentStatus == VisitWrapper.PaymentStatus.PENDING) {
-//				queryStr += " AND v.id IN (SELECT invoice.visit FROM Invoice invoice"
-//						+ " WHERE invoice.id IN(SELECT item.id.invoice FROM InvoiceItem item,PaymentItem pi,DiscountInvoiceItem di "
-//						+ " WHERE item.id.invoice = pi.id.payment.invoice"
-//						+ " AND pi.id.payment.invoice = di.id.invoice"
-//						+ " GROUP BY item.id.invoice HAVING SUM(item.price*item.quantity) > (SUM(pi.amount) + SUM(di.amount))))";
-//			}
-//			query = session.createQuery(queryStr);
-//		}
-
-//		if (attributeValueReference != null && paymentStatus == null) {
-//			if (search != null) {
-//				queryStr += " WHERE (v.id IN ( SELECT va.visit FROM VisitAttribute va WHERE va.valueReference=:attributeValueReference) AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search))";
-//
-//				query = session.createQuery(queryStr);
-//				query.setParameter("search", "%" + search.replace(" ", "%") + "%");
-//				query = session.createQuery(queryStr);
-//				query.setParameter("attributeValueReference", attributeValueReference);
-//			} else {
-//				queryStr += " WHERE v.id IN ( SELECT va.visit FROM VisitAttribute va WHERE va.valueReference=:attributeValueReference)";
-//				query = session.createQuery(queryStr);
-//				query.setParameter("attributeValueReference", attributeValueReference);
-//			}
-//		}
-//
-//		if (attributeValueReference != null && paymentStatus != null) {
-//
-//			if (search != null) {
-//				queryStr += " AND (v.id IN ( SELECT va.visit FROM VisitAttribute va WHERE va.valueReference=:attributeValueReference) AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search))";
-//
-//				query = session.createQuery(queryStr);
-//				query.setParameter("search", "%" + search.replace(" ", "%") + "%");
-//				query = session.createQuery(queryStr);
-//				query.setParameter("attributeValueReference", attributeValueReference);
-//			} else {
-//				queryStr += " AND v.id IN ( SELECT va.visit FROM VisitAttribute va WHERE va.valueReference=:attributeValueReference)";
-//				query = session.createQuery(queryStr);
-//				query.setParameter("attributeValueReference", attributeValueReference);
-//			}
-//
-//		}
-
 		return query.list();
-
-
 
 	}
 	
