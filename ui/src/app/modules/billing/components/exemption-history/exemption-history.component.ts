@@ -1,11 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { Bill } from '../../models/bill.model';
-import { flatten } from 'lodash';
-import { PaymentReceiptComponent } from '../payment-reciept/payment-reciept.component';
-import { BillConfirmationComponent } from '../bill-confirmation/bill-confirmation.component';
-import { MatDialog } from '@angular/material/dialog';
-import { SelectionModel } from '@angular/cdk/collections';
 
 @Component({
   selector: "app-exemption-history",
@@ -42,7 +37,7 @@ export class ExemptionHistoryComponent implements OnInit {
     this.totalPaymentAmount = data.reduce((total, item) => {
       return (total = total + item.amount);
     }, 0);
-    console.log(this.bill)
+    
     this.columns = [
       { id: "index", label: "#", isIndexColumn: true },
       { id: "name", label: "Description", width: "50%" },

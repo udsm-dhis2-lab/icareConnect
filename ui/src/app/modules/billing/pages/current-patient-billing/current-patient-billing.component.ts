@@ -86,44 +86,61 @@ export class CurrentPatientBillingComponent implements OnInit {
           if(bill){
             this.bill = bill;
             //Get discounted Items
-            let paidAmount: number = 0;
-            let paidItems: any[];
-
-            let givenItems: any[]
-
+            
             bill.billDetails.discountItems.forEach((discountItem) => {
+              let paidAmount: number = 0;
+              let paidItems: any[] = [];
+              let givenItems: any[] = []
+              
+              
               //Get total amount that is already paid for an item
               bill.billDetails.payments.forEach((payment) => {
-                paidItems = payment.items.filter((paymentItem) =>{
+                payment.items.forEach((paymentItem) =>{
                   if(discountItem.item.uuid === paymentItem.item.uuid){
-                    return paymentItem;
+                    paidItems = [
+                      ...paidItems,
+                      paymentItem
+                    ];
                   }
                 }) 
               });
               
               //Get total amount of the item from the list of items the patient has
-              givenItems = bill.billDetails.items.filter((givenItem) => {
+              bill.billDetails.items.forEach((givenItem) => {
                 if(discountItem.item.uuid === givenItem.item.uuid){
-                  return givenItem;
+                  givenItems = [
+                    ...givenItems,
+                    givenItem
+                  ]
                 }
               });
-
+              
               //calculate total amount paid
               paidItems.forEach((paymentItem) => {
-                paidAmount = paidAmount + paymentItem.amount;
+                paidAmount = paidAmount + parseInt(paymentItem.amount, 10);
               });
-
-              // return discount item if paid amount is less than item's price
+              
+              
+              // return givenItem with discounted amount if paid amount is less than item's price
               if (paidAmount < givenItems[0].price){
                 givenItems[0] = {
                   ...givenItems[0],
                   price: discountItem.amount
                 }
-                this.discountItems =  [
+
+                //Filterout for items that were exempted twice
+                this.discountItems = this.discountItems.filter((discountItem) => {
+                    if(!(discountItem.item.uuid === givenItems[0].item.uuid)){
+                      return discountItem
+                    }
+                  }
+                )
+                
+                this.discountItems = [
                   ...this.discountItems,
                   givenItems[0]
-                ]  
-
+                ]
+                
               }
             });
 
@@ -150,7 +167,11 @@ export class CurrentPatientBillingComponent implements OnInit {
         const payments = res[2];
         return {
           visit,
-          bills: bills.filter((bill) => !bill.isInsurance),
+          bills: bills.filter((bill) => {
+            if(!bill.isInsurance && bill.items.length > 0){
+              return bill
+            }
+          }),
           payments,
           paymentItemCount: payments
             .map((payment) => payment?.items?.length || 0)
@@ -193,20 +214,6 @@ export class CurrentPatientBillingComponent implements OnInit {
         },
       ],
     };
-
-      // Format date to yyyy-mm-dd hh:mm:ss
-    
-    let year = currentDate.getFullYear();
-    let month = String(currentDate.getMonth()).length > 1 ? currentDate.getMonth()+1 : `0${currentDate.getMonth()+1}`
-    let day = String(currentDate.getDate()).length > 1 ? currentDate.getDate() : `0${currentDate.getDate()}`
-    let hours = String(currentDate.getHours()).length > 1 ? currentDate.getHours() : `0${currentDate.getHours()}`
-    let minutes = String(currentDate.getMinutes()).length > 1 ? currentDate.getMinutes() : `0${currentDate.getMinutes()}`
-    let seconds = String(currentDate.getSeconds()).length > 1 ? currentDate.getSeconds() : `0${currentDate.getSeconds()}`
-
-    let formatedDate = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-
-    // 1. Create encounter
-    // 2. Use the encounter to create a requested order
     
 
     this.encounterService.createEncounter(exemptionEncounterStart).then((encounter) => {
@@ -337,8 +344,8 @@ export class CurrentPatientBillingComponent implements OnInit {
     });
 
     let patientMRN =
-      e.CurrentPatient.MRN ||
-      e.CurrentPatient.patient?.identifiers[0]?.identifier.replace(
+      e.CurrentPatient?.MRN ||
+      e.CurrentPatient?.patient?.identifiers[0]?.identifier.replace(
         "MRN = ",
         ""
       );

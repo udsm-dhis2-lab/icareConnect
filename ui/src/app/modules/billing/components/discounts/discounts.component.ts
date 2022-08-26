@@ -169,8 +169,25 @@ export class DiscountsComponent implements OnInit {
           width: "500px",
           data: {
             ...paymentResponse,
-            billItems: this.selection?.selected,
-            items: this.discountItems,
+            billItems: this.selection?.selected.map((item) => {
+              delete item["name"];
+              delete item["amount"];
+
+              let billItem = {
+                ...item,
+                discounted: false,
+              };
+              let bill = item?.invoice?.uuid;
+              return new BillItem(billItem, bill);
+            }),
+            items: this.discountItems.map((item) => {
+              let billItem = {
+                ...item,
+                discounted: false,
+              };
+              let bill = item?.invoice?.uuid;
+              return new BillItem(billItem, bill);
+            }),
             bill: this.bill,
             totalPayableBill: this.totalPayableBill,
             paymentType: this.selectedPaymentType,
@@ -200,6 +217,5 @@ export class DiscountsComponent implements OnInit {
   onGetInvoice(e: MouseEvent) {}
 
   onChangePaymentType(e) {
-    console.log("==> In discount",e);
   }
 }

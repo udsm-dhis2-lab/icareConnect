@@ -18,6 +18,7 @@ import {
   getLoadingPaymentStatus,
 } from 'src/app/store/selectors/payment.selector';
 import { BillObject } from '../../models/bill-object.model';
+import { Bill } from "../../models/bill.model";
 import { PaymentObject } from '../../models/payment-object.model';
 import { BillingService } from '../../services/billing.service';
 
@@ -38,7 +39,8 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
   patientsBillsLoadedState$: Observable<boolean>;
   discountItemsCount: any;
   discountItems: any;
-  bill: import("f:/icare/ui/src/app/modules/billing/models/bill.model").Bill;
+  bill: Bill;
+
   constructor(
     private store: Store<AppState>,
     private patientService: PatientService,
@@ -69,9 +71,8 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
       next: (bills) => {
         bills.forEach((bill) => {
           if (bill) {
-            // console.log("==> Exemption History", this.bill);
             this.bill = bill;
-            this.discountItems = bill.billDetails.discountItems;
+            this.discountItems = bill.billDetails?.discountItems;
             this.discountItemsCount = this.discountItems.length;
           }
         });
