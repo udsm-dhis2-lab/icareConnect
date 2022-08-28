@@ -65,13 +65,13 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 	
 	@Test
 	public void testCreatingItem() throws Exception {
-
+		
 		String dto = this.readFile("dto/item-create-dto.json");
 		Map<String, Object> item = (new ObjectMapper()).readValue(dto, Map.class);
-
+		
 		MockHttpServletRequest newPostRequest = newPostRequest("icare/item", item);
 		MockHttpServletResponse handle = handle(newPostRequest);
-
+		
 		Map<String, Object> map = (new ObjectMapper()).readValue(handle.getContentAsString(), Map.class);
 		assertThat("Should have item uuid", map.get("uuid") != null, is(true));
 		MockHttpServletRequest newGetRequest = newGetRequest("icare/item");
@@ -85,13 +85,13 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		results = (new ObjectMapper()).readValue(handle.getContentAsString(), Map.class);
 		maps = (List) results.get("results");
 		assertThat("Should return a 3 items", maps.size(), is(3));
-
+		
 		newGetRequest = newGetRequest("icare/item", new Parameter("q", "asp"));
 		handle = handle(newGetRequest);
 		results = (new ObjectMapper()).readValue(handle.getContentAsString(), Map.class);
 		maps = (List) results.get("results");
 		assertThat("Should return a 3 items", maps.size(), is(1));
-
+		
 		newGetRequest = newGetRequest("icare/item", new Parameter("q", "opd servi"));
 		handle = handle(newGetRequest);
 		String res = handle.getContentAsString();
@@ -407,7 +407,9 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		Patient patient = patientService.getPatientByUuid("1f6959e5-d15a-4025-bb48-340ee9e2c58d");
 		Visit newVisit = this.getVisit(patient);
 		
-		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid", "2msir5eb-5345-11e8-9922-40b034c3cfee"), new Parameter("OrderBy", "ENCOUNTER"), new Parameter("orderByDirection", "ASC"), new Parameter("paymentStatus", "PAID")
+		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid",
+		        "2msir5eb-5345-11e8-9922-40b034c3cfee"), new Parameter("OrderBy", "ENCOUNTER"), new Parameter(
+		        "orderByDirection", "ASC"), new Parameter("paymentStatus", "PAID")
 		//7bc34d5bde5d829d31cc8c22a455896a97085951
 		//, new Parameter("fulfillerStatus","COMPL")
 		);
