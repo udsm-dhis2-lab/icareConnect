@@ -38,7 +38,7 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
   patientId: string;
   patientsBillsLoadedState$: Observable<boolean>;
   discountItemsCount: any;
-  discountItems: any;
+  discountItems: any[] = [];
   bill: Bill;
 
   constructor(
@@ -72,7 +72,12 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
         bills.forEach((bill) => {
           if (bill) {
             this.bill = bill;
-            this.discountItems = bill.billDetails?.discountItems;
+            bill.billDetails?.discountItems.forEach((discountItem) => {
+              this.discountItems = [
+                ...this.discountItems,
+                discountItem
+              ]
+            });
             this.discountItemsCount = this.discountItems.length;
           }
         });
