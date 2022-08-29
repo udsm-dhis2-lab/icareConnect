@@ -300,7 +300,7 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		assertThat("Should return a visit", visitDetails.size() == 1);
 		
 		//PENDING
-		//		 When testing for pending uncomment the below test and modify the records in billing-data.xml file
+		//		 When testing for pending will return 0 since there are no pending payments
 		newGetRequest = newGetRequest("icare/visit", new Parameter("paymentStatus", "PENDING"));
 		handle = handle(newGetRequest);
 		visitData = handle.getContentAsString();

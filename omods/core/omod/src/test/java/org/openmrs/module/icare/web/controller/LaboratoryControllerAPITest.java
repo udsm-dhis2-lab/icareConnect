@@ -5,9 +5,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
-import org.openmrs.Concept;
-import org.openmrs.Encounter;
-import org.openmrs.Obs;
+import org.openmrs.*;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.icare.laboratory.dao.TestOrderLocationDAO;
 import org.openmrs.module.icare.laboratory.models.TestOrderLocation;
@@ -392,10 +390,10 @@ public class LaboratoryControllerAPITest extends BaseResourceControllerTest {
 		//Given
 		//		String dto = this.readFile("dto/test-allocation-approve.json");
 		
-		String dto = "{\"location\":{\"uuid\":\"iCARE890-TEST-MOTR-9beb-d30dcfc0c66e\"},\"concept\":{\"uuid\":\"a8102d6d-c528-477a-80bd-acc38ebc6252\"},\"user\":{\"uuid\":\"e4ef4d4d-5cf2-47ff-af6b-bb9abdabdd60\"}}";
-		
+		String dto = "{\"user\":{\"uuid\":\"iCARE890-TEST-MOTR-9beb-d30dcfc0c66e\"},\"concept\":{\"uuid\":\"a8102d6d-c528-477a-80bd-acc38ebc6252\"},\"location\":{\"uuid\":\"e4ef4d4d-5cf2-47ff-af6b-bb9abdabdd60\"}}";
+
 		Map<String, Object> testOrderLocation = (new ObjectMapper()).readValue(dto, Map.class);
-		
+
 		MockHttpServletRequest newPostRequest = newPostRequest("lab/testorderlocation", testOrderLocation);
 		
 		MockHttpServletResponse handle = handle(newPostRequest);

@@ -120,7 +120,7 @@
             <column name="discount_criteria_id" type="INTEGER"/>
             <column name="attachment_id" type="INTEGER"/>
             <column name="remarks" type="TEXT"/>
-            <column name="is_full_exempted" type="BOOLEAN"/>
+            <column name="is_full_exempted" defaultValueBoolean="false" type="BOOLEAN"/>
             <column name="patient_id" type="INTEGER"/>
             <column name="creator" type="INTEGER"/>
             <column name="date_created" type="DATE">
