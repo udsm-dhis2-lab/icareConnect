@@ -206,9 +206,9 @@ export class RegistrationAddComponent implements OnInit {
 
   dateSet() {
     // // console.log(this.patient?.dob);
-
+    let birthDate = new Date(this.patient.dob);
     let ageObject = getDateDifferenceYearsMonthsDays(
-      this.patient.dob,
+      birthDate,
       new Date()
     );
 
