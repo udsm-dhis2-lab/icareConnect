@@ -291,7 +291,9 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		
 		//Get visits by Payment Status
 		//PAID
-		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("paymentStatus", "PAID"));
+		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid", "2msir5eb-5345-11e8-9922-40b034c3cfee"),
+				new Parameter("OrderBy", "ENCOUNTER"), new Parameter(
+						"orderByDirection", "ASC"), new Parameter("paymentStatus", "PAID"));
 		MockHttpServletResponse handle = handle(newGetRequest);
 		String visitData = handle.getContentAsString();
 		Map visitMap = (new ObjectMapper()).readValue(visitData, Map.class);
@@ -407,16 +409,14 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		Patient patient = patientService.getPatientByUuid("1f6959e5-d15a-4025-bb48-340ee9e2c58d");
 		Visit newVisit = this.getVisit(patient);
 		
-		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid",
-		        "2msir5eb-5345-11e8-9922-40b034c3cfee"), new Parameter("OrderBy", "ENCOUNTER"), new Parameter(
-		        "orderByDirection", "ASC"), new Parameter("paymentStatus", "PAID")
+		MockHttpServletRequest newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid", "2msir5eb-5345-11e8-9922-40b034c3cfee")
 		//7bc34d5bde5d829d31cc8c22a455896a97085951
 		//, new Parameter("fulfillerStatus","COMPL")
 		);
 		MockHttpServletResponse handle = handle(newGetRequest);
 		
 		Map<String, Object> orderResult = (new ObjectMapper()).readValue(handle.getContentAsString(), Map.class);
-		assertThat("Should return a visit", ((List) orderResult.get("results")).size() == 1);
+		assertThat("Should return a visit", ((List) orderResult.get("results")).size() == 2);
 		//Then
 		
 		for (Visit visit : Context.getVisitService().getAllVisits()) {
@@ -429,14 +429,18 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 				}
 			}
 		}
-		
+
+
+
 		newGetRequest = newGetRequest("icare/visit", new Parameter("orderTypeUuid", "2msir5eb-5345-11e8-9922-40b034c3cfee"),
 		    new Parameter("fulfillerStatus", "COMPLETED"));
 		handle = handle(newGetRequest);
 		
 		orderResult = (new ObjectMapper()).readValue(handle.getContentAsString(), Map.class);
 		assertThat("Should return a visit", ((List) orderResult.get("results")).size() > 0);
+
 	}
+
 	
 	@Test
 	public void testGettingItemsByDepartment() throws Exception {
