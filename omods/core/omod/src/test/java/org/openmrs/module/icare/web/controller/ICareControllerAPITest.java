@@ -18,12 +18,10 @@ import org.openmrs.module.icare.report.dhis2.DHIS2Config;
 import org.openmrs.module.icare.web.controller.core.BaseResourceControllerTest;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
-
 import java.sql.SQLException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -302,7 +300,7 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		assertThat("Should return a visit", visitDetails.size() == 1);
 		
 		//PENDING
-		//		 When testing for pending uncomment the below test and modify the records in billing-data.xml file
+		//		 When testing for pending will return 0 since there are no pending payments
 		newGetRequest = newGetRequest("icare/visit", new Parameter("paymentStatus", "PENDING"));
 		handle = handle(newGetRequest);
 		visitData = handle.getContentAsString();
@@ -418,7 +416,7 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		MockHttpServletResponse handle = handle(newGetRequest);
 		
 		Map<String, Object> orderResult = (new ObjectMapper()).readValue(handle.getContentAsString(), Map.class);
-		assertThat("Should return a visit", ((List) orderResult.get("results")).size() == 2);
+		assertThat("Should return a visit", ((List) orderResult.get("results")).size() == 1);
 		//Then
 		
 		for (Visit visit : Context.getVisitService().getAllVisits()) {
