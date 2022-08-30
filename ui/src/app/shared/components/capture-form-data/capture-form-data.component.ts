@@ -41,6 +41,40 @@ export class CaptureFormDataComponent implements OnInit {
     //     visit: this.visit?.uuid,
     //   })
     //   .subscribe((response) => console.log("RESPONSE", response));
+
+    // Restructure options for coded Type fields to use uuid in value instead of label value
+    this.form = {
+      ...this.form,
+      formFields: (this.form?.formFields || []).map((formField) => {
+        return {
+          ...formField,
+          setMembers: (formField?.setMembers || []).map((member) => {
+            if (member?.dataType.toLowerCase() === "coded"){
+              return {
+                ...member,
+                options: (member?.options || []).map((option) => {
+                  return {
+                    ...option,
+                    value: option?.key ? option?.key : option?.value,
+                  };
+                }),
+                formField: {
+                  ...member.formField,
+                  options: (member?.formField?.options || []).map(
+                    (option) => {
+                      return {
+                        ...option,
+                        value: option?.key ? option?.key : option?.value,
+                      };
+                    }
+                  ),
+                },
+              };
+            } else{ return member}
+          }),
+        };
+      }),
+    };
   }
 
   onFormUpdate(data) {

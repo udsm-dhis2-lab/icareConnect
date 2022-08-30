@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterContentInit } from "@angular/core";
 import { ActivatedRoute } from '@angular/router';
 import { select, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
@@ -18,14 +18,16 @@ import {
   getLoadingPaymentStatus,
 } from 'src/app/store/selectors/payment.selector';
 import { BillObject } from '../../models/bill-object.model';
+import { Bill } from "../../models/bill.model";
 import { PaymentObject } from '../../models/payment-object.model';
+import { BillingService } from '../../services/billing.service';
 
 @Component({
-  selector: 'app-exemption',
-  templateUrl: './exemption.component.html',
-  styleUrls: ['./exemption.component.scss'],
+  selector: "app-exemption",
+  templateUrl: "./exemption.component.html",
+  styleUrls: ["./exemption.component.scss"],
 })
-export class ExemptionComponent implements OnInit {
+export class ExemptionComponent implements OnInit, AfterContentInit {
   currentPatient$: Observable<Patient>;
   patientDetails: any;
   quoteToShow: boolean;
@@ -35,10 +37,15 @@ export class ExemptionComponent implements OnInit {
   payments$: Observable<PaymentObject[]>;
   patientId: string;
   patientsBillsLoadedState$: Observable<boolean>;
+  discountItemsCount: any;
+  discountItems: any[] = [];
+  bill: Bill;
+
   constructor(
     private store: Store<AppState>,
     private patientService: PatientService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private billingService: BillingService
   ) {}
 
   ngOnInit() {
@@ -57,6 +64,25 @@ export class ExemptionComponent implements OnInit {
     this.patientsBillsLoadedState$ = this.store.select(
       getPatientBillLoadedStatus
     );
+  }
+
+  ngAfterContentInit() {
+    this.billingService.getAllPatientBills(this.patientId).subscribe({
+      next: (bills) => {
+        bills.forEach((bill) => {
+          if (bill) {
+            this.bill = bill;
+            bill.billDetails?.discountItems.forEach((discountItem) => {
+              this.discountItems = [
+                ...this.discountItems,
+                discountItem
+              ]
+            });
+            this.discountItemsCount = this.discountItems.length;
+          }
+        });
+      },
+    });
   }
 
   onDiscountBill(exemptionDetails): void {

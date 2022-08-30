@@ -47,6 +47,7 @@ export class CaptureDataComponent implements OnInit {
 
   ngOnInit(): void {
     this.currentCustomForm = this.forms[0];
+    
     /**
      * TODO: use global configurations for ICARE_CONFIG
      */

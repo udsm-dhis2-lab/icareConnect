@@ -26,16 +26,16 @@ export class VisitsService {
       })
     );
 
-    return from(uuids).pipe(
-      mergeMap((uuid) =>
-        this.httpClient.get(
-          BASE_URL +
-            "visit/" +
-            uuid +
-            "?v=custom:(uuid,startDatetime,display,patient,encounters:(uuid,location:(uuid,display),encounterType,display,patient,visit,encounterProviders,encounterDatetime,voided,obs,orders:(uuid,display,orderer,dateActivated,orderNumber,concept:(uuid,display,conceptClass,datatype,hiNormal,hiAbsolute,hiCritical,lowNormal,lowAbsolute,lowCritical,units,numeric,descriptions,allowDecimal,displayPrecision,answers,setMembers:(uuid,display),answers:(uuid,display)),display)),voided,attributes,visitType)"
-        )
-      )
-    );
+    // return from(uuids).pipe(
+    //   mergeMap((uuid) =>
+    //     this.httpClient.get(
+    //       BASE_URL +
+    //         "visit/" +
+    //         uuid +
+    //         "?v=custom:(uuid,startDatetime,display,patient,encounters:(uuid,location:(uuid,display),encounterType,display,patient,visit,encounterProviders,encounterDatetime,voided,obs,orders:(uuid,display,orderer,dateActivated,orderNumber,concept:(uuid,display,conceptClass,datatype,hiNormal,hiAbsolute,hiCritical,lowNormal,lowAbsolute,lowCritical,units,numeric,descriptions,allowDecimal,displayPrecision,answers,setMembers:(uuid,display),answers:(uuid,display)),display)),voided,attributes,visitType)"
+    //     )
+    //   )
+    // );
     // return this.httpClient.get(
     //   BASE_URL +
     //     'visit/' +

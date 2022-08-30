@@ -30,7 +30,7 @@ export class ClinicalNotesComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log('this.clinicalForm?.setMembers', this.forms);
+    // console.log('==> this.clinicalForm?.setMembers', this.forms);
     this.clinicalForms = this.clinicalForm?.setMembers || [];
     this.formData = {};
     this.currentForm = this.clinicalForms[0];
@@ -48,7 +48,7 @@ export class ClinicalNotesComponent implements OnInit {
   }
 
   onFormUpdate(formValue: FormValue | any, isRawValue?: boolean): void {
-    console.log('vvdvd', formValue.getValues());
+    // console.log('==> vvdvd', formValue.getValues());
     this.formData[this.currentForm.id] = {
       ...(this.formData[this.currentForm.id] || {}),
       ...(isRawValue ? formValue : formValue.getValues()),

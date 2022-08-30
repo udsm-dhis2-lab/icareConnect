@@ -127,6 +127,7 @@ export class QuotationItemComponent implements OnInit {
   onConfirmPayment(e): void {
     // const paymentType: any = this.selectedPaymentType;
     e.stopPropagation();
+
     const dialog = this.dialog.open(BillConfirmationComponent, {
       width: "600px",
       disableClose: true,
@@ -179,6 +180,6 @@ export class QuotationItemComponent implements OnInit {
   onGetInvoice(e: MouseEvent) {}
 
   onChangePaymentType(e) {
-    console.log(e);
+    console.log("==> ",e);
   }
 }

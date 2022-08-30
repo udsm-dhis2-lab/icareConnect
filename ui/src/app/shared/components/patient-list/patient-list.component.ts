@@ -294,7 +294,7 @@ export class PatientListComponent implements OnInit, OnChanges {
 
     this.filterBy = event && typeof event === 'string' ? event : "";
 
-    this.visits$ = this.visitService.getAllVisits(
+    this.filteredVisits$ = this.visitService.getAllVisits(
           this.currentLocation,
           false,
           false,
@@ -308,16 +308,24 @@ export class PatientListComponent implements OnInit, OnChanges {
           this.orderByDirection ? this.orderByDirection : "ASC",
           this.filterBy);
 
-    this.visits$.subscribe({
+    this.filteredVisits$.subscribe({
       next: (visits) => {
-        // console.log(visits)
         this.loadingPatients = false;
-        return this.visits = visits
+        if (visits.length > 0) {
+          return (this.visits = visits);
+        }
+        else {
+          this.visits$.subscribe({
+            next: (visits) => {
+              this.visits = visits;
+            },
+          });
+        }
+
       },
       error: (error) => {
         this.loadingPatients = false;
-      }
-
-    })
+      },
+    });
   }
 }
