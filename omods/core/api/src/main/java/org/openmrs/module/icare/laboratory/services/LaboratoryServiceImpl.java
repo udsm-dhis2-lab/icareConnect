@@ -532,13 +532,12 @@ public class LaboratoryServiceImpl extends BaseOpenmrsService implements Laborat
 	
 	@Override
 	public TestOrderLocation addTestOrderWithLocation(TestOrderLocation testOrderLocation) {
-
-
+		
 		Concept concept = Context.getConceptService().getConceptByUuid(testOrderLocation.getConcept().getUuid());
 		Location location = Context.getLocationService().getLocationByUuid(testOrderLocation.getLocation().getUuid());
 		//User user = Context.getUserService().getUserByUuid(testOrderLocation.getUser().getUuid());
 		User user = Context.getAuthenticatedUser();
-
+		
 		Date date = new Date();
 		
 		testOrderLocation.setConcept(concept);

@@ -33,7 +33,8 @@ public class BillingController extends BaseController {
 	@ResponseBody
 	public List<Map<String, Object>> onGetPatientPendingBillsMap(
 	        @RequestParam(value = "patient", required = false) String patient,
-	        @RequestParam(value = "visit", required = false) String visit, @RequestParam(value = "status", required = false) String status) {
+	        @RequestParam(value = "visit", required = false) String visit,
+	        @RequestParam(value = "status", required = false) String status) {
 		if (patient != null) {
 			List<Invoice> invoices = onGetPatientPendingBills(patient);
 			List<Map<String, Object>> invoiceMaps = new ArrayList<Map<String, Object>>();
@@ -48,18 +49,18 @@ public class BillingController extends BaseController {
 				invoiceMaps.add(invoice.toMap());
 			}
 			return invoiceMaps;
-		} else if (status == "all"){
+		} else if (status == "all") {
 			List<Invoice> invoices = billingService.getPatientsInvoices(patient);
 			List<Map<String, Object>> invoiceMaps = new ArrayList<Map<String, Object>>();
 			for (Invoice invoice : invoices) {
 				invoiceMaps.add(invoice.toMap());
 			}
 			return invoiceMaps;
-
-		}else {
+			
+		} else {
 			return null;
 		}
-
+		
 	}
 	
 	public List<Invoice> onGetPatientPendingBills(@RequestParam("patient") String patient) {

@@ -391,9 +391,9 @@ public class LaboratoryControllerAPITest extends BaseResourceControllerTest {
 		//		String dto = this.readFile("dto/test-allocation-approve.json");
 		
 		String dto = "{\"user\":{\"uuid\":\"iCARE890-TEST-MOTR-9beb-d30dcfc0c66e\"},\"concept\":{\"uuid\":\"a8102d6d-c528-477a-80bd-acc38ebc6252\"},\"location\":{\"uuid\":\"e4ef4d4d-5cf2-47ff-af6b-bb9abdabdd60\"}}";
-
+		
 		Map<String, Object> testOrderLocation = (new ObjectMapper()).readValue(dto, Map.class);
-
+		
 		MockHttpServletRequest newPostRequest = newPostRequest("lab/testorderlocation", testOrderLocation);
 		
 		MockHttpServletResponse handle = handle(newPostRequest);
