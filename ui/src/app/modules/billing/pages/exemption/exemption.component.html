@@ -27,6 +27,16 @@
         <mat-icon>arrow_back</mat-icon>
         Back to Client List
       </button>
+      <button
+        class="float-right bg-danger"
+        mat-stroked-button
+        [routerLink]="'/billing/exemption'"
+        matTooltip="Deny exemption for this patient"
+        (click)="exemptionDenial()"
+      >
+        <mat-icon>pan_tool</mat-icon>
+        Deny Exemption
+      </button>
     </div>
     <div class="col-md-12">
       <mat-progress-bar
