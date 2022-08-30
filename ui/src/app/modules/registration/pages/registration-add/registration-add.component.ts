@@ -447,6 +447,7 @@ export class RegistrationAddComponent implements OnInit {
             names: [
               {
                 givenName: this.patient.fname,
+                middleName: this.patient.mname,
                 familyName: this.patient.lname,
               },
             ],
@@ -496,6 +497,9 @@ export class RegistrationAddComponent implements OnInit {
             })
             .filter((patientIdentifier) => patientIdentifier?.identifier),
         };
+
+        console.log("==> Patient Payload: ",patientPayload)
+
 
         //TODO: add check for edit mode to see if can create or edit mode
         if (this.editMode) {
