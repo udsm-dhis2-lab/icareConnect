@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
-import { BillConfirmationComponent } from '../bill-confirmation/bill-confirmation.component';
 
 @Component({
   selector: 'app-exemption-confirmation',

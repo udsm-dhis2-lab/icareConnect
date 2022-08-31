@@ -22,6 +22,7 @@
     <mat-dialog-content *ngIf="params?.form && params?.observations">
       <app-capture-form-data
         [form]="params?.form"
+        [visit]="visit"
         [observations]="params?.observations"
         (formDataUpdate)="onFormUpdate($event, params?.form)"
       ></app-capture-form-data>
