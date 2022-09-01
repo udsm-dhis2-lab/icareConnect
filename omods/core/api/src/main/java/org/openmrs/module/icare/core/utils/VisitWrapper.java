@@ -323,7 +323,6 @@ public class VisitWrapper {
 			encounterMap.put("uuid",encounter.getUuid());
 			encounterMap.put("id",encounter.getEncounterId());
 			encounterMap.put("encounterDateTime",encounter.getEncounterDatetime());
-			encounterMap.put("type",encounter.getEncounterType());
 			encounterMap.put("voidedReason",encounter.getVoidReason());
 			encounterMap.put("voided",encounter.getVoided());
 			encounterMap.put("dateVoided",encounter.getDateVoided());
