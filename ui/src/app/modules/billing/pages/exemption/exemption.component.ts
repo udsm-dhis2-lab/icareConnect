@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterContentInit } from "@angular/core";
+import { MatDialog } from "@angular/material/dialog";
 import { ActivatedRoute } from '@angular/router';
 import { select, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
@@ -17,6 +18,7 @@ import {
   getAllPayments,
   getLoadingPaymentStatus,
 } from 'src/app/store/selectors/payment.selector';
+import { ExemptionDenialComponent } from "../../components/exemption-denial/exemption-denial.component";
 import { BillObject } from '../../models/bill-object.model';
 import { Bill } from "../../models/bill.model";
 import { PaymentObject } from '../../models/payment-object.model';
@@ -45,7 +47,8 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
     private store: Store<AppState>,
     private patientService: PatientService,
     private route: ActivatedRoute,
-    private billingService: BillingService
+    private billingService: BillingService,
+    private dialog: MatDialog
   ) {}
 
   ngOnInit() {
@@ -73,10 +76,7 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
           if (bill) {
             this.bill = bill;
             bill.billDetails?.discountItems.forEach((discountItem) => {
-              this.discountItems = [
-                ...this.discountItems,
-                discountItem
-              ]
+              this.discountItems = [...this.discountItems, discountItem];
             });
             this.discountItemsCount = this.discountItems.length;
           }
@@ -94,5 +94,19 @@ export class ExemptionComponent implements OnInit, AfterContentInit {
 
   onSelectPatient(e) {
     e.stopPropagation();
+  }
+
+  exemptionDenial() {
+    const dialog = this.dialog.open(ExemptionDenialComponent, {
+      width: "25%",
+      panelClass: "custom-dialog-container",
+    });
+
+    dialog.afterClosed().subscribe((data) => {
+      if(data){
+        console.log("Denied Successfully!", data)
+         
+      }
+    });
   }
 }
