@@ -514,4 +514,26 @@ public class ICareControllerAPITest extends BaseResourceControllerTest {
 		System.out.println(maps);
 		assertThat("Should return 0 concept set", maps.size(), is(0));
 	}
+
+	@Test
+	public void getPatient() throws Exception{
+
+		MockHttpServletRequest newGetRequest = newGetRequest("icare/patient", new Parameter("search", "Hermione"));
+		MockHttpServletResponse handle = handle(newGetRequest);
+		String PatientData = handle.getContentAsString();
+		System.out.println("data: " +PatientData);
+		Map patientMap = (new ObjectMapper()).readValue(PatientData, Map.class);
+		List<Map> visitDetails = (List<Map>) patientMap.get("results");
+		assertThat("Should return a patient", visitDetails.size() == 1);
+
+		 newGetRequest = newGetRequest("icare/patient", new Parameter("patientUUID", "993c46d2-5007-45e8-9512-969300717761"));
+		 handle = handle(newGetRequest);
+		String PatientData2 = handle.getContentAsString();
+		System.out.println("data: " +PatientData2);
+		Map patientMap2 = (new ObjectMapper()).readValue(PatientData2, Map.class);
+		List<Map> visitDetails2 = (List<Map>) patientMap2.get("results");
+		assertThat("Should return a patient", visitDetails2.size() == 1);
+
+	}
+
 }

@@ -523,4 +523,30 @@ public class ICareDao extends BaseDAO<Item> {
 		}
 		return sqlQuery.list();
 	}
+
+	public List<Patient> getPatients(String search,String patientUUID){
+
+		DbSession session = this.getSession();
+		String queryStr = "SELECT p FROM Patient p INNER JOIN p.names pname WHERE p.voided = false ";
+
+		if(search != null){
+			queryStr += " AND lower(concat(pname.givenName,pname.middleName,pname.familyName)) LIKE lower(:search)";
+		}
+		if(patientUUID != null){
+			queryStr += "AND p.uuid=:patientUUID";
+		}
+
+		Query query = session.createQuery(queryStr);
+
+		if(search != null){
+			query.setParameter("search","%" + search.replace(" ", "%") + "%");
+		}
+
+		if(patientUUID != null){
+			query.setParameter("patientUUID",patientUUID);
+		}
+
+		return query.list();
+
+	}
 }

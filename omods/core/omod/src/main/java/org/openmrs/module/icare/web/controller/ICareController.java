@@ -31,10 +31,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.naming.ConfigurationException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * This class configured as controller using annotation and mapped with the URL of
@@ -374,4 +371,53 @@ public class ICareController {
 		results.put("results", conceptSetsList);
 		return results;
 	}
+
+	@RequestMapping(value ="patient", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String, Object> getPatient(@RequestParam(required = false) String search,@RequestParam(required = false) String patientUUID){
+
+		List<Patient> patients = iCareService.getPatients(search,patientUUID);
+
+		List<Map<String, Object>> responseSamplesObject = new ArrayList<Map<String, Object>>();
+		Map<String, Object> patientresult = new HashMap<String, Object>();
+		for (Patient patient: patients){
+			patientresult.put("uuid", patient.getUuid());
+			patientresult.put("firstName",patient.getGivenName());
+			patientresult.put("lastName",patient.getFamilyName());
+			patientresult.put("identifier", patient.getIdentifiers());
+			patientresult.put("age",patient.getAge());
+
+			responseSamplesObject.add(patientresult);
+		}
+		Map<String, Object> results = new HashMap<>();
+		results.put("results",responseSamplesObject);
+
+		return results;
+	}
+
+	@RequestMapping(value ="patient", method = RequestMethod.POST,  consumes = MediaType.APPLICATION_JSON_VALUE)
+	@ResponseBody
+	public Map<String, Object> createPatient(@RequestBody Map<String, Object> patientObject) throws Exception{
+
+		Patient patient = new Patient();
+		patient.setIdentifiers((Set<PatientIdentifier>) patientObject.get("identifiers") );
+		patient.setBirthdate((Date) patientObject.get("birthdate"));
+		patient.setAddresses((Set<PersonAddress>) patientObject.get("addresses"));
+		patient.setNames((Set<PersonName>) patientObject.get("names"));
+		patient.setDead((Boolean) patientObject.get("dead"));
+		patient.setGender((String) patientObject.get("gender"));
+
+		patient = iCareService.savePatient(patient);
+
+		Map<String, Object> patientcreated = new HashMap<String, Object>();
+		patientcreated.put("identifiers",patient.getIdentifiers());
+		patientcreated.put("names",patient.getNames());
+		patientcreated.put("addresses", patient.getAddresses());
+		patientcreated.put("gender", patient.getGender());
+
+		return patientcreated;
+
+	}
+
+
 }
