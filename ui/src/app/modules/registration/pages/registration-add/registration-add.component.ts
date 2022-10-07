@@ -66,6 +66,7 @@ export class RegistrationAddComponent implements OnInit {
   @Input() relationShipTypesConceptUuid: string;
   @Input() genderOptionsConceptUuid: string;
   @Input() residenceDetailsLocationUuid: string;
+  @Input() errors: any[] = [];
 
   registrationFormConfigsKeyedByProperty: any = {};
 
@@ -91,7 +92,6 @@ export class RegistrationAddComponent implements OnInit {
   maritalstatusInfo$: Observable<any[]>;
   relationTypeOptions$: Observable<any>;
   selectedIdFormat: string;
-  errors: any[] = [];
   regionindex: number;
   newreg: string;
   newDistrict: string;
@@ -429,15 +429,15 @@ export class RegistrationAddComponent implements OnInit {
                 ? this.patientInformation?.lname
                 : "",
               age: {
-                years: this.patientInformation?.patientFull?.person?.age,
+                years: this.patientInformation?.patient?.person?.age,
                 months: null,
                 days: null,
               },
-              dob: this.patientInformation?.patientFull?.person?.birthdate?.split(
+              dob: this.patientInformation?.patient?.person?.birthdate?.split(
                 "T"
               )[0],
               birthplace: this.patientInformation?.birthplace,
-              gender: this.patientInformation?.patientFull?.person?.gender,
+              gender: this.patientInformation?.patient?.person?.gender,
               phone: this.patientInformation?.phone,
               cityVillage: this.patientInformation?.cityVillage,
               village: this.patientInformation?.street,
