@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { Store } from "@ngrx/store";
 import { Observable } from "rxjs";
-import { map } from "rxjs/operators";
+import { map, tap } from "rxjs/operators";
 import { patientObj } from "src/app/shared/models/patient";
 import { OpenmrsHttpClientService } from "src/app/shared/modules/openmrs-http-client/services/openmrs-http-client.service";
 import { PatientGetFull } from "src/app/shared/resources/openmrs";
@@ -18,6 +18,7 @@ export class PatientEditComponent implements OnInit {
   patientDetails$: Observable<Patient>;
   patientId: string;
   registrationConfigurations$: Observable<any>;
+  errors: any;
 
   constructor(
     private store: Store,
@@ -31,6 +32,11 @@ export class PatientEditComponent implements OnInit {
     this.patientDetails$ = this.openmrService
       .get(`patient/${this.patientId}?v=full`)
       .pipe(
+        tap((response) => {
+          if (response.error) {
+            this.errors = [...this.errors, response.error];
+          }
+        }),
         map((response) => {
           return new Patient(response);
         })
