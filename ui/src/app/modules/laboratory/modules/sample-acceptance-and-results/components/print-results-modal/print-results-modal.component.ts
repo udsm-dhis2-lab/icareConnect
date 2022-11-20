@@ -223,11 +223,32 @@ export class PrintResultsModalComponent implements OnInit {
               .mat-expansion-panel-body {
                 font-size: 0.2rem !important;
               }
+              @media screen {
+                div.divFooter {
+                  display: none;
+                }
+              }
+              @media print {
+                div.divFooter {
+                  position: fixed;
+                  bottom: 0;
+                }
+                div.divFooter:after {
+                  counter-increment: page;
+                  content: "Page " counter(page) " of " counter(pages); 
+                  
+                }
+              }
             </style>`
       );
       frameDoc.document.write("</head><body>");
       frameDoc.document.write(contents);
-      frameDoc.document.write("</body></html>");
+      frameDoc.document.write(`
+            <div class="divFooter">
+              
+            </div>
+        </body>
+      </html>`);
       frameDoc.document.close();
       setTimeout(function () {
         window.frames["frame3"].focus();
