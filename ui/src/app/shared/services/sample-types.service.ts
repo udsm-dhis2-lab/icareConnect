@@ -36,12 +36,16 @@ export class SampleTypesService {
   }
 
   getCodedRejectionReasons(): Observable<any> {
-    return (this.httpClient
-      .get(BASE_URL + "systemsetting?q=iCare.laboratory.configurations&v=full")
-      .pipe(map((response: any) => response?.results[0])),
-    this.httpClient
-      .get(BASE_URL + "systemsetting?q=iCare.LIS&v=full")
-      .pipe(map((response: any) => response?.results[0]))).pipe(
+    return zip(
+      this.httpClient
+        .get(
+          BASE_URL + "systemsetting?q=iCare.laboratory.configurations&v=full"
+        )
+        .pipe(map((response: any) => response?.results[0])),
+      this.httpClient
+        .get(BASE_URL + "systemsetting?q=iCare.LIS&v=full")
+        .pipe(map((response: any) => response?.results[0]))
+    ).pipe(
       mergeMap((configs: any) => {
         let parsedConfigs = configs[0]
           ? JSON.parse(configs[0]?.value) || {}
@@ -73,19 +77,22 @@ export class SampleTypesService {
   }
 
   getSampleTypes(): Observable<any> {
-    return (this.httpClient
-      .get(BASE_URL + "systemsetting?q=iCare.laboratory.configurations&v=full")
-      .pipe(map((response: any) => response?.results[0])),
-    this.httpClient
-      .get(BASE_URL + "systemsetting?q=iCare.LIS&v=full")
-      .pipe(map((response: any) => response?.results[0]))).pipe(
+    return zip(
+      this.httpClient
+        .get(
+          BASE_URL + "systemsetting?q=iCare.laboratory.configurations&v=full"
+        )
+        .pipe(map((response: any) => response?.results[0])),
+      this.httpClient
+        .get(BASE_URL + "systemsetting?q=iCare.LIS&v=full")
+        .pipe(map((response: any) => response?.results[0]))
+    ).pipe(
       mergeMap((configs: any) => {
         let parsedConfigs = configs[0]
           ? JSON.parse(configs[0]?.value) || {}
           : {};
 
         const isLIS = configs[1] && configs[1]?.value === "true" ? true : false;
-
         return parsedConfigs?.sampleTypes &&
           parsedConfigs?.sampleTypes?.id &&
           !isLIS
@@ -94,7 +101,7 @@ export class SampleTypesService {
                 BASE_URL +
                   "concept/" +
                   parsedConfigs["sampleTypes"].id +
-                  "?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,conceptClass,datatype,hiNormal,hiAbsolute,hiCritical,lowNormal,lowAbsolute,lowCritical,units,numeric,descriptions,allowDecimal,displayPrecision,answers:(uuid,display)))))"
+                  "?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,conceptClass,datatype,hiNormal,hiAbsolute,hiCritical,lowNormal,lowAbsolute,lowCritical,units,numeric,descriptions,allowDecimal,displayPrecision,attributes:(uuid,display,value,attributeType:(uuid,display)),answers:(uuid,display)))))"
               )
               .pipe(map((sampleTypes) => sampleTypes["setMembers"]))
           : this.conceptsService.getConceptsBySearchTerm("SPECIMEN_SOURCE");
@@ -124,7 +131,7 @@ export class SampleTypesService {
                 BASE_URL +
                   "concept/" +
                   parsedConfigs["labDepartments"] +
-                  "?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,conceptClass,datatype,hiNormal,hiAbsolute,hiCritical,lowNormal,lowAbsolute,lowCritical,units,numeric,descriptions,allowDecimal,displayPrecision,answers:(uuid,display)))))"
+                  "?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display,conceptClass,datatype,hiNormal,hiAbsolute,hiCritical,lowNormal,lowAbsolute,lowCritical,units,numeric,descriptions,allowDecimal,displayPrecision,attributes:(uuid,display,value,attributeType:(uuid,display)),answers:(uuid,display)))))"
               )
               .pipe(
                 map((departments: any) => {

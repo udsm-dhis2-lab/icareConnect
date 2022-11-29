@@ -10,7 +10,10 @@ import * as _ from "lodash";
 import { map, take } from "rxjs/operators";
 import { RejectAnswerModalComponent } from "../reject-answer-modal/reject-answer-modal.component";
 import { AppState } from "src/app/store/reducers";
-import { getProviderDetails } from "src/app/store/selectors/current-user.selectors";
+import {
+  getCurrentUserDetails,
+  getProviderDetails,
+} from "src/app/store/selectors/current-user.selectors";
 import { SamplesService } from "src/app/shared/services/samples.service";
 import {
   clearLabSample,
@@ -35,6 +38,7 @@ import { OpenmrsHttpClientService } from "src/app/shared/modules/openmrs-http-cl
 import { Textbox } from "src/app/shared/modules/form/models/text-box.model";
 import { FormValue } from "src/app/shared/modules/form/models/form-value.model";
 import { TextArea } from "src/app/shared/modules/form/models/text-area.model";
+import { SystemSettingsService } from "src/app/core/services/system-settings.service";
 
 @Component({
   selector: "app-results-feeding-modal",
@@ -88,7 +92,10 @@ export class ResultsFeedingModalComponent implements OnInit {
   hasFedResults: boolean = false;
   saveAllMessage: string;
   labSampleLoadingState$: Observable<boolean>;
+  visitDetails$: Observable<any>;
+  currentUser$: Observable<any>;
 
+  multipleResultsAttributeType$: Observable<any>;
   constructor(
     private dialog: MatDialog,
     private dialogRef: MatDialogRef<ResultsFeedingModalComponent>,
@@ -97,7 +104,8 @@ export class ResultsFeedingModalComponent implements OnInit {
     private dataService: DataService,
     private sampleService: SamplesService,
     private httpClient: HttpClient,
-    private visitService: VisitsService
+    private visitService: VisitsService,
+    private systemSettingsService: SystemSettingsService
   ) {
     this.dialogData = data;
     this.sample = data?.sample;
@@ -114,6 +122,10 @@ export class ResultsFeedingModalComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.multipleResultsAttributeType$ =
+      this.systemSettingsService.getSystemSettingsByKey(
+        `iCare.laboratory.settings.testParameters.attributes.multipleResultsAttributeTypeUuid`
+      );
     this.labSampleLoadingState$ = this.store.select(getLabSampleLoadingState);
     this.testOrders$ = this.store.select(
       getFormattedLabSampleOrdersBySampleIdentifier,
@@ -125,6 +137,37 @@ export class ResultsFeedingModalComponent implements OnInit {
     this.loadSampleByUuid();
 
     this.loadingTestTimeSettings = true;
+
+    this.visitDetails$ = this.visitService
+      .getVisitDetailsByVisitUuid(this.sample?.visit?.uuid, {
+        v: "custom:(encounters:(uuid,display,obs,orders,encounterDatetime,encounterType,location))",
+      })
+      .pipe(
+        map((response) => {
+          if (response) {
+            return {
+              ...response,
+              encounters: response?.encounters?.map((encounter) => {
+                return {
+                  ...encounter,
+                  orders: encounter?.orders?.map((order) => {
+                    return {
+                      ...order,
+                      concept: {
+                        ...order?.concept,
+                        display:
+                          order?.concept?.display?.indexOf(":") > -1
+                            ? order?.concept?.display?.split(":")[1]
+                            : order?.concept?.display,
+                      },
+                    };
+                  }),
+                };
+              }),
+            };
+          }
+        })
+      );
 
     forkJoin(
       _.map(this.sample?.orders, (order) => {
@@ -173,33 +216,29 @@ export class ResultsFeedingModalComponent implements OnInit {
                   : false;
             }
 
-            if (parameter?.datatype?.display === "Complex") {
-              // Find obs
-              this.visitService
-                .getVisitDetailsByVisitUuid(this.sample?.visit?.uuid, {
-                  v: "custom:(encounters:(uuid,display,obs,orders,encounterDatetime,encounterType,location))",
-                })
-                .subscribe((response) => {
-                  if (response && response?.encounters?.length > 0) {
-                    response?.encounters?.forEach((encounter, index) => {
-                      encounter?.obs?.forEach((obs) => {
-                        this.obsKeyedByConcepts[obs?.concept?.uuid] = {
-                          ...obs,
-                          uri:
-                            obs?.value?.links && obs?.value?.links?.uri
-                              ? obs?.value?.links?.uri?.replace("http", "https")
-                              : null,
-                        };
-                      });
+            // if (parameter?.datatype?.display === "Complex") {
 
-                      encounter?.orders?.forEach((order) => {
-                        this.ordersKeyedByConcepts[order?.concept?.uuid] =
-                          order;
-                      });
-                    });
-                  }
+            // Find obs
+            this.visitDetails$.subscribe((response) => {
+              if (response && response?.encounters?.length > 0) {
+                response?.encounters?.forEach((encounter, index) => {
+                  encounter?.obs?.forEach((obs) => {
+                    this.obsKeyedByConcepts[obs?.concept?.uuid] = {
+                      ...obs,
+                      uri:
+                        obs?.value?.links && obs?.value?.links?.uri
+                          ? obs?.value?.links?.uri?.replace("http", "https")
+                          : null,
+                    };
+                  });
+
+                  encounter?.orders?.forEach((order) => {
+                    this.ordersKeyedByConcepts[order?.concept?.uuid] = order;
+                  });
                 });
-            }
+              }
+            });
+            // }
           });
         }
       });
@@ -219,6 +258,8 @@ export class ResultsFeedingModalComponent implements OnInit {
       getSavingLabTestResultsStatusState
     );
 
+    this.currentUser$ = this.store.select(getCurrentUserDetails);
+
     this.amendmentRemarksField = new TextArea({
       id: "amendmentRemarks",
       key: "amendmentRemarks",
@@ -226,6 +267,10 @@ export class ResultsFeedingModalComponent implements OnInit {
       type: "text",
       controlType: "textarea",
     });
+  }
+
+  onGetFormData(val: any, parameter: any): void {
+    this.values[parameter?.uuid] = val;
   }
 
   loadSampleByUuid(): void {
@@ -715,6 +760,51 @@ export class ResultsFeedingModalComponent implements OnInit {
         this.savingMessage[parameter?.uuid + "-" + signOff] = null;
       }
     });
+
+    this.getLoadingAndTestOrdersData();
+  }
+
+  onSaveSignOffForParameters(e, item, signOff, currentSample, allocation) {
+    e.stopPropagation();
+
+    const approvalStatuses = item?.order?.concept?.setMembers
+      ?.map((parameter: any) => {
+        this.savingMessage[parameter?.uuid + "-first"] =
+          signOff == "second" ? false : true;
+        this.savingMessage[parameter?.uuid + "-" + signOff] = true;
+        const approvalStatus = {
+          status: "APPROVED",
+          remarks: signOff == "first" ? "APPROVED" : "SECOND_APPROVAL",
+          user: {
+            uuid: this.userUuid,
+          },
+          testAllocation: {
+            uuid: item?.allocationsPairedBySetMember[parameter?.uuid]
+              ?.allocationUuid,
+          },
+        };
+        if (
+          item?.allocationsPairedBySetMember[parameter?.uuid]?.results?.length >
+          0
+        ) {
+          return approvalStatus;
+        }
+      })
+      ?.filter((approvalStatus) => approvalStatus);
+
+    this.store.dispatch(
+      saveLabTestResultsStatus({
+        resultsStatus: approvalStatuses,
+        sampleDetails: currentSample,
+        concept: item?.order?.concept,
+        allocation,
+        isResultAnArray: true,
+      })
+    );
+
+    this.savingLabResultsStatusState$ = this.store.select(
+      getSavingLabTestResultsStatusState
+    );
 
     this.getLoadingAndTestOrdersData();
   }

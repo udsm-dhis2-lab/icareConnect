@@ -101,16 +101,23 @@ export class LabSamplesEffects {
                   sample?.statuses?.filter(
                     (status) => status?.category?.indexOf("REJECTED") > -1
                   ) || [];
+                console.log("keyedSpecimenSources", keyedSpecimenSources);
                 return {
                   ...sample,
                   id: sample?.label,
                   specimen:
-                    keyedSpecimenSources[
-                      sample?.orders[0]?.order?.concept?.uuid
-                    ],
+                    sample && sample?.orders?.length > 0 && sample?.orders[0]
+                      ? keyedSpecimenSources[
+                          sample?.orders[0]?.order?.concept?.uuid
+                        ]
+                      : "",
                   mrn: sample?.patient?.identifiers[0]?.id,
                   department:
-                    keyedDepartments[sample?.orders[0]?.order?.concept?.uuid],
+                    sample && sample?.orders?.length > 0 && sample?.orders[0]
+                      ? keyedDepartments[
+                          sample?.orders[0]?.order?.concept?.uuid
+                        ]
+                      : null,
                   collected: true,
                   integrationStatus: (sample?.statuses?.filter(
                     (status) => status?.category === "RESULTS_INTEGRATION"
@@ -184,8 +191,11 @@ export class LabSamplesEffects {
                         }
                       : null,
                   departmentName:
-                    keyedDepartments[sample?.orders[0]?.order?.concept?.uuid]
-                      ?.departmentName,
+                    sample && sample?.orders?.length > 0 && sample?.orders[0]
+                      ? keyedDepartments[
+                          sample?.orders[0]?.order?.concept?.uuid
+                        ]?.departmentName
+                      : null,
                   collectedBy: {
                     display: sample?.creator?.display?.split(" (")[0],
                     name: sample?.creator?.display?.split(" (")[0],
@@ -531,7 +541,7 @@ export class LabSamplesEffects {
                   ) || [])[0],
                   priorityHigh:
                     (
-                      sample?.statuses.filter(
+                      sample?.statuses?.filter(
                         (status) =>
                           status?.status === "HIGH" ||
                           status?.status === "Urgent"
@@ -541,7 +551,7 @@ export class LabSamplesEffects {
                       : false,
                   priorityOrderNumber:
                     (
-                      sample?.statuses.filter(
+                      sample?.statuses?.filter(
                         (status) =>
                           status?.status === "HIGH" ||
                           status?.status === "Urgent"
@@ -588,12 +598,18 @@ export class LabSamplesEffects {
                   ...sample,
                   id: sample?.label,
                   specimen:
-                    keyedSpecimenSources[
-                      sample?.orders[0]?.order?.concept?.uuid
-                    ],
+                    sample && sample?.orders?.length > 0 && sample?.orders[0]
+                      ? keyedSpecimenSources[
+                          sample?.orders[0]?.order?.concept?.uuid
+                        ]
+                      : null,
                   mrn: sample?.patient?.identifiers[0]?.id,
                   department:
-                    keyedDepartments[sample?.orders[0]?.order?.concept?.uuid],
+                    sample && sample?.orders?.length > 0 && sample?.orders[0]
+                      ? keyedDepartments[
+                          sample?.orders[0]?.order?.concept?.uuid
+                        ]
+                      : null,
                   collected: true,
                   integrationStatus: (sample?.statuses?.filter(
                     (status) => status?.category === "RESULTS_INTEGRATION"
@@ -668,8 +684,11 @@ export class LabSamplesEffects {
                         }
                       : null,
                   departmentName:
-                    keyedDepartments[sample?.orders[0]?.order?.concept?.uuid]
-                      ?.departmentName,
+                    sample && sample?.orders?.length > 0 && sample?.orders[0]
+                      ? keyedDepartments[
+                          sample?.orders[0]?.order?.concept?.uuid
+                        ]?.departmentName
+                      : null,
                   collectedBy: {
                     display: sample?.creator?.display?.split(" (")[0],
                     name: sample?.creator?.display?.split(" (")[0],
@@ -761,7 +780,7 @@ export class LabSamplesEffects {
                                 )
                               : [],
                           setMembers:
-                            keyedDepartments[order?.order?.concept?.uuid]
+                            keyedSpecimenSources[order?.order?.concept?.uuid]
                               ?.setMembers?.length == 0
                               ? []
                               : _.map(
@@ -1015,7 +1034,7 @@ export class LabSamplesEffects {
                   ) || [])[0],
                   priorityHigh:
                     (
-                      sample?.statuses.filter(
+                      sample?.statuses?.filter(
                         (status) =>
                           status?.status === "HIGH" ||
                           status?.status === "Urgent"
@@ -1025,7 +1044,7 @@ export class LabSamplesEffects {
                       : false,
                   priorityOrderNumber:
                     (
-                      sample?.statuses.filter(
+                      sample?.statuses?.filter(
                         (status) =>
                           status?.status === "HIGH" ||
                           status?.status === "Urgent"
@@ -1065,7 +1084,9 @@ export class LabSamplesEffects {
                 }) || [])[0],
                 mrn: sample?.patient?.identifiers[0]?.id,
                 department:
-                  keyedDepartments[sample?.orders[0]?.order?.concept?.uuid],
+                  sample && sample?.orders?.length > 0 && sample?.orders[0]
+                    ? keyedDepartments[sample?.orders[0]?.order?.concept?.uuid]
+                    : null,
                 collected: true,
                 reasonForRejection:
                   sample?.statuses?.length > 0 &&
@@ -1113,8 +1134,10 @@ export class LabSamplesEffects {
                         ?.user
                     : null,
                 departmentName:
-                  keyedDepartments[sample?.orders[0]?.order?.concept?.uuid]
-                    ?.departmentName,
+                  sample && sample?.orders?.length > 0 && sample?.orders[0]
+                    ? keyedDepartments[sample?.orders[0]?.order?.concept?.uuid]
+                        ?.departmentName
+                    : null,
                 collectedBy: {
                   display: sample?.creator?.display?.split(" (")[0],
                   name: sample?.creator?.display?.split(" (")[0],
@@ -1272,7 +1295,7 @@ export class LabSamplesEffects {
                 searchingText: createSearchingText(sample),
                 priorityHigh:
                   (
-                    sample?.statuses.filter(
+                    sample?.statuses?.filter(
                       (status) =>
                         status?.status === "HIGH" || status?.status === "Urgent"
                     ) || []
@@ -1281,7 +1304,7 @@ export class LabSamplesEffects {
                     : false,
                 priorityOrderNumber:
                   (
-                    sample?.statuses.filter(
+                    sample?.statuses?.filter(
                       (status) =>
                         status?.status === "HIGH" || status?.status === "Urgent"
                     ) || []
