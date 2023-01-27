@@ -54,7 +54,7 @@
                   [ngClass]="{
                     'text-warning': request?.status === 'PENDING',
                     'text-success':
-                      request?.status === 'ISSUED' || request?.status === 'RECEIVED',
+                      request?.status === 'REQUESTED' || request?.status === 'RECEIVED',
                     'text-danger': request?.status === 'REJECTED'
                   }"
                 >
@@ -120,6 +120,19 @@
                     </button>
                   </div>
                 </div>
+              </td>
+              <td>
+                <section>
+                  <mat-checkbox [aria-label]
+                    color="primary"
+                    [enabled]="request?.status === 'REQUESTED' || 
+                    request?.status === 'CANCELLED' ||
+                    request?.status === 'REJECTED' ||
+                    !currentStore"
+                    (change)="getSelection($event, request)"
+                    [checked]="selectedRequests[request?.id]"
+                  ></mat-checkbox>
+                </section>
               </td>
             </tr>
           </table>

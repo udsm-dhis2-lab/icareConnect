@@ -14,7 +14,11 @@ export class RequisitionByStoreComponent implements OnInit {
   @Output() cancelRequisition: EventEmitter<any> = new EventEmitter();
   @Output() receiveRequisition: EventEmitter<any> = new EventEmitter();
   @Output() rejectRequisition: EventEmitter<any> = new EventEmitter();
+  @Output() selectionChange: EventEmitter<any> = new EventEmitter();
+  @Output() issueRequest: EventEmitter<any> = new EventEmitter();
+  @Output() rejectRequest: EventEmitter<any> = new EventEmitter();
   selectedIssues: any = {};
+  selectedRequests: any = {};
   requisitionByStoreAndDate: any;
   requisitionObjectkeys: any[];
 
@@ -76,7 +80,25 @@ export class RequisitionByStoreComponent implements OnInit {
     this.receiveRequisition.emit({ event: event, requisition: requisition });
   }
 
+  getSelection(event: MatCheckboxChange, request: any): void {
+    this.selectionChange.emit({event: event, request: request});
+  }
+
+  get selectedRequestsCount(): number {
+    return this.selectedRequests ? Object.keys(this.selectedRequests)?.length : 0;
+  }
+
   get selectedIssuesCount(): number {
     return this.selectedIssues ? Object.keys(this.selectedIssues)?.length : 0;
+  }
+
+  onRequest(e, request, currentStore) {
+    e.stopPropagation();
+    // console.log(request);
+    this.issueRequest.emit({ request: request, currentStore: currentStore });
+  }
+  onReject(e: Event, issue: any) {
+    e.stopPropagation();
+    this.rejectRequest.emit(issue);
   }
 }
