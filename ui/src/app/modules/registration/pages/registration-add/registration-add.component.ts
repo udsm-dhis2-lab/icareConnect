@@ -961,6 +961,7 @@ export class RegistrationAddComponent implements OnInit {
                       this.openSnackBar("Error registering patient", null);
                     } */
                   );
+                console.log("The patient :", patientPayload);
               }
             });
         }

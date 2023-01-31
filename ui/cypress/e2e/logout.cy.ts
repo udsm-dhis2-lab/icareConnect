@@ -1,3 +1,4 @@
+import "./commands";
 it("Logout", () => {
   cy.Login("admin", "Admin123");
   cy.get("#btn-account").should("be.visible");

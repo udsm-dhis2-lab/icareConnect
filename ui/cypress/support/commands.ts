@@ -42,28 +42,6 @@ Cypress.Commands.add("Login", (username: string, password: string) => {
   cy.get("#password").type(password + "{enter}");
 });
 
-Cypress.Commands.add("login1", (name = "admin") => {
-  cy.session(
-    name,
-    () => {
-      cy.request({
-        method: "POST",
-        url: "/login",
-        body: { name, password: "Admin123" },
-      }).then(({ body }) => {
-        window.localStorage.setItem("authToken", body.token);
-      });
-    },
-    {
-      validate() {
-        cy.visit("/user_profile");
-        cy.contains(`Hello ${name}`);
-      },
-      cacheAcrossSpecs: true,
-    }
-  );
-});
-
 Cypress.Commands.add("Logout", () => {
   cy.get("#btn-account")
     .click()
@@ -72,11 +50,64 @@ Cypress.Commands.add("Logout", () => {
       cy.get("#username").should("be.visible");
       cy.get("#password").should("be.visible");
     });
-
-  //   cy.get("#username").type(username);
-  //   cy.get("#password").type(password);
-  //   cy.get("[data-test='icare-login-button']").should("be.visible").click();
-  //   cy.get("#modal-location-selector")
-  //     .contains("Select Location")
-  //     .should("be.visible");
 });
+
+Cypress.Commands.add("selectRegistrationModule", () => {
+  cy.contains("Registration").click();
+  cy.get("#RegistrationBtn").should("be.visible");
+  cy.contains("Registration Desk").should("be.visible");
+});
+Cypress.Commands.add("selectNursingModule", () => {
+  cy.contains("Nursing").click();
+});
+Cypress.Commands.add("selectClinicModule", () => {
+  cy.contains("Clinic").click();
+});
+Cypress.Commands.add("selectIpdObservationModule", () => {
+  cy.contains("IPD/Observation").click();
+});
+Cypress.Commands.add("selectCashierModule", () => {
+  cy.contains("Cashier").click();
+});
+Cypress.Commands.add("selectLaboratoryModule", () => {
+  cy.contains("Laboratory").click();
+});
+Cypress.Commands.add("selectDispensingModule", () => {
+  cy.contains("Dispensing").click();
+});
+Cypress.Commands.add("selectSocialWelfareModule", () => {
+  cy.contains("Social Welfare").click();
+});
+Cypress.Commands.add("selectEClaimModule", () => {
+  cy.contains("E-claim").click();
+});
+Cypress.Commands.add("selectReportsModule", () => {
+  cy.contains("Reports").click();
+});
+Cypress.Commands.add("selectSettingsModule", () => {
+  cy.contains("Settings").click();
+});
+Cypress.Commands.add("selectStoreModule", () => {
+  cy.contains("Store").click();
+});
+Cypress.Commands.add("selectRadiologyModule", () => {
+  cy.contains("Radiology").click();
+});
+Cypress.Commands.add("selectDHIS2Module", () => {
+  cy.contains("DHIS2").click();
+});
+Cypress.Commands.add("selectTheatreModule", () => {
+  cy.contains("Theatre").click();
+});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
+// Cypress.Commands.add("", () => {});
