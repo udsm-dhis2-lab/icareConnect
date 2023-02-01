@@ -83,31 +83,44 @@ export class AuthService {
       switchMap((loginResponse) => {
         const { authenticated, user } = loginResponse;
         this._session.next(loginResponse);
-        return this.currentUserService.get(user?.uuid).pipe(
-          map((userDetails) => {
-            localStorage.setItem(
-              "userLocations",
-              user?.userProperties?.locations
-            );
-            const authDetails = {
-              authenticatedUser: formatCurrentUserDetails(userDetails),
-              authenticated: authenticated,
-              user: user,
-              loginResponse,
-              userUuid: user?.uuid,
-              userLocations: user?.userProperties?.locations
-                ? JSON.parse(
-                    user?.userProperties?.locations
-                      .split(`'`)
-                      .join('"')
-                      .split(" ")
-                      .join("")
-                  )
-                : null,
-            };
-            return authDetails;
-          })
-        );
+        if(authenticated){
+          return this.currentUserService.get(user?.uuid).pipe(
+            map((userDetails) => {
+              localStorage.setItem(
+                "userLocations",
+                user?.userProperties?.locations
+              );
+              const authDetails = {
+                authenticatedUser: formatCurrentUserDetails(userDetails),
+                authenticated: authenticated,
+                user: user,
+                loginResponse,
+                userUuid: user?.uuid,
+                userLocations: user?.userProperties?.locations
+                  ? JSON.parse(
+                      user?.userProperties?.locations
+                        .split(`'`)
+                        .join('"')
+                        .split(" ")
+                        .join("")
+                    )
+                  : null,
+              };
+              return authDetails;
+            })
+          );
+        }else {
+          const authDetails = {
+            authenticatedUser: null,
+            authenticated: authenticated,
+            user: null,
+            loginResponse,
+            userUuid: user?.uuid,
+            userLocations: null,
+          };
+          return of(authDetails);
+        }
+        
       })
     );
   }
