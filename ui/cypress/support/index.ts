@@ -22,6 +22,9 @@ declare global {
       selectRadiologyModule(): Chainable<void>;
       selectDHIS2Module(): Chainable<void>;
       selectTheatreModule(): Chainable<void>;
+      autoInterceptor(context,routeMatcher): Chainable<void>;
+      autoInterceptorFixture(context): Chainable<void>| Promise<void>;
+      autoInterceptorSaver(context): Chainable<void>;
     }
   }
 }

@@ -36,7 +36,13 @@
 //   }
 // }
 
+import uniqueHash from "unique-hash"
+
 Cypress.Commands.add("Login", (username: string, password: string) => {
+  // cy.intercept({ 
+  //   method: 'GET', 
+  //   url: "/openmrs/ws/rest/v1/session?v=custom:(authenticated,user:(privileges:(uuid,name,roles),roles:(uuid,name)))"
+  // }, { fixture: 'session/valid-session.json' });
   cy.visit("/");
   cy.get("#username").type(username);
   cy.get("#password").type(password + "{enter}");
@@ -98,6 +104,49 @@ Cypress.Commands.add("selectDHIS2Module", () => {
 });
 Cypress.Commands.add("selectTheatreModule", () => {
   cy.contains("Theatre").click();
+});
+
+function getFileName(context, req){
+  return uniqueHash(`auto/${ req.url.replace('/openmrs/ws/rest/v1/', '').replace('http://localhost:4200', '') }`,{
+    prepend:`auto/${context}/${req.method}`,
+  });
+  //return `auto/${ req.url.replace('/openmrs/ws/rest/v1/', '').replace('http://localhost:4200', '') }-${req.method}`;
+}
+function setIntercept(context, rM){
+  let fileName = getFileName(context,rM)
+  try{
+    cy.intercept(rM, { fixture: `${fileName}.json` })
+  }catch(e){
+    console.error(e);
+  }
+}
+Cypress.Commands.add("autoInterceptor", (context, routeMatcher) => {
+  if(Array.isArray(routeMatcher)){
+    routeMatcher.forEach((rM)=>{
+      setIntercept(context, rM)
+    })
+  }else{
+    setIntercept(context, routeMatcher)
+  }
+});
+Cypress.Commands.add("autoInterceptorFixture", (context) => {
+  return cy.fixture(`auto/${context}/index.json`).then(data =>{
+    return cy.autoInterceptor(context, data);
+  })
+});
+Cypress.Commands.add("autoInterceptorSaver", (context) => {
+  cy.intercept('/openmrs/ws/rest/v1/**',
+      req => {
+        let fileName = getFileName(context,req)
+        req.continue((res) => {
+          console.log(req.url, fileName);
+          if(res.body != ""){
+            cy.now('writeFile',
+            `cypress/fixtures/${fileName}.json`,
+            res.body)
+          }
+        })
+      })
 });
 // Cypress.Commands.add("", () => {});
 // Cypress.Commands.add("", () => {});
