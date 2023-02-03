@@ -37,7 +37,14 @@
 // }
 
 Cypress.Commands.add("Login", (username: string, password: string) => {
+  cy.intercept(
+    "GET",
+    "/openmrs/ws/rest/v1/location?limit=100&tag=Login+Location&v=custom:(display,country,postalCode,stateProvince,uuid,tags,description,parentLocation:(uuid,display),attributes:(attributeType,uuid,value,voided))",
+    { fixture: "loginLocation.json" }
+  );
+
   cy.visit("/");
+
   cy.get("#username").type(username);
   cy.get("#password").type(password + "{enter}");
 });

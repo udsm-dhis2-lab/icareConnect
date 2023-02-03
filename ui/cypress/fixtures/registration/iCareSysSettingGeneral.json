@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "8b7a63ed-2135-4774-a4b4-668b1f29f90e",
+      "property": "iCare.general.systemSettings.support.googleFormLink",
+      "value": "https://docs.google.com/forms/d/e/1FAIpQLSczpLkEHZKBuQ5EnrdBaKkZs3eRHCJTBSkGecgjPC6bNYxvVw/viewform?usp=sf_link",
+      "description": "Link to issue tracking google form",
+      "display": "I Care - General System Settings Support Google Form Link = https://docs.google.com/forms/d/e/1FAIpQLSczpLkEHZKBuQ5EnrdBaKkZs3eRHCJTBSkGecgjPC6bNYxvVw/viewform?usp=sf_link",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/systemsetting/8b7a63ed-2135-4774-a4b4-668b1f29f90e"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}
