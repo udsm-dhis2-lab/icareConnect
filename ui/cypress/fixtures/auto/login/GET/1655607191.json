@@ -1,0 +1,2754 @@
+{
+  "results": [
+    {
+      "startDatetime": "2023-01-17T14:03:35.000+0000",
+      "encounters": [
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675337747000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17929,
+              "uuid": "33a5a2f0-bd46-48e5-b827-0d0c957718fd"
+            }
+          ],
+          "id": 17431,
+          "dateVoided": null,
+          "uuid": "e066f169-4d82-48f7-8a66-94157a4541c0",
+          "createdOn": 1675337747000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674837302000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17899,
+              "uuid": "926f5bd4-add1-4390-9806-df07ef00084e"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17900,
+              "uuid": "29244853-edea-428e-b28b-ae1a64bb4c28"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17917,
+              "uuid": "921e4321-54f6-42cf-a21a-274483dcbfed"
+            }
+          ],
+          "id": 17409,
+          "dateVoided": null,
+          "uuid": "6f58878b-59d1-4dc0-a882-7be51593c4b4",
+          "createdOn": 1674837302000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674836891000,
+          "voided": false,
+          "orders": [],
+          "id": 17408,
+          "dateVoided": null,
+          "uuid": "aaf8ca11-a336-4ecf-af0f-b7c6ada96adb",
+          "createdOn": 1674836891000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674835988000,
+          "voided": false,
+          "orders": [],
+          "id": 17407,
+          "dateVoided": null,
+          "uuid": "3c6bf928-4c89-46cc-8c6b-f990d5c9aff6",
+          "createdOn": 1674835988000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674831942000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17883,
+              "uuid": "4664edd4-8ac9-49c1-92a5-fdb6c8550296"
+            }
+          ],
+          "id": 17404,
+          "dateVoided": null,
+          "uuid": "07f05005-c32a-49c1-8006-a7c91e35b7ea",
+          "createdOn": 1674831942000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674831881000,
+          "voided": false,
+          "orders": [],
+          "id": 17403,
+          "dateVoided": null,
+          "uuid": "e0478649-dced-4e91-b8f0-4d6bf23a7df1",
+          "createdOn": 1674831881000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674830565000,
+          "voided": false,
+          "orders": [],
+          "id": 17402,
+          "dateVoided": null,
+          "uuid": "45074f0e-1410-4917-b0d2-cd4f8d85ef6f",
+          "createdOn": 1674830565000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674828718000,
+          "voided": false,
+          "orders": [],
+          "id": 17401,
+          "dateVoided": null,
+          "uuid": "8b23985f-5b2e-4490-b538-cb914a592ac5",
+          "createdOn": 1674828718000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674828645000,
+          "voided": false,
+          "orders": [],
+          "id": 17400,
+          "dateVoided": null,
+          "uuid": "7886d724-5857-42cd-8bd6-e6063c0a2f7d",
+          "createdOn": 1674828645000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674827190000,
+          "voided": false,
+          "orders": [],
+          "id": 17399,
+          "dateVoided": null,
+          "uuid": "bfb95b55-8b4c-493c-844e-c5e31de641ec",
+          "createdOn": 1674827190000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674823889000,
+          "voided": false,
+          "orders": [],
+          "id": 17397,
+          "dateVoided": null,
+          "uuid": "5e5d70d0-b7f5-4084-acd8-722ae5325b7a",
+          "createdOn": 1674823889000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674823303000,
+          "voided": false,
+          "orders": [],
+          "id": 17396,
+          "dateVoided": null,
+          "uuid": "af3712b0-05a0-4c8f-bed4-def9ecc54de5",
+          "createdOn": 1674823303000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674821905000,
+          "voided": false,
+          "orders": [],
+          "id": 17395,
+          "dateVoided": null,
+          "uuid": "7446412a-e73a-49b6-86d7-c41232a02d14",
+          "createdOn": 1674821906000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674820223000,
+          "voided": false,
+          "orders": [],
+          "id": 17393,
+          "dateVoided": null,
+          "uuid": "76dd7914-bfba-4f3f-a325-6fdea483c8a3",
+          "createdOn": 1674820223000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674819988000,
+          "voided": false,
+          "orders": [],
+          "id": 17391,
+          "dateVoided": null,
+          "uuid": "81d675a4-6f05-4e7f-9d7d-4f4a410858ca",
+          "createdOn": 1674819988000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674818699000,
+          "voided": false,
+          "orders": [],
+          "id": 17388,
+          "dateVoided": null,
+          "uuid": "fdb6320b-dc9d-4efb-b252-a7ce2ea34d96",
+          "createdOn": 1674818699000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674811204000,
+          "voided": false,
+          "orders": [],
+          "id": 17385,
+          "dateVoided": null,
+          "uuid": "9900f2df-a08a-492e-9723-e3932f4743fe",
+          "createdOn": 1674811204000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674810668000,
+          "voided": false,
+          "orders": [],
+          "id": 17383,
+          "dateVoided": null,
+          "uuid": "08d83d59-57b9-47bd-aa28-062e97379131",
+          "createdOn": 1674810669000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674810238000,
+          "voided": false,
+          "orders": [],
+          "id": 17381,
+          "dateVoided": null,
+          "uuid": "d2bf0595-ec53-40ac-b2dc-b9ed14fe0888",
+          "createdOn": 1674810238000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674810177000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17874,
+              "uuid": "1f0f947f-9b37-4f52-803e-3401242d46ae"
+            }
+          ],
+          "id": 17380,
+          "dateVoided": null,
+          "uuid": "23284482-679e-4274-b415-45cfeb4123be",
+          "createdOn": 1674810177000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674809548000,
+          "voided": false,
+          "orders": [],
+          "id": 17379,
+          "dateVoided": null,
+          "uuid": "59186d5b-d498-40f5-8d07-cd1801799781",
+          "createdOn": 1674809549000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674809220000,
+          "voided": false,
+          "orders": [],
+          "id": 17378,
+          "dateVoided": null,
+          "uuid": "9c9ae3bd-bf14-4e80-a924-79febac37dd9",
+          "createdOn": 1674809220000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674807155000,
+          "voided": false,
+          "orders": [],
+          "id": 17377,
+          "dateVoided": null,
+          "uuid": "90cca657-fc9e-430c-9073-2d929a679b5f",
+          "createdOn": 1674807156000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674807138000,
+          "voided": false,
+          "orders": [],
+          "id": 17376,
+          "dateVoided": null,
+          "uuid": "af0d4cfc-f5e3-418f-81ec-ff56845c0d61",
+          "createdOn": 1674807138000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674806968000,
+          "voided": false,
+          "orders": [],
+          "id": 17375,
+          "dateVoided": null,
+          "uuid": "472bb7ca-869d-4341-a24d-0ae05c23bb23",
+          "createdOn": 1674806968000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674806459000,
+          "voided": false,
+          "orders": [],
+          "id": 17374,
+          "dateVoided": null,
+          "uuid": "9241c97a-4471-4fe1-9a12-acee14d3e11b",
+          "createdOn": 1674806459000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674800856000,
+          "voided": false,
+          "orders": [],
+          "id": 17372,
+          "dateVoided": null,
+          "uuid": "4ac68d4c-1af5-4a58-a4cd-5bff24a12f0a",
+          "createdOn": 1674800856000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674799651000,
+          "voided": false,
+          "orders": [],
+          "id": 17371,
+          "dateVoided": null,
+          "uuid": "a59a4b9b-f27d-4e87-afec-fa5531f79c4f",
+          "createdOn": 1674799651000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674798431000,
+          "voided": false,
+          "orders": [],
+          "id": 17370,
+          "dateVoided": null,
+          "uuid": "2b9ea7ba-d989-472f-874f-c6407c023405",
+          "createdOn": 1674798431000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674746538000,
+          "voided": false,
+          "orders": [],
+          "id": 17367,
+          "dateVoided": null,
+          "uuid": "355eccfb-a635-497a-a39a-3f29e035ae45",
+          "createdOn": 1674746538000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674744635000,
+          "voided": false,
+          "orders": [],
+          "id": 17366,
+          "dateVoided": null,
+          "uuid": "62c8b1b8-0979-4e36-a193-df3c68aed7c9",
+          "createdOn": 1674744635000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674739257000,
+          "voided": false,
+          "orders": [],
+          "id": 17365,
+          "dateVoided": null,
+          "uuid": "3d8698ec-ab95-4525-a6ed-dd3ae5847d2e",
+          "createdOn": 1674739257000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674737638000,
+          "voided": false,
+          "orders": [],
+          "id": 17363,
+          "dateVoided": null,
+          "uuid": "c9fa9191-9a8e-4953-9985-5835c02e19d7",
+          "createdOn": 1674737638000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674736661000,
+          "voided": false,
+          "orders": [],
+          "id": 17361,
+          "dateVoided": null,
+          "uuid": "84bd898e-e504-423f-aa91-9121c09ec5e0",
+          "createdOn": 1674736662000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674736397000,
+          "voided": false,
+          "orders": [],
+          "id": 17359,
+          "dateVoided": null,
+          "uuid": "fc5b2309-7766-4f0e-bbc8-0e1bb764799a",
+          "createdOn": 1674736397000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674736125000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17872,
+              "uuid": "47a6332f-2d2a-4b2e-912d-2aad9b77537d"
+            }
+          ],
+          "id": 17358,
+          "dateVoided": null,
+          "uuid": "7f8a45a6-12ae-4682-aece-43e8fc29b142",
+          "createdOn": 1674736125000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674736082000,
+          "voided": false,
+          "orders": [],
+          "id": 17357,
+          "dateVoided": null,
+          "uuid": "be2a3924-7285-4df8-993c-90206b61fa20",
+          "createdOn": 1674736082000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674735612000,
+          "voided": false,
+          "orders": [],
+          "id": 17356,
+          "dateVoided": null,
+          "uuid": "dcdcc77d-fd08-4d7d-b431-f6695cf9605c",
+          "createdOn": 1674735612000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674735306000,
+          "voided": false,
+          "orders": [],
+          "id": 17355,
+          "dateVoided": null,
+          "uuid": "8bd34467-471c-4c38-8d73-2049ca937b35",
+          "createdOn": 1674735306000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674734429000,
+          "voided": false,
+          "orders": [],
+          "id": 17354,
+          "dateVoided": null,
+          "uuid": "7efe27d6-f2dd-45dc-b341-bac04371594f",
+          "createdOn": 1674734430000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674733955000,
+          "voided": false,
+          "orders": [],
+          "id": 17352,
+          "dateVoided": null,
+          "uuid": "0776abe4-72fd-4854-ad12-5d2ed7c7a607",
+          "createdOn": 1674733955000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674733925000,
+          "voided": false,
+          "orders": [],
+          "id": 17351,
+          "dateVoided": null,
+          "uuid": "d5ee8c1f-3860-4f87-a8ac-6a18a00ec4a3",
+          "createdOn": 1674733926000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674733234000,
+          "voided": false,
+          "orders": [],
+          "id": 17350,
+          "dateVoided": null,
+          "uuid": "38dab790-adb9-4270-b7a1-a03644215747",
+          "createdOn": 1674733234000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674733076000,
+          "voided": false,
+          "orders": [],
+          "id": 17349,
+          "dateVoided": null,
+          "uuid": "589f7e5e-2aa7-4b87-961a-fbee1c2d9449",
+          "createdOn": 1674733076000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674679028000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17864,
+              "uuid": "5ce4b89c-0c03-4b43-b997-99ee96a0d6a6"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17865,
+              "uuid": "f83e4b90-3b3a-4b3f-8835-a726ac537288"
+            }
+          ],
+          "id": 17345,
+          "dateVoided": null,
+          "uuid": "c02b752b-6b76-41a2-8c9f-7fd3c9d9ef67",
+          "createdOn": 1674679028000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674675720000,
+          "voided": false,
+          "orders": [],
+          "id": 17344,
+          "dateVoided": null,
+          "uuid": "14dd8a69-46ea-4260-a6e1-937d6a997c50",
+          "createdOn": 1674675720000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674660248000,
+          "voided": false,
+          "orders": [],
+          "id": 17341,
+          "dateVoided": null,
+          "uuid": "9634150a-5387-48c9-b396-eba97e3bae5b",
+          "createdOn": 1674660248000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674659996000,
+          "voided": false,
+          "orders": [],
+          "id": 17340,
+          "dateVoided": null,
+          "uuid": "c478c20c-235c-4e00-89e7-e147987cb89e",
+          "createdOn": 1674659996000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674652896000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17863,
+              "uuid": "567f27a8-6da0-4068-9248-700fcf8a517b"
+            }
+          ],
+          "id": 17338,
+          "dateVoided": null,
+          "uuid": "7c5700b7-b5d8-4e26-a5c6-dd99b5125c26",
+          "createdOn": 1674652896000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674648045000,
+          "voided": false,
+          "orders": [],
+          "id": 17337,
+          "dateVoided": null,
+          "uuid": "d0343e86-9aed-44ae-a65c-01909bd2ac57",
+          "createdOn": 1674648045000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674648025000,
+          "voided": false,
+          "orders": [],
+          "id": 17336,
+          "dateVoided": null,
+          "uuid": "5bc00454-054f-4ed0-8c55-31aca77ed764",
+          "createdOn": 1674648025000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674642453000,
+          "voided": false,
+          "orders": [],
+          "id": 17334,
+          "dateVoided": null,
+          "uuid": "8b3b6e33-b581-4682-8912-bb1729ee255d",
+          "createdOn": 1674642453000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674601439000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17861,
+              "uuid": "d6517926-3577-4ac5-88a2-3f3a40208f4f"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17862,
+              "uuid": "bb7a98c4-e572-4c1d-b3f8-b7a8f61ba082"
+            }
+          ],
+          "id": 17333,
+          "dateVoided": null,
+          "uuid": "2d2ea3b4-3210-47e0-882e-b57711c5e2c2",
+          "createdOn": 1674601439000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674601227000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17860,
+              "uuid": "c800a211-946c-40ef-9471-237f1e234f59"
+            }
+          ],
+          "id": 17332,
+          "dateVoided": null,
+          "uuid": "014d59d6-9bc0-4acb-8040-eabf0fb6943f",
+          "createdOn": 1674601228000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674600461000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17859,
+              "uuid": "ff547cda-85e1-43f4-ba6f-18fa140d40bc"
+            }
+          ],
+          "id": 17331,
+          "dateVoided": null,
+          "uuid": "ae69d1fc-1620-4327-9b8a-fd10965726ba",
+          "createdOn": 1674600461000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674600383000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17858,
+              "uuid": "11ad0ac0-6faa-4dbf-aa5a-ac02b538401a"
+            }
+          ],
+          "id": 17330,
+          "dateVoided": null,
+          "uuid": "70f3d07e-cc86-44d9-bcc9-214bf4702e20",
+          "createdOn": 1674600383000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674596948000,
+          "voided": false,
+          "orders": [],
+          "id": 17329,
+          "dateVoided": null,
+          "uuid": "b8973425-7522-4cad-a4fc-8eb22701de5a",
+          "createdOn": 1674596948000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674550420000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17857,
+              "uuid": "fd8df757-e61b-4673-ae47-f5030173dccb"
+            }
+          ],
+          "id": 17326,
+          "dateVoided": null,
+          "uuid": "e45f6328-c330-4fa3-8260-ff477d63056c",
+          "createdOn": 1674550420000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674549946000,
+          "voided": false,
+          "orders": [],
+          "id": 17324,
+          "dateVoided": null,
+          "uuid": "fadd2faa-7ae0-4ee0-a45f-0a6c2e312803",
+          "createdOn": 1674549946000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674546785000,
+          "voided": false,
+          "orders": [],
+          "id": 17323,
+          "dateVoided": null,
+          "uuid": "8f5d2887-27f7-4e16-9eb2-7227cfebd923",
+          "createdOn": 1674546786000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674546709000,
+          "voided": false,
+          "orders": [],
+          "id": 17322,
+          "dateVoided": null,
+          "uuid": "5f073871-fe60-47ee-a90d-d54a313e4573",
+          "createdOn": 1674546709000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674546596000,
+          "voided": false,
+          "orders": [],
+          "id": 17321,
+          "dateVoided": null,
+          "uuid": "b1038add-a3d1-4318-90a4-e223d2892b0a",
+          "createdOn": 1674546596000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674546484000,
+          "voided": false,
+          "orders": [],
+          "id": 17320,
+          "dateVoided": null,
+          "uuid": "8ee3fa5d-581f-45c0-af27-304e77d8bbea",
+          "createdOn": 1674546484000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674544889000,
+          "voided": false,
+          "orders": [],
+          "id": 17319,
+          "dateVoided": null,
+          "uuid": "80e09a37-d534-4193-a802-c2393ce1952e",
+          "createdOn": 1674544890000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674544677000,
+          "voided": false,
+          "orders": [],
+          "id": 17318,
+          "dateVoided": null,
+          "uuid": "ca72c78a-3990-4c14-8a31-c8fa17264350",
+          "createdOn": 1674544677000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674489412000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17855,
+              "uuid": "360681cf-bbd0-4252-903f-30b2fd77b384"
+            }
+          ],
+          "id": 17317,
+          "dateVoided": null,
+          "uuid": "8bf08eb1-9794-489f-8fb9-9a6685f97be0",
+          "createdOn": 1674489412000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674471698000,
+          "voided": false,
+          "orders": [],
+          "id": 17316,
+          "dateVoided": null,
+          "uuid": "d606bc78-26ec-48ef-b329-7831da653b02",
+          "createdOn": 1674471698000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674385380000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17854,
+              "uuid": "d530fbf6-523f-45fb-8cbe-71eab0cce0a9"
+            }
+          ],
+          "id": 17308,
+          "dateVoided": null,
+          "uuid": "8bdd1f74-bf61-4c65-bb09-4db59fdf0005",
+          "createdOn": 1674385380000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674327972000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17852,
+              "uuid": "f924ae11-a879-4f6f-a6be-83a3d4ef128f"
+            }
+          ],
+          "id": 17307,
+          "dateVoided": null,
+          "uuid": "4d18ebbe-9c3a-43fd-bcb2-98332659e5b3",
+          "createdOn": 1674327972000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674318249000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17851,
+              "uuid": "1108516e-e91f-423e-a68f-f72e41a11e00"
+            }
+          ],
+          "id": 17306,
+          "dateVoided": null,
+          "uuid": "00648b40-5abf-49e6-aae4-57241a376e25",
+          "createdOn": 1674318249000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674315786000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17850,
+              "uuid": "1176077f-4443-4c15-9be5-bbf46b0ab92d"
+            }
+          ],
+          "id": 17305,
+          "dateVoided": null,
+          "uuid": "4c5ca4e4-147d-4b4e-820f-048462b14dd5",
+          "createdOn": 1674315786000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674310688000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17849,
+              "uuid": "6a9d2b6c-4b00-47af-9810-57a74980f609"
+            }
+          ],
+          "id": 17304,
+          "dateVoided": null,
+          "uuid": "e86347ec-d7ca-4f93-ad00-74ec0c9941f2",
+          "createdOn": 1674310688000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674300914000,
+          "voided": false,
+          "orders": [],
+          "id": 17303,
+          "dateVoided": null,
+          "uuid": "b0a5b186-3e88-4ab4-a53d-02ba1619fa83",
+          "createdOn": 1674300914000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674297321000,
+          "voided": false,
+          "orders": [],
+          "id": 17302,
+          "dateVoided": null,
+          "uuid": "ba7485ab-f48f-48ec-b8fe-7ddaa9b1353e",
+          "createdOn": 1674297321000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674265567000,
+          "voided": false,
+          "orders": [],
+          "id": 17296,
+          "dateVoided": null,
+          "uuid": "0ef17298-8c07-41d3-bf10-4f3e0e5eddb9",
+          "createdOn": 1674265567000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674262014000,
+          "voided": false,
+          "orders": [],
+          "id": 17295,
+          "dateVoided": null,
+          "uuid": "b0056fd4-a676-4c7a-9893-0231ba325d88",
+          "createdOn": 1674262014000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674254268000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17847,
+              "uuid": "0a8a37c5-2dc9-4c9e-be2f-d75897e643c5"
+            }
+          ],
+          "id": 17294,
+          "dateVoided": null,
+          "uuid": "f8f6d222-521c-4846-a1fd-72d76cce4d60",
+          "createdOn": 1674254268000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674216027000,
+          "voided": false,
+          "orders": [],
+          "id": 17292,
+          "dateVoided": null,
+          "uuid": "3b39a9fa-cdcb-43db-8b60-3f602d53ac90",
+          "createdOn": 1674216027000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674215161000,
+          "voided": false,
+          "orders": [],
+          "id": 17291,
+          "dateVoided": null,
+          "uuid": "e44c5f19-973f-432f-966e-6a494f685e8c",
+          "createdOn": 1674215161000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674214288000,
+          "voided": false,
+          "orders": [],
+          "id": 17290,
+          "dateVoided": null,
+          "uuid": "6b36c3ea-b874-48bf-bbc1-d1ba18a591c8",
+          "createdOn": 1674214288000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674214280000,
+          "voided": false,
+          "orders": [],
+          "id": 17289,
+          "dateVoided": null,
+          "uuid": "4d16ecf2-2cfa-4160-8f24-9f3373035fed",
+          "createdOn": 1674214281000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674213953000,
+          "voided": false,
+          "orders": [],
+          "id": 17288,
+          "dateVoided": null,
+          "uuid": "853f3ba6-8b9b-45dc-93bd-05de31c91c18",
+          "createdOn": 1674213953000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674213870000,
+          "voided": false,
+          "orders": [],
+          "id": 17287,
+          "dateVoided": null,
+          "uuid": "9542fa1a-c372-4bf7-9866-29dac0714f7c",
+          "createdOn": 1674213870000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674213646000,
+          "voided": false,
+          "orders": [],
+          "id": 17286,
+          "dateVoided": null,
+          "uuid": "45d8c97f-43dc-46d7-ba87-043b11395dde",
+          "createdOn": 1674213647000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674213492000,
+          "voided": false,
+          "orders": [],
+          "id": 17285,
+          "dateVoided": null,
+          "uuid": "61d24c83-4859-4f89-833a-ba4f1e3b6ff3",
+          "createdOn": 1674213492000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674212261000,
+          "voided": false,
+          "orders": [],
+          "id": 17284,
+          "dateVoided": null,
+          "uuid": "bf045792-947c-43f8-8814-ccd2f3f75738",
+          "createdOn": 1674212261000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674212154000,
+          "voided": false,
+          "orders": [],
+          "id": 17283,
+          "dateVoided": null,
+          "uuid": "99af1bb1-8591-4d23-9413-630814aad8cf",
+          "createdOn": 1674212154000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674199321000,
+          "voided": false,
+          "orders": [],
+          "id": 17281,
+          "dateVoided": null,
+          "uuid": "2562af5f-065f-494b-8038-33b6076abd04",
+          "createdOn": 1674199321000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674197212000,
+          "voided": false,
+          "orders": [],
+          "id": 17280,
+          "dateVoided": null,
+          "uuid": "4723487e-57e7-46e5-b6e5-383e1de39ed0",
+          "createdOn": 1674197212000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674195827000,
+          "voided": false,
+          "orders": [],
+          "id": 17279,
+          "dateVoided": null,
+          "uuid": "819eaef8-3448-418d-bdec-25d50cf333e9",
+          "createdOn": 1674195827000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674195678000,
+          "voided": false,
+          "orders": [],
+          "id": 17278,
+          "dateVoided": null,
+          "uuid": "50e95499-175e-4b86-8656-7ff18780c0e2",
+          "createdOn": 1674195678000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674193305000,
+          "voided": false,
+          "orders": [],
+          "id": 17277,
+          "dateVoided": null,
+          "uuid": "260f60de-81da-4d53-85af-e53e92149233",
+          "createdOn": 1674193305000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674193283000,
+          "voided": false,
+          "orders": [],
+          "id": 17276,
+          "dateVoided": null,
+          "uuid": "df81ed7c-3e9e-407e-919b-04841f064fa6",
+          "createdOn": 1674193283000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674193256000,
+          "voided": false,
+          "orders": [],
+          "id": 17275,
+          "dateVoided": null,
+          "uuid": "d04bdd8f-bede-450a-82ad-067527f8b897",
+          "createdOn": 1674193256000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674192504000,
+          "voided": false,
+          "orders": [],
+          "id": 17273,
+          "dateVoided": null,
+          "uuid": "afc17be4-08ee-4b08-9205-cc65b5ac2bff",
+          "createdOn": 1674192504000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674134034000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17846,
+              "uuid": "295ddf4a-0f06-40d0-81c6-2b806736ace0"
+            }
+          ],
+          "id": 17272,
+          "dateVoided": null,
+          "uuid": "fea3e711-d904-4394-8dca-d3d84bd00dbc",
+          "createdOn": 1674134034000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674130783000,
+          "voided": false,
+          "orders": [],
+          "id": 17269,
+          "dateVoided": null,
+          "uuid": "2302e931-e0f5-4737-b83a-d534ec9e83ff",
+          "createdOn": 1674130783000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674115280000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17845,
+              "uuid": "534d2109-614e-4e72-908c-ee7e5dc8d08c"
+            }
+          ],
+          "id": 17267,
+          "dateVoided": null,
+          "uuid": "078c3148-c47b-495a-a4ac-c603c08d19f8",
+          "createdOn": 1674115282000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674115135000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17844,
+              "uuid": "0bfc4e86-a588-4d66-8a2b-29576acde17b"
+            }
+          ],
+          "id": 17266,
+          "dateVoided": null,
+          "uuid": "b101cde5-9b62-4945-bab3-a81e9b6f21f5",
+          "createdOn": 1674115138000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674114347000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17843,
+              "uuid": "d6931ba6-6d82-4e55-9595-45993e65c3fe"
+            }
+          ],
+          "id": 17265,
+          "dateVoided": null,
+          "uuid": "fcc39279-86bd-4ea0-8947-829d536d16bf",
+          "createdOn": 1674114356000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674049668000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17834,
+              "uuid": "0d0cb0a8-503a-43a8-9ae3-1cb72ee92fa5"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17835,
+              "uuid": "a9334cd7-212d-4f87-83ab-02da5246f125"
+            }
+          ],
+          "id": 17259,
+          "dateVoided": null,
+          "uuid": "ba2b6c14-618c-4c39-ba2a-39b080287100",
+          "createdOn": 1674049668000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674048196000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17826,
+              "uuid": "2fc3c284-b1ac-41f8-9385-933c7e9ecc15"
+            }
+          ],
+          "id": 17254,
+          "dateVoided": null,
+          "uuid": "f919b008-6e50-4234-9fa5-be425c2f847d",
+          "createdOn": 1674048197000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674048046000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17825,
+              "uuid": "484747d2-ddba-495d-8f80-38593bab72f0"
+            }
+          ],
+          "id": 17252,
+          "dateVoided": null,
+          "uuid": "3906adcc-1549-4ee3-9444-b9601feb21b6",
+          "createdOn": 1674048047000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674047833000,
+          "voided": false,
+          "orders": [],
+          "id": 17251,
+          "dateVoided": null,
+          "uuid": "43493325-86ba-4989-98d8-79681230d93a",
+          "createdOn": 1674047833000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674043232000,
+          "voided": false,
+          "orders": [],
+          "id": 17250,
+          "dateVoided": null,
+          "uuid": "ba9ae480-1743-477c-aa97-1ed377512dee",
+          "createdOn": 1674043232000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674038134000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17824,
+              "uuid": "5f986088-3dc1-41e2-aa2b-bf51f61934f4"
+            }
+          ],
+          "id": 17249,
+          "dateVoided": null,
+          "uuid": "3925fe78-af50-4274-866a-3e6b3e3583cb",
+          "createdOn": 1674038134000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674037581000,
+          "voided": false,
+          "orders": [],
+          "id": 17248,
+          "dateVoided": null,
+          "uuid": "6ce9f3d0-05e7-4595-a0fb-00eeb2b24ad8",
+          "createdOn": 1674037581000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674032095000,
+          "voided": false,
+          "orders": [],
+          "id": 17243,
+          "dateVoided": null,
+          "uuid": "552d8bce-5680-4721-967f-196e9f0b8530",
+          "createdOn": 1674032095000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674029862000,
+          "voided": false,
+          "orders": [],
+          "id": 17233,
+          "dateVoided": null,
+          "uuid": "12ae8d95-a50f-4945-b86a-0c28ad2755d0",
+          "createdOn": 1674029863000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674029190000,
+          "voided": false,
+          "orders": [],
+          "id": 17232,
+          "dateVoided": null,
+          "uuid": "6beb7ce9-e5fd-476c-8db8-4e65c81fac09",
+          "createdOn": 1674029190000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674029155000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17803,
+              "uuid": "b3f68204-4a33-43f9-8b0f-7e6afa3add23"
+            }
+          ],
+          "id": 17231,
+          "dateVoided": null,
+          "uuid": "056717dd-1921-4d20-9096-b2f2d7e56113",
+          "createdOn": 1674029155000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674029121000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17802,
+              "uuid": "8eb0b3e7-34d5-4a73-9d09-4f87081d9e04"
+            }
+          ],
+          "id": 17230,
+          "dateVoided": null,
+          "uuid": "6154f80d-179e-4157-9f0e-c084226ed57f",
+          "createdOn": 1674029121000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674028993000,
+          "voided": false,
+          "orders": [],
+          "id": 17229,
+          "dateVoided": null,
+          "uuid": "5ec6dc06-6196-4c94-80c8-c96702e80ce6",
+          "createdOn": 1674028993000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674025044000,
+          "voided": false,
+          "orders": [],
+          "id": 17228,
+          "dateVoided": null,
+          "uuid": "37abb909-baf7-49ab-a878-897ddeb9a1ea",
+          "createdOn": 1674025044000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674024813000,
+          "voided": false,
+          "orders": [],
+          "id": 17227,
+          "dateVoided": null,
+          "uuid": "08c963ca-7a6e-4096-9870-ba702baaa0bd",
+          "createdOn": 1674024814000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1674024663000,
+          "voided": false,
+          "orders": [],
+          "id": 17226,
+          "dateVoided": null,
+          "uuid": "17abdeea-8cbf-48c2-864b-7eb5751f7b0d",
+          "createdOn": 1674024663000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673977530000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17801,
+              "uuid": "7e2a2e2b-a815-400f-84b7-719395bf75e2"
+            }
+          ],
+          "id": 17225,
+          "dateVoided": null,
+          "uuid": "d11ae2cf-447a-42b6-b042-dcecfaefdff4",
+          "createdOn": 1673977530000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673975863000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17800,
+              "uuid": "a1f36351-f225-46d5-9b83-ac8f92760369"
+            }
+          ],
+          "id": 17224,
+          "dateVoided": null,
+          "uuid": "208fcc89-b3c2-47c5-9c52-503e44fb4a8e",
+          "createdOn": 1673975863000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673975818000,
+          "voided": false,
+          "orders": [],
+          "id": 17223,
+          "dateVoided": null,
+          "uuid": "f314245b-4338-4e5f-9b28-f3c9a9cf2d88",
+          "createdOn": 1673975819000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673975802000,
+          "voided": false,
+          "orders": [],
+          "id": 17222,
+          "dateVoided": null,
+          "uuid": "705d6434-b013-4b61-85a1-14f41650eb41",
+          "createdOn": 1673975802000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673971965000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17799,
+              "uuid": "78364a15-e612-4abe-9020-355d28fb741a"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17798,
+              "uuid": "fb8c91bf-1217-4bc7-92ea-683d8a5db83e"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17797,
+              "uuid": "348fffab-445c-424a-82d5-fca99e3d8cf6"
+            }
+          ],
+          "id": 17221,
+          "dateVoided": null,
+          "uuid": "640908ef-4212-46df-9799-14d81bca0e23",
+          "createdOn": 1673971965000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673964348000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17796,
+              "uuid": "1a0d1037-2440-478d-b953-4b2d886a1532"
+            }
+          ],
+          "id": 17220,
+          "dateVoided": null,
+          "uuid": "d7a6ec79-0a82-4ad7-8a1a-028aad292d84",
+          "createdOn": 1673964349000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673964254000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17794,
+              "uuid": "2c1731c6-3b3f-451e-b848-bcac5db430d2"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17792,
+              "uuid": "9f456fbc-6a63-41eb-8083-65a8b774c9f0"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17793,
+              "uuid": "ae03c9ee-ba76-4bf6-b830-e6eb21544dbd"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17795,
+              "uuid": "d294ec4e-f505-48a3-9a59-aeb91c0f31ee"
+            }
+          ],
+          "id": 17219,
+          "dateVoided": null,
+          "uuid": "240ef552-3784-47fa-a305-e76600c5a1c9",
+          "createdOn": 1673964254000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1673964215000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17791,
+              "uuid": "2cbfd5fe-c950-4939-b166-d774c33143fd"
+            }
+          ],
+          "id": 17218,
+          "dateVoided": null,
+          "uuid": "98f74505-9cde-4a9f-88db-f31cb6b031ee",
+          "createdOn": 1673964215000,
+          "changedOn": null
+        }
+      ],
+      "stopDatetime": null,
+      "patient": {
+        "void": false,
+        "identifiers": [
+          {
+            "identifier": "108106-6-00037/2022",
+            "void": false,
+            "identifierType": {
+              "display": "MRN",
+              "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e"
+            },
+            "uuid": "3910554a-319c-4513-b8c6-ab89a222f0b8",
+            "preferred": true
+          }
+        ],
+        "person": {
+          "birthdateEstimated": false,
+          "deathdateEstimated": false,
+          "void": false,
+          "birthdate": "2017-12-21T00:00:00.000+0000",
+          "gender": "F",
+          "display": "test one test",
+          "dead": false,
+          "attributes": [
+            {
+              "display": "0657892345",
+              "uuid": "1bbb00ea-6042-47b1-bd09-379e97b928d3"
+            }
+          ],
+          "causeOfDeath": null,
+          "uuid": "36a9c51e-dfcd-4771-ba6b-40068e7afe1d",
+          "age": 5
+        },
+        "uuid": "36a9c51e-dfcd-4771-ba6b-40068e7afe1d"
+      },
+      "attributes": [
+        {
+          "display": "00000102IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "b24dcab2-9d89-4347-8b38-baf4b796d5e6"
+        },
+        {
+          "display": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "f4ccf3f0-c122-4ebc-a1c1-321b6fd1b2fe"
+        },
+        {
+          "display": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+          "uuid": "91bff06e-6ba2-4970-996a-55c8eb52299f"
+        },
+        {
+          "display": "368826cf-1756-41fb-89d6-65091f90b40c",
+          "uuid": "43a064b7-a613-48c1-bc55-0081e8852668"
+        },
+        {
+          "display": "00000100IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "5472e354-70c6-46e2-8b0f-030662b9f48f"
+        }
+      ],
+      "location": {
+        "parentLocation": {
+          "display": "Child Ward",
+          "uuid": "6e0418a9-b4f0-4bc7-8a1f-8dcbde1416bc"
+        },
+        "display": "Child Bed 01",
+        "uuid": "28a8c67d-6ec4-403c-b518-a8bd8586d6b7",
+        "tags": [
+          {
+            "display": "Bed Location",
+            "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "uuid": "de853c49-265b-4125-b997-bb3c80b70f84"
+    },
+    {
+      "startDatetime": "2023-01-30T05:14:54.000+0000",
+      "encounters": [
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675327426000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17930,
+              "uuid": "01d83b91-26da-45c1-b492-f855a0e635c1"
+            }
+          ],
+          "id": 17428,
+          "dateVoided": null,
+          "uuid": "95fcfcc3-962e-4765-92e0-abec51d82644",
+          "createdOn": 1675327426000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675257665000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17918,
+              "uuid": "01aa07e1-8501-417f-899d-243d1c24a767"
+            }
+          ],
+          "id": 17427,
+          "dateVoided": null,
+          "uuid": "441f14b0-0803-4925-a474-ff2a2bae1abf",
+          "createdOn": 1675257666000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675256596000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17906,
+              "uuid": "4d30b425-5c3f-4347-a191-02ac11bb0242"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17908,
+              "uuid": "78895c93-510c-4e43-a6a7-c5b0504b7153"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17911,
+              "uuid": "a6bc2bfc-0483-413e-b649-4db6f185fc24"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17912,
+              "uuid": "1bfa7831-75ac-4317-b916-a05049ffc772"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17913,
+              "uuid": "146d461b-2198-40ce-b1b5-abde44d7261f"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17914,
+              "uuid": "2188fa68-6a86-4979-865e-48bc6009c879"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17904,
+              "uuid": "a57bb9bd-8680-40e9-bcb8-ae1aabdfc60e"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17905,
+              "uuid": "2b2d2a29-bcbf-4db5-86a2-354f15915898"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17915,
+              "uuid": "baeaa60f-b52b-4d7e-bb8b-c97583845d98"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17907,
+              "uuid": "56ddfabf-00a8-4c40-b367-d9173e766f0f"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17909,
+              "uuid": "e6e361f0-a4f6-4540-b27d-fc82cc6ab8ba"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17910,
+              "uuid": "467a9d35-0bb6-4bcf-b4f8-46c0dd342582"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17916,
+              "uuid": "bffe5187-53d3-4db7-b058-ae6081f1ce92"
+            }
+          ],
+          "id": 17426,
+          "dateVoided": null,
+          "uuid": "2d934eaa-0668-42cf-8799-0da7441d5c06",
+          "createdOn": 1675256596000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675246671000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17903,
+              "uuid": "ed7acd7e-3cec-4410-b6a1-f4dfb2fc2804"
+            }
+          ],
+          "id": 17425,
+          "dateVoided": null,
+          "uuid": "d6ccd75b-8121-4f56-893a-e6cc555e7752",
+          "createdOn": 1675246671000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675246641000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17902,
+              "uuid": "8d133b73-555e-4b76-be0e-6798a96d3d11"
+            }
+          ],
+          "id": 17424,
+          "dateVoided": null,
+          "uuid": "0d2f1e79-6d39-44e4-a03e-2f4d2d70c61d",
+          "createdOn": 1675246642000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675246498000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17901,
+              "uuid": "cbff496a-30ba-415e-b3bf-4caf4f06bc46"
+            }
+          ],
+          "id": 17423,
+          "dateVoided": null,
+          "uuid": "05cc9ee7-d048-4801-bfb3-f1171e6a9eec",
+          "createdOn": 1675246498000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675246471000,
+          "voided": false,
+          "orders": [],
+          "id": 17422,
+          "dateVoided": null,
+          "uuid": "433ddd34-5ee8-45ad-abbe-4ff0e10c5cd9",
+          "createdOn": 1675246472000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675246379000,
+          "voided": false,
+          "orders": [],
+          "id": 17421,
+          "dateVoided": null,
+          "uuid": "02d25def-267e-4dee-a0a7-08d921652a1b",
+          "createdOn": 1675246379000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675243006000,
+          "voided": false,
+          "orders": [],
+          "id": 17420,
+          "dateVoided": null,
+          "uuid": "c4b7deed-45f5-4db5-a8b1-561135a6b765",
+          "createdOn": 1675243006000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675159250000,
+          "voided": false,
+          "orders": [],
+          "id": 17419,
+          "dateVoided": null,
+          "uuid": "283a9d5e-f272-403b-b0c3-1836a9ea5570",
+          "createdOn": 1675159251000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675142338000,
+          "voided": false,
+          "orders": [],
+          "id": 17418,
+          "dateVoided": null,
+          "uuid": "412d78f1-4b0a-4c5a-a5e7-1fe254705697",
+          "createdOn": 1675142338000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675091596000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17892,
+              "uuid": "3336d6c4-70f6-4371-b0d1-57cfdad65267"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17893,
+              "uuid": "d22a67d1-eff5-4770-a41b-1f4b3b2b1226"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17894,
+              "uuid": "9dc562f5-4883-4e0e-a1d5-2833bf638d85"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17895,
+              "uuid": "fa60d793-15a3-44ea-9ffd-66071f684c5b"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17896,
+              "uuid": "56aacad3-dcc3-4453-bc7a-395275460b51"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17891,
+              "uuid": "44eecaad-cc88-4a39-b342-74a593375f4f"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17897,
+              "uuid": "75e609f2-2977-403a-8923-10c6e38d4679"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17898,
+              "uuid": "8bef3a6e-c43a-4147-ab05-f2b1c1dd80a6"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17890,
+              "uuid": "53a01939-13a9-47ef-b7f0-0aaf99dfc6d2"
+            }
+          ],
+          "id": 17417,
+          "dateVoided": null,
+          "uuid": "82cf4b78-6741-497a-85fb-63622950b4d5",
+          "createdOn": 1675091596000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675075598000,
+          "voided": false,
+          "orders": [],
+          "id": 17416,
+          "dateVoided": null,
+          "uuid": "08a89aac-045c-4447-86e2-a16dd073946a",
+          "createdOn": 1675075599000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675075561000,
+          "voided": false,
+          "orders": [],
+          "id": 17415,
+          "dateVoided": null,
+          "uuid": "457e2816-f038-4625-a033-c69368fe91fc",
+          "createdOn": 1675075562000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675075462000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17888,
+              "uuid": "eab76717-7d29-4bc0-b357-63ffc36cc99e"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17889,
+              "uuid": "c39313ac-1c8d-4e0a-ae0c-2fde777bf9e6"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17887,
+              "uuid": "8648acb9-d572-40d6-b47f-a8b14778f9cd"
+            }
+          ],
+          "id": 17414,
+          "dateVoided": null,
+          "uuid": "3250bcfd-111c-47ca-ada7-3b5fa93f5e7e",
+          "createdOn": 1675075462000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675069185000,
+          "voided": false,
+          "orders": [],
+          "id": 17413,
+          "dateVoided": null,
+          "uuid": "b59098e4-b5b5-4b25-b069-9ab6a6f1e815",
+          "createdOn": 1675069186000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675055706000,
+          "voided": false,
+          "orders": [],
+          "id": 17412,
+          "dateVoided": null,
+          "uuid": "8ab92a48-9855-4c6d-80ac-68df62baf803",
+          "createdOn": 1675055706000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675055695000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17886,
+              "uuid": "44cd96f8-cb1d-4f63-bfdc-3894d25e4d9c"
+            }
+          ],
+          "id": 17411,
+          "dateVoided": null,
+          "uuid": "3c0f2a9b-65ef-42ba-8451-de1a7a7e73c5",
+          "createdOn": 1675055695000,
+          "changedOn": null
+        }
+      ],
+      "stopDatetime": null,
+      "patient": {
+        "void": false,
+        "identifiers": [
+          {
+            "identifier": "07482",
+            "void": false,
+            "identifierType": {
+              "display": "Staff ID",
+              "uuid": "6e7203dd-0d6b-4c92-998d-fdc82a71a1b0"
+            },
+            "uuid": "8887bcc4-92f4-457e-819d-ec7444eade0e",
+            "preferred": false
+          },
+          {
+            "identifier": "108106-6-00035/2022",
+            "void": false,
+            "identifierType": {
+              "display": "MRN",
+              "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e"
+            },
+            "uuid": "4888b59a-a0b0-45fe-b4de-89fd05e88bdd",
+            "preferred": true
+          }
+        ],
+        "person": {
+          "birthdateEstimated": false,
+          "deathdateEstimated": false,
+          "void": false,
+          "birthdate": "1999-01-03T00:00:00.000+0000",
+          "gender": "M",
+          "display": "Test Test Eight",
+          "dead": false,
+          "attributes": [
+            {
+              "display": "Test",
+              "uuid": "cd5b07d1-7d81-4c48-affd-76780168db2e"
+            },
+            {
+              "display": "Married",
+              "uuid": "9f0cebd6-8d60-4198-b95b-78b2eb5e2eb4"
+            },
+            {
+              "display": "West",
+              "uuid": "8a625277-cabb-4d96-bad7-34be58e15247"
+            },
+            {
+              "display": "East",
+              "uuid": "7bdec0ee-a43c-419f-a0d4-e6ba4447f500"
+            },
+            {
+              "display": "0733333333",
+              "uuid": "90a80c49-3ea3-4125-a115-343a1638c8e7"
+            },
+            {
+              "display": "0711111111",
+              "uuid": "0802fae7-94c9-4ba9-9256-7b8a750d6f87"
+            },
+            {
+              "display": "University/college education",
+              "uuid": "631192f6-75d5-462a-b161-d0faf6fa510b"
+            },
+            {
+              "display": "Test six",
+              "uuid": "1cb937c0-3364-47a8-b29e-75c10cad395f"
+            },
+            {
+              "display": "0722222222",
+              "uuid": "f3794247-5e4a-4b8f-959a-a518333c37ed"
+            },
+            {
+              "display": "Christian",
+              "uuid": "ba450e03-029d-4f1e-afe0-30a4186a149d"
+            },
+            {
+              "display": "Spouse",
+              "uuid": "ad638d77-6426-466d-af79-877779dbff0c"
+            }
+          ],
+          "causeOfDeath": null,
+          "uuid": "cebc4e79-9d79-4e2f-a0a5-1d6285fd9240",
+          "age": 24
+        },
+        "uuid": "cebc4e79-9d79-4e2f-a0a5-1d6285fd9240"
+      },
+      "attributes": [
+        {
+          "display": "274f186c-a9c0-4f37-a3c8-5b18f61353b3",
+          "uuid": "b2629f61-a892-40ea-bf76-6e0d3c324d38"
+        },
+        {
+          "display": "12345389765",
+          "uuid": "f45bb482-154e-410a-9b7f-e6b5cc3b89c3"
+        },
+        {
+          "display": "368826cf-1756-41fb-89d6-65091f90b40c",
+          "uuid": "e1b483ae-f3ce-46db-a566-e0c14e65cb64"
+        },
+        {
+          "display": "847467897688",
+          "uuid": "37abeec8-2b10-4237-8192-3556f9fe547b"
+        },
+        {
+          "display": "00000105IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "8817ad27-6da9-4294-a20b-5c83ddf6abd6"
+        },
+        {
+          "display": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "72df8969-3612-4a43-9cd1-fb7265cf8163"
+        },
+        {
+          "display": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "63d3a32c-8d69-4cb8-a6cf-cbeb94a9d0f4"
+        },
+        {
+          "display": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+          "uuid": "ad353268-8f63-431b-b425-897ec0f8cb50"
+        }
+      ],
+      "location": {
+        "parentLocation": {
+          "display": "Male ward",
+          "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+        },
+        "display": "MW.Bed_01",
+        "uuid": "76928bfb-532a-480b-a8af-520e81be738f",
+        "tags": [
+          {
+            "display": "Bed Location",
+            "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "uuid": "d9c4385d-065b-486b-a2cc-bf5b6e09b478"
+    },
+    {
+      "startDatetime": "2023-02-02T11:05:40.000+0000",
+      "encounters": [
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675340825000,
+          "voided": false,
+          "orders": [],
+          "id": 17434,
+          "dateVoided": null,
+          "uuid": "a8bb9c3d-72c0-4d48-9743-c4308d9a80b9",
+          "createdOn": 1675340825000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675338853000,
+          "voided": false,
+          "orders": [],
+          "id": 17433,
+          "dateVoided": null,
+          "uuid": "563bf1e9-7b5b-407c-a454-1732416befa9",
+          "createdOn": 1675338853000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675338703000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17925,
+              "uuid": "d59566fc-5b74-4343-b420-4d1a1dde2bf4"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17924,
+              "uuid": "3d257a95-8657-4626-ad1b-23a18d3ea988"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17922,
+              "uuid": "406f47ac-512b-461b-9665-6a7a1b684a6f"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17923,
+              "uuid": "7cea8283-f1fa-4262-a79a-2ef1e689b504"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17926,
+              "uuid": "368df62f-45a9-4cf0-860e-a29eb1a7720c"
+            }
+          ],
+          "id": 17432,
+          "dateVoided": null,
+          "uuid": "1fca1098-9c7b-4e72-80cc-d41dff11d397",
+          "createdOn": 1675338703000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675335940000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17919,
+              "uuid": "ce3e2b39-d436-431d-b799-0bced7523e84"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17920,
+              "uuid": "929684e8-5713-45af-924f-921647a9b3b6"
+            }
+          ],
+          "id": 17429,
+          "dateVoided": null,
+          "uuid": "83072c1b-6532-4243-84e9-7287425a425b",
+          "createdOn": 1675335940000,
+          "changedOn": null
+        }
+      ],
+      "stopDatetime": null,
+      "patient": {
+        "void": false,
+        "identifiers": [
+          {
+            "identifier": "108106-6-00029/2023",
+            "void": false,
+            "identifierType": {
+              "display": "MRN",
+              "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e"
+            },
+            "uuid": "244bd49e-5c0b-4d00-aad2-08e556747c4f",
+            "preferred": true
+          }
+        ],
+        "person": {
+          "birthdateEstimated": false,
+          "deathdateEstimated": false,
+          "void": false,
+          "birthdate": "1983-02-02T00:00:00.000+0000",
+          "gender": "M",
+          "display": "RONADINHO GAUCHO",
+          "dead": false,
+          "attributes": [
+            {
+              "display": "0654656455",
+              "uuid": "e93ff0b3-ee50-42e6-a5a6-00943864c313"
+            }
+          ],
+          "causeOfDeath": null,
+          "uuid": "822dc5e2-6c6a-41f5-adbb-d52cffad24aa",
+          "age": 40
+        },
+        "uuid": "822dc5e2-6c6a-41f5-adbb-d52cffad24aa"
+      },
+      "attributes": [
+        {
+          "display": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+          "uuid": "2d9795f0-2b05-4bb8-a377-5dd28a30c934"
+        },
+        {
+          "display": "00000100IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "1f394922-dd83-4f7a-9954-0be2c61e1aac"
+        },
+        {
+          "display": "00000102IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "0ed4cdb0-6831-4cad-a259-187cbb6f6a03"
+        },
+        {
+          "display": "368826cf-1756-41fb-89d6-65091f90b40c",
+          "uuid": "8ccfb264-fc67-4ed5-b443-6a3638ad5994"
+        },
+        {
+          "display": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "8210c2ac-209f-4d6d-8a0c-bd3dc35b24a8"
+        }
+      ],
+      "location": {
+        "parentLocation": {
+          "display": "University of Dar es Salaam",
+          "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+        },
+        "display": "Room 04 (General)",
+        "uuid": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+        "tags": [
+          {
+            "display": "Module Location",
+            "uuid": "6f00c9e3-afa1-4682-b365-58a733439812"
+          },
+          {
+            "display": "Treatment Room",
+            "uuid": "iCARE100-UDSM-451f-8efe-a0db56f09676"
+          },
+          {
+            "display": "Transfer Location",
+            "uuid": "8d4626ca-7abd-42ad-be48-56767bbcf272"
+          }
+        ]
+      },
+      "uuid": "83c1d7b7-ba2c-4c9b-8703-92ae473adc5d"
+    },
+    {
+      "startDatetime": "2023-02-02T11:14:16.000+0000",
+      "encounters": [
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675336457000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17921,
+              "uuid": "ad2ce656-5c65-482f-9e10-96fd05d9cc89"
+            }
+          ],
+          "id": 17430,
+          "dateVoided": null,
+          "uuid": "aaa4fbd5-238b-45a4-962d-9b2251007a96",
+          "createdOn": 1675336457000,
+          "changedOn": null
+        }
+      ],
+      "stopDatetime": null,
+      "patient": {
+        "void": false,
+        "identifiers": [
+          {
+            "identifier": "108106-6-00027/2022",
+            "void": false,
+            "identifierType": {
+              "display": "MRN",
+              "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e"
+            },
+            "uuid": "f9e932d6-ae2c-4eb4-a2ae-48b1a08420af",
+            "preferred": true
+          }
+        ],
+        "person": {
+          "birthdateEstimated": false,
+          "deathdateEstimated": false,
+          "void": false,
+          "birthdate": "2022-05-12T00:00:00.000+0000",
+          "gender": "F",
+          "display": "TEST FIVE",
+          "dead": false,
+          "attributes": [
+            {
+              "display": "0678945612",
+              "uuid": "8ffaf8dc-c3e1-46fc-8966-762663592d90"
+            }
+          ],
+          "causeOfDeath": null,
+          "uuid": "8e65a270-deba-410e-9b52-d9481377a94e",
+          "age": 0
+        },
+        "uuid": "8e65a270-deba-410e-9b52-d9481377a94e"
+      },
+      "attributes": [
+        {
+          "display": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "9d1eaa9e-c4e3-40c7-9fc8-c3c1bbb87bad"
+        },
+        {
+          "display": "00000105IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "0def875e-f9c7-4094-acac-2cdc224745ce"
+        },
+        {
+          "display": "368826cf-1756-41fb-89d6-65091f90b40c",
+          "uuid": "8691aa52-5520-4968-8eec-9c8ee5556f8b"
+        },
+        {
+          "display": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "c119604e-c6f2-4d6a-9ccd-1b264451a247"
+        },
+        {
+          "display": "2345576788",
+          "uuid": "073fd766-222c-45c0-836d-c8c8ab68b0d0"
+        },
+        {
+          "display": "456123784561",
+          "uuid": "759d1e11-9b47-477d-8856-6c6e2f035621"
+        },
+        {
+          "display": "274f186c-a9c0-4f37-a3c8-5b18f61353b3",
+          "uuid": "c040f9ea-6854-41b4-9040-12b6e37c62b3"
+        },
+        {
+          "display": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+          "uuid": "38a2e7f5-8496-4147-8d86-9a396a70550a"
+        }
+      ],
+      "location": {
+        "parentLocation": {
+          "display": "University of Dar es Salaam",
+          "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+        },
+        "display": "Room 04 (General)",
+        "uuid": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+        "tags": [
+          {
+            "display": "Module Location",
+            "uuid": "6f00c9e3-afa1-4682-b365-58a733439812"
+          },
+          {
+            "display": "Treatment Room",
+            "uuid": "iCARE100-UDSM-451f-8efe-a0db56f09676"
+          },
+          {
+            "display": "Transfer Location",
+            "uuid": "8d4626ca-7abd-42ad-be48-56767bbcf272"
+          }
+        ]
+      },
+      "uuid": "4289338f-98c7-4e25-99cc-9328a31b582b"
+    },
+    {
+      "startDatetime": "2023-02-02T15:12:09.000+0000",
+      "encounters": [
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675411418000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17934,
+              "uuid": "2b832054-0c5c-46a4-acc0-08945b2033c0"
+            }
+          ],
+          "id": 17438,
+          "dateVoided": null,
+          "uuid": "596a24bd-7ca0-4910-a906-a935c00010fb",
+          "createdOn": 1675411418000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675408488000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17932,
+              "uuid": "421c7212-bb7d-4b74-ab5a-468bb948eca4"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17931,
+              "uuid": "2dd945b6-d1ab-41fe-98cb-c9f4b8c93d99"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17933,
+              "uuid": "f586b992-388c-4957-8591-c1405a3b8110"
+            }
+          ],
+          "id": 17437,
+          "dateVoided": null,
+          "uuid": "e3f83c8a-04ef-415b-9983-97573a6981b4",
+          "createdOn": 1675408488000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675351823000,
+          "voided": false,
+          "orders": [],
+          "id": 17436,
+          "dateVoided": null,
+          "uuid": "aa9ff4ca-d786-46fc-b18a-105276de1753",
+          "createdOn": 1675351823000,
+          "changedOn": null
+        },
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1675350729000,
+          "voided": false,
+          "orders": [
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17927,
+              "uuid": "f9f879a3-1d93-4076-a019-d19cc4b670ae"
+            },
+            {
+              "voidedReason": null,
+              "voided": false,
+              "id": 17928,
+              "uuid": "4d1ea928-f030-433a-95bd-dbba0d168849"
+            }
+          ],
+          "id": 17435,
+          "dateVoided": null,
+          "uuid": "7f220478-05a9-459e-9df6-b28800a39615",
+          "createdOn": 1675350729000,
+          "changedOn": null
+        }
+      ],
+      "stopDatetime": null,
+      "patient": {
+        "void": false,
+        "identifiers": [
+          {
+            "identifier": "108106-6-00031/2023",
+            "void": false,
+            "identifierType": {
+              "display": "MRN",
+              "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e"
+            },
+            "uuid": "8ba7d275-a341-4cc5-8810-ab6e986f5211",
+            "preferred": true
+          }
+        ],
+        "person": {
+          "birthdateEstimated": false,
+          "deathdateEstimated": false,
+          "void": false,
+          "birthdate": "2003-02-03T00:00:00.000+0000",
+          "gender": "M",
+          "display": "MESSI MESSI",
+          "dead": false,
+          "attributes": [
+            {
+              "display": "0678945612",
+              "uuid": "fa5a4f9a-3f75-4348-8f73-9c267e7e95e3"
+            },
+            {
+              "display": "Secondary Education",
+              "uuid": "d0aa616e-2fce-4038-aab9-cd36bc6c8401"
+            }
+          ],
+          "causeOfDeath": null,
+          "uuid": "4c355929-893a-45bd-8813-3d30c4dd1f81",
+          "age": 20
+        },
+        "uuid": "4c355929-893a-45bd-8813-3d30c4dd1f81"
+      },
+      "attributes": [
+        {
+          "display": "b6885e6e-fe37-4f32-b901-0d1022fd3b83",
+          "uuid": "6e34e22a-4970-46d4-a398-281e23d20888"
+        },
+        {
+          "display": "c6060543-c983-4178-b8cc-eabfe7686e6e",
+          "uuid": "8ffee859-9a93-4b53-9a52-42bdf8a4c257"
+        },
+        {
+          "display": "456123456",
+          "uuid": "06d3850e-95fe-4f09-86fe-b6393b61554a"
+        },
+        {
+          "display": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "dba2e93e-1918-4386-b4ee-47fc3e0872a2"
+        },
+        {
+          "display": "274f186c-a9c0-4f37-a3c8-5b18f61353b3",
+          "uuid": "042c988b-b979-49aa-b91b-d03d175cf89d"
+        },
+        {
+          "display": "123456456456",
+          "uuid": "c530719c-729e-4b86-8d85-0624975dc2cf"
+        },
+        {
+          "display": "9c5cc3a5-9b8b-4761-80b4-466bb0f97297",
+          "uuid": "2eebeda8-8789-49bb-8668-0ff48502b8e2"
+        },
+        {
+          "display": "00000105IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "be0c57ef-cdd8-4efb-aead-3b0b79f20da5"
+        }
+      ],
+      "location": {
+        "parentLocation": {
+          "display": "University of Dar es Salaam",
+          "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+        },
+        "display": "Room  (Paediatric Clinic)",
+        "uuid": "b6885e6e-fe37-4f32-b901-0d1022fd3b83",
+        "tags": [
+          {
+            "display": "Module Location",
+            "uuid": "6f00c9e3-afa1-4682-b365-58a733439812"
+          },
+          {
+            "display": "Treatment Room",
+            "uuid": "iCARE100-UDSM-451f-8efe-a0db56f09676"
+          },
+          {
+            "display": "Transfer Location",
+            "uuid": "8d4626ca-7abd-42ad-be48-56767bbcf272"
+          }
+        ]
+      },
+      "uuid": "4169f1e2-ffae-44e1-9f80-b8812221e4c3"
+    }
+  ]
+}

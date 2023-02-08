@@ -1,0 +1,208 @@
+{
+  "uuid": "bad70d90-9bac-401a-8c49-a440f6a07bf5",
+  "display": "Gender",
+  "names": [
+    {
+      "display": "Gender",
+      "uuid": "eb900cd8-b5cc-44e7-ab84-f5fbf2e49594",
+      "name": "Gender",
+      "locale": "en",
+      "localePreferred": false,
+      "conceptNameType": "SHORT",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/bad70d90-9bac-401a-8c49-a440f6a07bf5/name/eb900cd8-b5cc-44e7-ab84-f5fbf2e49594"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/bad70d90-9bac-401a-8c49-a440f6a07bf5/name/eb900cd8-b5cc-44e7-ab84-f5fbf2e49594?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Gender",
+      "uuid": "156f025a-26b7-482b-ac23-330f6602bead",
+      "name": "Gender",
+      "locale": "en",
+      "localePreferred": true,
+      "conceptNameType": "FULLY_SPECIFIED",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/bad70d90-9bac-401a-8c49-a440f6a07bf5/name/156f025a-26b7-482b-ac23-330f6602bead"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/bad70d90-9bac-401a-8c49-a440f6a07bf5/name/156f025a-26b7-482b-ac23-330f6602bead?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ],
+  "answers": [
+    {
+      "uuid": "e74aebd1-51b5-424f-b9f0-339fd8cd3588",
+      "display": "Female",
+      "names": [
+        {
+          "display": "F",
+          "uuid": "ec0d3806-27e5-477e-8e02-329542456895",
+          "name": "F",
+          "locale": "en",
+          "localePreferred": false,
+          "conceptNameType": "SHORT",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/e74aebd1-51b5-424f-b9f0-339fd8cd3588/name/ec0d3806-27e5-477e-8e02-329542456895"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/e74aebd1-51b5-424f-b9f0-339fd8cd3588/name/ec0d3806-27e5-477e-8e02-329542456895?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Female",
+          "uuid": "7530d01e-c1ce-461d-b6db-dfef64d56d8b",
+          "name": "Female",
+          "locale": "en",
+          "localePreferred": true,
+          "conceptNameType": "FULLY_SPECIFIED",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/e74aebd1-51b5-424f-b9f0-339fd8cd3588/name/7530d01e-c1ce-461d-b6db-dfef64d56d8b"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/e74aebd1-51b5-424f-b9f0-339fd8cd3588/name/7530d01e-c1ce-461d-b6db-dfef64d56d8b?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        }
+      ],
+      "mappings": [
+        {
+          "display": "Concept Code Representation: F (Female)",
+          "uuid": "9f656199-9cba-4d82-b7cf-b1f6f77ea2f6",
+          "conceptReferenceTerm": {
+            "uuid": "6fa46c40-2687-40ad-ab68-6e611c7fd9eb",
+            "display": "Concept Code Representation: F (Female)",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/conceptreferenceterm/6fa46c40-2687-40ad-ab68-6e611c7fd9eb"
+              }
+            ]
+          },
+          "conceptMapType": {
+            "uuid": "35543629-7d8c-11e1-909d-c80aa9edcf4e",
+            "display": "SAME-AS",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/conceptmaptype/35543629-7d8c-11e1-909d-c80aa9edcf4e"
+              }
+            ]
+          },
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/e74aebd1-51b5-424f-b9f0-339fd8cd3588/mapping/9f656199-9cba-4d82-b7cf-b1f6f77ea2f6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/e74aebd1-51b5-424f-b9f0-339fd8cd3588/mapping/9f656199-9cba-4d82-b7cf-b1f6f77ea2f6?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        }
+      ]
+    },
+    {
+      "uuid": "544634f2-4c08-48b0-9b2b-35251189a59b",
+      "display": "Male",
+      "names": [
+        {
+          "display": "Male",
+          "uuid": "79ffee9d-540e-4dc0-83bf-cc4e9b498b69",
+          "name": "Male",
+          "locale": "en",
+          "localePreferred": true,
+          "conceptNameType": "FULLY_SPECIFIED",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/544634f2-4c08-48b0-9b2b-35251189a59b/name/79ffee9d-540e-4dc0-83bf-cc4e9b498b69"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/544634f2-4c08-48b0-9b2b-35251189a59b/name/79ffee9d-540e-4dc0-83bf-cc4e9b498b69?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "M",
+          "uuid": "9bcd4a20-baa1-4020-bf16-de9b4ffb0212",
+          "name": "M",
+          "locale": "en",
+          "localePreferred": false,
+          "conceptNameType": "SHORT",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/544634f2-4c08-48b0-9b2b-35251189a59b/name/9bcd4a20-baa1-4020-bf16-de9b4ffb0212"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/544634f2-4c08-48b0-9b2b-35251189a59b/name/9bcd4a20-baa1-4020-bf16-de9b4ffb0212?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        }
+      ],
+      "mappings": [
+        {
+          "display": "Concept Code Representation: M (Male)",
+          "uuid": "0b290e94-5d29-489d-90f0-4930440690e8",
+          "conceptReferenceTerm": {
+            "uuid": "322768d4-08ae-4ec6-a162-e6ea8f26703c",
+            "display": "Concept Code Representation: M (Male)",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/conceptreferenceterm/322768d4-08ae-4ec6-a162-e6ea8f26703c"
+              }
+            ]
+          },
+          "conceptMapType": {
+            "uuid": "35543629-7d8c-11e1-909d-c80aa9edcf4e",
+            "display": "SAME-AS",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/conceptmaptype/35543629-7d8c-11e1-909d-c80aa9edcf4e"
+              }
+            ]
+          },
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/544634f2-4c08-48b0-9b2b-35251189a59b/mapping/0b290e94-5d29-489d-90f0-4930440690e8"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/544634f2-4c08-48b0-9b2b-35251189a59b/mapping/0b290e94-5d29-489d-90f0-4930440690e8?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "display": "Triage Desk",
+  "uuid": "iCARE001-645f-451f-8efe-a0db56f09676",
+  "tags": [
+    {
+      "uuid": "37dd4458-dc9e-4ae6-a1f1-789c1162d37b",
+      "display": "Visit Location"
+    },
+    {
+      "uuid": "6f00c9e3-afa1-4682-b365-58a733439812",
+      "display": "Module Location"
+    }
+  ],
+  "parentLocation": {
+    "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+    "display": "University of Dar es Salaam"
+  },
+  "attributes": [
+    {
+      "display": "modules: nursing",
+      "uuid": "d334d815-18d1-4369-823b-acf250074786",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "nursing",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/d334d815-18d1-4369-823b-acf250074786"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/d334d815-18d1-4369-823b-acf250074786?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "uuid": "b089c77d-b1c5-45db-9839-f5e95c59f1bb",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/b089c77d-b1c5-45db-9839-f5e95c59f1bb"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/b089c77d-b1c5-45db-9839-f5e95c59f1bb?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "modules: triage",
+      "uuid": "iCAREatt-1011-451f-8efe-a0db56f09676",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "triage",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/iCAREatt-1011-451f-8efe-a0db56f09676"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/iCAREatt-1011-451f-8efe-a0db56f09676?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "modules: registration",
+      "uuid": "iCAREatt-1012-451f-8efe-a0db56f09676",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "registration",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/iCAREatt-1012-451f-8efe-a0db56f09676"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/iCAREatt-1012-451f-8efe-a0db56f09676?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: iCARE001-645f-451f-8efe-a0db56f09676",
+      "uuid": "074eae03-ce11-4ad4-a822-65d0ac82f213",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "iCARE001-645f-451f-8efe-a0db56f09676",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/074eae03-ce11-4ad4-a822-65d0ac82f213"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/074eae03-ce11-4ad4-a822-65d0ac82f213?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: c75f120a-04ec-11e3-8780-2b40bef9a44b",
+      "uuid": "5af9aa28-7a62-4886-9205-0c90c18a98fa",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "c75f120a-04ec-11e3-8780-2b40bef9a44b",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/5af9aa28-7a62-4886-9205-0c90c18a98fa"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/5af9aa28-7a62-4886-9205-0c90c18a98fa?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "uuid": "8a8685ed-04c1-411c-9ac9-e2b5b166eef5",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/8a8685ed-04c1-411c-9ac9-e2b5b166eef5"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/8a8685ed-04c1-411c-9ac9-e2b5b166eef5?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Other configurations: iCARE001-645f-451f-8efe-a0db56f09676",
+      "uuid": "934349b8-6121-4d4d-b6ff-c9e70a9a515c",
+      "attributeType": {
+        "uuid": "iCAR7001-UDSM-attr-8efe-a0db56f09676",
+        "display": "Other configurations",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/iCAR7001-UDSM-attr-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "iCARE001-645f-451f-8efe-a0db56f09676",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/934349b8-6121-4d4d-b6ff-c9e70a9a515c"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/934349b8-6121-4d4d-b6ff-c9e70a9a515c?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "uuid": "68961e6d-d51f-428e-a117-b77a43995d39",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/68961e6d-d51f-428e-a117-b77a43995d39"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/68961e6d-d51f-428e-a117-b77a43995d39?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: iCARE001-645f-451f-8efe-a0db56f09676",
+      "uuid": "ad2ed1f5-74f0-4567-8e9a-7995eec9641f",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "iCARE001-645f-451f-8efe-a0db56f09676",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/ad2ed1f5-74f0-4567-8e9a-7995eec9641f"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/ad2ed1f5-74f0-4567-8e9a-7995eec9641f?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "uuid": "a8258cc4-270e-49ae-9353-20c087a296cd",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/a8258cc4-270e-49ae-9353-20c087a296cd"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/a8258cc4-270e-49ae-9353-20c087a296cd?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "uuid": "70359166-3f10-4afd-a528-858bbd4bb182",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/70359166-3f10-4afd-a528-858bbd4bb182"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/70359166-3f10-4afd-a528-858bbd4bb182?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "modules: theatre",
+      "uuid": "ae449732-8bf3-476b-b1dd-0718a539dfc5",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "theatre",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/ae449732-8bf3-476b-b1dd-0718a539dfc5"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/iCARE001-645f-451f-8efe-a0db56f09676/attribute/ae449732-8bf3-476b-b1dd-0718a539dfc5?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ],
+  "retired": false
+}

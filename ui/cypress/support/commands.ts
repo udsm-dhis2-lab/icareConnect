@@ -36,15 +36,18 @@
 //   }
 // }
 
+import uniqueHash from "unique-hash";
+var arr = [];
+
 Cypress.Commands.add("Login", (username: string, password: string) => {
   cy.intercept(
     "GET",
     "/openmrs/ws/rest/v1/location?limit=100&tag=Login+Location&v=custom:(display,country,postalCode,stateProvince,uuid,tags,description,parentLocation:(uuid,display),attributes:(attributeType,uuid,value,voided))",
     { fixture: "loginLocation.json" }
   );
-
+  // writeApiUrl("registration/index");
+  // writeApiUrls("registration/index");
   cy.visit("/");
-
   cy.get("#username").type(username);
   cy.get("#password").type(password + "{enter}");
 });
@@ -60,7 +63,10 @@ Cypress.Commands.add("Logout", () => {
 });
 
 Cypress.Commands.add("selectRegistrationModule", () => {
+  // writeApiUrl("registration/index");
+  // writeApiUrls("registration/index");
   cy.contains("Registration").click();
+
   cy.get("#RegistrationBtn").should("be.visible");
   cy.contains("Registration Desk").should("be.visible");
 });
@@ -105,6 +111,114 @@ Cypress.Commands.add("selectDHIS2Module", () => {
 });
 Cypress.Commands.add("selectTheatreModule", () => {
   cy.contains("Theatre").click();
+});
+
+function getFileName(context, req) {
+  return uniqueHash(
+    `auto/${req.url
+      .replace("/openmrs/ws/rest/v1/", "")
+      .replace("http://localhost:4200", "")}`,
+    {
+      prepend: `auto/${context}/${req.method}`,
+    }
+  );
+  //return `auto/${ req.url.replace('/openmrs/ws/rest/v1/', '').replace('http://localhost:4200', '') }-${req.method}`;
+}
+function setIntercept(context, rM) {
+  let fileName = getFileName(context, rM);
+  try {
+    cy.intercept(rM, { fixture: `${fileName}.json` });
+  } catch (e) {
+    console.error(e);
+  }
+}
+function writeApiUrl(filename) {
+  cy.intercept("/openmrs/ws/rest/v1/**", (req) => {
+    let ele = { method: req.method, url: req.url };
+    arr.push(ele);
+    console.log("elements", arr);
+    return arr;
+    // req.continue((res) => {
+    //   console.log(req.url);
+    //   cy.now("writeFile", `cypress/fixtures/${filename}.json`, arr, {
+    //     flag: "a+",
+    //   });
+    // if (res.body != "") {
+    // cy.now("writeFile", `cypress/fixtures/${filename}.json`, {
+    //   method: req.method,
+    //   path: req.url,
+    // });
+    //   }
+    // });
+  });
+}
+function writeApiUrls(filename) {
+  console.log("Writing");
+  if (arr?.length > 0) {
+    console.log("Writing total", arr);
+    cy.now("writeFile", `cypress/fixtures/${filename}.json`, arr, {
+      flag: "a+",
+    });
+  }
+}
+Cypress.Commands.add("writeApiUrls", (filename) => {
+  if (arr?.length > 0) {
+    console.log("Writing total", arr);
+    cy.now("writeFile", `cypress/fixtures/${filename}.json`, arr, {
+      flag: "a+",
+    });
+  }
+});
+
+// cy.intercept("/openmrs/ws/rest/v1/**", (req) => {
+//   let ele = { method: req.method, url: req.url };
+//   arr.push(ele);
+//   console.log("elements", arr);
+//   return arr;
+Cypress.Commands.add("writeApiUrl", (filename) => {
+  cy.now("writeFile", `cypress/fixtures/${filename}.json`, "[");
+  cy.intercept("/openmrs/ws/rest/v1/**", (req) => {
+    let ele = { method: req.method, url: req.url };
+    // arr.push(ele);
+    cy.now("writeFile", `cypress/fixtures/${filename}.json`, ele, {
+      flag: "a+",
+    });
+    cy.now("writeFile", `cypress/fixtures/${filename}.json`, ",", {
+      flag: "a+",
+    });
+  });
+  cy.now("writeFile", `cypress/fixtures/${filename}.json`, "]", {
+    flag: "a+",
+  });
+  // cy.now("writeFile", `cypress/fixtures/${filename}.json`, ",", {
+  //   flag: "a+",
+  // });
+});
+
+Cypress.Commands.add("autoInterceptor", (context, routeMatcher) => {
+  if (Array.isArray(routeMatcher)) {
+    routeMatcher.forEach((rM) => {
+      setIntercept(context, rM);
+    });
+  } else {
+    setIntercept(context, routeMatcher);
+  }
+});
+Cypress.Commands.add("autoInterceptorFixture", (context) => {
+  return cy.fixture(`auto/${context}/index.json`).then((data) => {
+    return cy.autoInterceptor(context, data);
+  });
+});
+Cypress.Commands.add("autoInterceptorSaver", (context) => {
+  cy.intercept("/openmrs/ws/rest/v1/**", (req) => {
+    let fileName = getFileName(context, req);
+    req.continue((res) => {
+      // console.log(req.url, fileName);
+      if (res.body != "") {
+        cy.now("writeFile", `cypress/fixtures/${fileName}.json`, res.body);
+      }
+    });
+  });
 });
 // Cypress.Commands.add("", () => {});
 // Cypress.Commands.add("", () => {});

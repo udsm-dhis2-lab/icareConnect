@@ -1,45 +1,56 @@
 it("Patient Registration", () => {
-  cy.intercept(
-    "GET",
-    "/openmrs/ws/rest/v1/session?v=custom:(authenticated,user:(privileges:(uuid,name,roles),roles:(uuid,name)))",
-    { fixture: "/registration/session.json" }
-  );
-  cy.intercept(
-    "GET",
-    "/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003",
-    { fixture: "/registration/user.json" }
-  );
-  cy.intercept(
-    "GET",
-    "/openmrs/ws/rest/v1/provider?user=84ee6acb-1e75-11eb-8bc7-0242c0a85003&v=custom:(uuid,display,person:(uuid,display))",
-    { fixture: "/registration/provider.json" }
-  );
-  cy.intercept(
-    "GET",
-    "/openmrs/ws/rest/v1/role?startIndex=0&limit=100&v=custom:(uuid,name,privileges:(uuid,name))",
-    { fixture: "/registration/roleStartindex-0.json" }
-  );
-  cy.intercept(
-    "GET",
-    "/openmrs/ws/rest/v1/role?startIndex=100&limit=100&v=custom:(uuid,name,privileges:(uuid,name))",
-    { fixture: "/registration/roleStartindex-100.json" }
-  );
-  cy.intercept(
-    "GET",
-    "/openmrs/ws/rest/v1/systemsetting?q=iCare.filters.billing&v=full",
-    { fixture: "/registration/iCareSysSettingBilling.json" }
-  );
-  cy.intercept(
-    "GET",
-    "/openmrs/ws/rest/v1/systemsetting?q=iCare.general.systemSettings.support.googleFormLink&v=full",
-    { fixture: "/registration/iCareSysSettingGeneral.json" }
-  );
+  // cy.intercept(
+  //   "GET",
+  //   "/openmrs/ws/rest/v1/session?v=custom:(authenticated,user:(privileges:(uuid,name,roles),roles:(uuid,name)))",
+  //   { fixture: "/registration/session.json" }
+  // );
+  // cy.intercept(
+  //   "GET",
+  //   "/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+  //   { fixture: "/registration/user.json" }
+  // );
+  // cy.intercept(
+  //   "GET",
+  //   "/openmrs/ws/rest/v1/provider?user=84ee6acb-1e75-11eb-8bc7-0242c0a85003&v=custom:(uuid,display,person:(uuid,display))",
+  //   { fixture: "/registration/provider.json" }
+  // );
+  // cy.intercept(
+  //   "GET",
+  //   "/openmrs/ws/rest/v1/role?startIndex=0&limit=100&v=custom:(uuid,name,privileges:(uuid,name))",
+  //   { fixture: "/registration/roleStartindex-0.json" }
+  // );
+  // cy.intercept(
+  //   "GET",
+  //   "/openmrs/ws/rest/v1/role?startIndex=100&limit=100&v=custom:(uuid,name,privileges:(uuid,name))",
+  //   { fixture: "/registration/roleStartindex-100.json" }
+  // );
+  // cy.intercept(
+  //   "GET",
+  //   "/openmrs/ws/rest/v1/systemsetting?q=iCare.filters.billing&v=full",
+  //   { fixture: "/registration/iCareSysSettingBilling.json" }
+  // );
+  // cy.intercept(
+  //   "GET",
+  //   "/openmrs/ws/rest/v1/systemsetting?q=iCare.general.systemSettings.support.googleFormLink&v=full",
+  //   { fixture: "/registration/iCareSysSettingGeneral.json" }
+  // );
+
+  cy.autoInterceptorFixture("login");
+
+  cy.writeApiUrl("registration");
+  cy.writeApiUrls("registration");
   cy.Login("admin", "Admin123");
-  // cy.intercept("GET", "", { fixture: "/registration/.json" });
-  // cy.intercept("GET", "", { fixture: "/registration/.json" });
+
+  // cy.autoInterceptorSaver("regtest");
+  // cy.autoInterceptorFixture("registration");
   cy.selectRegistrationModule();
+  cy.contains("Registration Desk").should("be.visible");
   cy.get("#RegistrationBtn").should("be.visible");
   cy.get("#RegistrationBtn").click();
+  cy.contains("Register New Patient").should("be.visible");
+  cy.get("#mat-checkbox-1").should("be.visible");
+  cy.get("#saveBtn").should("be.disabled");
+  cy.get("#cancelBtn").should("be.visible");
   cy.get("#patientType")
     .click()
     .then(() => {
@@ -115,5 +126,7 @@ it("Patient Registration", () => {
   cy.get(
     ":nth-child(1) > .d-flex > app-form > .p-1 > .col-12.ng-star-inserted > .row > .col-12 > app-field > :nth-child(1) > .mat-form-field > .mat-form-field-wrapper > .mat-form-field-flex"
   ).type("0987654321");
+
+  cy.get("#saveBtn").should("be.not.disabled");
   cy.get("#saveBtn").click();
 });

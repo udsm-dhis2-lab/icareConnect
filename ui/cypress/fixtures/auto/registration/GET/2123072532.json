@@ -1,0 +1,331 @@
+{
+  "uuid": "c3d16c94-4e03-4b19-9491-43d10f470981",
+  "display": "Occupation",
+  "names": [
+    {
+      "display": "Occupation",
+      "uuid": "94fdbaba-9da6-4791-9a52-c41c7a9676c1",
+      "name": "Occupation",
+      "locale": "en",
+      "localePreferred": false,
+      "conceptNameType": "SHORT",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/c3d16c94-4e03-4b19-9491-43d10f470981/name/94fdbaba-9da6-4791-9a52-c41c7a9676c1"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/c3d16c94-4e03-4b19-9491-43d10f470981/name/94fdbaba-9da6-4791-9a52-c41c7a9676c1?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Occupation",
+      "uuid": "c6a97f88-5088-4fee-8798-94e37ef055f5",
+      "name": "Occupation",
+      "locale": "en",
+      "localePreferred": true,
+      "conceptNameType": "FULLY_SPECIFIED",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/c3d16c94-4e03-4b19-9491-43d10f470981/name/c6a97f88-5088-4fee-8798-94e37ef055f5"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/c3d16c94-4e03-4b19-9491-43d10f470981/name/c6a97f88-5088-4fee-8798-94e37ef055f5?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ],
+  "answers": [
+    {
+      "uuid": "159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Student",
+      "names": [
+        {
+          "display": "Student",
+          "uuid": "106568BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Student",
+          "locale": "en",
+          "localePreferred": true,
+          "conceptNameType": "FULLY_SPECIFIED",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/106568BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/106568BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Étudiant",
+          "uuid": "106708BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Étudiant",
+          "locale": "fr",
+          "localePreferred": true,
+          "conceptNameType": "FULLY_SPECIFIED",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/106708BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/106708BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Elèv",
+          "uuid": "140353BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Elèv",
+          "locale": "ht",
+          "localePreferred": true,
+          "conceptNameType": "FULLY_SPECIFIED",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/140353BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/140353BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        }
+      ]
+    },
+    {
+      "uuid": "a8e46340-94d1-44d8-9792-794ddb3c76e9",
+      "display": "Staff",
+      "names": [
+        {
+          "display": "Staff",
+          "uuid": "6641fa5b-95ba-462b-8c82-3fe11a6df17b",
+          "name": "Staff",
+          "locale": "en",
+          "localePreferred": false,
+          "conceptNameType": "SHORT",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/a8e46340-94d1-44d8-9792-794ddb3c76e9/name/6641fa5b-95ba-462b-8c82-3fe11a6df17b"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/a8e46340-94d1-44d8-9792-794ddb3c76e9/name/6641fa5b-95ba-462b-8c82-3fe11a6df17b?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Staff",
+          "uuid": "3cefab35-dd24-4be0-b140-355f76ce4cf0",
+          "name": "Staff",
+          "locale": "en",
+          "localePreferred": true,
+          "conceptNameType": "FULLY_SPECIFIED",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/a8e46340-94d1-44d8-9792-794ddb3c76e9/name/3cefab35-dd24-4be0-b140-355f76ce4cf0"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/a8e46340-94d1-44d8-9792-794ddb3c76e9/name/3cefab35-dd24-4be0-b140-355f76ce4cf0?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        }
+      ]
+    },
+    {
+      "uuid": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Other",
+      "names": [
+        {
+          "display": "Lòt ki pa-kode",
+          "uuid": "135577BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Lòt ki pa-kode",
+          "locale": "ht",
+          "localePreferred": false,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/135577BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/135577BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Autre et non codé",
+          "uuid": "142798BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Autre et non codé",
+          "locale": "fr",
+          "localePreferred": false,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/142798BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/142798BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Other",
+          "uuid": "126207BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Other",
+          "locale": "en",
+          "localePreferred": true,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/126207BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/126207BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Autre",
+          "uuid": "105802BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Autre",
+          "locale": "fr",
+          "localePreferred": true,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/105802BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/105802BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "LÒT SAN-KÒD",
+          "uuid": "134542BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "LÒT SAN-KÒD",
+          "locale": "ht",
+          "localePreferred": false,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/134542BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/134542BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "OTHER NON-CODED",
+          "uuid": "2761BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "OTHER NON-CODED",
+          "locale": "en",
+          "localePreferred": false,
+          "conceptNameType": "FULLY_SPECIFIED",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/2761BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/2761BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Nyinginezo",
+          "uuid": "110113BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Nyinginezo",
+          "locale": "sw",
+          "localePreferred": true,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/110113BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/110113BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Lòt",
+          "uuid": "134541BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Lòt",
+          "locale": "ht",
+          "localePreferred": true,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/134541BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/134541BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        },
+        {
+          "display": "Otro no codificado",
+          "uuid": "110860BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "name": "Otro no codificado",
+          "locale": "es",
+          "localePreferred": true,
+          "conceptNameType": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/110860BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/concept/5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/name/110860BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB?v=full"
+            }
+          ],
+          "resourceVersion": "1.9"
+        }
+      ]
+    }
+  ],
+  "setMembers": []
+}

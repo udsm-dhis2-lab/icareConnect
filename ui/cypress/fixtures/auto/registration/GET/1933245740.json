@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "uuid": "d2316c28-1818-409b-8eff-f0ce0cfa1e17",
+      "property": "iCare.registration.form.additionalClientInformation.conceptUuid",
+      "value": "b2399b15-a38d-47f9-8e15-fc7e7c7dc1f3",
+      "description": null,
+      "display": "I Care - Registration Form Additional Client Information Concept Uuid = b2399b15-a38d-47f9-8e15-fc7e7c7dc1f3",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/d2316c28-1818-409b-8eff-f0ce0cfa1e17"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "63417f7f-45c4-4223-87ad-ab750ff9a62f",
+      "property": "icare.registration.form.areaLeaderName",
+      "value": "d45540bc-3270-41bc-ac62-0dacd63db22e",
+      "description": "Leader Name in Additional Patient Information",
+      "display": "Icare - Registration Form Area Leader Name = d45540bc-3270-41bc-ac62-0dacd63db22e",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/63417f7f-45c4-4223-87ad-ab750ff9a62f"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "ca53ebf1-e8b6-4e87-be48-89c0068a9ecf",
+      "property": "icare.registration.form.areaLeaderNumber",
+      "value": "a8236b6a-86fa-45a2-82db-42b1fd42c477",
+      "description": "This is Area leader Number in Additional Patient Information",
+      "display": "Icare - Registration Form Area Leader Number = a8236b6a-86fa-45a2-82db-42b1fd42c477",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/ca53ebf1-e8b6-4e87-be48-89c0068a9ecf"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "75a87761-7f4a-4425-9cfe-cf279f98bd0b",
+      "property": "iCare.registration.form.clientRelationShipTypes.conceptUuid",
+      "value": "a74b0803-0aae-43a7-84f9-2daa2cd19332",
+      "description": null,
+      "display": "I Care - Registration Form Client Relation Ship Types Concept Uuid = a74b0803-0aae-43a7-84f9-2daa2cd19332",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/75a87761-7f4a-4425-9cfe-cf279f98bd0b"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "f430eec5-60ea-4398-a10d-ef0a485eee50",
+      "property": "icare.registration.form.contactInfo.residenceLocationUuid",
+      "value": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+      "description": "uuid for Tanzania tree with administrative tag",
+      "display": "Icare - Registration Form Contact Info Residence Location Uuid = 2150c401-de94-4a6c-941d-2844db1a1dc0",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/f430eec5-60ea-4398-a10d-ef0a485eee50"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "bd40a887-6238-4439-9dcc-cf8e8a25e40b",
+      "property": "icare.registration.form.education",
+      "value": "79d20b25-42aa-42a7-a48e-8cd9a96c6064",
+      "description": "Additional Patient Information",
+      "display": "Icare - Registration Form Education = 79d20b25-42aa-42a7-a48e-8cd9a96c6064",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/bd40a887-6238-4439-9dcc-cf8e8a25e40b"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "1efc5019-6216-4606-852b-0941a24b172e",
+      "property": "icare.registration.form.maritalStatus",
+      "value": "f62b5605-1335-45e9-9574-9487e85b2820",
+      "description": "Additional Personal Information",
+      "display": "Icare - Registration Form Marital Status = f62b5605-1335-45e9-9574-9487e85b2820",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/1efc5019-6216-4606-852b-0941a24b172e"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "32417f2d-ce11-4e90-aea8-58ab9fb0c4f7",
+      "property": "icare.registration.form.occupation",
+      "value": "c3d16c94-4e03-4b19-9491-43d10f470981",
+      "description": "For occupation form variable",
+      "display": "Icare - Registration Form Occupation = c3d16c94-4e03-4b19-9491-43d10f470981",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/32417f2d-ce11-4e90-aea8-58ab9fb0c4f7"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "a233dad4-297d-4498-8464-b550e4f69a19",
+      "property": "icare.registration.form.religion",
+      "value": "e8a3910a-1751-4ae6-a904-3d4d539b5c18",
+      "description": "Additional Patient Information",
+      "display": "Icare - Registration Form Religion = e8a3910a-1751-4ae6-a904-3d4d539b5c18",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/a233dad4-297d-4498-8464-b550e4f69a19"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

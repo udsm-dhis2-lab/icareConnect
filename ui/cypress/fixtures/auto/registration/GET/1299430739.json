@@ -1,0 +1,101 @@
+{
+  "results": [
+    {
+      "uuid": "5e354999-3b34-476d-939f-8d7b70a7a97d",
+      "display": "Kibo Village",
+      "parentLocation": {
+        "uuid": "db40ef31-cd0f-4b5b-8746-f4fcf10ce8eb",
+        "display": "Ubungo Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "45428a2e-0515-4b24-a775-eefb586aa138",
+      "display": "Kiboga Village",
+      "parentLocation": {
+        "uuid": "6a76b7d8-aa8a-4185-9f03-618ba9e0fa72",
+        "display": "Msongola Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "88ea110f-c306-48fe-8a81-ae47222eedca",
+      "display": "Kibonde maji \"b Village",
+      "parentLocation": {
+        "uuid": "47333b74-91b9-4dd7-9941-f1b31df99c6b",
+        "display": "Mbagala kuu Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "562f67d7-fda9-44aa-8600-0a1fc154dffc",
+      "display": "Kibondemaji a Village",
+      "parentLocation": {
+        "uuid": "b86e4bf2-d6e9-474e-bb59-c90fd6a9b65a",
+        "display": "Kibondemaji Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "b86e4bf2-d6e9-474e-bb59-c90fd6a9b65a",
+      "display": "Kibondemaji Ward",
+      "parentLocation": {
+        "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+        "display": "Temeke",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "display": "Pharmacy",
+  "uuid": "7f65d926-57d6-4402-ae10-a5b3bcbf7986",
+  "tags": [
+    {
+      "uuid": "ccc01585-5312-4e0a-9b5d-da83240bc626",
+      "display": "Store"
+    },
+    {
+      "uuid": "6f00c9e3-afa1-4682-b365-58a733439812",
+      "display": "Module Location"
+    },
+    {
+      "uuid": "513f239f-fed3-439b-a0a0-220aaae60ce6",
+      "display": "Request-From-MainStore Location"
+    },
+    {
+      "uuid": "f5283cd5-0046-43a1-b99c-d9093b4cd2b9",
+      "display": "Dispensing Unit"
+    },
+    {
+      "uuid": "5f020933-c5c5-422b-8a87-5031fb7cf6e0",
+      "display": "Pharmacy Location"
+    }
+  ],
+  "parentLocation": {
+    "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+    "display": "University of Dar es Salaam"
+  },
+  "attributes": [
+    {
+      "display": "modules: dispensing",
+      "uuid": "iCAREatt-1003-451f-8efe-a0db56f09676",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "dispensing",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/7f65d926-57d6-4402-ae10-a5b3bcbf7986/attribute/iCAREatt-1003-451f-8efe-a0db56f09676"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/7f65d926-57d6-4402-ae10-a5b3bcbf7986/attribute/iCAREatt-1003-451f-8efe-a0db56f09676?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "modules: store",
+      "uuid": "75fad12a-1f55-49c9-a7ff-3ead1a8f6c3d",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "store",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/7f65d926-57d6-4402-ae10-a5b3bcbf7986/attribute/75fad12a-1f55-49c9-a7ff-3ead1a8f6c3d"
+        },
+        {
+          "rel": "full",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/7f65d926-57d6-4402-ae10-a5b3bcbf7986/attribute/75fad12a-1f55-49c9-a7ff-3ead1a8f6c3d?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ],
+  "retired": false
+}

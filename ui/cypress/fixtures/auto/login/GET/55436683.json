@@ -1,0 +1,14 @@
+{
+  "uuid": "00000004444IIIIIIIIIIIIIIIIIIIIIIIII",
+  "display": "PaymentCategories",
+  "setMembers": [
+    {
+      "uuid": "00000100IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "display": "Cash"
+    },
+    {
+      "uuid": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "display": "Insurance"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "60b35660-8f09-4e17-b948-7323df3bc07c",
+      "property": "iCare.LIS",
+      "value": "false",
+      "description": null,
+      "display": "I Care - LIS = false",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/systemsetting/60b35660-8f09-4e17-b948-7323df3bc07c"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

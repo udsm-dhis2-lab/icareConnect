@@ -1,0 +1,978 @@
+{
+  "results": [
+    {
+      "uuid": "7fa3a8fe-2efe-42a2-b983-fe8f0eaa3408",
+      "display": "Kagera Village",
+      "parentLocation": {
+        "uuid": "5252b220-6749-4d39-b74a-31bb4f07192c",
+        "display": "Makurumla Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "70b49f3c-3611-4e37-bc3c-a7144f4ffc05",
+      "display": "Kairuki Referral Hospital",
+      "parentLocation": {
+        "uuid": "iCARE500-REFE-41ab-8422-108a0c277d98",
+        "display": "Refer to",
+        "parentLocation": null
+      }
+    },
+    {
+      "uuid": "49990fe1-01ac-4d10-a9f0-09cf2751d787",
+      "display": "Kajima Village",
+      "parentLocation": {
+        "uuid": "cfb5d2a5-8ef3-4449-9436-3ad2ea9b6af9",
+        "display": "Makuburi Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "80c98b11-1656-4908-ac13-a8cdc20f262b",
+      "display": "Kambangwa Village",
+      "parentLocation": {
+        "uuid": "3930df14-0c48-4896-aa5f-485db0a32357",
+        "display": "Mwananyamala Ward",
+        "parentLocation": {
+          "uuid": "572ffdd1-9f91-4931-bda2-3b596e5ac195",
+          "display": "Kinondoni",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "df4f4d73-d449-4185-a5e0-ddf9627eb962",
+      "display": "Kanga Village",
+      "parentLocation": {
+        "uuid": "024fb6d8-f58b-4b26-9a46-b0b30908dcba",
+        "display": "Kinyerezi Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "778fefc5-a3b8-48ba-beb2-d1a9de125efd",
+      "display": "Kanuni Village",
+      "parentLocation": {
+        "uuid": "f83f4418-db28-48de-a406-c445f933b798",
+        "display": "Mabibo Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "9e65d742-ea6c-4987-974a-cfcc9df0086e",
+      "display": "Karakata Village",
+      "parentLocation": {
+        "uuid": "512785c5-78f8-48a8-9568-e7e3481c37f6",
+        "display": "Kipawa Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "a5210989-1fb7-4cdb-9104-6fd3186625f0",
+      "display": "Karezange Village",
+      "parentLocation": {
+        "uuid": "bfb7f0e7-a6bb-4d6c-b84b-3bfa166b95e1",
+        "display": "Kivule Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "8e96419b-81a3-4724-ae65-32660eeb9a8b",
+      "display": "Kariakoo kaskazini Village",
+      "parentLocation": {
+        "uuid": "28958d38-fa44-4906-a5c4-573c527938cf",
+        "display": "Kariakoo Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "91f6aeb9-2e76-49d3-9b2c-9778d5d0bef2",
+      "display": "Kariakoo magharibi Village",
+      "parentLocation": {
+        "uuid": "28958d38-fa44-4906-a5c4-573c527938cf",
+        "display": "Kariakoo Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "7beb1772-254b-4208-be20-28ad433342e3",
+      "display": "Kariakoo mashariki Village",
+      "parentLocation": {
+        "uuid": "28958d38-fa44-4906-a5c4-573c527938cf",
+        "display": "Kariakoo Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "28958d38-fa44-4906-a5c4-573c527938cf",
+      "display": "Kariakoo Ward",
+      "parentLocation": {
+        "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+        "display": "Ilala",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    },
+    {
+      "uuid": "59eb49cc-187e-443d-8c66-7d8aa11a28b5",
+      "display": "Karume Village",
+      "parentLocation": {
+        "uuid": "dd127ed1-bf5d-431a-a45d-895c4913af32",
+        "display": "Ilala Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "1ed5d3f6-7455-4be0-b123-8f5a37383dc0",
+      "display": "Kasulu Village",
+      "parentLocation": {
+        "uuid": "dd127ed1-bf5d-431a-a45d-895c4913af32",
+        "display": "Ilala Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "b9c6edee-297a-46c1-8809-76bea3af2fe4",
+      "display": "Kawawa Village",
+      "parentLocation": {
+        "uuid": "782a1fd2-b065-4f97-9172-737988add01f",
+        "display": "Hananasif Ward",
+        "parentLocation": {
+          "uuid": "572ffdd1-9f91-4931-bda2-3b596e5ac195",
+          "display": "Kinondoni",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "a5491b4a-c09d-4a6f-ba90-2139056690e5",
+      "display": "Kawe Ward",
+      "parentLocation": {
+        "uuid": "572ffdd1-9f91-4931-bda2-3b596e5ac195",
+        "display": "Kinondoni",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    },
+    {
+      "uuid": "c5e1f639-eaf5-4026-8485-abdac99635b0",
+      "display": "Keko \"b Village",
+      "parentLocation": {
+        "uuid": "603420ee-c60d-4ece-ade8-7033627d82a0",
+        "display": "Keko Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "c5c3d47f-afcc-4d47-96b1-df504f5f63ec",
+      "display": "Keko machungwa Village",
+      "parentLocation": {
+        "uuid": "f1769ecc-4a36-4471-815f-f4cfdbe4ccf7",
+        "display": "Miburani Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "67ece831-638c-461b-91cf-48a9c5a173d4",
+      "display": "Keko magurumbasi \"a Village",
+      "parentLocation": {
+        "uuid": "603420ee-c60d-4ece-ade8-7033627d82a0",
+        "display": "Keko Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "1e8f35a2-4504-4910-b077-30349cb96ecb",
+      "display": "Keko magurumbasi \"b Village",
+      "parentLocation": {
+        "uuid": "603420ee-c60d-4ece-ade8-7033627d82a0",
+        "display": "Keko Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "0f7a1cd4-c8c2-4b2c-ba32-c161e481f691",
+      "display": "Keko mwanga \"a Village",
+      "parentLocation": {
+        "uuid": "603420ee-c60d-4ece-ade8-7033627d82a0",
+        "display": "Keko Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "76fcd787-62e4-44cb-a6c7-de459ee7f87b",
+      "display": "Keko mwanga \"b Village",
+      "parentLocation": {
+        "uuid": "603420ee-c60d-4ece-ade8-7033627d82a0",
+        "display": "Keko Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "603420ee-c60d-4ece-ade8-7033627d82a0",
+      "display": "Keko Ward",
+      "parentLocation": {
+        "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+        "display": "Temeke",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    },
+    {
+      "uuid": "c6a7f0dc-86de-45f2-a7b2-391465ac8951",
+      "display": "Kibada Ward",
+      "parentLocation": {
+        "uuid": "a5589c3c-0462-4933-9493-e4c064b702d8",
+        "display": "Kigamboni",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    },
+    {
+      "uuid": "8ddec076-3c43-4401-a9af-fb93b4115fe1",
+      "display": "Kibaga Village",
+      "parentLocation": {
+        "uuid": "024fb6d8-f58b-4b26-9a46-b0b30908dcba",
+        "display": "Kinyerezi Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "216e7227-be99-4cf7-855e-5b141890a66d",
+      "display": "Kibamba Village",
+      "parentLocation": {
+        "uuid": "2fa1bc59-fd06-4788-a62d-785f2d43c331",
+        "display": "Kibamba Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "2fa1bc59-fd06-4788-a62d-785f2d43c331",
+      "display": "Kibamba Ward",
+      "parentLocation": {
+        "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+        "display": "Ubungo",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    },
+    {
+      "uuid": "1e19d0ec-d812-4a6e-b747-63e0b27deea3",
+      "display": "Kibangu Village",
+      "parentLocation": {
+        "uuid": "cfb5d2a5-8ef3-4449-9436-3ad2ea9b6af9",
+        "display": "Makuburi Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "3c2ab763-1c2f-4c43-8a52-ac15aa70f909",
+      "display": "Kibasila Village",
+      "parentLocation": {
+        "uuid": "e4f857c4-e359-4673-a418-37cb52e4624c",
+        "display": "Upanga mashariki Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "df3906d5-9957-4e88-b435-540f2233d0e1",
+      "display": "Kibene Village",
+      "parentLocation": {
+        "uuid": "fe26e53d-1ee5-4a79-b519-3bca516c9e04",
+        "display": "Vijibweni Ward",
+        "parentLocation": {
+          "uuid": "a5589c3c-0462-4933-9493-e4c064b702d8",
+          "display": "Kigamboni",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "5e354999-3b34-476d-939f-8d7b70a7a97d",
+      "display": "Kibo Village",
+      "parentLocation": {
+        "uuid": "db40ef31-cd0f-4b5b-8746-f4fcf10ce8eb",
+        "display": "Ubungo Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "45428a2e-0515-4b24-a775-eefb586aa138",
+      "display": "Kiboga Village",
+      "parentLocation": {
+        "uuid": "6a76b7d8-aa8a-4185-9f03-618ba9e0fa72",
+        "display": "Msongola Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "88ea110f-c306-48fe-8a81-ae47222eedca",
+      "display": "Kibonde maji \"b Village",
+      "parentLocation": {
+        "uuid": "47333b74-91b9-4dd7-9941-f1b31df99c6b",
+        "display": "Mbagala kuu Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "562f67d7-fda9-44aa-8600-0a1fc154dffc",
+      "display": "Kibondemaji a Village",
+      "parentLocation": {
+        "uuid": "b86e4bf2-d6e9-474e-bb59-c90fd6a9b65a",
+        "display": "Kibondemaji Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "b86e4bf2-d6e9-474e-bb59-c90fd6a9b65a",
+      "display": "Kibondemaji Ward",
+      "parentLocation": {
+        "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+        "display": "Temeke",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    },
+    {
+      "uuid": "6cc2fe86-8f84-4632-a900-379ca4722f33",
+      "display": "Kibugumo Village",
+      "parentLocation": {
+        "uuid": "3df92e72-2341-4b14-bcfa-4ca5c387313b",
+        "display": "Mjimwema Ward",
+        "parentLocation": {
+          "uuid": "a5589c3c-0462-4933-9493-e4c064b702d8",
+          "display": "Kigamboni",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "d1d4436e-5d3e-4780-8e40-39babca53d70",
+      "display": "Kibululu Village",
+      "parentLocation": {
+        "uuid": "6eb43b0f-d9f7-4c68-9b09-acc981df8afe",
+        "display": "Goba Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "a2203cff-d82c-4569-84a4-27a64a633488",
+      "display": "Kibungo Village",
+      "parentLocation": {
+        "uuid": "dadc2aea-4738-49e0-b915-e2928a22cd5b",
+        "display": "Pembamnazi Ward",
+        "parentLocation": {
+          "uuid": "a5589c3c-0462-4933-9493-e4c064b702d8",
+          "display": "Kigamboni",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "c65564e9-cb7e-4ff8-9087-553a6951ccfc",
+      "display": "Kiburugwa namba3 Village",
+      "parentLocation": {
+        "uuid": "f58efb87-d861-415a-b5ed-93d44f16b383",
+        "display": "Kiburugwa Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "0b87c676-186f-4e33-ad4c-0e996a0206a7",
+      "display": "Kiburugwa Village",
+      "parentLocation": {
+        "uuid": "f58efb87-d861-415a-b5ed-93d44f16b383",
+        "display": "Kiburugwa Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "f58efb87-d861-415a-b5ed-93d44f16b383",
+      "display": "Kiburugwa Ward",
+      "parentLocation": {
+        "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+        "display": "Temeke",
+        "parentLocation": {
+          "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+          "display": "Dar es Salaam",
+          "parentLocation": {
+            "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+            "display": "Tanzania",
+            "parentLocation": null
+          }
+        }
+      }
+    },
+    {
+      "uuid": "4e899025-99bc-4f24-825d-6063a31876f4",
+      "display": "Kibwegere Village",
+      "parentLocation": {
+        "uuid": "2fa1bc59-fd06-4788-a62d-785f2d43c331",
+        "display": "Kibamba Ward",
+        "parentLocation": {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "07d70f10-7a70-48cb-a3f7-e58184f0e57e",
+      "display": "Kichangani Village",
+      "parentLocation": {
+        "uuid": "d93b6d27-2a11-4283-8703-0482251d93d4",
+        "display": "Majohe Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "45b6762a-e3c7-4365-ad77-c27bd9489295",
+      "display": "Kichemchem Village",
+      "parentLocation": {
+        "uuid": "47333b74-91b9-4dd7-9941-f1b31df99c6b",
+        "display": "Mbagala kuu Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "322a94de-94bc-4b0f-9b02-72fdd64ff77f",
+      "display": "Kidagaa Village",
+      "parentLocation": {
+        "uuid": "5d382417-43fd-482e-9d59-8cbc7c51aa0b",
+        "display": "Buza Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "728fa187-797a-4563-918a-c32c4c15ba02",
+      "display": "Kidole Village",
+      "parentLocation": {
+        "uuid": "6a76b7d8-aa8a-4185-9f03-618ba9e0fa72",
+        "display": "Msongola Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "39ebc1eb-b065-4305-b119-3dde89f1fe69",
+      "display": "Kidugalo Village",
+      "parentLocation": {
+        "uuid": "66b04137-6f5c-40e1-be8c-7f3894f30cd7",
+        "display": "Chanika Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "2906a510-d9b4-4082-a361-546de9a34aad",
+      "display": "Kiembesamaki Village",
+      "parentLocation": {
+        "uuid": "d05d9999-5779-46a3-a0d8-ff0f18eb04d1",
+        "display": "Kilakala Ward",
+        "parentLocation": {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "e0e0cfec-0260-42c8-93fc-415d8f063e4c",
+      "display": "Kifuru Village",
+      "parentLocation": {
+        "uuid": "024fb6d8-f58b-4b26-9a46-b0b30908dcba",
+        "display": "Kinyerezi Ward",
+        "parentLocation": {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uuid": "11aea2a5-aa17-4ab5-8c57-512bc9093316",
+      "display": "Kifurukwe Village",
+      "parentLocation": {
+        "uuid": "c6a7f0dc-86de-45f2-a7b2-391465ac8951",
+        "display": "Kibada Ward",
+        "parentLocation": {
+          "uuid": "a5589c3c-0462-4933-9493-e4c064b702d8",
+          "display": "Kigamboni",
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "parentLocation": {
+              "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+              "display": "Tanzania"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "rel": "next",
+      "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location?q=k&v=custom%3A%28uuid%2Cdisplay%2CparentLocation%3A%28uuid%2Cdisplay%2CparentLocation%3A%28uuid%2Cdisplay%2CparentLocation%3A%28uuid%2Cdisplay%2CparentLocation%3A%28uuid%2Cdisplay%29%29%29%29%29&startIndex=50"
+    }
+  ]
+}

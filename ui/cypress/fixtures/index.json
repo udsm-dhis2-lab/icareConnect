@@ -1,0 +1,4 @@
+{
+  "method": "GET",
+  "path": "http://localhost:4200/openmrs/ws/rest/v1/session?v=custom:(authenticated,user:(privileges:(uuid,name,roles),roles:(uuid,name)))"
+}
