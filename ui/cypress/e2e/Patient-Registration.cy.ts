@@ -37,13 +37,15 @@ it("Patient Registration", () => {
 
   cy.autoInterceptorFixture("login");
 
-  cy.writeApiUrl("registration");
-  cy.writeApiUrls("registration");
+  /************ THE CODES TO WRITE URL AND METHOD IN THE FILE */
+  // cy.writeApiUrl("registration");
+  // cy.writeApiUrls("registration");
   cy.Login("admin", "Admin123");
 
   // cy.autoInterceptorSaver("regtest");
   // cy.autoInterceptorFixture("registration");
   cy.selectRegistrationModule();
+  cy.get("#input-search-patient").should("be.visible");
   cy.contains("Registration Desk").should("be.visible");
   cy.get("#RegistrationBtn").should("be.visible");
   cy.get("#RegistrationBtn").click();
