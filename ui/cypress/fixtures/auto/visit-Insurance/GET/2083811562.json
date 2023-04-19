@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "uuid": "131168f4-15f5-102d-96e4-000c29c2a5d7",
+      "display": "Drug Order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/131168f4-15f5-102d-96e4-000c29c2a5d7"
+        }
+      ]
+    },
+    {
+      "uuid": "52a447d3-a64a-11e3-9aeb-50e549534c5e",
+      "display": "Test Order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/52a447d3-a64a-11e3-9aeb-50e549534c5e"
+        }
+      ]
+    },
+    {
+      "uuid": "BIL00000IIIIIIIIIIIIIIIIIIIIIIIOTYPE",
+      "display": "Billing",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/BIL00000IIIIIIIIIIIIIIIIIIIIIIIOTYPE"
+        }
+      ]
+    },
+    {
+      "uuid": "8189dbdd-3f10-11e4-adec-0800271c1b75",
+      "display": "Radiology Order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/8189dbdd-3f10-11e4-adec-0800271c1b75"
+        }
+      ]
+    },
+    {
+      "uuid": "4ae7f8eb-0bd5-11e8-b450-525400e4297f",
+      "display": "Procedure Order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/4ae7f8eb-0bd5-11e8-b450-525400e4297f"
+        }
+      ]
+    },
+    {
+      "uuid": "iCARE901-ADMS-11e8-b450-525400e4297f",
+      "display": "Bed Order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/iCARE901-ADMS-11e8-b450-525400e4297f"
+        }
+      ]
+    },
+    {
+      "uuid": "iCARE905-CBNT-11e8-b450-525400e4297f",
+      "display": "Cabinet Order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/iCARE905-CBNT-11e8-b450-525400e4297f"
+        }
+      ]
+    },
+    {
+      "uuid": "iCARESTS-PRES-1111-1111-525400e4297f",
+      "display": "Prescription",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/iCARESTS-PRES-1111-1111-525400e4297f"
+        }
+      ]
+    },
+    {
+      "uuid": "iCARESTS-ADMS-1111-1111-525400e4297f",
+      "display": "Consultation Status",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/iCARESTS-ADMS-1111-1111-525400e4297f"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare066-15f5-102d-96e4-000EXEMPTION",
+      "display": "Exemption request",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/iCare066-15f5-102d-96e4-000EXEMPTION"
+        }
+      ]
+    },
+    {
+      "uuid": "43c94345-c5e6-4f0b-9781-9803b226af72",
+      "display": "General Prescription",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/ordertype/43c94345-c5e6-4f0b-9781-9803b226af72"
+        }
+      ]
+    }
+  ]
+}

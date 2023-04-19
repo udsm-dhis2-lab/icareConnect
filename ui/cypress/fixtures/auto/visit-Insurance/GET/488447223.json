@@ -1,0 +1,44 @@
+[
+  {
+    "discountItems": [],
+    "creator": {
+      "display": "iCare Admin (admin)",
+      "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+    },
+    "paymentMode": {
+      "display": "Cash",
+      "uuid": "00000100IIIIIIIIIIIIIIIIIIIIIIIIIIII"
+    },
+    "patient": {
+      "name": "test t test",
+      "uuid": "b19f7128-eda7-4400-b141-f12f28cc88ea"
+    },
+    "created": 1678924800000,
+    "payments": [],
+    "invoiceNumber": "000000",
+    "voided": false,
+    "visit": {
+      "uuid": "45b732d5-5dc6-4d14-b769-8f26039dd4f6"
+    },
+    "uuid": "5e5118fb-1a2b-44c2-acd6-1de0bfeba8e7",
+    "items": [
+      {
+        "item": {
+          "concept": {
+            "name": "Consultation fee - General OPD",
+            "uuid": "368826cf-1756-41fb-89d6-65091f90b40c"
+          },
+          "uuid": "ffb607b7-ff41-4ee1-af9f-0ada113f93b2"
+        },
+        "quantity": 1,
+        "price": 10000,
+        "invoice": {
+          "uuid": "5e5118fb-1a2b-44c2-acd6-1de0bfeba8e7"
+        },
+        "order": {
+          "uuid": "642dfc36-db25-4b80-8836-03c93e09f419"
+        }
+      }
+    ]
+  }
+]

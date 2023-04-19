@@ -1,0 +1,94 @@
+[
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=p&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=pa&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=pat&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=pati&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=patie&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=patien&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=patient&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visit?includeInactive=false&v=custom%3A(uuid%2CvisitType%2Clocation%3A(uuid%2Cdisplay%2Ctags%2CparentLocation%3A(uuid%2Cdisplay))%2CstartDatetime%2Cattributes%2CstopDatetime%2Cpatient%3A(uuid%2Cdisplay%2Cidentifiers%2Cperson%2Cvoided)%2Cencounters%3A(uuid%2Cform%2Clocation%2Cobs%2Corders%2Cdiagnoses%2CencounterProviders%2CencounterDatetime%2CencounterType%2Cvoided%2CvoidReason))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/billing/payment?patient=undefined"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visit?includeInactive=false&patient=9c281b4f-d0bf-4b3c-b4d7-272f217fc130&v=custom%3A(uuid%2CvisitType%2Clocation%3A(uuid%2Cdisplay%2Ctags%2CparentLocation%3A(uuid%2Cdisplay))%2CstartDatetime%2Cattributes%2CstopDatetime%2Cpatient%3A(uuid%2Cdisplay%2Cidentifiers%2Cperson%2Cvoided)%2Cencounters%3A(uuid%2Cform%2Clocation%2Cobs%2Corders%2Cdiagnoses%2CencounterProviders%2CencounterDatetime%2CencounterType%2Cvoided%2CvoidReason))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/billing/invoice?patient=undefined"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?tag=Treatment+Room&limit=100&v=custom:(uuid,name,display,description,parentLocation:(uuid,name),tags,attributes,childLocations,retired)"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?tag=Admission+Location&limit=100&v=custom:(uuid,name,display,description,parentLocation:(uuid,name),tags,attributes,childLocations,retired)"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visittype?v=custom%3A(uuid%2Cname%2Cdisplay)"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=iCare.Serives.Configurations&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=icare.billing.insurance.nhif.allowOnlineVerification&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visit?includeInactive=true&patient=9c281b4f-d0bf-4b3c-b4d7-272f217fc130&v=custom%3A(uuid%2CvisitType%2CstartDatetime%2Cattributes%2CstopDatetime%2Cpatient%3A(uuid%2Cdisplay%2Cidentifiers%2Cperson%3A(uuid%2Cage%2Cbirthdate%2Cgender%2Cdead%2CpreferredAddress%3A(cityVillage))%2Cvoided))&limit=2&startIndex=0"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/person/9c281b4f-d0bf-4b3c-b4d7-272f217fc130?v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000003333IIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display)))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000004444IIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display)))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000004444IIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display)))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000003IIIIIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,name,display,setMembers:(uuid,name,names,display))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000105IIIIIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,name,display,setMembers:(uuid,name,names,display))"
+  }
+]

@@ -38,17 +38,19 @@ it("Patient Registration", () => {
   cy.autoInterceptorFixture("login");
 
   /************ THE CODES TO WRITE URL AND METHOD IN THE FILE */
-  // cy.writeApiUrl("registration");
   // cy.writeApiUrls("registration");
   cy.Login("admin", "Admin123");
 
-  // cy.autoInterceptorSaver("regtest");
-  // cy.autoInterceptorFixture("registration");
+  // cy.autoInterceptorSaver("registration");
+  // cy.writeApiUrl("auto/registration/index");
+  cy.autoInterceptorFixture("registration");
   cy.selectRegistrationModule();
   cy.get("#input-search-patient").should("be.visible");
   cy.contains("Registration Desk").should("be.visible");
   cy.get("#RegistrationBtn").should("be.visible");
+  cy.wait(2000);
   cy.get("#RegistrationBtn").click();
+
   cy.contains("Register New Patient").should("be.visible");
   cy.get("#mat-checkbox-1").should("be.visible");
   cy.get("#saveBtn").should("be.disabled");
@@ -58,7 +60,7 @@ it("Patient Registration", () => {
     .then(() => {
       cy.contains("Student").click();
     });
-  cy.get("#patientTypeID").type("2014-04-02323");
+  cy.get("#patientTypeID").type("2014-04-02328");
   cy.get("#fname").type("Test");
   cy.get("#lname").type("Test", { force: true });
   cy.get("#mname").type("Test");

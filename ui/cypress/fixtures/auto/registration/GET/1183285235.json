@@ -13,7 +13,7 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/9721e505-b927-4cc7-b782-46ea53a85d75"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/9721e505-b927-4cc7-b782-46ea53a85d75"
         }
       ],
       "resourceVersion": "1.9"

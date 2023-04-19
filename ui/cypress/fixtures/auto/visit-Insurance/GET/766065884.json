@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "75a87761-7f4a-4425-9cfe-cf279f98bd0b",
+      "property": "iCare.registration.form.clientRelationShipTypes.conceptUuid",
+      "value": "a74b0803-0aae-43a7-84f9-2daa2cd19332",
+      "description": null,
+      "display": "I Care - Registration Form Client Relation Ship Types Concept Uuid = a74b0803-0aae-43a7-84f9-2daa2cd19332",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/75a87761-7f4a-4425-9cfe-cf279f98bd0b"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

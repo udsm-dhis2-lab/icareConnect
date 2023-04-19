@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+      "display": "University of Dar es Salaam",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+        }
+      ]
+    }
+  ]
+}

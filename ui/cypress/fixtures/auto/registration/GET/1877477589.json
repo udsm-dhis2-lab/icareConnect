@@ -16,7 +16,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -25,11 +25,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/a4d664d4-eabc-4133-9756-72208db1839a"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/a4d664d4-eabc-4133-9756-72208db1839a"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/a4d664d4-eabc-4133-9756-72208db1839a?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/a4d664d4-eabc-4133-9756-72208db1839a?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -43,7 +43,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -52,11 +52,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/0e2f523d-e216-4ab2-a25e-61d0e601857e"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/0e2f523d-e216-4ab2-a25e-61d0e601857e"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/0e2f523d-e216-4ab2-a25e-61d0e601857e?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/0e2f523d-e216-4ab2-a25e-61d0e601857e?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -70,7 +70,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
           }
         ]
       },
@@ -79,11 +79,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/b0237962-6094-4433-a438-24acd3f841c3"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/b0237962-6094-4433-a438-24acd3f841c3"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/b0237962-6094-4433-a438-24acd3f841c3?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6affde73-0ea5-4612-88e5-a4ed5b3943e0/attribute/b0237962-6094-4433-a438-24acd3f841c3?v=full"
         }
       ],
       "resourceVersion": "1.9"

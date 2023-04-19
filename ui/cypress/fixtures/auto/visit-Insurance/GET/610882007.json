@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "0562a4e2-0f02-4c95-902b-36c2aa1f773b",
+      "property": "iCare.clinic.consultation.orderType",
+      "value": "iCARESTS-ADMS-1111-1111-525400e4297f",
+      "description": null,
+      "display": "I Care - Clinic Consultation Order Type = iCARESTS-ADMS-1111-1111-525400e4297f",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/0562a4e2-0f02-4c95-902b-36c2aa1f773b"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

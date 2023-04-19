@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "3fb6ede9-6a6e-4228-893e-1f87403fc157",
+      "property": "icare.billing.payment.paymentMethod.gepg.field.1",
+      "value": "5303b541-1aaa-455d-9cf9-751664b98987",
+      "description": "This is the field seen when automatic conctol numbers generation ins't created. To be used for manual input",
+      "display": "Icare - Billing Payment Payment Method Gepg Field 1 = 5303b541-1aaa-455d-9cf9-751664b98987",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/3fb6ede9-6a6e-4228-893e-1f87403fc157"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

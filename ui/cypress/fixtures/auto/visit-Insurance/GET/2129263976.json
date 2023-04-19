@@ -1,0 +1,324 @@
+{
+  "uuid": "b19f7128-eda7-4400-b141-f12f28cc88ea",
+  "display": "108106-6-10649/2022 - test t test",
+  "identifiers": [
+    {
+      "display": "OpenEMPI ID = 108106-6-10649/2022",
+      "uuid": "493b6684-b9c3-415b-bc21-22972dbce9b3",
+      "identifier": "108106-6-10649/2022",
+      "identifierType": {
+        "uuid": "a5d38e09-efcb-4d91-a526-50ce1ba5011a",
+        "display": "OpenEMPI ID",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patientidentifiertype/a5d38e09-efcb-4d91-a526-50ce1ba5011a"
+          }
+        ]
+      },
+      "location": {
+        "uuid": "6351fcf4-e311-4a19-90f9-35667d99a8af",
+        "display": "Registration Desk",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6351fcf4-e311-4a19-90f9-35667d99a8af"
+          }
+        ]
+      },
+      "preferred": true,
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/b19f7128-eda7-4400-b141-f12f28cc88ea/identifier/493b6684-b9c3-415b-bc21-22972dbce9b3"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/b19f7128-eda7-4400-b141-f12f28cc88ea/identifier/493b6684-b9c3-415b-bc21-22972dbce9b3?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "Student ID = 2020-02-02222",
+      "uuid": "e6b4f141-067d-41c8-900b-d8940119a6f2",
+      "identifier": "2020-02-02222",
+      "identifierType": {
+        "uuid": "9f6496ec-cf8e-4186-b8fc-aaf9e93b3406",
+        "display": "Student ID",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patientidentifiertype/9f6496ec-cf8e-4186-b8fc-aaf9e93b3406"
+          }
+        ]
+      },
+      "location": {
+        "uuid": "6351fcf4-e311-4a19-90f9-35667d99a8af",
+        "display": "Registration Desk",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6351fcf4-e311-4a19-90f9-35667d99a8af"
+          }
+        ]
+      },
+      "preferred": false,
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/b19f7128-eda7-4400-b141-f12f28cc88ea/identifier/e6b4f141-067d-41c8-900b-d8940119a6f2"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/b19f7128-eda7-4400-b141-f12f28cc88ea/identifier/e6b4f141-067d-41c8-900b-d8940119a6f2?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ],
+  "person": {
+    "uuid": "b19f7128-eda7-4400-b141-f12f28cc88ea",
+    "display": "test t test",
+    "gender": "F",
+    "age": 1,
+    "birthdate": "2021-10-27T00:00:00.000+0000",
+    "birthdateEstimated": false,
+    "dead": false,
+    "deathDate": null,
+    "causeOfDeath": null,
+    "preferredName": {
+      "display": "test t test",
+      "uuid": "1678021d-0327-48e4-9cef-b226de105ea2",
+      "givenName": "test",
+      "middleName": "t",
+      "familyName": "test",
+      "familyName2": null,
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/name/1678021d-0327-48e4-9cef-b226de105ea2"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/name/1678021d-0327-48e4-9cef-b226de105ea2?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    "preferredAddress": {
+      "display": "Dar es Salaam",
+      "uuid": "a5d3bb68-0cfc-4b6f-9bbe-4ba9eac59f97",
+      "preferred": true,
+      "address1": "Dar es Salaam",
+      "address2": null,
+      "cityVillage": "Chang'ombe \"a Village",
+      "stateProvince": "Temeke",
+      "country": null,
+      "postalCode": null,
+      "countyDistrict": "Chang’ombe Ward",
+      "address3": null,
+      "address4": null,
+      "address5": null,
+      "address6": null,
+      "startDate": null,
+      "endDate": null,
+      "latitude": null,
+      "longitude": null,
+      "voided": false,
+      "address7": null,
+      "address8": null,
+      "address9": null,
+      "address10": null,
+      "address11": null,
+      "address12": null,
+      "address13": null,
+      "address14": null,
+      "address15": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/address/a5d3bb68-0cfc-4b6f-9bbe-4ba9eac59f97"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/address/a5d3bb68-0cfc-4b6f-9bbe-4ba9eac59f97?v=full"
+        }
+      ],
+      "resourceVersion": "2.0"
+    },
+    "names": [
+      {
+        "display": "test t test",
+        "uuid": "1678021d-0327-48e4-9cef-b226de105ea2",
+        "givenName": "test",
+        "middleName": "t",
+        "familyName": "test",
+        "familyName2": null,
+        "voided": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/name/1678021d-0327-48e4-9cef-b226de105ea2"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/name/1678021d-0327-48e4-9cef-b226de105ea2?v=full"
+          }
+        ],
+        "resourceVersion": "1.8"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "Dar es Salaam",
+        "uuid": "a5d3bb68-0cfc-4b6f-9bbe-4ba9eac59f97",
+        "preferred": true,
+        "address1": "Dar es Salaam",
+        "address2": null,
+        "cityVillage": "Chang'ombe \"a Village",
+        "stateProvince": "Temeke",
+        "country": null,
+        "postalCode": null,
+        "countyDistrict": "Chang’ombe Ward",
+        "address3": null,
+        "address4": null,
+        "address5": null,
+        "address6": null,
+        "startDate": null,
+        "endDate": null,
+        "latitude": null,
+        "longitude": null,
+        "voided": false,
+        "address7": null,
+        "address8": null,
+        "address9": null,
+        "address10": null,
+        "address11": null,
+        "address12": null,
+        "address13": null,
+        "address14": null,
+        "address15": null,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/address/a5d3bb68-0cfc-4b6f-9bbe-4ba9eac59f97"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/address/a5d3bb68-0cfc-4b6f-9bbe-4ba9eac59f97?v=full"
+          }
+        ],
+        "resourceVersion": "2.0"
+      }
+    ],
+    "attributes": [
+      {
+        "display": "mname = t",
+        "uuid": "2b024a92-60fc-4f65-bdfc-448b1e4353c9",
+        "value": "t",
+        "attributeType": {
+          "uuid": "6c990333-aa2b-4778-846f-9ba6edfd3661",
+          "display": "mname",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/6c990333-aa2b-4778-846f-9ba6edfd3661"
+            }
+          ]
+        },
+        "voided": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/attribute/2b024a92-60fc-4f65-bdfc-448b1e4353c9"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/attribute/2b024a92-60fc-4f65-bdfc-448b1e4353c9?v=full"
+          }
+        ],
+        "resourceVersion": "1.8"
+      },
+      {
+        "display": "phone = 0789456123",
+        "uuid": "878d5492-bf7d-462b-8258-679f88bf5984",
+        "value": "0789456123",
+        "attributeType": {
+          "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+          "display": "phone",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+            }
+          ]
+        },
+        "voided": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/attribute/878d5492-bf7d-462b-8258-679f88bf5984"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea/attribute/878d5492-bf7d-462b-8258-679f88bf5984?v=full"
+          }
+        ],
+        "resourceVersion": "1.8"
+      }
+    ],
+    "voided": false,
+    "auditInfo": {
+      "creator": {
+        "uuid": "547b54ba-9848-4cc4-b7c3-f00b63f7bc72",
+        "display": "lmasau",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/547b54ba-9848-4cc4-b7c3-f00b63f7bc72"
+          }
+        ]
+      },
+      "dateCreated": "2022-10-27T12:04:19.000+0000",
+      "changedBy": null,
+      "dateChanged": null
+    },
+    "birthtime": null,
+    "deathdateEstimated": false,
+    "causeOfDeathNonCoded": null,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/b19f7128-eda7-4400-b141-f12f28cc88ea"
+      }
+    ],
+    "resourceVersion": "1.11"
+  },
+  "voided": false,
+  "auditInfo": {
+    "creator": {
+      "uuid": "547b54ba-9848-4cc4-b7c3-f00b63f7bc72",
+      "display": "lmasau",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/547b54ba-9848-4cc4-b7c3-f00b63f7bc72"
+        }
+      ]
+    },
+    "dateCreated": "2022-10-27T12:04:19.000+0000",
+    "changedBy": null,
+    "dateChanged": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/b19f7128-eda7-4400-b141-f12f28cc88ea"
+    }
+  ],
+  "resourceVersion": "1.8"
+}

@@ -1,0 +1,14 @@
+{
+  "uuid": "274f186c-a9c0-4f37-a3c8-5b18f61353b3",
+  "display": "NHIF:1001",
+  "names": [
+    {
+      "display": "STANDARD/NAJALI AFYA/TIMIZA/NAWEZA",
+      "conceptNameType": "SHORT"
+    },
+    {
+      "display": "NHIF:1001",
+      "conceptNameType": "FULLY_SPECIFIED"
+    }
+  ]
+}

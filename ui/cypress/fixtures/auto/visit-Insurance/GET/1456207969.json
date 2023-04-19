@@ -1,0 +1,4633 @@
+{
+  "display": "Inpatient",
+  "uuid": "b1a8b05e-3542-4037-bbd3-998ee9c40574",
+  "tags": [
+    {
+      "uuid": "6f00c9e3-afa1-4682-b365-58a733439812",
+      "display": "Module Location",
+      "name": "Module Location",
+      "description": "User Module Location",
+      "retired": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/6f00c9e3-afa1-4682-b365-58a733439812"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/6f00c9e3-afa1-4682-b365-58a733439812?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "1c783dca-fd54-4ea8-a0fc-2875374e9cb6",
+      "display": "Admission Location",
+      "name": "Admission Location",
+      "description": "Patients may only be admitted to inpatient care in a location with this tag",
+      "retired": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ],
+  "description": "For admission",
+  "retired": false,
+  "parentLocation": {
+    "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+    "display": "University of Dar es Salaam"
+  },
+  "childLocations": [
+    {
+      "display": "Child Ward",
+      "uuid": "6e0418a9-b4f0-4bc7-8a1f-8dcbde1416bc",
+      "tags": [
+        {
+          "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+          "display": "Building Location",
+          "name": "Building Location",
+          "description": "For a building",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        },
+        {
+          "uuid": "1c783dca-fd54-4ea8-a0fc-2875374e9cb6",
+          "display": "Admission Location",
+          "name": "Admission Location",
+          "description": "Patients may only be admitted to inpatient care in a location with this tag",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        }
+      ],
+      "retired": false,
+      "description": "For admission",
+      "parentLocation": {
+        "uuid": "b1a8b05e-3542-4037-bbd3-998ee9c40574",
+        "display": "Inpatient"
+      },
+      "childLocations": [
+        {
+          "uuid": "28a8c67d-6ec4-403c-b518-a8bd8586d6b7",
+          "display": "Child Bed 01",
+          "name": "Child Bed 01",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "6e0418a9-b4f0-4bc7-8a1f-8dcbde1416bc",
+            "display": "Child Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6e0418a9-b4f0-4bc7-8a1f-8dcbde1416bc"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "0b71949f-a437-44ed-9df0-c6f6b1b898ae",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/28a8c67d-6ec4-403c-b518-a8bd8586d6b7/attribute/0b71949f-a437-44ed-9df0-c6f6b1b898ae"
+                }
+              ]
+            },
+            {
+              "uuid": "c7f961a3-aec3-4a8b-87a1-a1d00192c97c",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/28a8c67d-6ec4-403c-b518-a8bd8586d6b7/attribute/c7f961a3-aec3-4a8b-87a1-a1d00192c97c"
+                }
+              ]
+            },
+            {
+              "uuid": "6e91c277-dae1-41ad-b481-a7e6a1ba67db",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/28a8c67d-6ec4-403c-b518-a8bd8586d6b7/attribute/6e91c277-dae1-41ad-b481-a7e6a1ba67db"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/28a8c67d-6ec4-403c-b518-a8bd8586d6b7"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/28a8c67d-6ec4-403c-b518-a8bd8586d6b7?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "7f8169ea-ff0f-489f-939c-853e989d33ef",
+          "display": "Child Bed 02",
+          "name": "Child Bed 02",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "6e0418a9-b4f0-4bc7-8a1f-8dcbde1416bc",
+            "display": "Child Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6e0418a9-b4f0-4bc7-8a1f-8dcbde1416bc"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "4cb7f389-8cb9-4dbd-bc2b-174994f498fc",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/7f8169ea-ff0f-489f-939c-853e989d33ef/attribute/4cb7f389-8cb9-4dbd-bc2b-174994f498fc"
+                }
+              ]
+            },
+            {
+              "uuid": "3ee60555-5ada-43fb-a40d-7724e14ce3b0",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/7f8169ea-ff0f-489f-939c-853e989d33ef/attribute/3ee60555-5ada-43fb-a40d-7724e14ce3b0"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/7f8169ea-ff0f-489f-939c-853e989d33ef"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/7f8169ea-ff0f-489f-939c-853e989d33ef?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeType": {
+            "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+            "display": "modules",
+            "name": "modules",
+            "description": "For holding the modules applicable to this location",
+            "minOccurs": 0,
+            "maxOccurs": 12,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "7bc35cea-5bf1-4d76-9ff5-1258440b7308",
+          "value": "inpatient",
+          "voided": false
+        },
+        {
+          "attributeType": {
+            "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+            "display": "Billing concept",
+            "name": "Billing concept",
+            "description": "For holding billing concept uuid",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "d30b774b-a18e-4b25-954a-e18201ad1d26",
+          "value": "e0dffb20-4412-4478-abe5-ac9152aadf78",
+          "voided": false
+        },
+        {
+          "attributeType": {
+            "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+            "display": "Billing concept",
+            "name": "Billing concept",
+            "description": "For holding billing concept uuid",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "088c10f8-fed7-42a0-aff6-0d889cbb5d6f",
+          "value": "459b34f4-b778-4086-a771-bd854c4d0615",
+          "voided": true
+        }
+      ]
+    },
+    {
+      "display": "Emergency Ward",
+      "uuid": "iCARE802-UDSM-ADMT-9beb-d30dcfc0c66e",
+      "tags": [
+        {
+          "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+          "display": "Building Location",
+          "name": "Building Location",
+          "description": "For a building",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        },
+        {
+          "uuid": "1c783dca-fd54-4ea8-a0fc-2875374e9cb6",
+          "display": "Admission Location",
+          "name": "Admission Location",
+          "description": "Patients may only be admitted to inpatient care in a location with this tag",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        }
+      ],
+      "retired": false,
+      "description": "For admitting a patient to the emergency ward",
+      "parentLocation": {
+        "uuid": "b1a8b05e-3542-4037-bbd3-998ee9c40574",
+        "display": "Inpatient"
+      },
+      "childLocations": [
+        {
+          "uuid": "23077477-1c90-4836-9b5d-ec2953fe07cf",
+          "display": "EW.Bed_01",
+          "name": "EW.Bed_01",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE802-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Emergency Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE802-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "40535528-22af-4ff3-be87-97a0f829f226",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf/attribute/40535528-22af-4ff3-be87-97a0f829f226"
+                }
+              ]
+            },
+            {
+              "uuid": "f9982fcc-7657-4e6e-8882-2e18cd96f6ec",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf/attribute/f9982fcc-7657-4e6e-8882-2e18cd96f6ec"
+                }
+              ]
+            },
+            {
+              "uuid": "b1aa6b98-ad9f-4c70-9452-a347d74cc7f9",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf/attribute/b1aa6b98-ad9f-4c70-9452-a347d74cc7f9"
+                }
+              ]
+            },
+            {
+              "uuid": "daa0f2b6-a12c-427f-ae4e-6a1ad5191d95",
+              "display": "modules: inpatient",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf/attribute/daa0f2b6-a12c-427f-ae4e-6a1ad5191d95"
+                }
+              ]
+            },
+            {
+              "uuid": "b810e811-cec6-4b3d-b656-ae0a0d8f6f9a",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf/attribute/b810e811-cec6-4b3d-b656-ae0a0d8f6f9a"
+                }
+              ]
+            },
+            {
+              "uuid": "a0d10fd8-32fa-47ff-a43d-8692ac39535e",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf/attribute/a0d10fd8-32fa-47ff-a43d-8692ac39535e"
+                }
+              ]
+            },
+            {
+              "uuid": "f1cace58-f969-4307-ab1a-8e4ada5e3e0a",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf/attribute/f1cace58-f969-4307-ab1a-8e4ada5e3e0a"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/23077477-1c90-4836-9b5d-ec2953fe07cf?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "78db938a-386e-45ee-9ba4-d930ee90f282",
+          "display": "EW.Bed_02",
+          "name": "EW.Bed_02",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE802-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Emergency Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE802-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "0465195c-0cba-420f-8bf0-754fdbae7a74",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/78db938a-386e-45ee-9ba4-d930ee90f282/attribute/0465195c-0cba-420f-8bf0-754fdbae7a74"
+                }
+              ]
+            },
+            {
+              "uuid": "aa1c8394-980b-489a-81e9-46e5ea95b892",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/78db938a-386e-45ee-9ba4-d930ee90f282/attribute/aa1c8394-980b-489a-81e9-46e5ea95b892"
+                }
+              ]
+            },
+            {
+              "uuid": "f2657b11-2a1a-4bf3-9849-e9b84382bf87",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/78db938a-386e-45ee-9ba4-d930ee90f282/attribute/f2657b11-2a1a-4bf3-9849-e9b84382bf87"
+                }
+              ]
+            },
+            {
+              "uuid": "db0310b5-38ac-4e4f-bd46-f2f28fcbcb9b",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/78db938a-386e-45ee-9ba4-d930ee90f282/attribute/db0310b5-38ac-4e4f-bd46-f2f28fcbcb9b"
+                }
+              ]
+            },
+            {
+              "uuid": "d6a6da55-fe81-4cc4-a6f3-27c718a8e9fb",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/78db938a-386e-45ee-9ba4-d930ee90f282/attribute/d6a6da55-fe81-4cc4-a6f3-27c718a8e9fb"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/78db938a-386e-45ee-9ba4-d930ee90f282"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/78db938a-386e-45ee-9ba4-d930ee90f282?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeType": {
+            "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+            "display": "modules",
+            "name": "modules",
+            "description": "For holding the modules applicable to this location",
+            "minOccurs": 0,
+            "maxOccurs": 12,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "8cdb9b51-f595-474b-bd66-31a8bc601b43",
+          "value": "inpatient",
+          "voided": false
+        },
+        {
+          "attributeType": {
+            "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+            "display": "Billing concept",
+            "name": "Billing concept",
+            "description": "For holding billing concept uuid",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "iCAREatt-2016-451f-8efe-a0db56f09676",
+          "value": "36284h-fuer-283r239r7230e23",
+          "voided": true
+        }
+      ]
+    },
+    {
+      "display": "Female ward",
+      "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+      "tags": [
+        {
+          "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+          "display": "Building Location",
+          "name": "Building Location",
+          "description": "For a building",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        },
+        {
+          "uuid": "1c783dca-fd54-4ea8-a0fc-2875374e9cb6",
+          "display": "Admission Location",
+          "name": "Admission Location",
+          "description": "Patients may only be admitted to inpatient care in a location with this tag",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        }
+      ],
+      "retired": false,
+      "description": "For admitting a patient to the female ward",
+      "parentLocation": {
+        "uuid": "b1a8b05e-3542-4037-bbd3-998ee9c40574",
+        "display": "Inpatient"
+      },
+      "childLocations": [
+        {
+          "uuid": "dbbb8e93-8f84-4b71-9306-8aa8a4c95a4c",
+          "display": "FW.Bed_01",
+          "name": "FW.Bed_01",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "b2db9a4b-a552-42b9-b70d-02fe2d452714",
+              "display": "W10: Bed 01",
+              "retired": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b2db9a4b-a552-42b9-b70d-02fe2d452714"
+                }
+              ]
+            },
+            {
+              "uuid": "f8c691bf-5f2c-4d06-be14-5e05a2bf2029",
+              "display": "W10: Bed 02",
+              "retired": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/f8c691bf-5f2c-4d06-be14-5e05a2bf2029"
+                }
+              ]
+            }
+          ],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "ebd11c1b-93a4-4f20-9d1a-d58d0681c149",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/dbbb8e93-8f84-4b71-9306-8aa8a4c95a4c/attribute/ebd11c1b-93a4-4f20-9d1a-d58d0681c149"
+                }
+              ]
+            },
+            {
+              "uuid": "bb8da769-2f4a-4edf-bb73-670b2ae15dd7",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/dbbb8e93-8f84-4b71-9306-8aa8a4c95a4c/attribute/bb8da769-2f4a-4edf-bb73-670b2ae15dd7"
+                }
+              ]
+            },
+            {
+              "uuid": "e2626d1e-80c4-4136-8f27-57c817bbd4b4",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/dbbb8e93-8f84-4b71-9306-8aa8a4c95a4c/attribute/e2626d1e-80c4-4136-8f27-57c817bbd4b4"
+                }
+              ]
+            },
+            {
+              "uuid": "e0ec20a6-fc9c-4bff-bd86-a8eba6081c4e",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/dbbb8e93-8f84-4b71-9306-8aa8a4c95a4c/attribute/e0ec20a6-fc9c-4bff-bd86-a8eba6081c4e"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/dbbb8e93-8f84-4b71-9306-8aa8a4c95a4c"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/dbbb8e93-8f84-4b71-9306-8aa8a4c95a4c?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "8ca60e1f-bb02-4b70-87a5-572cd9fea45b",
+          "display": "FW.Bed_02",
+          "name": "FW.Bed_02",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "0db0044e-a475-4286-9f0b-9eb58ff336ed",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8ca60e1f-bb02-4b70-87a5-572cd9fea45b/attribute/0db0044e-a475-4286-9f0b-9eb58ff336ed"
+                }
+              ]
+            },
+            {
+              "uuid": "4b7368d2-eced-4b0c-8960-31160f1415e8",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8ca60e1f-bb02-4b70-87a5-572cd9fea45b/attribute/4b7368d2-eced-4b0c-8960-31160f1415e8"
+                }
+              ]
+            },
+            {
+              "uuid": "e1cc25bf-fd85-4ca7-b5ab-ba15db94f330",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8ca60e1f-bb02-4b70-87a5-572cd9fea45b/attribute/e1cc25bf-fd85-4ca7-b5ab-ba15db94f330"
+                }
+              ]
+            },
+            {
+              "uuid": "ac30b0b6-40e9-46f9-8603-20e394951fff",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8ca60e1f-bb02-4b70-87a5-572cd9fea45b/attribute/ac30b0b6-40e9-46f9-8603-20e394951fff"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8ca60e1f-bb02-4b70-87a5-572cd9fea45b"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8ca60e1f-bb02-4b70-87a5-572cd9fea45b?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e",
+          "display": "FW.Bed_03",
+          "name": "FW.Bed_03",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": "UDSM-DHIS2",
+          "stateProvince": "UDSM",
+          "country": "Tanzania",
+          "postalCode": "5020",
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": "DAR",
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "f4a241f6-2237-4abd-bfd1-7e76180c32a1",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e/attribute/f4a241f6-2237-4abd-bfd1-7e76180c32a1"
+                }
+              ]
+            },
+            {
+              "uuid": "db8c6daa-bf18-495c-b9e5-e074a2b88bee",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e/attribute/db8c6daa-bf18-495c-b9e5-e074a2b88bee"
+                }
+              ]
+            },
+            {
+              "uuid": "b8877df1-2d16-4808-8f3a-6a74a2fadefc",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e/attribute/b8877df1-2d16-4808-8f3a-6a74a2fadefc"
+                }
+              ]
+            },
+            {
+              "uuid": "iCAREatt-2017-451f-8efe-a0db56f09676",
+              "display": "Billing concept: werw632843-234823-234723",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e/attribute/iCAREatt-2017-451f-8efe-a0db56f09676"
+                }
+              ]
+            },
+            {
+              "uuid": "d4821d03-5a26-43d9-86ec-8b9811c56fc2",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e/attribute/d4821d03-5a26-43d9-86ec-8b9811c56fc2"
+                }
+              ]
+            },
+            {
+              "uuid": "64d93858-d3fc-4033-976c-f1e0040744ce",
+              "display": "Patients per bed: 2.0",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e/attribute/64d93858-d3fc-4033-976c-f1e0040744ce"
+                }
+              ]
+            },
+            {
+              "uuid": "66a51fc1-a573-4f17-98d9-bafa58efc875",
+              "display": "Patients per bed: 1.0",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e/attribute/66a51fc1-a573-4f17-98d9-bafa58efc875"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE800-UDSM-ADMT-9beb-d30dcfc0c66e?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "ef6c1f09-3b89-4f90-9a1e-ac7910937f36",
+          "display": "FW.Bed_04",
+          "name": "FW.Bed_04",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "cd24bd50-e14e-4400-b6ed-98f95ff9c368",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ef6c1f09-3b89-4f90-9a1e-ac7910937f36/attribute/cd24bd50-e14e-4400-b6ed-98f95ff9c368"
+                }
+              ]
+            },
+            {
+              "uuid": "fa6ed18b-6737-48d8-8412-734ed1a4ce2c",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ef6c1f09-3b89-4f90-9a1e-ac7910937f36/attribute/fa6ed18b-6737-48d8-8412-734ed1a4ce2c"
+                }
+              ]
+            },
+            {
+              "uuid": "e460ffbf-0b4c-487a-82ab-ad86bb88780a",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ef6c1f09-3b89-4f90-9a1e-ac7910937f36/attribute/e460ffbf-0b4c-487a-82ab-ad86bb88780a"
+                }
+              ]
+            },
+            {
+              "uuid": "44c585c4-0de4-4248-abe5-0c1bfea841ea",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ef6c1f09-3b89-4f90-9a1e-ac7910937f36/attribute/44c585c4-0de4-4248-abe5-0c1bfea841ea"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ef6c1f09-3b89-4f90-9a1e-ac7910937f36"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ef6c1f09-3b89-4f90-9a1e-ac7910937f36?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "ab2bd267-53c3-41a6-af86-869ad0eaece6",
+          "display": "FW.Bed_05",
+          "name": "FW.Bed_05",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "a4a3e835-db3c-4dae-9919-94794957a6aa",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ab2bd267-53c3-41a6-af86-869ad0eaece6/attribute/a4a3e835-db3c-4dae-9919-94794957a6aa"
+                }
+              ]
+            },
+            {
+              "uuid": "ea61c0e7-464c-4f15-b64b-a13f8ba42d09",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ab2bd267-53c3-41a6-af86-869ad0eaece6/attribute/ea61c0e7-464c-4f15-b64b-a13f8ba42d09"
+                }
+              ]
+            },
+            {
+              "uuid": "7dde4436-03cc-4484-a433-0a67f118b05d",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ab2bd267-53c3-41a6-af86-869ad0eaece6/attribute/7dde4436-03cc-4484-a433-0a67f118b05d"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ab2bd267-53c3-41a6-af86-869ad0eaece6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/ab2bd267-53c3-41a6-af86-869ad0eaece6?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "07e2a757-95d0-4ce9-99b8-50c76f15208f",
+          "display": "FW.Bed_06",
+          "name": "FW.Bed_06",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "0e632297-2951-49c1-aaba-58b9e1a167df",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/07e2a757-95d0-4ce9-99b8-50c76f15208f/attribute/0e632297-2951-49c1-aaba-58b9e1a167df"
+                }
+              ]
+            },
+            {
+              "uuid": "6c31d26d-540e-4020-b648-9e3e741463d2",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/07e2a757-95d0-4ce9-99b8-50c76f15208f/attribute/6c31d26d-540e-4020-b648-9e3e741463d2"
+                }
+              ]
+            },
+            {
+              "uuid": "7a131b46-1700-41f2-9d14-0e0f4b10fdc5",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/07e2a757-95d0-4ce9-99b8-50c76f15208f/attribute/7a131b46-1700-41f2-9d14-0e0f4b10fdc5"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/07e2a757-95d0-4ce9-99b8-50c76f15208f"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/07e2a757-95d0-4ce9-99b8-50c76f15208f?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "edd662ca-2e3d-4d14-af1f-8ecf7b653798",
+          "display": "FW.Bed_07",
+          "name": "FW.Bed_07",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "9080fd1b-ce15-467c-857e-acece33c9408",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/edd662ca-2e3d-4d14-af1f-8ecf7b653798/attribute/9080fd1b-ce15-467c-857e-acece33c9408"
+                }
+              ]
+            },
+            {
+              "uuid": "491b21fa-5502-465b-97b1-792c52c0c64f",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/edd662ca-2e3d-4d14-af1f-8ecf7b653798/attribute/491b21fa-5502-465b-97b1-792c52c0c64f"
+                }
+              ]
+            },
+            {
+              "uuid": "0c4cc3e7-54b5-42ca-ba04-c68e65f88301",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/edd662ca-2e3d-4d14-af1f-8ecf7b653798/attribute/0c4cc3e7-54b5-42ca-ba04-c68e65f88301"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/edd662ca-2e3d-4d14-af1f-8ecf7b653798"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/edd662ca-2e3d-4d14-af1f-8ecf7b653798?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "aa0820fa-06cd-4d0c-b88a-40df0c74189b",
+          "display": "FW.Bed_08",
+          "name": "FW.Bed_08",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Female ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE798-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "33bfbdc3-e453-489c-b086-a83d67820ac2",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/aa0820fa-06cd-4d0c-b88a-40df0c74189b/attribute/33bfbdc3-e453-489c-b086-a83d67820ac2"
+                }
+              ]
+            },
+            {
+              "uuid": "e483a712-6619-4e57-8cfc-3b630be764aa",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/aa0820fa-06cd-4d0c-b88a-40df0c74189b/attribute/e483a712-6619-4e57-8cfc-3b630be764aa"
+                }
+              ]
+            },
+            {
+              "uuid": "6ee6d082-bddc-4137-a5f5-b486ada6563a",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/aa0820fa-06cd-4d0c-b88a-40df0c74189b/attribute/6ee6d082-bddc-4137-a5f5-b486ada6563a"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/aa0820fa-06cd-4d0c-b88a-40df0c74189b"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/aa0820fa-06cd-4d0c-b88a-40df0c74189b?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeType": {
+            "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+            "display": "modules",
+            "name": "modules",
+            "description": "For holding the modules applicable to this location",
+            "minOccurs": 0,
+            "maxOccurs": 12,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "cc6ed4ab-9da6-451d-a89a-92543d4944e1",
+          "value": "inpatient",
+          "voided": true
+        },
+        {
+          "attributeType": {
+            "uuid": "d6794daf-f62f-454e-89eb-6ea98188352f",
+            "display": "Services",
+            "name": "Services",
+            "description": null,
+            "minOccurs": 0,
+            "maxOccurs": 5,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "b114ea9c-15e3-432f-9d0b-aac1bc0502bb",
+          "value": "506c6c8c-7c03-478f-97c7-8f3917b36eff",
+          "voided": true
+        },
+        {
+          "attributeType": {
+            "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+            "display": "modules",
+            "name": "modules",
+            "description": "For holding the modules applicable to this location",
+            "minOccurs": 0,
+            "maxOccurs": 12,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "9a28ced7-4793-4e79-b649-2d5f3ea6ab67",
+          "value": "inpatient",
+          "voided": true
+        }
+      ]
+    },
+    {
+      "display": "Labor  Ward",
+      "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+      "tags": [
+        {
+          "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+          "display": "Building Location",
+          "name": "Building Location",
+          "description": "For a building",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        },
+        {
+          "uuid": "1c783dca-fd54-4ea8-a0fc-2875374e9cb6",
+          "display": "Admission Location",
+          "name": "Admission Location",
+          "description": "Patients may only be admitted to inpatient care in a location with this tag",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        }
+      ],
+      "retired": false,
+      "description": "For admitting a patient",
+      "parentLocation": {
+        "uuid": "b1a8b05e-3542-4037-bbd3-998ee9c40574",
+        "display": "Inpatient"
+      },
+      "childLocations": [
+        {
+          "uuid": "266ceafc-ad63-4fb3-a1bc-6f85ed8240f9",
+          "display": "Labor ward  Bed 02",
+          "name": "Labor ward  Bed 02",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "d9cb6475-646f-44d7-b732-af86ebc66dc3",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/266ceafc-ad63-4fb3-a1bc-6f85ed8240f9/attribute/d9cb6475-646f-44d7-b732-af86ebc66dc3"
+                }
+              ]
+            },
+            {
+              "uuid": "dc1db411-5e23-4b10-b575-4fef2906fd11",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/266ceafc-ad63-4fb3-a1bc-6f85ed8240f9/attribute/dc1db411-5e23-4b10-b575-4fef2906fd11"
+                }
+              ]
+            },
+            {
+              "uuid": "bb23b4a1-2499-4b4d-b643-e7adb02ed260",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/266ceafc-ad63-4fb3-a1bc-6f85ed8240f9/attribute/bb23b4a1-2499-4b4d-b643-e7adb02ed260"
+                }
+              ]
+            },
+            {
+              "uuid": "0c938da8-cc44-4d80-8ad8-04766bef4ebc",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/266ceafc-ad63-4fb3-a1bc-6f85ed8240f9/attribute/0c938da8-cc44-4d80-8ad8-04766bef4ebc"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/266ceafc-ad63-4fb3-a1bc-6f85ed8240f9"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/266ceafc-ad63-4fb3-a1bc-6f85ed8240f9?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "76fb12e6-9158-4c1d-8abb-90e869695dde",
+          "display": "Labor ward Bed 01",
+          "name": "Labor ward Bed 01",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "9c59e1fb-0431-4d15-9581-7b9898b43749",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76fb12e6-9158-4c1d-8abb-90e869695dde/attribute/9c59e1fb-0431-4d15-9581-7b9898b43749"
+                }
+              ]
+            },
+            {
+              "uuid": "07856a06-120b-49d1-babd-137134640f97",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76fb12e6-9158-4c1d-8abb-90e869695dde/attribute/07856a06-120b-49d1-babd-137134640f97"
+                }
+              ]
+            },
+            {
+              "uuid": "aeb31f3b-94e8-497c-960c-f251d20597e6",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76fb12e6-9158-4c1d-8abb-90e869695dde/attribute/aeb31f3b-94e8-497c-960c-f251d20597e6"
+                }
+              ]
+            },
+            {
+              "uuid": "f5cac9bb-e478-4059-94dd-57a62dcb6cc0",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76fb12e6-9158-4c1d-8abb-90e869695dde/attribute/f5cac9bb-e478-4059-94dd-57a62dcb6cc0"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76fb12e6-9158-4c1d-8abb-90e869695dde"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76fb12e6-9158-4c1d-8abb-90e869695dde?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "60f63dfe-e9ae-42e4-bfb1-0038eecb3305",
+          "display": "Labor ward Bed 03",
+          "name": "Labor ward Bed 03",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "e8ac4254-3cfb-4364-981c-e3315d6695c4",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/60f63dfe-e9ae-42e4-bfb1-0038eecb3305/attribute/e8ac4254-3cfb-4364-981c-e3315d6695c4"
+                }
+              ]
+            },
+            {
+              "uuid": "861bea0a-03ac-4454-a38f-aac8372c7a14",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/60f63dfe-e9ae-42e4-bfb1-0038eecb3305/attribute/861bea0a-03ac-4454-a38f-aac8372c7a14"
+                }
+              ]
+            },
+            {
+              "uuid": "463b242e-8a73-4976-a2a0-eeb38a073dda",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/60f63dfe-e9ae-42e4-bfb1-0038eecb3305/attribute/463b242e-8a73-4976-a2a0-eeb38a073dda"
+                }
+              ]
+            },
+            {
+              "uuid": "54bfa35b-60ca-416a-bc6b-540362e30bfe",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/60f63dfe-e9ae-42e4-bfb1-0038eecb3305/attribute/54bfa35b-60ca-416a-bc6b-540362e30bfe"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/60f63dfe-e9ae-42e4-bfb1-0038eecb3305"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/60f63dfe-e9ae-42e4-bfb1-0038eecb3305?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "595c5b74-89ed-4d0e-8dac-b9ed69a6c628",
+          "display": "Labor ward Bed 04",
+          "name": "Labor ward Bed 04",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "208592f5-edfa-45ce-b8ac-bd0b0b30e627",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/595c5b74-89ed-4d0e-8dac-b9ed69a6c628/attribute/208592f5-edfa-45ce-b8ac-bd0b0b30e627"
+                }
+              ]
+            },
+            {
+              "uuid": "11e6facf-f469-48db-8474-818c8cd6a56b",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/595c5b74-89ed-4d0e-8dac-b9ed69a6c628/attribute/11e6facf-f469-48db-8474-818c8cd6a56b"
+                }
+              ]
+            },
+            {
+              "uuid": "e246dfc8-2c6f-4027-96c3-dac8f07481f2",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/595c5b74-89ed-4d0e-8dac-b9ed69a6c628/attribute/e246dfc8-2c6f-4027-96c3-dac8f07481f2"
+                }
+              ]
+            },
+            {
+              "uuid": "8fc37a0a-4aa6-48a4-9f26-5de7e1bae8e1",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/595c5b74-89ed-4d0e-8dac-b9ed69a6c628/attribute/8fc37a0a-4aa6-48a4-9f26-5de7e1bae8e1"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/595c5b74-89ed-4d0e-8dac-b9ed69a6c628"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/595c5b74-89ed-4d0e-8dac-b9ed69a6c628?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "258c85a5-d1d5-4796-83c8-61555aaf9560",
+          "display": "Labor ward Bed 05",
+          "name": "Labor ward Bed 05",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "22526161-9870-4992-93c1-70a61dd781c8",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/258c85a5-d1d5-4796-83c8-61555aaf9560/attribute/22526161-9870-4992-93c1-70a61dd781c8"
+                }
+              ]
+            },
+            {
+              "uuid": "3abc5093-be30-4af0-a12d-e42d84e37e77",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/258c85a5-d1d5-4796-83c8-61555aaf9560/attribute/3abc5093-be30-4af0-a12d-e42d84e37e77"
+                }
+              ]
+            },
+            {
+              "uuid": "5a30d9d0-e2f9-4101-bf18-ccc43f35a6c0",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/258c85a5-d1d5-4796-83c8-61555aaf9560/attribute/5a30d9d0-e2f9-4101-bf18-ccc43f35a6c0"
+                }
+              ]
+            },
+            {
+              "uuid": "fadae4dd-6282-4fa7-b3ec-04b549ec5760",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/258c85a5-d1d5-4796-83c8-61555aaf9560/attribute/fadae4dd-6282-4fa7-b3ec-04b549ec5760"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/258c85a5-d1d5-4796-83c8-61555aaf9560"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/258c85a5-d1d5-4796-83c8-61555aaf9560?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "0a25298a-ba65-431f-93cc-e2ceebe5f593",
+          "display": "Labor ward Bed 06",
+          "name": "Labor ward Bed 06",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "f9460e36-a318-4c95-bd74-3eac9d55524a",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/0a25298a-ba65-431f-93cc-e2ceebe5f593/attribute/f9460e36-a318-4c95-bd74-3eac9d55524a"
+                }
+              ]
+            },
+            {
+              "uuid": "209e77b2-fe71-49fc-8a7d-5522f8c666b7",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/0a25298a-ba65-431f-93cc-e2ceebe5f593/attribute/209e77b2-fe71-49fc-8a7d-5522f8c666b7"
+                }
+              ]
+            },
+            {
+              "uuid": "6783967a-80c0-4524-b17f-6dc8b5d878e3",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/0a25298a-ba65-431f-93cc-e2ceebe5f593/attribute/6783967a-80c0-4524-b17f-6dc8b5d878e3"
+                }
+              ]
+            },
+            {
+              "uuid": "391fa11b-e2e8-4639-b72c-14342ef89cfa",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/0a25298a-ba65-431f-93cc-e2ceebe5f593/attribute/391fa11b-e2e8-4639-b72c-14342ef89cfa"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/0a25298a-ba65-431f-93cc-e2ceebe5f593"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/0a25298a-ba65-431f-93cc-e2ceebe5f593?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "be196ff3-4079-49e1-a522-a8c39bf228d4",
+          "display": "Labor ward Bed 07",
+          "name": "Labor ward Bed 07",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "9dbfb69a-a2c1-4971-8538-dc890a25cad5",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/be196ff3-4079-49e1-a522-a8c39bf228d4/attribute/9dbfb69a-a2c1-4971-8538-dc890a25cad5"
+                }
+              ]
+            },
+            {
+              "uuid": "af42c8a5-a358-4bed-8cfc-0731ffc27748",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/be196ff3-4079-49e1-a522-a8c39bf228d4/attribute/af42c8a5-a358-4bed-8cfc-0731ffc27748"
+                }
+              ]
+            },
+            {
+              "uuid": "917d1f56-2c67-4ece-bfe4-90dac7138bb0",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/be196ff3-4079-49e1-a522-a8c39bf228d4/attribute/917d1f56-2c67-4ece-bfe4-90dac7138bb0"
+                }
+              ]
+            },
+            {
+              "uuid": "81af9f94-e880-41a7-800f-8c2ee6686a15",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/be196ff3-4079-49e1-a522-a8c39bf228d4/attribute/81af9f94-e880-41a7-800f-8c2ee6686a15"
+                }
+              ]
+            },
+            {
+              "uuid": "f5d788c4-7a70-45a5-93dc-d8c1a897f843",
+              "display": "modules: inpatient",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/be196ff3-4079-49e1-a522-a8c39bf228d4/attribute/f5d788c4-7a70-45a5-93dc-d8c1a897f843"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/be196ff3-4079-49e1-a522-a8c39bf228d4"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/be196ff3-4079-49e1-a522-a8c39bf228d4?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "50d0aaa7-696d-46b9-8c1e-bade2b797f7b",
+          "display": "Labor ward Bed 08",
+          "name": "Labor ward Bed 08",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "0209c736-5526-4d8d-9645-4e310ca7e08b",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/50d0aaa7-696d-46b9-8c1e-bade2b797f7b/attribute/0209c736-5526-4d8d-9645-4e310ca7e08b"
+                }
+              ]
+            },
+            {
+              "uuid": "1a8b47a9-9477-4660-b1d2-b18ee9f769e7",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/50d0aaa7-696d-46b9-8c1e-bade2b797f7b/attribute/1a8b47a9-9477-4660-b1d2-b18ee9f769e7"
+                }
+              ]
+            },
+            {
+              "uuid": "f526d163-44a5-4635-97a4-f4a80d893d63",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/50d0aaa7-696d-46b9-8c1e-bade2b797f7b/attribute/f526d163-44a5-4635-97a4-f4a80d893d63"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/50d0aaa7-696d-46b9-8c1e-bade2b797f7b"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/50d0aaa7-696d-46b9-8c1e-bade2b797f7b?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "8c2059b6-c96d-4cb1-811d-c9b07ebb63cf",
+          "display": "Labor ward Bed 09",
+          "name": "Labor ward Bed 09",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "b55c0f9f-eb31-4380-b517-5567b9f5dad4",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8c2059b6-c96d-4cb1-811d-c9b07ebb63cf/attribute/b55c0f9f-eb31-4380-b517-5567b9f5dad4"
+                }
+              ]
+            },
+            {
+              "uuid": "88054130-f5e5-4116-ae62-c26c2b584b05",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8c2059b6-c96d-4cb1-811d-c9b07ebb63cf/attribute/88054130-f5e5-4116-ae62-c26c2b584b05"
+                }
+              ]
+            },
+            {
+              "uuid": "e1bdff85-b42e-45c9-9d37-38cc798c9e16",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8c2059b6-c96d-4cb1-811d-c9b07ebb63cf/attribute/e1bdff85-b42e-45c9-9d37-38cc798c9e16"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8c2059b6-c96d-4cb1-811d-c9b07ebb63cf"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8c2059b6-c96d-4cb1-811d-c9b07ebb63cf?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "d6ccb796-2ffc-403e-a06a-b935f925fc4c",
+          "display": "Labor ward Bed 10",
+          "name": "Labor ward Bed 10",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "41daefbc-5cac-487c-b3c0-25a808c65deb",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d6ccb796-2ffc-403e-a06a-b935f925fc4c/attribute/41daefbc-5cac-487c-b3c0-25a808c65deb"
+                }
+              ]
+            },
+            {
+              "uuid": "ff85c4a9-e7ba-4955-907e-5ddff230c31a",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d6ccb796-2ffc-403e-a06a-b935f925fc4c/attribute/ff85c4a9-e7ba-4955-907e-5ddff230c31a"
+                }
+              ]
+            },
+            {
+              "uuid": "8e3e5cd9-d87f-4c8f-b7a8-1876dceff10d",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d6ccb796-2ffc-403e-a06a-b935f925fc4c/attribute/8e3e5cd9-d87f-4c8f-b7a8-1876dceff10d"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d6ccb796-2ffc-403e-a06a-b935f925fc4c"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d6ccb796-2ffc-403e-a06a-b935f925fc4c?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "89c7e3a5-5e0c-4909-9b0b-987bfaff79b7",
+          "display": "Labor ward Bed 11",
+          "name": "Labor ward Bed 11",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "f92ab280-c5f1-4ae9-b3c5-3184cb5d1a34",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/89c7e3a5-5e0c-4909-9b0b-987bfaff79b7/attribute/f92ab280-c5f1-4ae9-b3c5-3184cb5d1a34"
+                }
+              ]
+            },
+            {
+              "uuid": "22bf4988-b42b-4ffc-9e4f-12448ae1f389",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/89c7e3a5-5e0c-4909-9b0b-987bfaff79b7/attribute/22bf4988-b42b-4ffc-9e4f-12448ae1f389"
+                }
+              ]
+            },
+            {
+              "uuid": "75b84c83-7823-4017-b841-9c11de5c881b",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/89c7e3a5-5e0c-4909-9b0b-987bfaff79b7/attribute/75b84c83-7823-4017-b841-9c11de5c881b"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/89c7e3a5-5e0c-4909-9b0b-987bfaff79b7"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/89c7e3a5-5e0c-4909-9b0b-987bfaff79b7?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "e1b12d5e-ea87-4b9e-b4c5-913835350124",
+          "display": "Labor ward Bed 12",
+          "name": "Labor ward Bed 12",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "25c6ff7d-9a10-46c3-8306-5e83109f72dd",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e1b12d5e-ea87-4b9e-b4c5-913835350124/attribute/25c6ff7d-9a10-46c3-8306-5e83109f72dd"
+                }
+              ]
+            },
+            {
+              "uuid": "1cea4d2f-6f3e-440c-a535-5a4baccd4f9d",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e1b12d5e-ea87-4b9e-b4c5-913835350124/attribute/1cea4d2f-6f3e-440c-a535-5a4baccd4f9d"
+                }
+              ]
+            },
+            {
+              "uuid": "e9a0753a-8da2-4cb2-a356-3c7e7fb31c88",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e1b12d5e-ea87-4b9e-b4c5-913835350124/attribute/e9a0753a-8da2-4cb2-a356-3c7e7fb31c88"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e1b12d5e-ea87-4b9e-b4c5-913835350124"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e1b12d5e-ea87-4b9e-b4c5-913835350124?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "654f07fc-8d65-4617-a4a3-1a0279f9e1fe",
+          "display": "Labor ward Bed 13",
+          "name": "Labor ward Bed 13",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Labor  Ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE801-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "a722458c-82b7-4c4c-bd18-02f6f9ef9916",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/654f07fc-8d65-4617-a4a3-1a0279f9e1fe/attribute/a722458c-82b7-4c4c-bd18-02f6f9ef9916"
+                }
+              ]
+            },
+            {
+              "uuid": "db6a16d4-7b72-4d72-b255-bab112956d61",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/654f07fc-8d65-4617-a4a3-1a0279f9e1fe/attribute/db6a16d4-7b72-4d72-b255-bab112956d61"
+                }
+              ]
+            },
+            {
+              "uuid": "69b1b997-f550-45c5-bdcf-d8665cd4f551",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/654f07fc-8d65-4617-a4a3-1a0279f9e1fe/attribute/69b1b997-f550-45c5-bdcf-d8665cd4f551"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/654f07fc-8d65-4617-a4a3-1a0279f9e1fe"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/654f07fc-8d65-4617-a4a3-1a0279f9e1fe?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeType": {
+            "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+            "display": "modules",
+            "name": "modules",
+            "description": "For holding the modules applicable to this location",
+            "minOccurs": 0,
+            "maxOccurs": 12,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "33257caa-c52f-46f4-8c2c-8e50cfa015c5",
+          "value": "inpatient",
+          "voided": false
+        },
+        {
+          "attributeType": {
+            "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+            "display": "Billing concept",
+            "name": "Billing concept",
+            "description": "For holding billing concept uuid",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "iCAREatt-2015-451f-8efe-a0db56f09676",
+          "value": "36284h-fuer-283r239r7230e23",
+          "voided": true
+        },
+        {
+          "attributeType": {
+            "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+            "display": "Billing concept",
+            "name": "Billing concept",
+            "description": "For holding billing concept uuid",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "cb7836b6-71ee-4b3e-8233-fff5d3205117",
+          "value": "459b34f4-b778-4086-a771-bd854c4d0615",
+          "voided": true
+        }
+      ]
+    },
+    {
+      "display": "Male ward",
+      "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+      "tags": [
+        {
+          "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+          "display": "Building Location",
+          "name": "Building Location",
+          "description": "For a building",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        },
+        {
+          "uuid": "1c783dca-fd54-4ea8-a0fc-2875374e9cb6",
+          "display": "Admission Location",
+          "name": "Admission Location",
+          "description": "Patients may only be admitted to inpatient care in a location with this tag",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/1c783dca-fd54-4ea8-a0fc-2875374e9cb6?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        }
+      ],
+      "retired": false,
+      "description": "For admitting a patient on the Male ward",
+      "parentLocation": {
+        "uuid": "b1a8b05e-3542-4037-bbd3-998ee9c40574",
+        "display": "Inpatient"
+      },
+      "childLocations": [
+        {
+          "uuid": "76928bfb-532a-480b-a8af-520e81be738f",
+          "display": "MW.Bed_01",
+          "name": "MW.Bed_01",
+          "description": "Admiting patient ward 02 bed 1",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "ffe3a63a-159e-4702-9fb2-7a9a9b721b92",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f/attribute/ffe3a63a-159e-4702-9fb2-7a9a9b721b92"
+                }
+              ]
+            },
+            {
+              "uuid": "cefecdf7-3147-42a4-97dc-8ebd54cd98aa",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f/attribute/cefecdf7-3147-42a4-97dc-8ebd54cd98aa"
+                }
+              ]
+            },
+            {
+              "uuid": "7de6d95e-4c8f-4db5-af0f-112b707384a5",
+              "display": "Services: 47cdd021-b169-4bbe-876c-f7051430bfd4",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f/attribute/7de6d95e-4c8f-4db5-af0f-112b707384a5"
+                }
+              ]
+            },
+            {
+              "uuid": "286173e4-d824-4719-93d0-23e47bd0799f",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f/attribute/286173e4-d824-4719-93d0-23e47bd0799f"
+                }
+              ]
+            },
+            {
+              "uuid": "4538ad28-a4ab-4316-a38b-d814097ec0c5",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f/attribute/4538ad28-a4ab-4316-a38b-d814097ec0c5"
+                }
+              ]
+            },
+            {
+              "uuid": "358684e0-69c5-4f76-8ece-7383b1ab16b2",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f/attribute/358684e0-69c5-4f76-8ece-7383b1ab16b2"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/76928bfb-532a-480b-a8af-520e81be738f?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "066b3d38-8b29-4460-83b4-991c300e22d6",
+          "display": "MW.Bed_02",
+          "name": "MW.Bed_02",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "df5a3f99-e6a2-40c3-bab4-cc340bef0a62",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/066b3d38-8b29-4460-83b4-991c300e22d6/attribute/df5a3f99-e6a2-40c3-bab4-cc340bef0a62"
+                }
+              ]
+            },
+            {
+              "uuid": "15aa244a-c162-4d26-9b12-350a70178557",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/066b3d38-8b29-4460-83b4-991c300e22d6/attribute/15aa244a-c162-4d26-9b12-350a70178557"
+                }
+              ]
+            },
+            {
+              "uuid": "684151f3-67ad-408b-8a2e-249526442199",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/066b3d38-8b29-4460-83b4-991c300e22d6/attribute/684151f3-67ad-408b-8a2e-249526442199"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/066b3d38-8b29-4460-83b4-991c300e22d6"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/066b3d38-8b29-4460-83b4-991c300e22d6?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "68b38a3b-5793-4ea4-bfe2-846d4939cd1a",
+          "display": "MW.Bed_03",
+          "name": "MW.Bed_03",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "8e667de4-48b7-40d0-81cf-23b419bd870a",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/68b38a3b-5793-4ea4-bfe2-846d4939cd1a/attribute/8e667de4-48b7-40d0-81cf-23b419bd870a"
+                }
+              ]
+            },
+            {
+              "uuid": "4548752b-f70c-4b89-a84f-e1fb19f12293",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/68b38a3b-5793-4ea4-bfe2-846d4939cd1a/attribute/4548752b-f70c-4b89-a84f-e1fb19f12293"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/68b38a3b-5793-4ea4-bfe2-846d4939cd1a"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/68b38a3b-5793-4ea4-bfe2-846d4939cd1a?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "12704503-4ca6-491c-a3a0-21078bc10a26",
+          "display": "MW.Bed_04",
+          "name": "MW.Bed_04",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "e481e41a-9e38-477d-90f3-b6a2fc8be7da",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/12704503-4ca6-491c-a3a0-21078bc10a26/attribute/e481e41a-9e38-477d-90f3-b6a2fc8be7da"
+                }
+              ]
+            },
+            {
+              "uuid": "870764b0-ae97-491f-a544-18348443b41e",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/12704503-4ca6-491c-a3a0-21078bc10a26/attribute/870764b0-ae97-491f-a544-18348443b41e"
+                }
+              ]
+            },
+            {
+              "uuid": "2f586246-9d0f-4ea6-92eb-f7675fdffc92",
+              "display": "Billing concept: 459b34f4-b778-4086-a771-bd854c4d0615",
+              "voided": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/12704503-4ca6-491c-a3a0-21078bc10a26/attribute/2f586246-9d0f-4ea6-92eb-f7675fdffc92"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/12704503-4ca6-491c-a3a0-21078bc10a26"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/12704503-4ca6-491c-a3a0-21078bc10a26?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "2aed1e92-b7bd-44c4-90ed-36ed849d878d",
+          "display": "MW.Bed_05",
+          "name": "MW.Bed_05",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "01544b5b-98f8-4b56-8709-1326e6932130",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/2aed1e92-b7bd-44c4-90ed-36ed849d878d/attribute/01544b5b-98f8-4b56-8709-1326e6932130"
+                }
+              ]
+            },
+            {
+              "uuid": "31c510ea-5de6-4795-8b3e-3ff280bd2b16",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/2aed1e92-b7bd-44c4-90ed-36ed849d878d/attribute/31c510ea-5de6-4795-8b3e-3ff280bd2b16"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/2aed1e92-b7bd-44c4-90ed-36ed849d878d"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/2aed1e92-b7bd-44c4-90ed-36ed849d878d?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "d3ab7f44-3fad-48f4-9674-c9b79c3f27e2",
+          "display": "MW.Bed_06",
+          "name": "MW.Bed_06",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "5d7f301e-aa71-4d1b-b3bd-4f644c0c78db",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d3ab7f44-3fad-48f4-9674-c9b79c3f27e2/attribute/5d7f301e-aa71-4d1b-b3bd-4f644c0c78db"
+                }
+              ]
+            },
+            {
+              "uuid": "dabf8932-0573-4a6c-b460-e5f45e844a6b",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d3ab7f44-3fad-48f4-9674-c9b79c3f27e2/attribute/dabf8932-0573-4a6c-b460-e5f45e844a6b"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d3ab7f44-3fad-48f4-9674-c9b79c3f27e2"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/d3ab7f44-3fad-48f4-9674-c9b79c3f27e2?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "1bc3f38f-f6fc-4661-86f4-80e6b1396c11",
+          "display": "MW.Bed_07",
+          "name": "MW.Bed_07",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "bb9c1380-2456-4891-8eb6-0e3897165063",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/1bc3f38f-f6fc-4661-86f4-80e6b1396c11/attribute/bb9c1380-2456-4891-8eb6-0e3897165063"
+                }
+              ]
+            },
+            {
+              "uuid": "99cf676b-53a0-4bdc-90c4-d93b3e5e9552",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/1bc3f38f-f6fc-4661-86f4-80e6b1396c11/attribute/99cf676b-53a0-4bdc-90c4-d93b3e5e9552"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/1bc3f38f-f6fc-4661-86f4-80e6b1396c11"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/1bc3f38f-f6fc-4661-86f4-80e6b1396c11?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "6acb440c-c0a5-4b63-a3de-afb96f4542c7",
+          "display": "MW.Bed_08",
+          "name": "MW.Bed_08",
+          "description": "For admission",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE799-UDSM-BEDL-8efe-a0db56f09676",
+              "display": "Bed Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE799-UDSM-BEDL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": false,
+          "attributes": [
+            {
+              "uuid": "3a9aa277-8b36-483e-a4bb-281bbd8bf638",
+              "display": "Billing concept: e0dffb20-4412-4478-abe5-ac9152aadf78",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6acb440c-c0a5-4b63-a3de-afb96f4542c7/attribute/3a9aa277-8b36-483e-a4bb-281bbd8bf638"
+                }
+              ]
+            },
+            {
+              "uuid": "83906d56-b110-4b37-a5f0-5182a119cccf",
+              "display": "Forms: d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6acb440c-c0a5-4b63-a3de-afb96f4542c7/attribute/83906d56-b110-4b37-a5f0-5182a119cccf"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6acb440c-c0a5-4b63-a3de-afb96f4542c7"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/6acb440c-c0a5-4b63-a3de-afb96f4542c7?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "c16e2e35-d167-4463-b19c-ac9c068bddca",
+          "display": "Ward No. 06",
+          "name": "Ward No. 06",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+              "display": "Building Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [],
+          "retired": true,
+          "attributes": [
+            {
+              "uuid": "920838c0-9f29-4825-ac30-01bb4055cec9",
+              "display": "modules: Inpatient",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/c16e2e35-d167-4463-b19c-ac9c068bddca/attribute/920838c0-9f29-4825-ac30-01bb4055cec9"
+                }
+              ]
+            }
+          ],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/c16e2e35-d167-4463-b19c-ac9c068bddca"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/c16e2e35-d167-4463-b19c-ac9c068bddca?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "f9400a2e-da19-4908-8bd4-390e083cfebc",
+          "display": "Ward No. 07",
+          "name": "Ward No. 07",
+          "description": null,
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+              "display": "Building Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "7801d50d-a728-49a0-9d15-12b255bcb412",
+              "display": "W07: Bed 01",
+              "retired": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/7801d50d-a728-49a0-9d15-12b255bcb412"
+                }
+              ]
+            },
+            {
+              "uuid": "f3b53dca-641a-4c65-b0a9-a65a0514c064",
+              "display": "W07: Bed 02",
+              "retired": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/f3b53dca-641a-4c65-b0a9-a65a0514c064"
+                }
+              ]
+            }
+          ],
+          "retired": true,
+          "attributes": [],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/f9400a2e-da19-4908-8bd4-390e083cfebc"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/f9400a2e-da19-4908-8bd4-390e083cfebc?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "bdb84971-8b58-4903-ab55-7304e2b24eb3",
+          "display": "Ward No. 08",
+          "name": "Ward No. 08",
+          "description": "For admitting a patient",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "iCARE796-UDSM-BUIL-8efe-a0db56f09676",
+              "display": "Building Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationtag/iCARE796-UDSM-BUIL-8efe-a0db56f09676"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e",
+            "display": "Male ward",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE797-UDSM-ADMT-9beb-d30dcfc0c66e"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "8e94f67f-c03d-484a-8978-cdf9cb77f53f",
+              "display": "W08: Bed 01",
+              "retired": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/8e94f67f-c03d-484a-8978-cdf9cb77f53f"
+                }
+              ]
+            },
+            {
+              "uuid": "1a6b0d69-e266-4859-a6a8-dd2b1c95c8c2",
+              "display": "W08: Bed 02",
+              "retired": true,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/1a6b0d69-e266-4859-a6a8-dd2b1c95c8c2"
+                }
+              ]
+            }
+          ],
+          "retired": true,
+          "attributes": [],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/bdb84971-8b58-4903-ab55-7304e2b24eb3"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/bdb84971-8b58-4903-ab55-7304e2b24eb3?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeType": {
+            "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+            "display": "modules",
+            "name": "modules",
+            "description": "For holding the modules applicable to this location",
+            "minOccurs": 0,
+            "maxOccurs": 12,
+            "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+            "preferredHandlerClassname": null,
+            "retired": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+              },
+              {
+                "rel": "full",
+                "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676?v=full"
+              }
+            ],
+            "resourceVersion": "1.9"
+          },
+          "uuid": "e0befb59-5754-4e2b-8a72-6ed87042e57d",
+          "value": "inpatient",
+          "voided": false
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "name": "modules",
+        "description": "For holding the modules applicable to this location",
+        "minOccurs": 0,
+        "maxOccurs": 12,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "iCAREatt-1004-451f-8efe-a0db56f09676",
+      "value": "inpatient",
+      "voided": false
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "ffd6cda1-6718-4129-baa9-8544360e9358",
+      "value": "2a7d282f-a97a-4618-9515-9c0028d575d8",
+      "voided": false
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "3ac001b2-7b2f-49c1-9aea-ee9e0e208020",
+      "value": "a1491f0d-6670-4740-b868-dad87f0e45f9",
+      "voided": false
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "1e359ed1-3359-475b-885c-5365878aa1a0",
+      "value": "a6d5fe45-6fbb-42ae-b8cc-17b1318389d4",
+      "voided": false
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "1b80c440-d93e-42cc-b77d-496b32dd2c53",
+      "value": "073f7587-a169-40c3-b228-316305a9e6e2",
+      "voided": false
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "c49add8e-1a3b-4501-a338-92ff38f85752",
+      "value": "4f764fc8-f01e-454a-95b9-99bc8c8268e7",
+      "voided": false
+    },
+    {
+      "attributeType": {
+        "uuid": "d6794daf-f62f-454e-89eb-6ea98188352f",
+        "display": "Services",
+        "name": "Services",
+        "description": null,
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "a987c253-cc25-4809-a2be-526c0cdba19e",
+      "value": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "voided": true
+    },
+    {
+      "attributeType": {
+        "uuid": "d6794daf-f62f-454e-89eb-6ea98188352f",
+        "display": "Services",
+        "name": "Services",
+        "description": null,
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "786aec0d-3b95-4fbb-a0d1-c91c9024c30b",
+      "value": "506c6c8c-7c03-478f-97c7-8f3917b36eff",
+      "voided": true
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "233ed600-e0ce-4557-a499-67eedba7bef3",
+      "value": "\t2a7d282f-a97a-4618-9515-9c0028d575d8",
+      "voided": true
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "17c3ce9a-02aa-4ee2-a9e4-7aa231485a6f",
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": true
+    },
+    {
+      "attributeType": {
+        "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+        "display": "Billing concept",
+        "name": "Billing concept",
+        "description": "For holding billing concept uuid",
+        "minOccurs": 0,
+        "maxOccurs": 1,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "ac36ebeb-814b-4978-a113-09323b18af89",
+      "value": "459b34f4-b778-4086-a771-bd854c4d0615",
+      "voided": true
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "2f44ee0e-f2ca-44f6-a4d2-7e60d489aedf",
+      "value": "073f7587-a169-40c3-b228-316305a9e6e2",
+      "voided": true
+    },
+    {
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "name": "Forms",
+        "description": "For forms",
+        "minOccurs": 0,
+        "maxOccurs": 5,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "3622acf2-e34a-4df0-a48e-a1411b20daee",
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": true
+    },
+    {
+      "attributeType": {
+        "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+        "display": "Billing concept",
+        "name": "Billing concept",
+        "description": "For holding billing concept uuid",
+        "minOccurs": 0,
+        "maxOccurs": 1,
+        "datatypeClassname": "org.openmrs.customdatatype.datatype.FreeTextDatatype",
+        "preferredHandlerClassname": null,
+        "retired": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+          },
+          {
+            "rel": "full",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676?v=full"
+          }
+        ],
+        "resourceVersion": "1.9"
+      },
+      "uuid": "db7d7d1e-87b2-4611-8882-0adc2d8ee6d6",
+      "value": "e0dffb20-4412-4478-abe5-ac9152aadf78",
+      "voided": true
+    }
+  ]
+}

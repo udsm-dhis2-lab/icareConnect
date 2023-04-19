@@ -21,7 +21,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -30,11 +30,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/4935d827-3e4e-4d32-867b-7fdccdd661e9/attribute/95735e15-032d-4d9d-bfc0-5f1f644e99f2"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/4935d827-3e4e-4d32-867b-7fdccdd661e9/attribute/95735e15-032d-4d9d-bfc0-5f1f644e99f2"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/4935d827-3e4e-4d32-867b-7fdccdd661e9/attribute/95735e15-032d-4d9d-bfc0-5f1f644e99f2?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/4935d827-3e4e-4d32-867b-7fdccdd661e9/attribute/95735e15-032d-4d9d-bfc0-5f1f644e99f2?v=full"
         }
       ],
       "resourceVersion": "1.9"

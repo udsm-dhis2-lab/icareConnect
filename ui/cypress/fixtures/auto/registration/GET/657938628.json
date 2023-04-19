@@ -29,7 +29,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -38,11 +38,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/07721650-b4f9-4da5-a6c8-608da6d0cfb4"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/07721650-b4f9-4da5-a6c8-608da6d0cfb4"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/07721650-b4f9-4da5-a6c8-608da6d0cfb4?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/07721650-b4f9-4da5-a6c8-608da6d0cfb4?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -56,7 +56,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -65,11 +65,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/749b9bd6-5997-4e3e-aed7-adc86875dd46"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/749b9bd6-5997-4e3e-aed7-adc86875dd46"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/749b9bd6-5997-4e3e-aed7-adc86875dd46?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/e8abcf11-dce1-4f02-9e30-1956f38cf2cc/attribute/749b9bd6-5997-4e3e-aed7-adc86875dd46?v=full"
         }
       ],
       "resourceVersion": "1.9"

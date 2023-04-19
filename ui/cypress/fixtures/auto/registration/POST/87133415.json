@@ -1,13 +1,205 @@
 {
-  "error": {
-    "message": "Invalid Submission",
-    "code": "webservices.rest.error.invalid.submission",
-    "globalErrors": [
+  "uuid": "1212146f-c689-41cd-891d-23fceec7e01a",
+  "display": "108106-6-00029/2023 - Test Test Test",
+  "identifiers": [
+    {
+      "uuid": "3f04d882-860e-4d6b-90e2-d63b0d2069be",
+      "display": "MRN = 108106-6-00029/2023",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/1212146f-c689-41cd-891d-23fceec7e01a/identifier/3f04d882-860e-4d6b-90e2-d63b0d2069be"
+        }
+      ]
+    },
+    {
+      "uuid": "476029b0-af67-45ac-9d4f-d2610b9738e7",
+      "display": "Student ID = 2014-04-02328",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/1212146f-c689-41cd-891d-23fceec7e01a/identifier/476029b0-af67-45ac-9d4f-d2610b9738e7"
+        }
+      ]
+    }
+  ],
+  "person": {
+    "uuid": "1212146f-c689-41cd-891d-23fceec7e01a",
+    "display": "Test Test Test",
+    "gender": "M",
+    "age": 20,
+    "birthdate": "2002-03-14T21:00:00.000+0000",
+    "birthdateEstimated": false,
+    "dead": false,
+    "deathDate": null,
+    "causeOfDeath": null,
+    "preferredName": {
+      "uuid": "ae38ffad-a714-4299-bc8d-d49661d43155",
+      "display": "Test Test Test",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/name/ae38ffad-a714-4299-bc8d-d49661d43155"
+        }
+      ]
+    },
+    "preferredAddress": {
+      "uuid": "fff8cbd2-6398-4508-9d3f-777a89d364d1",
+      "display": "Dar es Salaam",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/address/fff8cbd2-6398-4508-9d3f-777a89d364d1"
+        }
+      ]
+    },
+    "attributes": [
       {
-        "code": "Identifier 2014-04-02323 already in use by another patient",
-        "message": "Identifier 2014-04-02323 already in use by another patient"
+        "uuid": "f7348eb8-086b-46c0-8400-09a57a7c6478",
+        "display": "mname = Test",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/f7348eb8-086b-46c0-8400-09a57a7c6478"
+          }
+        ]
+      },
+      {
+        "uuid": "df4237e7-f2be-4ea4-aee3-f21d4a6b32b8",
+        "display": "maritalStatus = Single",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/df4237e7-f2be-4ea4-aee3-f21d4a6b32b8"
+          }
+        ]
+      },
+      {
+        "uuid": "00ed8c92-3397-4613-af16-ce4981bfc8fe",
+        "display": "kinFname = Kin Fname",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/00ed8c92-3397-4613-af16-ce4981bfc8fe"
+          }
+        ]
+      },
+      {
+        "uuid": "f02f24ae-121c-4abd-8bc3-74443c18db1a",
+        "display": "kinLName = Kin Lname",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/f02f24ae-121c-4abd-8bc3-74443c18db1a"
+          }
+        ]
+      },
+      {
+        "uuid": "cdc0b556-29f3-4a4e-b205-f2dd0ab26c7d",
+        "display": "kinPhone = 0987654321",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/cdc0b556-29f3-4a4e-b205-f2dd0ab26c7d"
+          }
+        ]
+      },
+      {
+        "uuid": "78a60f73-2560-4e75-b1e1-c232b2f88f3f",
+        "display": "phone = 0987654321",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/78a60f73-2560-4e75-b1e1-c232b2f88f3f"
+          }
+        ]
+      },
+      {
+        "uuid": "ac749182-4011-4a93-8941-85d3b37d58e6",
+        "display": "education = Primary Education",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/ac749182-4011-4a93-8941-85d3b37d58e6"
+          }
+        ]
+      },
+      {
+        "uuid": "384fc416-872c-4525-8f64-bdc9832805cf",
+        "display": "areaLeader = Leader Test",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/384fc416-872c-4525-8f64-bdc9832805cf"
+          }
+        ]
+      },
+      {
+        "uuid": "de222a93-d3f3-4da5-9407-74bbecbf8ea3",
+        "display": "areaLeaderNumber = 0987654321",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/de222a93-d3f3-4da5-9407-74bbecbf8ea3"
+          }
+        ]
+      },
+      {
+        "uuid": "5880a2fc-6ecf-4488-8707-f0eb728fbaf8",
+        "display": "religion = Christian",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/5880a2fc-6ecf-4488-8707-f0eb728fbaf8"
+          }
+        ]
+      },
+      {
+        "uuid": "9d7373e1-917a-48a8-844f-231309c868eb",
+        "display": "RelationshipType = Parent",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/9d7373e1-917a-48a8-844f-231309c868eb"
+          }
+        ]
+      },
+      {
+        "uuid": "c2e1f5f6-49a0-4232-aa5b-2614e55cac97",
+        "display": "patientType = Student",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a/attribute/c2e1f5f6-49a0-4232-aa5b-2614e55cac97"
+          }
+        ]
       }
     ],
-    "fieldErrors": {}
-  }
+    "voided": false,
+    "birthtime": null,
+    "deathdateEstimated": false,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a"
+      },
+      {
+        "rel": "full",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/1212146f-c689-41cd-891d-23fceec7e01a?v=full"
+      }
+    ],
+    "resourceVersion": "1.11"
+  },
+  "voided": false,
+  "links": [
+    {
+      "rel": "self",
+      "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/1212146f-c689-41cd-891d-23fceec7e01a"
+    },
+    {
+      "rel": "full",
+      "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/1212146f-c689-41cd-891d-23fceec7e01a?v=full"
+    }
+  ],
+  "resourceVersion": "1.8"
 }

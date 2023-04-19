@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "32417f2d-ce11-4e90-aea8-58ab9fb0c4f7",
+      "property": "icare.registration.form.occupation",
+      "value": "c3d16c94-4e03-4b19-9491-43d10f470981",
+      "description": "For occupation form variable",
+      "display": "Icare - Registration Form Occupation = c3d16c94-4e03-4b19-9491-43d10f470981",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/32417f2d-ce11-4e90-aea8-58ab9fb0c4f7"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

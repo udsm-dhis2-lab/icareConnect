@@ -183,16 +183,13 @@ Cypress.Commands.add("writeApiUrl", (filename) => {
     cy.now("writeFile", `cypress/fixtures/${filename}.json`, ele, {
       flag: "a+",
     });
-    cy.now("writeFile", `cypress/fixtures/${filename}.json`, ",", {
-      flag: "a+",
-    });
+    // });
+    // cy.now("writeFile", `cypress/fixtures/${filename}.json`, "]", {
+    //   flag: "a+",
+    // });
+    // cy.now("writeFile", `cypress/fixtures/${filename}.json`, ",", {
+    //   flag: "a+",
   });
-  cy.now("writeFile", `cypress/fixtures/${filename}.json`, "]", {
-    flag: "a+",
-  });
-  // cy.now("writeFile", `cypress/fixtures/${filename}.json`, ",", {
-  //   flag: "a+",
-  // });
 });
 
 Cypress.Commands.add("autoInterceptor", (context, routeMatcher) => {

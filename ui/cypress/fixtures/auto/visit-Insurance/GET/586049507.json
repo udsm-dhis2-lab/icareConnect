@@ -1,0 +1,2028 @@
+{
+  "results": [
+    {
+      "uuid": "5c4b5322-703e-4589-b79c-b206b538fdae",
+      "display": "occupation",
+      "name": "occupation",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/5c4b5322-703e-4589-b79c-b206b538fdae"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "6c990333-aa2b-4778-846f-9ba6edfd3661",
+      "display": "mname",
+      "name": "mname",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/6c990333-aa2b-4778-846f-9ba6edfd3661"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "4041b679-61b6-478e-a391-4cab3c48cd97",
+      "display": "fileNo",
+      "name": "fileNo",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/4041b679-61b6-478e-a391-4cab3c48cd97"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "50c61832-3f6c-4ea1-8ae3-9e363972d905",
+      "display": "tribe",
+      "name": "tribe",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/50c61832-3f6c-4ea1-8ae3-9e363972d905"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "0eeecb5a-b034-431f-98ec-d2b672719495",
+      "display": "maritalStatus",
+      "name": "maritalStatus",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/0eeecb5a-b034-431f-98ec-d2b672719495"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "5549614f-7bc2-49d0-bd1d-94cbdbbd004b",
+      "display": "kinFname",
+      "name": "kinFname",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/5549614f-7bc2-49d0-bd1d-94cbdbbd004b"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "9bd41adb-ee63-49f7-ac54-bb74a7ad8334",
+      "display": "kinLName",
+      "name": "kinLName",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/9bd41adb-ee63-49f7-ac54-bb74a7ad8334"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "c38d5e55-7036-4b7a-8fc7-ad15e8c2d87a",
+      "display": "kinPhone",
+      "name": "kinPhone",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/c38d5e55-7036-4b7a-8fc7-ad15e8c2d87a"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8aaff8a9-1eae-4d67-b336-8fc5d0c56e51",
+      "display": "kinRelationship",
+      "name": "kinRelationship",
+      "description": null,
+      "format": null,
+      "foreignKey": null,
+      "sortWeight": null,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-10-28T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8aaff8a9-1eae-4d67-b336-8fc5d0c56e51"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8d8718c2-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "birthplace",
+      "name": "birthplace",
+      "description": "Location of persons birth",
+      "format": "java.lang.String",
+      "foreignKey": 0,
+      "sortWeight": 0,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2007-05-04T00:00:00.000+0000",
+        "changedBy": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateChanged": "2020-11-14T05:37:02.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8d8718c2-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8d871afc-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "Citizenship",
+      "name": "Citizenship",
+      "description": "Country of which this person is a member",
+      "format": "java.lang.String",
+      "foreignKey": 0,
+      "sortWeight": 1,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2007-05-04T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8d871afc-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8d871f2a-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "Civil Status",
+      "name": "Civil Status",
+      "description": "Marriage status of this person",
+      "format": "org.openmrs.Concept",
+      "foreignKey": 1054,
+      "sortWeight": 2,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2007-05-04T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8d871f2a-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8d87236c-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "Health Center",
+      "name": "Health Center",
+      "description": "Specific Location of this person's home health center.",
+      "format": "org.openmrs.Location",
+      "foreignKey": 0,
+      "sortWeight": 3,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2007-05-04T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8d87236c-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8d872150-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "Health District",
+      "name": "Health District",
+      "description": "District/region in which this patient' home health center resides",
+      "format": "java.lang.String",
+      "foreignKey": 0,
+      "sortWeight": 4,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2007-05-04T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8d872150-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "Mother's Name",
+      "name": "Mother's Name",
+      "description": "First or last name of this person's mother",
+      "format": "java.lang.String",
+      "foreignKey": 0,
+      "sortWeight": 5,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2007-05-04T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8d871d18-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8d871386-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "Race",
+      "name": "Race",
+      "description": "Group of persons related by common descent or heredity",
+      "format": "java.lang.String",
+      "foreignKey": 0,
+      "sortWeight": 6,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2007-05-04T00:00:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8d871386-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
+      "display": "Telephone Number",
+      "name": "Telephone Number",
+      "description": "The telephone number for the person",
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 7,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "A4F30A1B-5EB9-11DF-A648-37A07F9C90FB",
+          "display": "daemon",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/A4F30A1B-5EB9-11DF-A648-37A07F9C90FB"
+            }
+          ]
+        },
+        "dateCreated": "2007-08-16T14:38:20.000+0000",
+        "changedBy": null,
+        "dateChanged": "2007-08-16T14:38:20.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/14d4f066-15f5-102d-96e4-000c29c2a5d7"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "8b56eac7-5c76-4b9c-8c6f-1deab8d3fc47",
+      "display": "Unknown patient",
+      "name": "Unknown patient",
+      "description": "Used to flag patients that cannot be identified during the check-in process",
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 13,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "A4F30A1B-5EB9-11DF-A648-37A07F9C90FB",
+          "display": "daemon",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/A4F30A1B-5EB9-11DF-A648-37A07F9C90FB"
+            }
+          ]
+        },
+        "dateCreated": "2012-10-19T21:24:15.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/8b56eac7-5c76-4b9c-8c6f-1deab8d3fc47"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "4f07985c-88a5-4abd-aa0c-f3ec8324d8e7",
+      "display": "Test Patient",
+      "name": "Test Patient",
+      "description": "Flag to describe if the patient was created to a test or not",
+      "format": "java.lang.Boolean",
+      "foreignKey": null,
+      "sortWeight": 14,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "A4F30A1B-5EB9-11DF-A648-37A07F9C90FB",
+          "display": "daemon",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/A4F30A1B-5EB9-11DF-A648-37A07F9C90FB"
+            }
+          ]
+        },
+        "dateCreated": "2013-07-17T21:36:53.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/4f07985c-88a5-4abd-aa0c-f3ec8324d8e7"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+      "display": "phone",
+      "name": "phone",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 15,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-14T05:24:49.000+0000",
+        "changedBy": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateChanged": "2022-10-05T09:43:31.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "95f62fcb-6ce4-4578-a419-66c7d2ebfc40",
+      "display": "education",
+      "name": "education",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 16,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-18T08:52:28.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/95f62fcb-6ce4-4578-a419-66c7d2ebfc40"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "83ccb8b8-26cd-4405-aa76-3e159dbb9235",
+      "display": "areaLeader",
+      "name": "areaLeader",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 17,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-18T08:52:50.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/83ccb8b8-26cd-4405-aa76-3e159dbb9235"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "4a2d8763-b591-498d-a554-bb9650d46cf7",
+      "display": "areaLeaderNumber",
+      "name": "areaLeaderNumber",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 18,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-18T08:53:03.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/4a2d8763-b591-498d-a554-bb9650d46cf7"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "1258ef45-39fb-4847-98c3-4700c7d290c9",
+      "display": "Marital Status",
+      "name": "Marital Status",
+      "description": "Marital Status",
+      "format": "org.openmrs.Concept",
+      "foreignKey": 2185,
+      "sortWeight": 18,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-06-29T15:03:25.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2018-08-02T15:01:42.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/1258ef45-39fb-4847-98c3-4700c7d290c9"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "e9cceefa-dc4d-4877-9347-9bc9f8e1af5b",
+      "display": "religion",
+      "name": "religion",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 19,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-18T08:53:17.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/e9cceefa-dc4d-4877-9347-9bc9f8e1af5b"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "4ea8477e-01d9-4fcf-99ad-97be0e8d1763",
+      "display": "referredFrom",
+      "name": "referredFrom",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 20,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-18T09:07:41.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/4ea8477e-01d9-4fcf-99ad-97be0e8d1763"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "f2972a81-3f7d-44a3-813c-510f84585d0b",
+      "display": "GoTHOMIS",
+      "name": "GoTHOMIS",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 21,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-18T15:55:47.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/f2972a81-3f7d-44a3-813c-510f84585d0b"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "edecbb26-e5a7-44b5-87ae-0012643882bc",
+      "display": "newPatient",
+      "name": "newPatient",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 22,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-19T03:30:17.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/edecbb26-e5a7-44b5-87ae-0012643882bc"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "5c774ff9-7dfc-4c84-9509-e5332a1e48de",
+      "display": "RelationshipType",
+      "name": "RelationshipType",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 23,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-19T03:30:36.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/5c774ff9-7dfc-4c84-9509-e5332a1e48de"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "7d8eb304-c874-4991-b037-1cc76031072f",
+      "display": "Id",
+      "name": "Id",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 24,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2020-11-19T03:30:54.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/7d8eb304-c874-4991-b037-1cc76031072f"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "6cd97cb9-a300-48d6-a2d2-f0934b22baef",
+      "display": "National ID Type",
+      "name": "National ID Type",
+      "description": null,
+      "format": "org.openmrs.Concept",
+      "foreignKey": 4018,
+      "sortWeight": 29,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-06-24T14:01:55.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2017-08-31T09:28:28.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/6cd97cb9-a300-48d6-a2d2-f0934b22baef"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "58867285-7f8e-4ddf-aef6-f0c3d8f73305",
+      "display": "ID",
+      "name": "ID",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 30,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-06-24T14:01:20.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2017-08-31T09:28:11.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/58867285-7f8e-4ddf-aef6-f0c3d8f73305"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "71d3cdcf-442a-41e1-9660-e5389298e616",
+      "display": "Name of Area leader/Neighbour",
+      "name": "Name of Area leader/Neighbour",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 33,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-09-20T10:31:49.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/71d3cdcf-442a-41e1-9660-e5389298e616"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "3c5ab5b3-92b6-441d-8de5-f651782eb4c5",
+      "display": "Tel No of Name of Area leader/Neighbour",
+      "name": "Tel No of Name of Area leader/Neighbour",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 34,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-09-20T10:36:25.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2017-09-20T11:05:18.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/3c5ab5b3-92b6-441d-8de5-f651782eb4c5"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "110e963f-a385-4592-acea-9721945dc8ff",
+      "display": "Name",
+      "name": "Name",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 36,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-10-23T18:37:05.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/110e963f-a385-4592-acea-9721945dc8ff"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "45fb326c-c01a-4ede-8c8b-51de80870054",
+      "display": "Next of Kin Contact Number",
+      "name": "Next of Kin Contact Number",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 37,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-10-23T18:37:23.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/45fb326c-c01a-4ede-8c8b-51de80870054"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "cb89933d-0724-45a6-a59d-6bd829992472",
+      "display": "Next of Kin Type",
+      "name": "Next of Kin Type",
+      "description": "Relationship Type",
+      "format": "org.openmrs.Concept",
+      "foreignKey": 4687,
+      "sortWeight": 38,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-10-23T18:43:38.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/cb89933d-0724-45a6-a59d-6bd829992472"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "6ad63f96-85f6-4f6e-82f1-a920dff8b1e2",
+      "display": "paymentCategory",
+      "name": "paymentCategory",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 39,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-11-27T08:59:42.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/6ad63f96-85f6-4f6e-82f1-a920dff8b1e2"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "f5846c2c-e72f-4191-8dbe-b53278d61ea9",
+      "display": "paymentExemptionSubCategory",
+      "name": "paymentExemptionSubCategory",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 40,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-11-27T09:00:04.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/f5846c2c-e72f-4191-8dbe-b53278d61ea9"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "7ca44f08-1ec5-4ccf-b850-5110c9de7c10",
+      "display": "insuranceType",
+      "name": "insuranceType",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 41,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-11-27T09:00:20.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/7ca44f08-1ec5-4ccf-b850-5110c9de7c10"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "9d5a9f4e-7a8b-4088-9da3-7da373514e68",
+      "display": "insuranceIdentification",
+      "name": "insuranceIdentification",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 42,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-11-27T09:00:55.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/9d5a9f4e-7a8b-4088-9da3-7da373514e68"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "96878413-bbae-4ee0-812f-241a4fc94500",
+      "display": "mobileNumber",
+      "name": "mobileNumber",
+      "description": null,
+      "format": "java.lang.Integer",
+      "foreignKey": null,
+      "sortWeight": 43,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-11-27T09:01:11.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2018-01-10T13:18:25.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/96878413-bbae-4ee0-812f-241a4fc94500"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "d4fa92e9-012f-41e6-a3bb-18b49cde939c",
+      "display": "providerInCharge",
+      "name": "providerInCharge",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 44,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2017-11-27T09:01:29.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2017-11-27T09:59:44.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/d4fa92e9-012f-41e6-a3bb-18b49cde939c"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "27dbd765-bd16-47fa-8cd1-bd86786d2f7d",
+      "display": "Religion",
+      "name": "Religion",
+      "description": "Religion",
+      "format": "java.lang.String",
+      "foreignKey": 6214,
+      "sortWeight": 45,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-02-01T02:00:46.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2018-07-29T12:41:41.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/27dbd765-bd16-47fa-8cd1-bd86786d2f7d"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "b6a1fa45-0363-4cae-9147-9eba6ad36dee",
+      "display": "New patient?",
+      "name": "New patient?",
+      "description": "New patient?",
+      "format": "org.openmrs.Concept",
+      "foreignKey": 6211,
+      "sortWeight": 47,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-02-01T02:05:20.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/b6a1fa45-0363-4cae-9147-9eba6ad36dee"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "12da636c-130e-4a87-893f-d95b55200b99",
+      "display": "Referring Court",
+      "name": "Referring Court",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 50,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-04-17T10:01:52.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2018-07-18T10:20:48.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/12da636c-130e-4a87-893f-d95b55200b99"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "32064585-02c9-4036-a410-66d7091db937",
+      "display": "Date",
+      "name": "Date",
+      "description": null,
+      "format": "org.openmrs.util.AttributableDate",
+      "foreignKey": null,
+      "sortWeight": 51,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-04-17T10:02:32.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/32064585-02c9-4036-a410-66d7091db937"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "18f8ded8-ec60-4210-85c4-f7748d974b6c",
+      "display": "Offence charged",
+      "name": "Offence charged",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 52,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-04-17T10:02:54.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/18f8ded8-ec60-4210-85c4-f7748d974b6c"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "9fcc0083-d48b-4f61-ae7c-c855179ad75d",
+      "display": "Isanga - CATEGORY",
+      "name": "Isanga - CATEGORY",
+      "description": "CATEGORY",
+      "format": "org.openmrs.Concept",
+      "foreignKey": 7611,
+      "sortWeight": 53,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-07-15T13:14:41.000+0000",
+        "changedBy": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateChanged": "2018-07-15T13:30:52.000+0000"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/9fcc0083-d48b-4f61-ae7c-c855179ad75d"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "b5233614-6b9a-4912-90c9-6989d6dc0297",
+      "display": "Specify",
+      "name": "Specify",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 54,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-07-17T18:08:50.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/b5233614-6b9a-4912-90c9-6989d6dc0297"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "12f5beb7-b4e4-4405-9b7f-5b5f501474dd",
+      "display": "Referring Prison",
+      "name": "Referring Prison",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 55,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-07-18T10:23:08.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/12f5beb7-b4e4-4405-9b7f-5b5f501474dd"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "9fb7df76-605a-4531-a16e-590d5c87f2f7",
+      "display": "Select Number",
+      "name": "Select Number",
+      "description": null,
+      "format": "org.openmrs.Concept",
+      "foreignKey": 7953,
+      "sortWeight": 56,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-07-25T21:35:56.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/9fb7df76-605a-4531-a16e-590d5c87f2f7"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "ae68b9e2-a9d1-4038-8023-c3e816e9b8d5",
+      "display": "Add Number",
+      "name": "Add Number",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 57,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2018-07-25T21:42:00.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/ae68b9e2-a9d1-4038-8023-c3e816e9b8d5"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "448f776c-80df-4757-ba69-da5fb7e14ce1",
+      "display": "GoTHOMIS_MRN",
+      "name": "GoTHOMIS_MRN",
+      "description": "Imported MRN issued by GoTHOMIS.",
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 59,
+      "searchable": true,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "564b2790-0508-11e3-8ffd-0800200c9a66",
+          "display": "nurse",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/564b2790-0508-11e3-8ffd-0800200c9a66"
+            }
+          ]
+        },
+        "dateCreated": "2020-03-17T21:46:31.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/448f776c-80df-4757-ba69-da5fb7e14ce1"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "uuid": "82f95928-8411-43b6-9aa5-9cf84c3d3f2c",
+      "display": "patientType",
+      "name": "patientType",
+      "description": null,
+      "format": "java.lang.String",
+      "foreignKey": null,
+      "sortWeight": 60,
+      "searchable": false,
+      "editPrivilege": null,
+      "retired": false,
+      "concept": null,
+      "auditInfo": {
+        "creator": {
+          "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+          "display": "admin",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+            }
+          ]
+        },
+        "dateCreated": "2023-02-01T09:03:33.000+0000",
+        "changedBy": null,
+        "dateChanged": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/82f95928-8411-43b6-9aa5-9cf84c3d3f2c"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ]
+}

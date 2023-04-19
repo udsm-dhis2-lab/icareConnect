@@ -21,7 +21,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -30,11 +30,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1000-451f-8efe-a0db56f09676"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1000-451f-8efe-a0db56f09676"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1000-451f-8efe-a0db56f09676?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1000-451f-8efe-a0db56f09676?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -48,7 +48,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -57,11 +57,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1001-451f-8efe-a0db56f09676"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1001-451f-8efe-a0db56f09676"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1001-451f-8efe-a0db56f09676?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/iCAREatt-1001-451f-8efe-a0db56f09676?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -75,7 +75,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -84,11 +84,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/599bd4e5-34fc-47f2-9d6e-57a201a11710"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/599bd4e5-34fc-47f2-9d6e-57a201a11710"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/599bd4e5-34fc-47f2-9d6e-57a201a11710?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/599bd4e5-34fc-47f2-9d6e-57a201a11710?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -102,7 +102,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -111,11 +111,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/194fd45f-823c-42c5-b2bc-5cff50bd55f9"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/194fd45f-823c-42c5-b2bc-5cff50bd55f9"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/194fd45f-823c-42c5-b2bc-5cff50bd55f9?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/194fd45f-823c-42c5-b2bc-5cff50bd55f9?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -129,7 +129,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -138,11 +138,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/92c3745a-5e77-4443-b263-cd8ef8193d1b"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/92c3745a-5e77-4443-b263-cd8ef8193d1b"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/92c3745a-5e77-4443-b263-cd8ef8193d1b?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/92c3745a-5e77-4443-b263-cd8ef8193d1b?v=full"
         }
       ],
       "resourceVersion": "1.9"
@@ -156,7 +156,7 @@
         "links": [
           {
             "rel": "self",
-            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
           }
         ]
       },
@@ -165,11 +165,11 @@
       "links": [
         {
           "rel": "self",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/ce79692a-234c-454f-989b-d4cea56f5545"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/ce79692a-234c-454f-989b-d4cea56f5545"
         },
         {
           "rel": "full",
-          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/ce79692a-234c-454f-989b-d4cea56f5545?v=full"
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/iCARE103-bill-41ab-8422-108a0c277d98/attribute/ce79692a-234c-454f-989b-d4cea56f5545?v=full"
         }
       ],
       "resourceVersion": "1.9"

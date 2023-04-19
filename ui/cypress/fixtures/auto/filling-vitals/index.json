@@ -1,0 +1,25 @@
+[{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/icare/visit?OrderBy=ENCOUNTER&orderByDirection=ASC&startIndex=0&limit=10"
+}{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=iCare.filters.&v=full"
+}{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/0a6eca72-2175-4164-a8ce-4446565fdade?v=custom:(uuid,display,setMembers:(uuid,display))"
+}{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000004444IIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,display,setMembers:(uuid,display))"
+}{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/icare/visit?OrderBy=ENCOUNTER&orderByDirection=ASC&q=T&startIndex=0&limit=10"
+}{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/icare/visit?OrderBy=ENCOUNTER&orderByDirection=ASC&q=TE&startIndex=0&limit=10"
+}{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/icare/visit?OrderBy=ENCOUNTER&orderByDirection=ASC&q=TES&startIndex=0&limit=10"
+}{
+  "method": "GET",
+  "url": "http://localhost:4200/openmrs/ws/rest/v1/icare/visit?OrderBy=ENCOUNTER&orderByDirection=ASC&q=TEST&startIndex=0&limit=10"
+}
