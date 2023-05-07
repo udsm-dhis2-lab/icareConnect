@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "13c09f98-97a9-4189-8ce7-df9004f3800c",
+      "property": "iCare.clinic.laboratory.labTestOrderType",
+      "value": "52a447d3-a64a-11e3-9aeb-50e549534c5e",
+      "description": null,
+      "display": "I Care - Clinic Laboratory Lab Test Order Type = 52a447d3-a64a-11e3-9aeb-50e549534c5e",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/13c09f98-97a9-4189-8ce7-df9004f3800c"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

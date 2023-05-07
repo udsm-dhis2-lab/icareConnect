@@ -1,0 +1,268 @@
+{
+  "display": "Room  (Paediatric Clinic)",
+  "uuid": "b6885e6e-fe37-4f32-b901-0d1022fd3b83",
+  "tags": [
+    {
+      "uuid": "6f00c9e3-afa1-4682-b365-58a733439812",
+      "display": "Module Location"
+    },
+    {
+      "uuid": "iCARE100-UDSM-451f-8efe-a0db56f09676",
+      "display": "Treatment Room"
+    },
+    {
+      "uuid": "8d4626ca-7abd-42ad-be48-56767bbcf272",
+      "display": "Transfer Location"
+    }
+  ],
+  "parentLocation": {
+    "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+    "display": "University of Dar es Salaam"
+  },
+  "attributes": [
+    {
+      "display": "Forms: c75f120a-04ec-11e3-8780-2b40bef9a44b",
+      "uuid": "759905eb-a530-4de5-94e7-4503a2dbffa5",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "c75f120a-04ec-11e3-8780-2b40bef9a44b",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/759905eb-a530-4de5-94e7-4503a2dbffa5"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/759905eb-a530-4de5-94e7-4503a2dbffa5?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Forms: a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "uuid": "b4c325cd-c42e-45b6-ad8b-ad8d7ce98727",
+      "attributeType": {
+        "uuid": "2c266002-2848-4d2b-bf1f-8b59d81e3f29",
+        "display": "Forms",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/2c266002-2848-4d2b-bf1f-8b59d81e3f29"
+          }
+        ]
+      },
+      "value": "a000cb34-9ec1-4344-a1c8-f692232f6edd",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/b4c325cd-c42e-45b6-ad8b-ad8d7ce98727"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/b4c325cd-c42e-45b6-ad8b-ad8d7ce98727?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "modules: clinic",
+      "uuid": "1a1d2063-397a-4227-8dfb-d4716de647f1",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "clinic",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/1a1d2063-397a-4227-8dfb-d4716de647f1"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/1a1d2063-397a-4227-8dfb-d4716de647f1?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Billing concept: c6060543-c983-4178-b8cc-eabfe7686e6e",
+      "uuid": "6de31aa1-b586-4e7a-af2e-53385f0a86f2",
+      "attributeType": {
+        "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+        "display": "Billing concept",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "c6060543-c983-4178-b8cc-eabfe7686e6e",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/6de31aa1-b586-4e7a-af2e-53385f0a86f2"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/6de31aa1-b586-4e7a-af2e-53385f0a86f2?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Services: 9c5cc3a5-9b8b-4761-80b4-466bb0f97297",
+      "uuid": "4fe6eb76-27f6-4347-94ca-79e46993ac17",
+      "attributeType": {
+        "uuid": "d6794daf-f62f-454e-89eb-6ea98188352f",
+        "display": "Services",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
+          }
+        ]
+      },
+      "value": "9c5cc3a5-9b8b-4761-80b4-466bb0f97297",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/4fe6eb76-27f6-4347-94ca-79e46993ac17"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/4fe6eb76-27f6-4347-94ca-79e46993ac17?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Services: 9c5cc3a5-9b8b-4761-80b4-466bb0f97297",
+      "uuid": "0cb6c885-78b8-413a-8582-789724cae7ce",
+      "attributeType": {
+        "uuid": "d6794daf-f62f-454e-89eb-6ea98188352f",
+        "display": "Services",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
+          }
+        ]
+      },
+      "value": "9c5cc3a5-9b8b-4761-80b4-466bb0f97297",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/0cb6c885-78b8-413a-8582-789724cae7ce"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/0cb6c885-78b8-413a-8582-789724cae7ce?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Billing concept: aaccf937-345a-495d-ab8a-33728d30c415",
+      "uuid": "b8da43ba-0608-4588-8070-1eff9d893310",
+      "attributeType": {
+        "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+        "display": "Billing concept",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "aaccf937-345a-495d-ab8a-33728d30c415",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/b8da43ba-0608-4588-8070-1eff9d893310"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/b8da43ba-0608-4588-8070-1eff9d893310?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Billing concept: 11a30c65-8808-498f-b97a-13c24c6fde69",
+      "uuid": "da905a04-439d-4f3e-b1d2-d01bca6a7fde",
+      "attributeType": {
+        "uuid": "iCAR7002-UDSM-attr-8efe-a0db56f09676",
+        "display": "Billing concept",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCAR7002-UDSM-attr-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "11a30c65-8808-498f-b97a-13c24c6fde69",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/da905a04-439d-4f3e-b1d2-d01bca6a7fde"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/da905a04-439d-4f3e-b1d2-d01bca6a7fde?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "display": "Services: 47588988-95d3-4713-a386-2c48742363c1",
+      "uuid": "e2d85e58-63ba-47d1-beaf-fe778d2ac948",
+      "attributeType": {
+        "uuid": "d6794daf-f62f-454e-89eb-6ea98188352f",
+        "display": "Services",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/d6794daf-f62f-454e-89eb-6ea98188352f"
+          }
+        ]
+      },
+      "value": "47588988-95d3-4713-a386-2c48742363c1",
+      "voided": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/e2d85e58-63ba-47d1-beaf-fe778d2ac948"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/b6885e6e-fe37-4f32-b901-0d1022fd3b83/attribute/e2d85e58-63ba-47d1-beaf-fe778d2ac948?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ],
+  "retired": false
+}

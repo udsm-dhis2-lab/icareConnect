@@ -1,0 +1,44 @@
+{
+  "display": "Exemption",
+  "uuid": "4935d827-3e4e-4d32-867b-7fdccdd661e9",
+  "tags": [
+    {
+      "uuid": "6f00c9e3-afa1-4682-b365-58a733439812",
+      "display": "Module Location"
+    }
+  ],
+  "parentLocation": {
+    "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+    "display": "University of Dar es Salaam"
+  },
+  "attributes": [
+    {
+      "display": "modules: billing_exemption",
+      "uuid": "95735e15-032d-4d9d-bfc0-5f1f644e99f2",
+      "attributeType": {
+        "uuid": "iCARE101-UDSM-451f-8efe-a0db56f09676",
+        "display": "modules",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/locationattributetype/iCARE101-UDSM-451f-8efe-a0db56f09676"
+          }
+        ]
+      },
+      "value": "billing_exemption",
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/4935d827-3e4e-4d32-867b-7fdccdd661e9/attribute/95735e15-032d-4d9d-bfc0-5f1f644e99f2"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/4935d827-3e4e-4d32-867b-7fdccdd661e9/attribute/95735e15-032d-4d9d-bfc0-5f1f644e99f2?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ],
+  "retired": false
+}

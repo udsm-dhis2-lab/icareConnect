@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "25558aaf-d5b8-4486-ac6b-06e6e19e18c1",
+      "property": "iCare.clinic.genericPrescription.orderType",
+      "value": "43c94345-c5e6-4f0b-9781-9803b226af72",
+      "description": "Used to creating orders for generic prescription encounter. Also, when getting all encounters with orders of generic prescription",
+      "display": "I Care - Clinic Generic Prescription Order Type = 43c94345-c5e6-4f0b-9781-9803b226af72",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/25558aaf-d5b8-4486-ac6b-06e6e19e18c1"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "uuid": "049fb714-a7cf-4a67-b87d-b7303e8cff8b",
+  "display": "NEWTEST NEWTEST NEWTEST",
+  "gender": "M",
+  "age": 20,
+  "birthdate": "2002-05-16T00:00:00.000+0000",
+  "birthdateEstimated": false,
+  "dead": false,
+  "deathDate": null,
+  "causeOfDeath": null,
+  "preferredName": {
+    "display": "NEWTEST NEWTEST NEWTEST",
+    "uuid": "cfd595c7-06db-450e-a7d8-e06812734acd",
+    "givenName": "NEWTEST",
+    "middleName": "NEWTEST",
+    "familyName": "NEWTEST",
+    "familyName2": null,
+    "voided": false,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/name/cfd595c7-06db-450e-a7d8-e06812734acd"
+      },
+      {
+        "rel": "full",
+        "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/name/cfd595c7-06db-450e-a7d8-e06812734acd?v=full"
+      }
+    ],
+    "resourceVersion": "1.8"
+  },
+  "preferredAddress": {
+    "display": "Dar es Salaam",
+    "uuid": "9a0d1ddf-c298-4cc4-bf9f-0c8a6633feec",
+    "preferred": true,
+    "address1": "Dar es Salaam",
+    "address2": null,
+    "cityVillage": "Kibo Village",
+    "stateProvince": "Ubungo",
+    "country": null,
+    "postalCode": null,
+    "countyDistrict": "Ubungo Ward",
+    "address3": null,
+    "address4": null,
+    "address5": null,
+    "address6": null,
+    "startDate": null,
+    "endDate": null,
+    "latitude": null,
+    "longitude": null,
+    "voided": false,
+    "address7": null,
+    "address8": null,
+    "address9": null,
+    "address10": null,
+    "address11": null,
+    "address12": null,
+    "address13": null,
+    "address14": null,
+    "address15": null,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/address/9a0d1ddf-c298-4cc4-bf9f-0c8a6633feec"
+      },
+      {
+        "rel": "full",
+        "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/address/9a0d1ddf-c298-4cc4-bf9f-0c8a6633feec?v=full"
+      }
+    ],
+    "resourceVersion": "2.0"
+  },
+  "names": [
+    {
+      "display": "NEWTEST NEWTEST NEWTEST",
+      "uuid": "cfd595c7-06db-450e-a7d8-e06812734acd",
+      "givenName": "NEWTEST",
+      "middleName": "NEWTEST",
+      "familyName": "NEWTEST",
+      "familyName2": null,
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/name/cfd595c7-06db-450e-a7d8-e06812734acd"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/name/cfd595c7-06db-450e-a7d8-e06812734acd?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ],
+  "addresses": [
+    {
+      "display": "Dar es Salaam",
+      "uuid": "9a0d1ddf-c298-4cc4-bf9f-0c8a6633feec",
+      "preferred": true,
+      "address1": "Dar es Salaam",
+      "address2": null,
+      "cityVillage": "Kibo Village",
+      "stateProvince": "Ubungo",
+      "country": null,
+      "postalCode": null,
+      "countyDistrict": "Ubungo Ward",
+      "address3": null,
+      "address4": null,
+      "address5": null,
+      "address6": null,
+      "startDate": null,
+      "endDate": null,
+      "latitude": null,
+      "longitude": null,
+      "voided": false,
+      "address7": null,
+      "address8": null,
+      "address9": null,
+      "address10": null,
+      "address11": null,
+      "address12": null,
+      "address13": null,
+      "address14": null,
+      "address15": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/address/9a0d1ddf-c298-4cc4-bf9f-0c8a6633feec"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/address/9a0d1ddf-c298-4cc4-bf9f-0c8a6633feec?v=full"
+        }
+      ],
+      "resourceVersion": "2.0"
+    }
+  ],
+  "attributes": [
+    {
+      "display": "mname = newtest",
+      "uuid": "db02c76a-2cfa-46d2-8bce-e5d41b580f9b",
+      "value": "newtest",
+      "attributeType": {
+        "uuid": "6c990333-aa2b-4778-846f-9ba6edfd3661",
+        "display": "mname",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/6c990333-aa2b-4778-846f-9ba6edfd3661"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/db02c76a-2cfa-46d2-8bce-e5d41b580f9b"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/db02c76a-2cfa-46d2-8bce-e5d41b580f9b?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "maritalStatus = Single",
+      "uuid": "5eacd433-0f4e-440a-ba33-2413f580f974",
+      "value": "Single",
+      "attributeType": {
+        "uuid": "0eeecb5a-b034-431f-98ec-d2b672719495",
+        "display": "maritalStatus",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/0eeecb5a-b034-431f-98ec-d2b672719495"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/5eacd433-0f4e-440a-ba33-2413f580f974"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/5eacd433-0f4e-440a-ba33-2413f580f974?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "kinFname = Kin Fname",
+      "uuid": "a4108365-dd37-4a50-896a-5aad56bd3afd",
+      "value": "Kin Fname",
+      "attributeType": {
+        "uuid": "5549614f-7bc2-49d0-bd1d-94cbdbbd004b",
+        "display": "kinFname",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/5549614f-7bc2-49d0-bd1d-94cbdbbd004b"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/a4108365-dd37-4a50-896a-5aad56bd3afd"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/a4108365-dd37-4a50-896a-5aad56bd3afd?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "kinLName = Kin Lname",
+      "uuid": "95ca4b0f-f6ff-44d1-b511-98af0702f947",
+      "value": "Kin Lname",
+      "attributeType": {
+        "uuid": "9bd41adb-ee63-49f7-ac54-bb74a7ad8334",
+        "display": "kinLName",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/9bd41adb-ee63-49f7-ac54-bb74a7ad8334"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/95ca4b0f-f6ff-44d1-b511-98af0702f947"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/95ca4b0f-f6ff-44d1-b511-98af0702f947?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "kinPhone = 0987654321",
+      "uuid": "16b36f2d-8a8d-4895-9d0f-43b899e27e04",
+      "value": "0987654321",
+      "attributeType": {
+        "uuid": "c38d5e55-7036-4b7a-8fc7-ad15e8c2d87a",
+        "display": "kinPhone",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/c38d5e55-7036-4b7a-8fc7-ad15e8c2d87a"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/16b36f2d-8a8d-4895-9d0f-43b899e27e04"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/16b36f2d-8a8d-4895-9d0f-43b899e27e04?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "phone = 0987654321",
+      "uuid": "3c4306a4-110e-4475-8cff-057ee5ba49a2",
+      "value": "0987654321",
+      "attributeType": {
+        "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+        "display": "phone",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/3c4306a4-110e-4475-8cff-057ee5ba49a2"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/3c4306a4-110e-4475-8cff-057ee5ba49a2?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "education = Primary Education",
+      "uuid": "7fe5a6ce-a6b9-438e-95be-139a59f7c80e",
+      "value": "Primary Education",
+      "attributeType": {
+        "uuid": "95f62fcb-6ce4-4578-a419-66c7d2ebfc40",
+        "display": "education",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/95f62fcb-6ce4-4578-a419-66c7d2ebfc40"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/7fe5a6ce-a6b9-438e-95be-139a59f7c80e"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/7fe5a6ce-a6b9-438e-95be-139a59f7c80e?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "areaLeader = Leader Test",
+      "uuid": "4a070be1-9209-48ba-a212-69b6a27c188e",
+      "value": "Leader Test",
+      "attributeType": {
+        "uuid": "83ccb8b8-26cd-4405-aa76-3e159dbb9235",
+        "display": "areaLeader",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/83ccb8b8-26cd-4405-aa76-3e159dbb9235"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/4a070be1-9209-48ba-a212-69b6a27c188e"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/4a070be1-9209-48ba-a212-69b6a27c188e?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "areaLeaderNumber = 0987654321",
+      "uuid": "7d0174f6-0f57-43a8-9040-b0617670014e",
+      "value": "0987654321",
+      "attributeType": {
+        "uuid": "4a2d8763-b591-498d-a554-bb9650d46cf7",
+        "display": "areaLeaderNumber",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/4a2d8763-b591-498d-a554-bb9650d46cf7"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/7d0174f6-0f57-43a8-9040-b0617670014e"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/7d0174f6-0f57-43a8-9040-b0617670014e?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "religion = Christian",
+      "uuid": "e59a6236-a199-43d4-84f5-a6b19e2866ce",
+      "value": "Christian",
+      "attributeType": {
+        "uuid": "e9cceefa-dc4d-4877-9347-9bc9f8e1af5b",
+        "display": "religion",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/e9cceefa-dc4d-4877-9347-9bc9f8e1af5b"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/e59a6236-a199-43d4-84f5-a6b19e2866ce"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/e59a6236-a199-43d4-84f5-a6b19e2866ce?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "RelationshipType = Parent",
+      "uuid": "02788f30-236d-41ed-b5e5-14ebc57c4090",
+      "value": "Parent",
+      "attributeType": {
+        "uuid": "5c774ff9-7dfc-4c84-9509-e5332a1e48de",
+        "display": "RelationshipType",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/5c774ff9-7dfc-4c84-9509-e5332a1e48de"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/02788f30-236d-41ed-b5e5-14ebc57c4090"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/02788f30-236d-41ed-b5e5-14ebc57c4090?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    },
+    {
+      "display": "patientType = Student",
+      "uuid": "2a019430-732d-49b7-9b20-af87a8c9934f",
+      "value": "Student",
+      "attributeType": {
+        "uuid": "82f95928-8411-43b6-9aa5-9cf84c3d3f2c",
+        "display": "patientType",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrs/ws/rest/v1/personattributetype/82f95928-8411-43b6-9aa5-9cf84c3d3f2c"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/2a019430-732d-49b7-9b20-af87a8c9934f"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b/attribute/2a019430-732d-49b7-9b20-af87a8c9934f?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ],
+  "voided": false,
+  "auditInfo": {
+    "creator": {
+      "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+      "display": "admin",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    "dateCreated": "2023-05-04T05:49:55.000+0000",
+    "changedBy": null,
+    "dateChanged": null
+  },
+  "birthtime": null,
+  "deathdateEstimated": false,
+  "causeOfDeathNonCoded": null,
+  "links": [
+    {
+      "rel": "self",
+      "uri": "http://127.0.0.1/openmrs/ws/rest/v1/person/049fb714-a7cf-4a67-b87d-b7303e8cff8b"
+    }
+  ],
+  "resourceVersion": "1.11"
+}

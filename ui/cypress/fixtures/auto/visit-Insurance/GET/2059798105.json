@@ -1,0 +1,103 @@
+[
+  {
+    "discountItems": [],
+    "creator": {
+      "display": "Elinala Patrick Mwangoka (emwangoka)",
+      "uuid": "610557e4-cb48-4588-9f8b-623fbed5efaa"
+    },
+    "paymentMode": {
+      "display": "Insurance",
+      "uuid": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII"
+    },
+    "patient": {
+      "name": "test i test",
+      "uuid": "70a076ed-d05a-469c-961e-c70716e95f34"
+    },
+    "created": 1666828800000,
+    "payments": [],
+    "invoiceNumber": "00000000",
+    "voided": false,
+    "visit": {
+      "uuid": "b7edcf70-1099-4294-9fb8-9ce78c19f3cc"
+    },
+    "uuid": "733c521d-0158-456a-b6cb-f4966de07ae3",
+    "items": [
+      {
+        "item": {
+          "concept": {
+            "name": "Registration Fee",
+            "uuid": "REG00000IIIIIIIIIIIIIIIIIIIIIIIIIIII"
+          },
+          "uuid": "4206d98f-1ef3-4302-bda6-c3856d34c5a1"
+        },
+        "quantity": 1,
+        "price": 2000,
+        "invoice": {
+          "uuid": "733c521d-0158-456a-b6cb-f4966de07ae3"
+        },
+        "order": {
+          "uuid": "028850df-1ae7-4cd6-8f73-bd7357c24bb0"
+        }
+      },
+      {
+        "item": {
+          "concept": {
+            "name": "Consultation fee - General OPD",
+            "uuid": "368826cf-1756-41fb-89d6-65091f90b40c"
+          },
+          "uuid": "ffb607b7-ff41-4ee1-af9f-0ada113f93b2"
+        },
+        "quantity": 1,
+        "price": 2000,
+        "invoice": {
+          "uuid": "733c521d-0158-456a-b6cb-f4966de07ae3"
+        },
+        "order": {
+          "uuid": "a02baa8d-b428-4fb9-8b2c-58c69306ab3b"
+        }
+      }
+    ]
+  },
+  {
+    "discountItems": [],
+    "creator": {
+      "display": "iCare Admin (admin)",
+      "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+    },
+    "paymentMode": {
+      "display": "Insurance",
+      "uuid": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII"
+    },
+    "patient": {
+      "name": "test i test",
+      "uuid": "70a076ed-d05a-469c-961e-c70716e95f34"
+    },
+    "created": 1678924800000,
+    "payments": [],
+    "invoiceNumber": "000000",
+    "voided": false,
+    "visit": {
+      "uuid": "d68d8f23-5ccc-4b39-b4be-b75348fa7ce6"
+    },
+    "uuid": "783df763-9a1d-40f1-b0bd-c9e1afa3fc85",
+    "items": [
+      {
+        "item": {
+          "concept": {
+            "name": "Consultation fee - General OPD",
+            "uuid": "368826cf-1756-41fb-89d6-65091f90b40c"
+          },
+          "uuid": "ffb607b7-ff41-4ee1-af9f-0ada113f93b2"
+        },
+        "quantity": 1,
+        "price": 2000,
+        "invoice": {
+          "uuid": "783df763-9a1d-40f1-b0bd-c9e1afa3fc85"
+        },
+        "order": {
+          "uuid": "0655dadc-a02d-4946-8c1f-c1e0edbbc57d"
+        }
+      }
+    ]
+  }
+]

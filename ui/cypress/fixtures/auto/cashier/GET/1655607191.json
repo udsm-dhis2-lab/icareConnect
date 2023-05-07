@@ -1,0 +1,236 @@
+{
+  "results": [
+    {
+      "startDatetime": "2023-04-03T23:41:52.000+0000",
+      "encounters": [
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1680565312000,
+          "voided": false,
+          "id": 34861,
+          "dateVoided": null,
+          "uuid": "78988ce6-1e65-4e7d-8621-08e73e57e494",
+          "createdOn": 1680565312000,
+          "changedOn": null
+        }
+      ],
+      "stopDatetime": null,
+      "patient": {
+        "void": false,
+        "identifiers": [
+          {
+            "identifier": "123456",
+            "void": false,
+            "identifierType": {
+              "display": "Voting Registration ID",
+              "uuid": "b03c4b2b-4a99-435c-9bef-519ca04a7855"
+            },
+            "uuid": "3a3fc96d-58db-432a-a83a-f3b67464b098",
+            "preferred": false
+          },
+          {
+            "identifier": "108106-6-10659/2022",
+            "void": false,
+            "identifierType": {
+              "display": "OpenEMPI ID",
+              "uuid": "a5d38e09-efcb-4d91-a526-50ce1ba5011a"
+            },
+            "uuid": "2f70af6c-027c-4ba7-af02-0f93fce995d4",
+            "preferred": true
+          }
+        ],
+        "person": {
+          "birthdateEstimated": false,
+          "deathdateEstimated": false,
+          "void": false,
+          "birthdate": "2022-10-02T00:00:00.000+0000",
+          "gender": "M",
+          "display": "Patient Patient Patient",
+          "dead": false,
+          "attributes": [
+            {
+              "display": "Patient",
+              "uuid": "39085e7d-8fcf-4812-8e84-c91e331b2ee4"
+            },
+            {
+              "display": "Divorced",
+              "uuid": "51b1feb5-9cd1-4c60-8cff-d9f9bbb94a77"
+            },
+            {
+              "display": "6543210987",
+              "uuid": "bfbb2529-68aa-4867-af1a-ef71189bc6e8"
+            },
+            {
+              "display": "Secondary Education",
+              "uuid": "151c6797-10c6-4dde-aeff-4ae7e8a0cade"
+            },
+            {
+              "display": "Muslim",
+              "uuid": "b0d951a0-74d2-422d-a965-17c8e9946137"
+            }
+          ],
+          "causeOfDeath": null,
+          "uuid": "9c281b4f-d0bf-4b3c-b4d7-272f217fc130",
+          "age": 0
+        },
+        "uuid": "9c281b4f-d0bf-4b3c-b4d7-272f217fc130"
+      },
+      "attributes": [
+        {
+          "display": "0987654321",
+          "uuid": "aa6ae239-f420-41b4-965e-5cfcb007d990"
+        },
+        {
+          "display": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "dbe2d563-895c-40df-af48-96787903e9de"
+        },
+        {
+          "display": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "22d0745a-1213-43ce-8338-4b9f98374b36"
+        },
+        {
+          "display": "00000105IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "c587f19c-13c1-4ee5-b54d-5c6919c268e5"
+        },
+        {
+          "display": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+          "uuid": "ec7d85f8-2190-43d3-8bce-49db3e1f9cbd"
+        },
+        {
+          "display": "NOT_AUTHORIZED",
+          "uuid": "bb27a211-267a-4395-9ad7-c24ff5fbb619"
+        },
+        {
+          "display": "274f186c-a9c0-4f37-a3c8-5b18f61353b3",
+          "uuid": "f583a519-5f84-409a-9026-4ffebf881732"
+        },
+        {
+          "display": "368826cf-1756-41fb-89d6-65091f90b40c",
+          "uuid": "e8dc6d6b-6063-4095-a43e-2e6219560e75"
+        }
+      ],
+      "location": {
+        "parentLocation": {
+          "display": "University of Dar es Salaam",
+          "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+        },
+        "display": "Room 04 (General)",
+        "uuid": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+        "tags": [
+          {
+            "display": "Module Location",
+            "uuid": "6f00c9e3-afa1-4682-b365-58a733439812"
+          },
+          {
+            "display": "Treatment Room",
+            "uuid": "iCARE100-UDSM-451f-8efe-a0db56f09676"
+          },
+          {
+            "display": "Transfer Location",
+            "uuid": "8d4626ca-7abd-42ad-be48-56767bbcf272"
+          }
+        ]
+      },
+      "uuid": "600f9626-a5d4-4dcf-8647-73d3f4daa9ad"
+    },
+    {
+      "startDatetime": "2023-04-03T23:42:22.000+0000",
+      "encounters": [
+        {
+          "voidedReason": null,
+          "encounterDateTime": 1680565342000,
+          "voided": false,
+          "id": 34862,
+          "dateVoided": null,
+          "uuid": "891eb8d4-bd66-40c2-8f12-c557baeb2bb2",
+          "createdOn": 1680565342000,
+          "changedOn": null
+        }
+      ],
+      "stopDatetime": null,
+      "patient": {
+        "void": false,
+        "identifiers": [
+          {
+            "identifier": "108106-6-2726/2021_a_b",
+            "void": false,
+            "identifierType": {
+              "display": "MRN",
+              "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e"
+            },
+            "uuid": "c14e7108-9bef-475b-adae-742d94ab0bdd",
+            "preferred": true
+          }
+        ],
+        "person": {
+          "birthdateEstimated": false,
+          "deathdateEstimated": false,
+          "void": false,
+          "birthdate": "1995-01-18T00:00:00.000+0000",
+          "gender": "M",
+          "display": "Patient Test Test",
+          "dead": false,
+          "attributes": [
+            {
+              "display": "756000000",
+              "uuid": "86c9d915-e735-424a-8a91-e69cadc3ea89"
+            },
+            {
+              "display": "ROOM 9",
+              "uuid": "f80e913d-88d9-4f81-9d9e-8a38833b9733"
+            }
+          ],
+          "causeOfDeath": null,
+          "uuid": "4be40344-3334-4b6f-9cfb-62473f41a8c6",
+          "age": 28
+        },
+        "uuid": "4be40344-3334-4b6f-9cfb-62473f41a8c6"
+      },
+      "attributes": [
+        {
+          "display": "00000100IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "e393ae0f-3c08-4b54-9f40-46a16fdf745e"
+        },
+        {
+          "display": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "6b4b1e92-b4a8-462b-9a68-a342bb4ace90"
+        },
+        {
+          "display": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+          "uuid": "ae4e38a7-7537-4e30-90cc-20d41022ca33"
+        },
+        {
+          "display": "368826cf-1756-41fb-89d6-65091f90b40c",
+          "uuid": "a45c6d4c-6e15-49d3-8993-f7032f7d07a9"
+        },
+        {
+          "display": "00000102IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "uuid": "05848f57-eca7-4aa4-976b-ad6ec055367b"
+        }
+      ],
+      "location": {
+        "parentLocation": {
+          "display": "University of Dar es Salaam",
+          "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+        },
+        "display": "Room 04 (General)",
+        "uuid": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+        "tags": [
+          {
+            "display": "Module Location",
+            "uuid": "6f00c9e3-afa1-4682-b365-58a733439812"
+          },
+          {
+            "display": "Treatment Room",
+            "uuid": "iCARE100-UDSM-451f-8efe-a0db56f09676"
+          },
+          {
+            "display": "Transfer Location",
+            "uuid": "8d4626ca-7abd-42ad-be48-56767bbcf272"
+          }
+        ]
+      },
+      "uuid": "3d66d4bd-63a3-43ac-9236-591cb0723ab7"
+    }
+  ]
+}

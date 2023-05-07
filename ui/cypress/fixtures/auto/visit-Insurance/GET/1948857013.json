@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "9fbacab4-70d3-432b-a4b4-87ea38d02baf",
+      "property": "icare.billing.exemption.orderType",
+      "value": "iCare066-15f5-102d-96e4-000EXEMPTION",
+      "description": "For Exemption Order Request",
+      "display": "Icare - Billing Exemption Order Type = iCare066-15f5-102d-96e4-000EXEMPTION",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/9fbacab4-70d3-432b-a4b4-87ea38d02baf"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

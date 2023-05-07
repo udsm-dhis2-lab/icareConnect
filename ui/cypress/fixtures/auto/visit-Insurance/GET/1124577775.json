@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "d2316c28-1818-409b-8eff-f0ce0cfa1e17",
+      "property": "iCare.registration.form.additionalClientInformation.conceptUuid",
+      "value": "b2399b15-a38d-47f9-8e15-fc7e7c7dc1f3",
+      "description": null,
+      "display": "I Care - Registration Form Additional Client Information Concept Uuid = b2399b15-a38d-47f9-8e15-fc7e7c7dc1f3",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/d2316c28-1818-409b-8eff-f0ce0cfa1e17"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

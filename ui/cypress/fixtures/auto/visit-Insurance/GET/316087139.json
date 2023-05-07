@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "f42767ee-88b2-433f-8173-56fd2d08df2e",
+      "property": "icare.registration.settings.showPatientTypeField",
+      "value": "true",
+      "description": null,
+      "display": "Icare - Registration Settings Show Patient Type Field = true",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/f42767ee-88b2-433f-8173-56fd2d08df2e"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

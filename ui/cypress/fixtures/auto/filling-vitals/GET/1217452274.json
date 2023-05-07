@@ -1,0 +1,14 @@
+{
+  "uuid": "0a6eca72-2175-4164-a8ce-4446565fdade",
+  "display": "Payment Status",
+  "setMembers": [
+    {
+      "uuid": "9643a05b-4e2a-42ee-adb4-f1ae66f7d995",
+      "display": "PENDING"
+    },
+    {
+      "uuid": "d7a540cd-9d28-4797-81a2-723dbc43869c",
+      "display": "PAID"
+    }
+  ]
+}

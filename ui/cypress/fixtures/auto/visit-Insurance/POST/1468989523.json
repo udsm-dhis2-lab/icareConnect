@@ -1,0 +1,143 @@
+{
+  "uuid": "d68d8f23-5ccc-4b39-b4be-b75348fa7ce6",
+  "display": "OPD @ Room 04 (General) - 16/03/2023 09:51",
+  "patient": {
+    "uuid": "70a076ed-d05a-469c-961e-c70716e95f34",
+    "display": "108106-6-10647/2022 - test i test",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/patient/70a076ed-d05a-469c-961e-c70716e95f34"
+      }
+    ]
+  },
+  "visitType": {
+    "uuid": "2mnxl2eb-5345-11e8-5555-40b034c3cfee",
+    "display": "OPD",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visittype/2mnxl2eb-5345-11e8-5555-40b034c3cfee"
+      }
+    ]
+  },
+  "indication": null,
+  "location": {
+    "uuid": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+    "display": "Room 04 (General)",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/location/4748646b-81b0-4d76-81e5-7957469d4ab5"
+      }
+    ]
+  },
+  "startDatetime": "2023-03-16T09:51:46.000+0000",
+  "stopDatetime": null,
+  "encounters": [
+    {
+      "uuid": "93472982-03dd-4b88-9b0e-0379a7970703",
+      "display": "Registration 16/03/2023",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/encounter/93472982-03dd-4b88-9b0e-0379a7970703"
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "uuid": "353cc9bd-412c-42ed-8d02-5d457d0301e5",
+      "display": "Visit Room: 4748646b-81b0-4d76-81e5-7957469d4ab5",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/353cc9bd-412c-42ed-8d02-5d457d0301e5"
+        }
+      ]
+    },
+    {
+      "uuid": "73915704-290c-4fa2-b44a-70873a86515a",
+      "display": "PaymentScheme: 274f186c-a9c0-4f37-a3c8-5b18f61353b3",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/73915704-290c-4fa2-b44a-70873a86515a"
+        }
+      ]
+    },
+    {
+      "uuid": "8453927b-35db-43cb-83d3-07bf088c5c40",
+      "display": "Service Billing Item: 368826cf-1756-41fb-89d6-65091f90b40c",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/8453927b-35db-43cb-83d3-07bf088c5c40"
+        }
+      ]
+    },
+    {
+      "uuid": "f62efd4c-8df3-42f6-a8a3-9aa68c48c38e",
+      "display": "Authorization NO.: NOT_AUTHORIZED",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/f62efd4c-8df3-42f6-a8a3-9aa68c48c38e"
+        }
+      ]
+    },
+    {
+      "uuid": "87295bce-41dc-4e3e-963d-9ee021aadd7d",
+      "display": "Insurance: 00000105IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/87295bce-41dc-4e3e-963d-9ee021aadd7d"
+        }
+      ]
+    },
+    {
+      "uuid": "e736d517-a002-4e01-a8ff-537622e986d3",
+      "display": "Visit Service: 00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/e736d517-a002-4e01-a8ff-537622e986d3"
+        }
+      ]
+    },
+    {
+      "uuid": "a04c6a59-5d85-48c3-8c6a-44a16dad86d8",
+      "display": "Insurance ID: 0987654321",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/a04c6a59-5d85-48c3-8c6a-44a16dad86d8"
+        }
+      ]
+    },
+    {
+      "uuid": "c9c5906a-7e42-4515-8a63-99907137e081",
+      "display": "PaymentCategory: 00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6/attribute/c9c5906a-7e42-4515-8a63-99907137e081"
+        }
+      ]
+    }
+  ],
+  "voided": false,
+  "links": [
+    {
+      "rel": "self",
+      "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6"
+    },
+    {
+      "rel": "full",
+      "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/visit/d68d8f23-5ccc-4b39-b4be-b75348fa7ce6?v=full"
+    }
+  ],
+  "resourceVersion": "1.9"
+}

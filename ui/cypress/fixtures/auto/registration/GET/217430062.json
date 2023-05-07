@@ -1,0 +1,32 @@
+{
+  "uuid": "00000004444IIIIIIIIIIIIIIIIIIIIIIIII",
+  "display": "PaymentCategories",
+  "setMembers": [
+    {
+      "uuid": "00000100IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "display": "Cash",
+      "answers": [],
+      "setMembers": [
+        {
+          "uuid": "00000102IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "display": "Normal track"
+        },
+        {
+          "uuid": "5f53b4e2-da03-4139-b32c-ad6edb699943",
+          "display": "Fast Track"
+        }
+      ]
+    },
+    {
+      "uuid": "00000101IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "display": "Insurance",
+      "answers": [],
+      "setMembers": [
+        {
+          "uuid": "00000105IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "display": "NHIF"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "9cee9123-5888-4acb-944b-46996d598178",
+      "property": "iCare.clinic.radiology.radiologyOrderType",
+      "value": "8189dbdd-3f10-11e4-adec-0800271c1b75",
+      "description": null,
+      "display": "I Care - Clinic Radiology Radiology Order Type = 8189dbdd-3f10-11e4-adec-0800271c1b75",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/9cee9123-5888-4acb-944b-46996d598178"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

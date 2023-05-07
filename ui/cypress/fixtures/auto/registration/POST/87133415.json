@@ -1,0 +1,13 @@
+{
+  "error": {
+    "message": "Invalid Submission",
+    "code": "webservices.rest.error.invalid.submission",
+    "globalErrors": [
+      {
+        "code": "Identifier 2014-04-02328 already in use by another patient",
+        "message": "Identifier 2014-04-02328 already in use by another patient"
+      }
+    ],
+    "fieldErrors": {}
+  }
+}

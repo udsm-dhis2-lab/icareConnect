@@ -1,0 +1,85 @@
+{
+  "uuid": "00000003333IIIIIIIIIIIIIIIIIIIIIIIII",
+  "display": "Available Service Groups",
+  "setMembers": [
+    {
+      "uuid": "00000003IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "display": "OPD",
+      "answers": [],
+      "setMembers": [
+        {
+          "uuid": "00000005IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "display": "General OPD"
+        },
+        {
+          "uuid": "00000007IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "display": "Dental clinic"
+        },
+        {
+          "uuid": "00000008IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "display": "Eye, Nose and Throat Clinic"
+        }
+      ]
+    },
+    {
+      "uuid": "47cdd021-b169-4bbe-876c-f7051430bfd4",
+      "display": "IPD",
+      "answers": [],
+      "setMembers": [
+        {
+          "uuid": "506c6c8c-7c03-478f-97c7-8f3917b36eff",
+          "display": "Emergency IPD"
+        }
+      ]
+    },
+    {
+      "uuid": "00000004IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+      "display": "Health Programs",
+      "answers": [],
+      "setMembers": [
+        {
+          "uuid": "00000010IIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          "display": "RCH Services"
+        },
+        {
+          "uuid": "1c376692-01eb-4ac7-a0c7-12f80f83883f",
+          "display": "TB Services"
+        },
+        {
+          "uuid": "878d0539-86c3-486c-9ef0-a624788d93a4",
+          "display": "CTC Services"
+        }
+      ]
+    },
+    {
+      "uuid": "b70dfb10-4dfb-49e5-88e7-5226703ba90c",
+      "display": "Specialized Clinics Services",
+      "answers": [],
+      "setMembers": [
+        {
+          "uuid": "b894ee10-811f-4a2c-a5f0-9b471261d067",
+          "display": "Obstetric & Gynaecology"
+        },
+        {
+          "uuid": "9c5cc3a5-9b8b-4761-80b4-466bb0f97297",
+          "display": "Paediatric Clinic"
+        },
+        {
+          "uuid": "8714403d-98a6-4dce-b54d-1833c8b91e0e",
+          "display": "Mental/Psychiatric Health"
+        }
+      ]
+    },
+    {
+      "uuid": "540a391c-a6eb-41f6-9c05-cb791184e604",
+      "display": "DIAGNOSTIC SERVICE",
+      "answers": [],
+      "setMembers": [
+        {
+          "uuid": "d1063120-26f0-4fbb-9e7d-f74c429de306",
+          "display": "Investigations/Procedures"
+        }
+      ]
+    }
+  ]
+}

@@ -432,7 +432,9 @@ export class RegistrationAddComponent implements OnInit {
       shouldHaveLiveSearchForDropDownFields: true,
       searchControlType: "residenceLocation",
       controlType: "location",
+      value: "Kibo Village",
     });
+    this.residenceField.value = "Kibo Village";
 
     this.createDistrictAndRegionField();
 

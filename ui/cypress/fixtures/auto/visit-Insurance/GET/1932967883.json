@@ -1,0 +1,25 @@
+{
+  "allPatients": 18851,
+  "activeVisits": 2,
+  "locations": [
+    {
+      "name": "Room 04 (General)",
+      "activeVisits": 2,
+      "uuid": "4748646b-81b0-4d76-81e5-7957469d4ab5",
+      "tags": [
+        {
+          "name": "Module Location",
+          "uuid": "6f00c9e3-afa1-4682-b365-58a733439812"
+        },
+        {
+          "name": "Treatment Room",
+          "uuid": "iCARE100-UDSM-451f-8efe-a0db56f09676"
+        },
+        {
+          "name": "Transfer Location",
+          "uuid": "8d4626ca-7abd-42ad-be48-56767bbcf272"
+        }
+      ]
+    }
+  ]
+}

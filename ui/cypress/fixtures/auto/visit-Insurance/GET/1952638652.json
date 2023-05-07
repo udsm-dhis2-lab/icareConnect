@@ -1,0 +1,94 @@
+{
+  "uuid": "8606ea64-dfa8-4c87-b201-4ef5b5c47b9c",
+  "display": "Sample Rejection Reasons",
+  "answers": [
+    {
+      "uuid": "12332941-e9e3-4860-908e-261146919b4b",
+      "display": "Quantity not sufficient"
+    },
+    {
+      "uuid": "ad39f82f-777f-4b6c-8fdd-bf97fb010ef7",
+      "display": "Hemolysed"
+    },
+    {
+      "uuid": "8cdf4b12-70a7-4c50-abcf-45fdebecf031",
+      "display": "Lipemic"
+    },
+    {
+      "uuid": "892bc8aa-4ec2-4c79-9315-f10573abc1ef",
+      "display": "Damaged- Broken or leaked in transit"
+    },
+    {
+      "uuid": "e14fa252-27cb-4fee-ae35-d1cde77f4cf4",
+      "display": "Damaged- Contaminated"
+    },
+    {
+      "uuid": "b66012d4-4ba2-4093-8843-2f1815919b40",
+      "display": "Damaged- Expired transport Media"
+    },
+    {
+      "uuid": "bfd26bcc-9441-402e-aa42-f4277b4b7b7e",
+      "display": "Damaged- Improper preservation"
+    },
+    {
+      "uuid": "08c00e26-ad1f-47cb-b291-f62486455320",
+      "display": "Damaged- Improper transport Media"
+    },
+    {
+      "uuid": "6fd6ba3b-edc9-4169-ac77-da7c3f56edcd",
+      "display": "Damaged- Improper temperature"
+    },
+    {
+      "uuid": "1a8d4e79-02e3-4f47-85fa-921384fe87f2",
+      "display": "Damaged- Lab accident"
+    },
+    {
+      "uuid": "9c637c7a-3250-4ee0-a53d-8c803cb45d56",
+      "display": "Damaged- Sample too old/Unsalvageable"
+    },
+    {
+      "uuid": "2b3232dc-ceb7-43f4-a530-988b13be8977",
+      "display": "No Specimen/Sample ID"
+    },
+    {
+      "uuid": "0752b5f9-7172-49ba-8cdc-435745d96838",
+      "display": "No specimen - Sample ID cannot be established"
+    },
+    {
+      "uuid": "e6e1a1c8-11e7-456e-9f7d-bd9e29a6353b",
+      "display": "Specimen/sample ID illegible"
+    },
+    {
+      "uuid": "add3c418-9151-410c-830d-f1ff542629cf",
+      "display": "Collection Site inappropriate"
+    },
+    {
+      "uuid": "3e1c9c54-87b2-40d7-810c-b26ae9d49675",
+      "display": "Specimen/sample type unacceptable for test"
+    },
+    {
+      "uuid": "da1c9a08-cdb5-49d7-83c5-8b9551c7cb34",
+      "display": "No test requisition received"
+    },
+    {
+      "uuid": "9557d489-1fdd-4cfa-bf08-49bc1f5d716d",
+      "display": "No test ordered on requisition"
+    },
+    {
+      "uuid": "92ca6952-34d6-4385-864f-eddd5bffa50a",
+      "display": "No collection date on requisition"
+    },
+    {
+      "uuid": "c5e15cdb-4369-4c0a-a592-14a37734ef5c",
+      "display": "No specimen/sample collection site on requisition"
+    },
+    {
+      "uuid": "65401aa9-8bac-4734-9e03-cbf520a8ad73",
+      "display": "Test not available"
+    },
+    {
+      "uuid": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Other"
+    }
+  ]
+}

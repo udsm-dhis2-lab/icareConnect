@@ -1,0 +1,192 @@
+{
+  "uuid": "4d75f52e-bca1-40e2-930d-84e0bc4b69f6",
+  "display": "test test",
+  "gender": "M",
+  "age": 3,
+  "birthdate": "2019-10-27T00:00:00.000+0000",
+  "birthdateEstimated": false,
+  "dead": false,
+  "deathDate": null,
+  "causeOfDeath": null,
+  "preferredName": {
+    "display": "test test",
+    "uuid": "2b140976-52df-474e-86cb-8ab434074ede",
+    "givenName": "test",
+    "middleName": null,
+    "familyName": "test",
+    "familyName2": null,
+    "voided": false,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/name/2b140976-52df-474e-86cb-8ab434074ede"
+      },
+      {
+        "rel": "full",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/name/2b140976-52df-474e-86cb-8ab434074ede?v=full"
+      }
+    ],
+    "resourceVersion": "1.8"
+  },
+  "preferredAddress": {
+    "display": "Dar es Salaam",
+    "uuid": "42d20ff2-b3ff-4173-a230-33251021a0fb",
+    "preferred": true,
+    "address1": "Dar es Salaam",
+    "address2": null,
+    "cityVillage": "Temeke Village",
+    "stateProvince": "Temeke",
+    "country": null,
+    "postalCode": null,
+    "countyDistrict": "Temeke Ward",
+    "address3": null,
+    "address4": null,
+    "address5": null,
+    "address6": null,
+    "startDate": null,
+    "endDate": null,
+    "latitude": null,
+    "longitude": null,
+    "voided": false,
+    "address7": null,
+    "address8": null,
+    "address9": null,
+    "address10": null,
+    "address11": null,
+    "address12": null,
+    "address13": null,
+    "address14": null,
+    "address15": null,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/address/42d20ff2-b3ff-4173-a230-33251021a0fb"
+      },
+      {
+        "rel": "full",
+        "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/address/42d20ff2-b3ff-4173-a230-33251021a0fb?v=full"
+      }
+    ],
+    "resourceVersion": "2.0"
+  },
+  "names": [
+    {
+      "display": "test test",
+      "uuid": "2b140976-52df-474e-86cb-8ab434074ede",
+      "givenName": "test",
+      "middleName": null,
+      "familyName": "test",
+      "familyName2": null,
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/name/2b140976-52df-474e-86cb-8ab434074ede"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/name/2b140976-52df-474e-86cb-8ab434074ede?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ],
+  "addresses": [
+    {
+      "display": "Dar es Salaam",
+      "uuid": "42d20ff2-b3ff-4173-a230-33251021a0fb",
+      "preferred": true,
+      "address1": "Dar es Salaam",
+      "address2": null,
+      "cityVillage": "Temeke Village",
+      "stateProvince": "Temeke",
+      "country": null,
+      "postalCode": null,
+      "countyDistrict": "Temeke Ward",
+      "address3": null,
+      "address4": null,
+      "address5": null,
+      "address6": null,
+      "startDate": null,
+      "endDate": null,
+      "latitude": null,
+      "longitude": null,
+      "voided": false,
+      "address7": null,
+      "address8": null,
+      "address9": null,
+      "address10": null,
+      "address11": null,
+      "address12": null,
+      "address13": null,
+      "address14": null,
+      "address15": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/address/42d20ff2-b3ff-4173-a230-33251021a0fb"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/address/42d20ff2-b3ff-4173-a230-33251021a0fb?v=full"
+        }
+      ],
+      "resourceVersion": "2.0"
+    }
+  ],
+  "attributes": [
+    {
+      "display": "phone = 0789456123",
+      "uuid": "5f16f861-60c4-4d4a-ba85-fdb50c81c362",
+      "value": "0789456123",
+      "attributeType": {
+        "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+        "display": "phone",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+          }
+        ]
+      },
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/attribute/5f16f861-60c4-4d4a-ba85-fdb50c81c362"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6/attribute/5f16f861-60c4-4d4a-ba85-fdb50c81c362?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ],
+  "voided": false,
+  "auditInfo": {
+    "creator": {
+      "uuid": "547b54ba-9848-4cc4-b7c3-f00b63f7bc72",
+      "display": "lmasau",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/user/547b54ba-9848-4cc4-b7c3-f00b63f7bc72"
+        }
+      ]
+    },
+    "dateCreated": "2022-10-27T12:03:13.000+0000",
+    "changedBy": null,
+    "dateChanged": null
+  },
+  "birthtime": null,
+  "deathdateEstimated": false,
+  "causeOfDeathNonCoded": null,
+  "links": [
+    {
+      "rel": "self",
+      "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/person/4d75f52e-bca1-40e2-930d-84e0bc4b69f6"
+    }
+  ],
+  "resourceVersion": "1.11"
+}

@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "3621e2dc-5c04-45ba-b460-3d02f553c0be",
+      "property": "icare.billing.exemption.concept",
+      "value": "f9edda77-bf0f-453a-ac3f-76c47a43c49c",
+      "description": "Concept to be put in exemption orders (0 price billable)",
+      "display": "Icare - Billing Exemption Concept = f9edda77-bf0f-453a-ac3f-76c47a43c49c",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/3621e2dc-5c04-45ba-b460-3d02f553c0be"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

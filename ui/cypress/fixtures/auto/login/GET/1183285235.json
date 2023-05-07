@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "9721e505-b927-4cc7-b782-46ea53a85d75",
+      "property": "iCare.Laboratory.agencyConceptUuid",
+      "value": "bd70199e-87ec-49a8-b936-f2deb43141c9",
+      "description": null,
+      "display": "I Care - Laboratory Agency Concept Uuid = bd70199e-87ec-49a8-b936-f2deb43141c9",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://icare.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/systemsetting/9721e505-b927-4cc7-b782-46ea53a85d75"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

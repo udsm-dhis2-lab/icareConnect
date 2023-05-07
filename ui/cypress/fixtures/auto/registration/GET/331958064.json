@@ -1,0 +1,1418 @@
+{
+  "display": "Tanzania",
+  "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+  "tags": [
+    {
+      "uuid": "23c59cef-6d64-4092-8294-b9d785665d0e",
+      "display": "Administrative Location",
+      "name": "Administrative Location",
+      "description": "For Administrative Location",
+      "retired": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e"
+        },
+        {
+          "rel": "full",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e?v=full"
+        }
+      ],
+      "resourceVersion": "1.8"
+    }
+  ],
+  "description": "For Tanzania Location Tree",
+  "retired": false,
+  "parentLocation": null,
+  "childLocations": [
+    {
+      "display": "Dar es Salaam",
+      "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+      "tags": [
+        {
+          "uuid": "23c59cef-6d64-4092-8294-b9d785665d0e",
+          "display": "Administrative Location",
+          "name": "Administrative Location",
+          "description": "For Administrative Location",
+          "retired": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e?v=full"
+            }
+          ],
+          "resourceVersion": "1.8"
+        }
+      ],
+      "retired": false,
+      "description": "first level member of Tanzania location",
+      "parentLocation": {
+        "uuid": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+        "display": "Tanzania"
+      },
+      "childLocations": [
+        {
+          "uuid": "5343d5b2-3709-4042-b0ee-033e8f8a5139",
+          "display": "Ilala",
+          "name": "Ilala",
+          "description": "District under Dar es Salaam location",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "23c59cef-6d64-4092-8294-b9d785665d0e",
+              "display": "Administrative Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/fa6113a0-929b-4d3c-b2ad-5b56e97deb72"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "dc6cd9ab-88ff-4772-8e72-e6af179e217e",
+              "display": "Bonyokwa Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/dc6cd9ab-88ff-4772-8e72-e6af179e217e"
+                }
+              ]
+            },
+            {
+              "uuid": "5435deff-55a5-4a86-ab7b-8aa53af6c44d",
+              "display": "Buguruni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/5435deff-55a5-4a86-ab7b-8aa53af6c44d"
+                }
+              ]
+            },
+            {
+              "uuid": "9e7913f4-95ab-4ec0-8fa2-1ac1d070d732",
+              "display": "Buyuni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/9e7913f4-95ab-4ec0-8fa2-1ac1d070d732"
+                }
+              ]
+            },
+            {
+              "uuid": "66b04137-6f5c-40e1-be8c-7f3894f30cd7",
+              "display": "Chanika Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/66b04137-6f5c-40e1-be8c-7f3894f30cd7"
+                }
+              ]
+            },
+            {
+              "uuid": "7b288ebb-0c90-45ec-b58f-7b2012d86fe4",
+              "display": "Gerezani Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/7b288ebb-0c90-45ec-b58f-7b2012d86fe4"
+                }
+              ]
+            },
+            {
+              "uuid": "35aac2fe-b19d-4520-8f2d-eb8a8bec9eff",
+              "display": "Gongo la mboto Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/35aac2fe-b19d-4520-8f2d-eb8a8bec9eff"
+                }
+              ]
+            },
+            {
+              "uuid": "dd127ed1-bf5d-431a-a45d-895c4913af32",
+              "display": "Ilala Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/dd127ed1-bf5d-431a-a45d-895c4913af32"
+                }
+              ]
+            },
+            {
+              "uuid": "bff9e2c6-a5a0-4441-a32f-e8b33baa4053",
+              "display": "Jangwani Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/bff9e2c6-a5a0-4441-a32f-e8b33baa4053"
+                }
+              ]
+            },
+            {
+              "uuid": "28958d38-fa44-4906-a5c4-573c527938cf",
+              "display": "Kariakoo Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/28958d38-fa44-4906-a5c4-573c527938cf"
+                }
+              ]
+            },
+            {
+              "uuid": "69e42845-98bb-4490-9024-3f7dd332bee0",
+              "display": "Kimanga Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/69e42845-98bb-4490-9024-3f7dd332bee0"
+                }
+              ]
+            },
+            {
+              "uuid": "024fb6d8-f58b-4b26-9a46-b0b30908dcba",
+              "display": "Kinyerezi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/024fb6d8-f58b-4b26-9a46-b0b30908dcba"
+                }
+              ]
+            },
+            {
+              "uuid": "512785c5-78f8-48a8-9568-e7e3481c37f6",
+              "display": "Kipawa Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/512785c5-78f8-48a8-9568-e7e3481c37f6"
+                }
+              ]
+            },
+            {
+              "uuid": "8a816dbe-cbb8-49af-940b-5a3bd40e2abc",
+              "display": "Kipunguni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/8a816dbe-cbb8-49af-940b-5a3bd40e2abc"
+                }
+              ]
+            },
+            {
+              "uuid": "bbb090be-446e-49ce-be5f-e1160c8f53f3",
+              "display": "Kisukulu Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/bbb090be-446e-49ce-be5f-e1160c8f53f3"
+                }
+              ]
+            },
+            {
+              "uuid": "4d2906d3-6e18-48e5-9f96-ce2a4606f397",
+              "display": "Kisutu Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/4d2906d3-6e18-48e5-9f96-ce2a4606f397"
+                }
+              ]
+            },
+            {
+              "uuid": "78593783-48a5-4455-9324-c8479132e890",
+              "display": "Kitunda Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/78593783-48a5-4455-9324-c8479132e890"
+                }
+              ]
+            },
+            {
+              "uuid": "7c500b61-4e20-4d17-a8eb-5e7fc7b9b506",
+              "display": "Kivukoni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/7c500b61-4e20-4d17-a8eb-5e7fc7b9b506"
+                }
+              ]
+            },
+            {
+              "uuid": "bfb7f0e7-a6bb-4d6c-b84b-3bfa166b95e1",
+              "display": "Kivule Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/bfb7f0e7-a6bb-4d6c-b84b-3bfa166b95e1"
+                }
+              ]
+            },
+            {
+              "uuid": "cb6e7cf6-f441-4143-b71b-ab23309d5575",
+              "display": "Kiwalani Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/cb6e7cf6-f441-4143-b71b-ab23309d5575"
+                }
+              ]
+            },
+            {
+              "uuid": "c584e80d-d01b-4b61-85b2-e59194ac1eb0",
+              "display": "Liwiti Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/c584e80d-d01b-4b61-85b2-e59194ac1eb0"
+                }
+              ]
+            },
+            {
+              "uuid": "d93b6d27-2a11-4283-8703-0482251d93d4",
+              "display": "Majohe Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/d93b6d27-2a11-4283-8703-0482251d93d4"
+                }
+              ]
+            },
+            {
+              "uuid": "d09fc14a-1d20-4d30-8c88-6a0254fddce0",
+              "display": "Mchafukoge Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/d09fc14a-1d20-4d30-8c88-6a0254fddce0"
+                }
+              ]
+            },
+            {
+              "uuid": "b3c204c9-1425-495f-b792-6ce46ea7c5b5",
+              "display": "Mchikichini Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/b3c204c9-1425-495f-b792-6ce46ea7c5b5"
+                }
+              ]
+            },
+            {
+              "uuid": "f4e496c8-c52a-43e4-9282-dce32e5fc6e3",
+              "display": "Minazi mirefu Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/f4e496c8-c52a-43e4-9282-dce32e5fc6e3"
+                }
+              ]
+            },
+            {
+              "uuid": "914e429b-7bae-4c58-bc19-15311ae811c9",
+              "display": "Mnyamani Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/914e429b-7bae-4c58-bc19-15311ae811c9"
+                }
+              ]
+            },
+            {
+              "uuid": "6a76b7d8-aa8a-4185-9f03-618ba9e0fa72",
+              "display": "Msongola Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6a76b7d8-aa8a-4185-9f03-618ba9e0fa72"
+                }
+              ]
+            },
+            {
+              "uuid": "fd6fa6ba-44f7-4f19-bd9f-8258f9312fac",
+              "display": "Mzinga Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/fd6fa6ba-44f7-4f19-bd9f-8258f9312fac"
+                }
+              ]
+            },
+            {
+              "uuid": "b6020d37-ce3c-4091-ace3-6cd9674c0f5f",
+              "display": "Pugu station Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/b6020d37-ce3c-4091-ace3-6cd9674c0f5f"
+                }
+              ]
+            },
+            {
+              "uuid": "d876d227-11c3-41ac-a38d-6bf3cdb988f2",
+              "display": "Pugu Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/d876d227-11c3-41ac-a38d-6bf3cdb988f2"
+                }
+              ]
+            },
+            {
+              "uuid": "3e8810cb-3daf-4c69-be8d-ae620eb86c5b",
+              "display": "Segerea Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/3e8810cb-3daf-4c69-be8d-ae620eb86c5b"
+                }
+              ]
+            },
+            {
+              "uuid": "ec2fc4dd-f8f9-42a4-9a1e-da0fbd8fff07",
+              "display": "Tabata Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/ec2fc4dd-f8f9-42a4-9a1e-da0fbd8fff07"
+                }
+              ]
+            },
+            {
+              "uuid": "1eecc737-45a2-4192-91e9-05eed5b95929",
+              "display": "Ukonga Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/1eecc737-45a2-4192-91e9-05eed5b95929"
+                }
+              ]
+            },
+            {
+              "uuid": "c40ffcd2-c829-46ad-96fd-aaee486a45fc",
+              "display": "Upanga magharibi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/c40ffcd2-c829-46ad-96fd-aaee486a45fc"
+                }
+              ]
+            },
+            {
+              "uuid": "e4f857c4-e359-4673-a418-37cb52e4624c",
+              "display": "Upanga mashariki Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/e4f857c4-e359-4673-a418-37cb52e4624c"
+                }
+              ]
+            },
+            {
+              "uuid": "5bb8ee7c-14e8-43db-a20c-f8c68fcf8dee",
+              "display": "Vingunguti Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/5bb8ee7c-14e8-43db-a20c-f8c68fcf8dee"
+                }
+              ]
+            },
+            {
+              "uuid": "f5b75b5d-b26f-4124-8a14-eb60733c25ec",
+              "display": "Zingiziwa Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/f5b75b5d-b26f-4124-8a14-eb60733c25ec"
+                }
+              ]
+            }
+          ],
+          "retired": false,
+          "attributes": [],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/5343d5b2-3709-4042-b0ee-033e8f8a5139"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/5343d5b2-3709-4042-b0ee-033e8f8a5139?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "a5589c3c-0462-4933-9493-e4c064b702d8",
+          "display": "Kigamboni",
+          "name": "Kigamboni",
+          "description": "Kigamboni",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "23c59cef-6d64-4092-8294-b9d785665d0e",
+              "display": "Administrative Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/fa6113a0-929b-4d3c-b2ad-5b56e97deb72"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "c6a7f0dc-86de-45f2-a7b2-391465ac8951",
+              "display": "Kibada Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/c6a7f0dc-86de-45f2-a7b2-391465ac8951"
+                }
+              ]
+            },
+            {
+              "uuid": "9bb3bb1a-b662-4c38-b352-cff41f7e2f59",
+              "display": "Kigamboni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/9bb3bb1a-b662-4c38-b352-cff41f7e2f59"
+                }
+              ]
+            },
+            {
+              "uuid": "3e010fd2-97e1-4276-a0a4-4eeead29acd5",
+              "display": "Kimbiji Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/3e010fd2-97e1-4276-a0a4-4eeead29acd5"
+                }
+              ]
+            },
+            {
+              "uuid": "8ebf5bd6-7ec1-4cf9-b567-ecaf37224377",
+              "display": "Kisarawe ii Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/8ebf5bd6-7ec1-4cf9-b567-ecaf37224377"
+                }
+              ]
+            },
+            {
+              "uuid": "3df92e72-2341-4b14-bcfa-4ca5c387313b",
+              "display": "Mjimwema Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/3df92e72-2341-4b14-bcfa-4ca5c387313b"
+                }
+              ]
+            },
+            {
+              "uuid": "dadc2aea-4738-49e0-b915-e2928a22cd5b",
+              "display": "Pembamnazi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/dadc2aea-4738-49e0-b915-e2928a22cd5b"
+                }
+              ]
+            },
+            {
+              "uuid": "d1249371-554c-4169-b73a-7267bbfa29eb",
+              "display": "Somangila Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/d1249371-554c-4169-b73a-7267bbfa29eb"
+                }
+              ]
+            },
+            {
+              "uuid": "ad91b88e-415f-4abc-a210-5b362e768828",
+              "display": "Tungi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/ad91b88e-415f-4abc-a210-5b362e768828"
+                }
+              ]
+            },
+            {
+              "uuid": "fe26e53d-1ee5-4a79-b519-3bca516c9e04",
+              "display": "Vijibweni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/fe26e53d-1ee5-4a79-b519-3bca516c9e04"
+                }
+              ]
+            }
+          ],
+          "retired": false,
+          "attributes": [],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/a5589c3c-0462-4933-9493-e4c064b702d8"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/a5589c3c-0462-4933-9493-e4c064b702d8?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "572ffdd1-9f91-4931-bda2-3b596e5ac195",
+          "display": "Kinondoni",
+          "name": "Kinondoni",
+          "description": null,
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "23c59cef-6d64-4092-8294-b9d785665d0e",
+              "display": "Administrative Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/fa6113a0-929b-4d3c-b2ad-5b56e97deb72"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "bea23db1-1159-464f-af30-e98fcb194d96",
+              "display": "Bunju Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/bea23db1-1159-464f-af30-e98fcb194d96"
+                }
+              ]
+            },
+            {
+              "uuid": "782a1fd2-b065-4f97-9172-737988add01f",
+              "display": "Hananasif Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/782a1fd2-b065-4f97-9172-737988add01f"
+                }
+              ]
+            },
+            {
+              "uuid": "a5491b4a-c09d-4a6f-ba90-2139056690e5",
+              "display": "Kawe Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/a5491b4a-c09d-4a6f-ba90-2139056690e5"
+                }
+              ]
+            },
+            {
+              "uuid": "26aa7edb-374e-440d-a0bf-ddcc4cc23565",
+              "display": "Kigogo Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/26aa7edb-374e-440d-a0bf-ddcc4cc23565"
+                }
+              ]
+            },
+            {
+              "uuid": "07e73d0d-9ae0-4184-9e79-e1644ba40d4f",
+              "display": "Kijitonyama Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/07e73d0d-9ae0-4184-9e79-e1644ba40d4f"
+                }
+              ]
+            },
+            {
+              "uuid": "117b8112-9104-42c1-8d9f-60d02467e47a",
+              "display": "Kinondoni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/117b8112-9104-42c1-8d9f-60d02467e47a"
+                }
+              ]
+            },
+            {
+              "uuid": "7e665165-48e1-4e91-9e3c-4ec3e505c873",
+              "display": "Kunduchi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/7e665165-48e1-4e91-9e3c-4ec3e505c873"
+                }
+              ]
+            },
+            {
+              "uuid": "d79f2245-af02-4e5d-8aa5-6e9b28bf3037",
+              "display": "Mabwepande Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/d79f2245-af02-4e5d-8aa5-6e9b28bf3037"
+                }
+              ]
+            },
+            {
+              "uuid": "a9e48f3d-6e32-4554-bf8c-37d2c2584f1b",
+              "display": "Magomeni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/a9e48f3d-6e32-4554-bf8c-37d2c2584f1b"
+                }
+              ]
+            },
+            {
+              "uuid": "295b8cdd-0512-4c6a-8a4c-4eace9f0f030",
+              "display": "Makongo Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/295b8cdd-0512-4c6a-8a4c-4eace9f0f030"
+                }
+              ]
+            },
+            {
+              "uuid": "16397bdf-e202-429b-8f5c-12c18a797e3f",
+              "display": "Makumbusho Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/16397bdf-e202-429b-8f5c-12c18a797e3f"
+                }
+              ]
+            },
+            {
+              "uuid": "ee275451-1a2c-40b6-999f-703edda30702",
+              "display": "Mbezi juu Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/ee275451-1a2c-40b6-999f-703edda30702"
+                }
+              ]
+            },
+            {
+              "uuid": "f185e5c4-96c5-48e8-9b6e-b12d5b151c04",
+              "display": "Mbweni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/f185e5c4-96c5-48e8-9b6e-b12d5b151c04"
+                }
+              ]
+            },
+            {
+              "uuid": "a97d478d-ea22-4040-9c55-70f927bdcdd3",
+              "display": "Mikocheni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/a97d478d-ea22-4040-9c55-70f927bdcdd3"
+                }
+              ]
+            },
+            {
+              "uuid": "c68bb231-1792-4b5d-a376-cb731b7dd04e",
+              "display": "Msasani Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/c68bb231-1792-4b5d-a376-cb731b7dd04e"
+                }
+              ]
+            },
+            {
+              "uuid": "3930df14-0c48-4896-aa5f-485db0a32357",
+              "display": "Mwananyamala Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/3930df14-0c48-4896-aa5f-485db0a32357"
+                }
+              ]
+            },
+            {
+              "uuid": "b2aa098c-5d2c-4cef-bf88-f3ad962ddf3f",
+              "display": "Mzimuni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/b2aa098c-5d2c-4cef-bf88-f3ad962ddf3f"
+                }
+              ]
+            },
+            {
+              "uuid": "0ff08f36-d93a-404c-a0f7-6f7ac2c3881d",
+              "display": "Ndugumbi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/0ff08f36-d93a-404c-a0f7-6f7ac2c3881d"
+                }
+              ]
+            },
+            {
+              "uuid": "ff5ee7ed-98be-4fb2-9fb0-1e32804c01c7",
+              "display": "Tandale Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/ff5ee7ed-98be-4fb2-9fb0-1e32804c01c7"
+                }
+              ]
+            },
+            {
+              "uuid": "0b8f23e8-5d73-4359-ad5a-af717e24e1cc",
+              "display": "Wazo Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/0b8f23e8-5d73-4359-ad5a-af717e24e1cc"
+                }
+              ]
+            }
+          ],
+          "retired": false,
+          "attributes": [],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/572ffdd1-9f91-4931-bda2-3b596e5ac195"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/572ffdd1-9f91-4931-bda2-3b596e5ac195?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "33f9c24d-a3ce-4158-9416-53b1b083eb8a",
+          "display": "Temeke",
+          "name": "Temeke",
+          "description": null,
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "23c59cef-6d64-4092-8294-b9d785665d0e",
+              "display": "Administrative Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/fa6113a0-929b-4d3c-b2ad-5b56e97deb72"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "af2a242d-7960-4f2b-a148-be6ee59d47da",
+              "display": "Azimio Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/af2a242d-7960-4f2b-a148-be6ee59d47da"
+                }
+              ]
+            },
+            {
+              "uuid": "5d382417-43fd-482e-9d59-8cbc7c51aa0b",
+              "display": "Buza Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/5d382417-43fd-482e-9d59-8cbc7c51aa0b"
+                }
+              ]
+            },
+            {
+              "uuid": "aed733d6-faab-43c7-8218-7dc4dc2cc279",
+              "display": "Chamazi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/aed733d6-faab-43c7-8218-7dc4dc2cc279"
+                }
+              ]
+            },
+            {
+              "uuid": "df4203a5-a1bc-475e-9f1c-1dc26e95f055",
+              "display": "Chang’ombe Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/df4203a5-a1bc-475e-9f1c-1dc26e95f055"
+                }
+              ]
+            },
+            {
+              "uuid": "880e6301-1e03-4e45-8089-9cefe232a3be",
+              "display": "Charambe Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/880e6301-1e03-4e45-8089-9cefe232a3be"
+                }
+              ]
+            },
+            {
+              "uuid": "603420ee-c60d-4ece-ade8-7033627d82a0",
+              "display": "Keko Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/603420ee-c60d-4ece-ade8-7033627d82a0"
+                }
+              ]
+            },
+            {
+              "uuid": "b86e4bf2-d6e9-474e-bb59-c90fd6a9b65a",
+              "display": "Kibondemaji Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/b86e4bf2-d6e9-474e-bb59-c90fd6a9b65a"
+                }
+              ]
+            },
+            {
+              "uuid": "f58efb87-d861-415a-b5ed-93d44f16b383",
+              "display": "Kiburugwa Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/f58efb87-d861-415a-b5ed-93d44f16b383"
+                }
+              ]
+            },
+            {
+              "uuid": "3f878e30-0822-4e2b-bf74-97ff6d4f501d",
+              "display": "Kijichi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/3f878e30-0822-4e2b-bf74-97ff6d4f501d"
+                }
+              ]
+            },
+            {
+              "uuid": "d05d9999-5779-46a3-a0d8-ff0f18eb04d1",
+              "display": "Kilakala Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/d05d9999-5779-46a3-a0d8-ff0f18eb04d1"
+                }
+              ]
+            },
+            {
+              "uuid": "a143075d-89c9-400b-b498-a4b4d4669a40",
+              "display": "Kilungule Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/a143075d-89c9-400b-b498-a4b4d4669a40"
+                }
+              ]
+            },
+            {
+              "uuid": "99139d64-0d9f-4b8e-b7ce-7426bada9175",
+              "display": "Kurasini Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/99139d64-0d9f-4b8e-b7ce-7426bada9175"
+                }
+              ]
+            },
+            {
+              "uuid": "ffbd137f-1d59-45ce-82b6-fd1551e7022e",
+              "display": "Makangarawe Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/ffbd137f-1d59-45ce-82b6-fd1551e7022e"
+                }
+              ]
+            },
+            {
+              "uuid": "47333b74-91b9-4dd7-9941-f1b31df99c6b",
+              "display": "Mbagala kuu Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/47333b74-91b9-4dd7-9941-f1b31df99c6b"
+                }
+              ]
+            },
+            {
+              "uuid": "77b63e20-817e-4526-96f4-2b4060c03bf0",
+              "display": "Mbagala Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/77b63e20-817e-4526-96f4-2b4060c03bf0"
+                }
+              ]
+            },
+            {
+              "uuid": "ab474f7e-ffcd-4422-b6ad-4d016803cdd8",
+              "display": "Mianzini Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/ab474f7e-ffcd-4422-b6ad-4d016803cdd8"
+                }
+              ]
+            },
+            {
+              "uuid": "f1769ecc-4a36-4471-815f-f4cfdbe4ccf7",
+              "display": "Miburani Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/f1769ecc-4a36-4471-815f-f4cfdbe4ccf7"
+                }
+              ]
+            },
+            {
+              "uuid": "09a95233-3780-4e97-99b1-f959ef98b459",
+              "display": "Mtoni Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/09a95233-3780-4e97-99b1-f959ef98b459"
+                }
+              ]
+            },
+            {
+              "uuid": "4435b441-5824-4f68-8d48-ce3e3d5ce8ca",
+              "display": "Sandali Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/4435b441-5824-4f68-8d48-ce3e3d5ce8ca"
+                }
+              ]
+            },
+            {
+              "uuid": "9de517f1-de3b-4497-99a7-a24a6a18a9f2",
+              "display": "Tandika Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/9de517f1-de3b-4497-99a7-a24a6a18a9f2"
+                }
+              ]
+            },
+            {
+              "uuid": "864ab64e-769e-4788-ab38-cc451cd63cbf",
+              "display": "Temeke Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/864ab64e-769e-4788-ab38-cc451cd63cbf"
+                }
+              ]
+            },
+            {
+              "uuid": "1535a732-47c8-45be-9b47-173c248fa2a0",
+              "display": "Toangoma Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/1535a732-47c8-45be-9b47-173c248fa2a0"
+                }
+              ]
+            },
+            {
+              "uuid": "d05ab8a2-b725-42c5-9a1f-dbbb8af90fd7",
+              "display": "Yombo vituka Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/d05ab8a2-b725-42c5-9a1f-dbbb8af90fd7"
+                }
+              ]
+            }
+          ],
+          "retired": false,
+          "attributes": [],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/33f9c24d-a3ce-4158-9416-53b1b083eb8a"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/33f9c24d-a3ce-4158-9416-53b1b083eb8a?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        },
+        {
+          "uuid": "cb67600c-7227-4286-a731-d81605cc7515",
+          "display": "Ubungo",
+          "name": "Ubungo",
+          "description": "District under Dar es Salaam location",
+          "address1": null,
+          "address2": null,
+          "cityVillage": null,
+          "stateProvince": null,
+          "country": null,
+          "postalCode": null,
+          "latitude": null,
+          "longitude": null,
+          "countyDistrict": null,
+          "address3": null,
+          "address4": null,
+          "address5": null,
+          "address6": null,
+          "tags": [
+            {
+              "uuid": "23c59cef-6d64-4092-8294-b9d785665d0e",
+              "display": "Administrative Location",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/locationtag/23c59cef-6d64-4092-8294-b9d785665d0e"
+                }
+              ]
+            }
+          ],
+          "parentLocation": {
+            "uuid": "fa6113a0-929b-4d3c-b2ad-5b56e97deb72",
+            "display": "Dar es Salaam",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/fa6113a0-929b-4d3c-b2ad-5b56e97deb72"
+              }
+            ]
+          },
+          "childLocations": [
+            {
+              "uuid": "6eb43b0f-d9f7-4c68-9b09-acc981df8afe",
+              "display": "Goba Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/6eb43b0f-d9f7-4c68-9b09-acc981df8afe"
+                }
+              ]
+            },
+            {
+              "uuid": "2fa1bc59-fd06-4788-a62d-785f2d43c331",
+              "display": "Kibamba Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/2fa1bc59-fd06-4788-a62d-785f2d43c331"
+                }
+              ]
+            },
+            {
+              "uuid": "f73c0554-0912-4c02-85bc-5a8b4319fd9b",
+              "display": "Kiluvya",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/f73c0554-0912-4c02-85bc-5a8b4319fd9b"
+                }
+              ]
+            },
+            {
+              "uuid": "9cbd136b-d3d0-4dca-a2aa-10935a9e8117",
+              "display": "Kimara Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/9cbd136b-d3d0-4dca-a2aa-10935a9e8117"
+                }
+              ]
+            },
+            {
+              "uuid": "016786b9-b9e4-4659-9497-f88450c8134d",
+              "display": "Kwembe Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/016786b9-b9e4-4659-9497-f88450c8134d"
+                }
+              ]
+            },
+            {
+              "uuid": "f83f4418-db28-48de-a406-c445f933b798",
+              "display": "Mabibo Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/f83f4418-db28-48de-a406-c445f933b798"
+                }
+              ]
+            },
+            {
+              "uuid": "cfb5d2a5-8ef3-4449-9436-3ad2ea9b6af9",
+              "display": "Makuburi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/cfb5d2a5-8ef3-4449-9436-3ad2ea9b6af9"
+                }
+              ]
+            },
+            {
+              "uuid": "5252b220-6749-4d39-b74a-31bb4f07192c",
+              "display": "Makurumla Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/5252b220-6749-4d39-b74a-31bb4f07192c"
+                }
+              ]
+            },
+            {
+              "uuid": "8aee2fbb-3583-4433-a5ed-35dedd7e1802",
+              "display": "Manzese Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/8aee2fbb-3583-4433-a5ed-35dedd7e1802"
+                }
+              ]
+            },
+            {
+              "uuid": "1df62b27-5cac-4910-a1ed-f1700d57da0a",
+              "display": "Mbezi Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/1df62b27-5cac-4910-a1ed-f1700d57da0a"
+                }
+              ]
+            },
+            {
+              "uuid": "cd75529e-5936-4998-ae9d-04acbdd41cf7",
+              "display": "Mburahati Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/cd75529e-5936-4998-ae9d-04acbdd41cf7"
+                }
+              ]
+            },
+            {
+              "uuid": "dcb53e23-d819-4ef4-aee6-79c2d833c59e",
+              "display": "Msigani Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/dcb53e23-d819-4ef4-aee6-79c2d833c59e"
+                }
+              ]
+            },
+            {
+              "uuid": "50415ebd-af41-4721-9708-c00d1e48ca09",
+              "display": "Saranga Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/50415ebd-af41-4721-9708-c00d1e48ca09"
+                }
+              ]
+            },
+            {
+              "uuid": "c548493c-ef26-4fa2-ba25-a76adfba2ccc",
+              "display": "Sinza Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/c548493c-ef26-4fa2-ba25-a76adfba2ccc"
+                }
+              ]
+            },
+            {
+              "uuid": "db40ef31-cd0f-4b5b-8746-f4fcf10ce8eb",
+              "display": "Ubungo Ward",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/db40ef31-cd0f-4b5b-8746-f4fcf10ce8eb"
+                }
+              ]
+            }
+          ],
+          "retired": false,
+          "attributes": [],
+          "address7": null,
+          "address8": null,
+          "address9": null,
+          "address10": null,
+          "address11": null,
+          "address12": null,
+          "address13": null,
+          "address14": null,
+          "address15": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/cb67600c-7227-4286-a731-d81605cc7515"
+            },
+            {
+              "rel": "full",
+              "uri": "http://127.0.0.1/openmrs/ws/rest/v1/location/cb67600c-7227-4286-a731-d81605cc7515?v=full"
+            }
+          ],
+          "resourceVersion": "2.0"
+        }
+      ],
+      "attributes": []
+    }
+  ],
+  "attributes": []
+}

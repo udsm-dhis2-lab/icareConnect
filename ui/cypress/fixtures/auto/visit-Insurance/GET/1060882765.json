@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "35a5e121-6e20-488b-bc49-b7b74ce51bfb",
+      "property": "iCare.clinic.settings.patientsListGroups.showAllPatientsTab",
+      "value": "false",
+      "description": null,
+      "display": "I Care - Clinic Settings Patients List Groups Show All Patients Tab = false",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/35a5e121-6e20-488b-bc49-b7b74ce51bfb"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=icare.registration.mrnSource&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=icare.registration.form&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=iCare.registration.form.additionalClientInformation.conceptUuid&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=icare.registration.form.occupation&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=iCare.registration.form.clientRelationShipTypes.conceptUuid&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=iCare.registration.genderOptions.conceptUuid&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=icare.registration.form.contactInfo.residenceLocationUuid&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patientidentifiertype?v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=patient.autoFilledPatientIdentifierType&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=facility.code&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/personattributetype?limit=60&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/bad70d90-9bac-401a-8c49-a440f6a07bf5?v=custom:(uuid,display,names,answers:(uuid,display,names,mappings))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/b2399b15-a38d-47f9-8e15-fc7e7c7dc1f3?v=custom:(uuid,display,names,answers:(uuid,display,names),setMembers:(uuid,display,answers:(uuid,display,names)))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/c3d16c94-4e03-4b19-9491-43d10f470981?v=custom:(uuid,display,names,answers:(uuid,display,names),setMembers:(uuid,display,answers:(uuid,display,names)))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/a74b0803-0aae-43a7-84f9-2daa2cd19332?v=custom:(uuid,display,names,answers:(uuid,display,names,mappings))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=icare.registration.settings.showPatientTypeField&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location/2150c401-de94-4a6c-941d-2844db1a1dc0?v=custom:(display,uuid,tags,description,retired,parentLocation:(uuid,display),childLocations:(display,uuid,tags,retired,description,parentLocation:(uuid,display),childLocations,attributes:(attributeType,uuid,value,voided)),attributes:(attributeType,uuid,value,voided))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=Test%20Test&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient?identifier=Test%20Test%20Test&v=full&limit=10"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=k&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=ki&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kib&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20V&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20Vi&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20Vil&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20Vill&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20Villa&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20Villag&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?q=kibo%20Village&v=custom%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay%2CparentLocation%3A(uuid%2Cdisplay)))))"
+  },
+  {
+    "method": "POST",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/icare/idgen"
+  },
+  {
+    "method": "POST",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient"
+  },
+
+  {
+    "method": "POST",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/icare/idgen"
+  },
+  {
+    "method": "POST",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/patient/e6b67e8f-9c4e-4c21-b668-607d4f1eeef8?v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visit?includeInactive=false&patient=e6b67e8f-9c4e-4c21-b668-607d4f1eeef8&v=custom%3A(uuid%2CvisitType%2Clocation%3A(uuid%2Cdisplay%2Ctags%2CparentLocation%3A(uuid%2Cdisplay))%2CstartDatetime%2Cattributes%2CstopDatetime%2Cpatient%3A(uuid%2Cdisplay%2Cidentifiers%2Cperson%2Cvoided)%2Cencounters%3A(uuid%2Cform%2Clocation%2Cobs%3A(accessionNumber%2Ccomment%2Cconcept%3A(uuid%2Cdisplay%2Cunits%2CsetMembers%3A(uuid%2Cdisplay%2Cunits))%2Cdisplay%2Cencounter%2CgroupMembers%2Corder%2Cperson%2Cuuid%2Cvalue%2CvalueCodedName%2CvalueModifier%2Cvoided)%2Corders%2Cdiagnoses%2CencounterProviders%2CencounterDatetime%2CencounterType%2Cvoided%2CvoidReason))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?tag=Treatment+Room&limit=100&v=custom:(uuid,name,display,description,parentLocation:(uuid,name),tags,attributes,childLocations,retired)"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/location?tag=Admission+Location&limit=100&v=custom:(uuid,name,display,description,parentLocation:(uuid,name),tags,attributes,childLocations,retired)"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visittype?v=custom%3A(uuid%2Cname%2Cdisplay)"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=iCare.Serives.Configurations&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/systemsetting?q=icare.billing.insurance.nhif.allowOnlineVerification&v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visit?includeInactive=true&patient=e6b67e8f-9c4e-4c21-b668-607d4f1eeef8&v=custom%3A(uuid%2CvisitType%2CstartDatetime%2Cattributes%2CstopDatetime%2Cpatient%3A(uuid%2Cdisplay%2Cidentifiers%2Cperson%3A(uuid%2Cage%2Cbirthdate%2Cgender%2Cdead%2CpreferredAddress%3A(cityVillage))%2Cvoided))&limit=2&startIndex=0"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/person/e6b67e8f-9c4e-4c21-b668-607d4f1eeef8?v=full"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000003333IIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display)))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000004444IIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display)))"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/visit?includeInactive=true&patient=e6b67e8f-9c4e-4c21-b668-607d4f1eeef8&v=custom%3A(uuid%2CvisitType%2CstartDatetime%2Cattributes%2CstopDatetime%2Cpatient%3A(uuid%2Cdisplay%2Cidentifiers%2Cperson%3A(uuid%2Cage%2Cbirthdate%2Cgender%2Cdead%2CpreferredAddress%3A(cityVillage))%2Cvoided))&limit=2&startIndex=0"
+  },
+  {
+    "method": "GET",
+    "url": "http://localhost:4200/openmrs/ws/rest/v1/concept/00000004444IIIIIIIIIIIIIIIIIIIIIIIII?v=custom:(uuid,display,setMembers:(uuid,display,answers:(uuid,display),setMembers:(uuid,display)))"
+  }
+]

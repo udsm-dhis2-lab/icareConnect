@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "8e8da788-4e36-434c-aecd-c388df57141b",
+      "property": "icare.billing.insurance.nhif.allowOnlineVerification",
+      "value": "false",
+      "description": null,
+      "display": "Icare - Billing Insurance Nhif Allow Online Verification = false",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/8e8da788-4e36-434c-aecd-c388df57141b"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

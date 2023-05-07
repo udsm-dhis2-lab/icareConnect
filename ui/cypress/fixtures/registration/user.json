@@ -1,0 +1,5857 @@
+{
+  "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+  "display": "admin",
+  "username": "admin",
+  "systemId": "admin",
+  "userProperties": {
+    "preferredModules": "[",
+    "loginAttempts": "0",
+    "locations": "[\"iCARE103-bill-41ab-8422-108a0c277d98\",\"f6c270fc-2b71-4ce2-a24d-03d94c4ab2a1\",\"cca04645-a9bd-4948-bff5-bf0691a31437\",\"d6f415d8-f19d-442c-b48d-6d656690cd04\",\"912faff6-6c61-48b9-9076-5e8898f4dcc7\",\"bc12774a-8e2a-475d-8ba0-31f92c0ba45f\",\"e8abcf11-dce1-4f02-9e30-1956f38cf2cc\",\"f6cbf3ab-26a4-4f2e-9a21-161c03768aa6\",\"cc739665-acb8-4ae9-a83a-119a9ff3981a\",\"95a0a5ac-48e2-4f38-bf64-0e1dba0295ef\",\"f73c5650-0b72-4de0-a238-fdcfb7cfc520\",\"4935d827-3e4e-4d32-867b-7fdccdd661e9\",\"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\"7fdfa2cb-bc95-405a-88c6-32b7673c0453\",\"4187da6a-262f-45cf-abf1-a98ae80d0b8b\",\"7f65d926-57d6-4402-ae10-a5b3bcbf7986\",\"0269d5be-0449-449b-8a22-a0c6f67117ac\",\"6affde73-0ea5-4612-88e5-a4ed5b3943e0\",\"6351fcf4-e311-4a19-90f9-35667d99a8af\",\"0198cde9-4c50-4250-abec-b09ae58bb563\",\"b6885e6e-fe37-4f32-b901-0d1022fd3b83\",\"e08a7f79-665a-4934-b98a-339f2a6ff3ee\",\"6889adc3-511f-4469-a467-b7d02b89810f\",\"794322a3-396a-4180-947a-69a3cc820ed2\",\"4748646b-81b0-4d76-81e5-7957469d4ab5\",\"58c57d25-8d39-41ab-8422-108a0c277d98\",\"7cb7dfc3-b80d-4465-9768-73088aae7bc1\",\"b1bc5943-c14c-439e-be26-b4104812ad2b\",\"63c57d25-8d39-41ab-8422-108a0c277d98\",\"665921c7-cfaf-4054-9340-b1ec5c5696f6\",\"5cc8b520-f92c-4711-a039-1e1aea8ec9d2\",\"9e7578bd-a642-47c7-87c8-273d81d66338\",\"2f4b354c-8d92-455f-9ed0-b38ef9378a7b\",\"iCARE001-645f-451f-8efe-a0db56f09676\"]"
+  },
+  "person": {
+    "uuid": "f02f18ee-d72c-47a3-9505-e647f9c0f125",
+    "display": "iCare Admin",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/person/f02f18ee-d72c-47a3-9505-e647f9c0f125"
+      }
+    ]
+  },
+  "privileges": [
+    {
+      "uuid": "7718d779-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Concept Proposals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d779-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718eb25-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Relationship Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718eb25-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d5a59a6c-87f7-4edf-a74a-5902adcce67f",
+      "display": "Discharge details",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d5a59a6c-87f7-4edf-a74a-5902adcce67f"
+        }
+      ]
+    },
+    {
+      "uuid": "2479f15f-62aa-4954-9e64-9929746098e9",
+      "display": "View Top 10 Diagnosis",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2479f15f-62aa-4954-9e64-9929746098e9"
+        }
+      ]
+    },
+    {
+      "uuid": "2f4840be-c0c1-4ccb-96c7-d8788deef512",
+      "display": "View Total Amount per Item",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2f4840be-c0c1-4ccb-96c7-d8788deef512"
+        }
+      ]
+    },
+    {
+      "uuid": "7957a09d-aa56-41c4-902b-8049570cfa23",
+      "display": "Update HL7 Inbound Queue",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7957a09d-aa56-41c4-902b-8049570cfa23"
+        }
+      ]
+    },
+    {
+      "uuid": "ed0f6738-942d-4776-9c7b-9057b0285267",
+      "display": "Update Appointment Status",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ed0f6738-942d-4776-9c7b-9057b0285267"
+        }
+      ]
+    },
+    {
+      "uuid": "f539411e-0221-4080-9a6e-ae052cee6ef5",
+      "display": "Manage Visit Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f539411e-0221-4080-9a6e-ae052cee6ef5"
+        }
+      ]
+    },
+    {
+      "uuid": "8dd86446-54d7-4dd9-b569-c2fe3fd5748e",
+      "display": "History and examination emd",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8dd86446-54d7-4dd9-b569-c2fe3fd5748e"
+        }
+      ]
+    },
+    {
+      "uuid": "9244ab48-eb0c-4f4e-9e02-a7e6d66ea490",
+      "display": "Get Care Settings",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9244ab48-eb0c-4f4e-9e02-a7e6d66ea490"
+        }
+      ]
+    },
+    {
+      "uuid": "719756e6-2c50-4c61-8752-e2a599c5182c",
+      "display": "Laboratory Orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/719756e6-2c50-4c61-8752-e2a599c5182c"
+        }
+      ]
+    },
+    {
+      "uuid": "7718df27-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Modules",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718df27-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "a4e00403-e1a3-48fc-86d2-cb71ce41ef72",
+      "display": "View General Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a4e00403-e1a3-48fc-86d2-cb71ce41ef72"
+        }
+      ]
+    },
+    {
+      "uuid": "8afe2f20-53bf-4998-ae57-ee7ec3a9c9ce",
+      "display": "Visit Notes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8afe2f20-53bf-4998-ae57-ee7ec3a9c9ce"
+        }
+      ]
+    },
+    {
+      "uuid": "a849eed9-bfcc-48bd-abff-c1dc779fd90a",
+      "display": "Task: appointmentschedulingui.requestAppointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a849eed9-bfcc-48bd-abff-c1dc779fd90a"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e9f5-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Person Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e9f5-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "170f323d-f51c-4dc4-a651-fc85b49b59d8",
+      "display": "Squeezing Appointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/170f323d-f51c-4dc4-a651-fc85b49b59d8"
+        }
+      ]
+    },
+    {
+      "uuid": "8396e373-8fef-4dad-8142-fb24ba2e1642",
+      "display": "ALL",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8396e373-8fef-4dad-8142-fb24ba2e1642"
+        }
+      ]
+    },
+    {
+      "uuid": "66243087-d3fd-49e3-b57c-898e4676eacb",
+      "display": "Get Conditions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/66243087-d3fd-49e3-b57c-898e4676eacb"
+        }
+      ]
+    },
+    {
+      "uuid": "3d07987d-1009-4de5-8dfd-36c47d57135f",
+      "display": "module:counselor",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3d07987d-1009-4de5-8dfd-36c47d57135f"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ebe8-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Report Objects",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ebe8-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "3f3b756d-05a9-4d97-a24f-d3bdbc855e71",
+      "display": "Edit Diagnoses",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3f3b756d-05a9-4d97-a24f-d3bdbc855e71"
+        }
+      ]
+    },
+    {
+      "uuid": "73964b4d-67ed-40df-ac50-e9eaecbbd424",
+      "display": "Exemption categories",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/73964b4d-67ed-40df-ac50-e9eaecbbd424"
+        }
+      ]
+    },
+    {
+      "uuid": "7718df89-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Person Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718df89-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "af628623-ebfd-4214-a7d5-5fe0394e395a",
+      "display": "View Total Amount per Visit Type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/af628623-ebfd-4214-a7d5-5fe0394e395a"
+        }
+      ]
+    },
+    {
+      "uuid": "b9d4259f-8066-487b-83d0-03b54b3f2e67",
+      "display": "Dental Clinic Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b9d4259f-8066-487b-83d0-03b54b3f2e67"
+        }
+      ]
+    },
+    {
+      "uuid": "1fad1030-f3ec-44a1-bb4b-3e616ea33770",
+      "display": "CLINIC_DELETE_LABORATORY_INVESTIGATION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/1fad1030-f3ec-44a1-bb4b-3e616ea33770"
+        }
+      ]
+    },
+    {
+      "uuid": "779894c2-8baa-44a2-9a0b-d1e525e4346b",
+      "display": "Edit Conditions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/779894c2-8baa-44a2-9a0b-d1e525e4346b"
+        }
+      ]
+    },
+    {
+      "uuid": "bb939a62-4e51-40a4-a75e-e1f36084a2da",
+      "display": "Nurse",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/bb939a62-4e51-40a4-a75e-e1f36084a2da"
+        }
+      ]
+    },
+    {
+      "uuid": "890c78a0-274f-45e7-913e-41d62f8e9c8a",
+      "display": "Get Order Set Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/890c78a0-274f-45e7-913e-41d62f8e9c8a"
+        }
+      ]
+    },
+    {
+      "uuid": "7f346b3c-7dd2-4738-adfb-5325a4acc773",
+      "display": "Oncology Service Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7f346b3c-7dd2-4738-adfb-5325a4acc773"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dc69-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Users",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dc69-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e95a-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Patient Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e95a-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e088-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Roles",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e088-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d6aa-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Report Objects",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d6aa-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "e75127e3-5842-4568-8a6b-82090e1a5478",
+      "display": "App: registrationapp.registerPatient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e75127e3-5842-4568-8a6b-82090e1a5478"
+        }
+      ]
+    },
+    {
+      "uuid": "dfcb1870-c804-4981-881f-e483e83cf971",
+      "display": "Preview Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/dfcb1870-c804-4981-881f-e483e83cf971"
+        }
+      ]
+    },
+    {
+      "uuid": "e71720f5-32cd-4092-bf07-1a8f436c5e40",
+      "display": "View Radiology",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e71720f5-32cd-4092-bf07-1a8f436c5e40"
+        }
+      ]
+    },
+    {
+      "uuid": "aad60717-328f-4d0f-abe5-e68a9ebff76f",
+      "display": "App: appointmentschedulingui.appointmentTypes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/aad60717-328f-4d0f-abe5-e68a9ebff76f"
+        }
+      ]
+    },
+    {
+      "uuid": "d8463dd7-4e51-4f94-8e93-b9299672918e",
+      "display": "CLINIC_RETIRE_PROVISIONAL_DIAGNOSIS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d8463dd7-4e51-4f94-8e93-b9299672918e"
+        }
+      ]
+    },
+    {
+      "uuid": "1d7bfa05-6158-4e09-a79a-839b19719e7d",
+      "display": "View OPD - Mahudhurio",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/1d7bfa05-6158-4e09-a79a-839b19719e7d"
+        }
+      ]
+    },
+    {
+      "uuid": "ab9e31ad-03dc-4765-9efc-59ad83f715eb",
+      "display": "Manage Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ab9e31ad-03dc-4765-9efc-59ad83f715eb"
+        }
+      ]
+    },
+    {
+      "uuid": "74d47917-ede6-4c5d-abb6-8cfe718a57c5",
+      "display": "Add HL7 Inbound Queue",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/74d47917-ede6-4c5d-abb6-8cfe718a57c5"
+        }
+      ]
+    },
+    {
+      "uuid": "3a67fd84-5b9a-4ae5-a1fd-eac0a89e871b",
+      "display": "CLINIC_DELETE_RADIOLOGY_INVESTIGATION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3a67fd84-5b9a-4ae5-a1fd-eac0a89e871b"
+        }
+      ]
+    },
+    {
+      "uuid": "23251ebf-a82f-4f8b-9506-faee0b31770d",
+      "display": "VCT/PITC",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/23251ebf-a82f-4f8b-9506-faee0b31770d"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e5f8-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e5f8-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "79cea509-cf60-455e-b74b-855fe3a8d159",
+      "display": "NURSING_VIEW_SEND_TO_OBSERVATION_BUTTON",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/79cea509-cf60-455e-b74b-855fe3a8d159"
+        }
+      ]
+    },
+    {
+      "uuid": "87aaa93c-aac7-4e92-8560-1406cc39f0ae",
+      "display": "Share Metadata",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/87aaa93c-aac7-4e92-8560-1406cc39f0ae"
+        }
+      ]
+    },
+    {
+      "uuid": "6bb7e63d-e644-4c9c-b787-b1dda09407d9",
+      "display": "Driving license examination",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6bb7e63d-e644-4c9c-b787-b1dda09407d9"
+        }
+      ]
+    },
+    {
+      "uuid": "9ca4bfa8-3eb2-4469-9b74-f563992af618",
+      "display": "Manage Search Index",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9ca4bfa8-3eb2-4469-9b74-f563992af618"
+        }
+      ]
+    },
+    {
+      "uuid": "c47af4ef-d757-4636-a218-ba066c2dd840",
+      "display": "app:Laboratory",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c47af4ef-d757-4636-a218-ba066c2dd840"
+        }
+      ]
+    },
+    {
+      "uuid": "0b9285a5-d291-43ea-a2aa-d69ff5e6426c",
+      "display": "Kinga Tiba baada ya madhara",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0b9285a5-d291-43ea-a2aa-d69ff5e6426c"
+        }
+      ]
+    },
+    {
+      "uuid": "d4441d5e-1bbf-46c2-af35-f9cd8737e2e8",
+      "display": "Surgeon",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d4441d5e-1bbf-46c2-af35-f9cd8737e2e8"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dec3-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Identifier Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dec3-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "28983648-2c81-438e-b171-c094226677a0",
+      "display": "View Provider Schedules",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/28983648-2c81-438e-b171-c094226677a0"
+        }
+      ]
+    },
+    {
+      "uuid": "6565b3d3-06ad-479d-be28-0f8df4f23926",
+      "display": "Matumizi ya Vitendanishi na Uhakiki Ubora wa upimaji VVU",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6565b3d3-06ad-479d-be28-0f8df4f23926"
+        }
+      ]
+    },
+    {
+      "uuid": "69409280-ba6b-445e-995b-27e2ff97d0ea",
+      "display": "CLINIC_DELETE_PROCEDURE_ORDER",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/69409280-ba6b-445e-995b-27e2ff97d0ea"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dadb-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Patient Identifiers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dadb-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "5fc7c2c5-6a7b-480f-ac8d-f6c3d03331ca",
+      "display": "Manage Order Sets",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/5fc7c2c5-6a7b-480f-ac8d-f6c3d03331ca"
+        }
+      ]
+    },
+    {
+      "uuid": "75c9f7e9-fc84-436e-bae7-098408f0bfb4",
+      "display": "REPORT_ALL",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/75c9f7e9-fc84-436e-bae7-098408f0bfb4"
+        }
+      ]
+    },
+    {
+      "uuid": "2641807b-63ba-4180-92c1-424f23a74896",
+      "display": "View Patients Attended Count by Age and Gender",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2641807b-63ba-4180-92c1-424f23a74896"
+        }
+      ]
+    },
+    {
+      "uuid": "aa08b52f-2a87-4337-a89c-261d8c9a1dec",
+      "display": "App: appointmentschedulingui.providerSchedules",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/aa08b52f-2a87-4337-a89c-261d8c9a1dec"
+        }
+      ]
+    },
+    {
+      "uuid": "65d14b28-3989-11e6-899a-a4d646d86a8a",
+      "display": "Add Visits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/65d14b28-3989-11e6-899a-a4d646d86a8a"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e215-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Patient Dashboard - View Patient Summary",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e215-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "ea508dd9-af1a-40a0-9fc3-f3dbf893a5ab",
+      "display": "Task: referenceapplication.vitals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ea508dd9-af1a-40a0-9fc3-f3dbf893a5ab"
+        }
+      ]
+    },
+    {
+      "uuid": "f46df9f0-b10a-4a1c-9591-e98d4bb2bcd2",
+      "display": "View Total Per Item and Service Type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f46df9f0-b10a-4a1c-9591-e98d4bb2bcd2"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d8e7-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete People",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d8e7-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dfbf-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Privileges",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dfbf-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718db3e-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718db3e-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d7e9-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Observations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d7e9-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "18f1b140-74e1-4a61-ac1e-59a1fb0dd935",
+      "display": "View Dental",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/18f1b140-74e1-4a61-ac1e-59a1fb0dd935"
+        }
+      ]
+    },
+    {
+      "uuid": "0ec1f92c-895e-4c4f-ab37-0b656cbd1a0b",
+      "display": "Delete Visits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0ec1f92c-895e-4c4f-ab37-0b656cbd1a0b"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dd2a-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Concept Datatypes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dd2a-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "6d0cb3a0-0b4a-4682-a13f-545836c261c7",
+      "display": "App: coreapps.patientVisits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6d0cb3a0-0b4a-4682-a13f-545836c261c7"
+        }
+      ]
+    },
+    {
+      "uuid": "37a4962a-3131-4166-9410-5b8d1cd9c2da",
+      "display": "View Total Collection By Visit Creators",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/37a4962a-3131-4166-9410-5b8d1cd9c2da"
+        }
+      ]
+    },
+    {
+      "uuid": "1f0a2cc2-4966-4118-b91d-be61855f4ac1",
+      "display": "View MTUHA",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/1f0a2cc2-4966-4118-b91d-be61855f4ac1"
+        }
+      ]
+    },
+    {
+      "uuid": "2d93e4fb-5acc-4d7e-aced-3baf0fcabad8",
+      "display": "View Malaria Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2d93e4fb-5acc-4d7e-aced-3baf0fcabad8"
+        }
+      ]
+    },
+    {
+      "uuid": "b22aafc3-bea2-48fe-9d89-07bc43051990",
+      "display": "Manage Report Definitions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b22aafc3-bea2-48fe-9d89-07bc43051990"
+        }
+      ]
+    },
+    {
+      "uuid": "8d8c6092-cbcc-4cb7-9250-fae61c8952d5",
+      "display": "Pre operative list",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8d8c6092-cbcc-4cb7-9250-fae61c8952d5"
+        }
+      ]
+    },
+    {
+      "uuid": "67d68d22-a8e8-44e1-b835-f9f3bae8bb77",
+      "display": "CLINIC_ADD_PROVISIONAL_DIAGNOSIS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/67d68d22-a8e8-44e1-b835-f9f3bae8bb77"
+        }
+      ]
+    },
+    {
+      "uuid": "0627442b-0e40-4f3d-97c0-36384c107525",
+      "display": "Add Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0627442b-0e40-4f3d-97c0-36384c107525"
+        }
+      ]
+    },
+    {
+      "uuid": "0ec4305a-3f5e-4b42-a22d-445fa90b2718",
+      "display": "Manage Metadata Mapping",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0ec4305a-3f5e-4b42-a22d-445fa90b2718"
+        }
+      ]
+    },
+    {
+      "uuid": "b6005f8d-19d4-4581-9c89-70da9c34ee66",
+      "display": "View FHIR Client",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b6005f8d-19d4-4581-9c89-70da9c34ee66"
+        }
+      ]
+    },
+    {
+      "uuid": "7718eb9c-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Relationships",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718eb9c-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "394b33ce-08ad-4541-9fd0-7f91ca6a7864",
+      "display": "Manage Dimension Definitions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/394b33ce-08ad-4541-9fd0-7f91ca6a7864"
+        }
+      ]
+    },
+    {
+      "uuid": "cfc6bf1a-f07d-45dc-bf93-3a716e138bfe",
+      "display": "App: coreapps.configuremetadata",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/cfc6bf1a-f07d-45dc-bf93-3a716e138bfe"
+        }
+      ]
+    },
+    {
+      "uuid": "39ad7cdb-507e-47ac-9ceb-c02c3a695071",
+      "display": "View Total Collection By Patient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/39ad7cdb-507e-47ac-9ceb-c02c3a695071"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d3ff-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Concept Proposals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d3ff-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "4b8ec45f-4a60-4ddb-8332-9f6fc04a469a",
+      "display": "Manage Data Set Definitions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4b8ec45f-4a60-4ddb-8332-9f6fc04a469a"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e5c7-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Field Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e5c7-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e28b-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Purge Field Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e28b-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "c702a1e8-3c7d-4bc8-9348-c590f06577b8",
+      "display": "Manage Appointments Settings",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c702a1e8-3c7d-4bc8-9348-c590f06577b8"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e751-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Observations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e751-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ecc5-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Unpublished Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ecc5-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "df6328f8-7c16-4257-baa4-5429a7e0e043",
+      "display": "CLINIC_DELETE_CONFIRMED_DIAGNOSIS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/df6328f8-7c16-4257-baa4-5429a7e0e043"
+        }
+      ]
+    },
+    {
+      "uuid": "ccf703c1-0bec-4de5-9595-3878c140f4e1",
+      "display": "Task: coreapps.mergeVisits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ccf703c1-0bec-4de5-9595-3878c140f4e1"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e68e-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Locations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e68e-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "659458a4-4207-442a-8eb8-3152aab4707a",
+      "display": "module:Dispensing",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/659458a4-4207-442a-8eb8-3152aab4707a"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d7b7-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Encounters",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d7b7-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "6a7aa875-1d06-42de-9d73-23bb46851c2b",
+      "display": "View Examination Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6a7aa875-1d06-42de-9d73-23bb46851c2b"
+        }
+      ]
+    },
+    {
+      "uuid": "0591a225-3271-480e-a430-384b2e92a939",
+      "display": "Request Appointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0591a225-3271-480e-a430-384b2e92a939"
+        }
+      ]
+    },
+    {
+      "uuid": "7718daa9-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718daa9-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "b7c0627a-d9d4-488e-8bcf-2f7567aabf63",
+      "display": "Update HL7 Source",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b7c0627a-d9d4-488e-8bcf-2f7567aabf63"
+        }
+      ]
+    },
+    {
+      "uuid": "23427819-a203-4f0f-8059-a6cd7602b4e5",
+      "display": "Task: appointmentschedulingui.viewConfidential",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/23427819-a203-4f0f-8059-a6cd7602b4e5"
+        }
+      ]
+    },
+    {
+      "uuid": "3adcd30f-b28e-4b60-ae31-0e78db61a5a2",
+      "display": "Ophthalmology",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3adcd30f-b28e-4b60-ae31-0e78db61a5a2"
+        }
+      ]
+    },
+    {
+      "uuid": "a893bace-2b03-4a44-8c05-0460f57b65ad",
+      "display": "Task: coreapps.createVisit",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a893bace-2b03-4a44-8c05-0460f57b65ad"
+        }
+      ]
+    },
+    {
+      "uuid": "e28d2585-b54d-40a8-a870-874f50c74307",
+      "display": "History and examination",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e28d2585-b54d-40a8-a870-874f50c74307"
+        }
+      ]
+    },
+    {
+      "uuid": "47623674-3291-4af2-8d0b-87bf5fd6d4d9",
+      "display": "View Amount per gender",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/47623674-3291-4af2-8d0b-87bf5fd6d4d9"
+        }
+      ]
+    },
+    {
+      "uuid": "c7fc8cb9-df7d-40dc-934c-86c6a096670f",
+      "display": "Schedule Appointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c7fc8cb9-df7d-40dc-934c-86c6a096670f"
+        }
+      ]
+    },
+    {
+      "uuid": "7bb92342-18d6-4dd6-8a07-8aaf3f328e3a",
+      "display": "View OPD Register",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7bb92342-18d6-4dd6-8a07-8aaf3f328e3a"
+        }
+      ]
+    },
+    {
+      "uuid": "6b9b7fc7-3dc5-4dd5-af9d-0ce3a6b40b6e",
+      "display": "Laboratory Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6b9b7fc7-3dc5-4dd5-af9d-0ce3a6b40b6e"
+        }
+      ]
+    },
+    {
+      "uuid": "3751f7c5-1222-4b6a-8bf6-4a88a4d2e050",
+      "display": "Remove Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3751f7c5-1222-4b6a-8bf6-4a88a4d2e050"
+        }
+      ]
+    },
+    {
+      "uuid": "d96221a9-8f9b-4031-953d-e2a7573588b3",
+      "display": "App: appointmentschedulingui.viewAppointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d96221a9-8f9b-4031-953d-e2a7573588b3"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d91a-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Relationships",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d91a-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "589ec4cb-5972-4659-9b32-81439ec08a35",
+      "display": "Health to education CTC client",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/589ec4cb-5972-4659-9b32-81439ec08a35"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e81f-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Patient Identifiers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e81f-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05dff37-f4f5-40be-9ec3-47c07a49b4b7",
+      "display": "module:diagnostic",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05dff37-f4f5-40be-9ec3-47c07a49b4b7"
+        }
+      ]
+    },
+    {
+      "uuid": "65c81664-1fb4-43ba-88f0-ee70770b26df",
+      "display": "Sample Tracking",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/65c81664-1fb4-43ba-88f0-ee70770b26df"
+        }
+      ]
+    },
+    {
+      "uuid": "3087d966-57a3-4c5b-9b1d-d23ec29bd948",
+      "display": "Provider Management Dashboard - Edit Providers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3087d966-57a3-4c5b-9b1d-d23ec29bd948"
+        }
+      ]
+    },
+    {
+      "uuid": "ddd26277-8807-4892-b921-3d3479e1c3e5",
+      "display": "CLINIC_RETIRE_RADIOLOGY_INVESTIGRATION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ddd26277-8807-4892-b921-3d3479e1c3e5"
+        }
+      ]
+    },
+    {
+      "uuid": "884a7074-9066-4b8b-9fa5-25a110f41496",
+      "display": "View Total Amount per service type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/884a7074-9066-4b8b-9fa5-25a110f41496"
+        }
+      ]
+    },
+    {
+      "uuid": "f89bd698-8e39-49e6-83d7-dc91e38bdd9f",
+      "display": "Manage Concept Reference Terms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f89bd698-8e39-49e6-83d7-dc91e38bdd9f"
+        }
+      ]
+    },
+    {
+      "uuid": "f222a2e6-e9b7-421e-8fdb-76d78381276e",
+      "display": "CLINIC_DELETE_PROVISIONAL_DIAGNOSIS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f222a2e6-e9b7-421e-8fdb-76d78381276e"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d9b2-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Users",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d9b2-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d980-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d980-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "0de211a9-9f06-453f-93d2-3e61ebb7c775",
+      "display": "Provider Management - Admin",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0de211a9-9f06-453f-93d2-3e61ebb7c775"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e563-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Encounter Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e563-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "54cb1455-d210-4153-9f73-5490a70eb582",
+      "display": "View Metadata Via Mapping",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/54cb1455-d210-4153-9f73-5490a70eb582"
+        }
+      ]
+    },
+    {
+      "uuid": "f14473ae-4c11-49fa-9eff-e7474d917b32",
+      "display": "Edit Notes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f14473ae-4c11-49fa-9eff-e7474d917b32"
+        }
+      ]
+    },
+    {
+      "uuid": "ab2017e3-58b6-476b-a7ae-e7a5feddc905",
+      "display": "Delete HL7 Inbound Queue",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ab2017e3-58b6-476b-a7ae-e7a5feddc905"
+        }
+      ]
+    },
+    {
+      "uuid": "a95250cb-74d6-48d5-9d04-d4cec662c9b1",
+      "display": "Manage Location Tags",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a95250cb-74d6-48d5-9d04-d4cec662c9b1"
+        }
+      ]
+    },
+    {
+      "uuid": "8e84c675-247b-44af-b741-c4a23cba7ccb",
+      "display": "module:Cashier",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8e84c675-247b-44af-b741-c4a23cba7ccb"
+        }
+      ]
+    },
+    {
+      "uuid": "f11d6798-6e61-49de-8042-87a75aac113b",
+      "display": "Manage OWA",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f11d6798-6e61-49de-8042-87a75aac113b"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d8b3-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d8b3-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "296a965d-5907-4cf0-92d4-207935a1ada9",
+      "display": "Provider Management Dashboard - Edit Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/296a965d-5907-4cf0-92d4-207935a1ada9"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d676-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Relationships",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d676-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e056-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Relationships",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e056-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e495-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Concept Proposals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e495-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "2e2745cf-8bc3-48ba-8bb3-fb62d45610ff",
+      "display": "HIV status of family/household members",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2e2745cf-8bc3-48ba-8bb3-fb62d45610ff"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dd91-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Concepts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dd91-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718de8e-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Global Properties",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718de8e-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "85aa8e96-cb02-4b3d-a411-6fcf5119e43f",
+      "display": "Sample Collection",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/85aa8e96-cb02-4b3d-a411-6fcf5119e43f"
+        }
+      ]
+    },
+    {
+      "uuid": "8ebc3e46-62b7-49c5-ae7a-8df7f2489f1e",
+      "display": "View Samples Rejected",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8ebc3e46-62b7-49c5-ae7a-8df7f2489f1e"
+        }
+      ]
+    },
+    {
+      "uuid": "c6a51d12-3db8-465f-b1d6-fb1382ed9839",
+      "display": "Manage Token Registrations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c6a51d12-3db8-465f-b1d6-fb1382ed9839"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dba2-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Relationships",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dba2-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e4c9-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Concept Sources",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e4c9-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7695fc2c-ac28-4d6c-8e9f-5440e226e47b",
+      "display": "View RESTWS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7695fc2c-ac28-4d6c-8e9f-5440e226e47b"
+        }
+      ]
+    },
+    {
+      "uuid": "b4c96670-fc58-45ae-88ea-8e526637ef5b",
+      "display": "Task: referenceapplication.simpleTransfer",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b4c96670-fc58-45ae-88ea-8e526637ef5b"
+        }
+      ]
+    },
+    {
+      "uuid": "a85c274d-3aa9-4071-b7ac-6f75b7833bf4",
+      "display": "Procedure orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a85c274d-3aa9-4071-b7ac-6f75b7833bf4"
+        }
+      ]
+    },
+    {
+      "uuid": "3e3ea97a-5d8e-46f9-a2bb-eaa625e905fa",
+      "display": "View Revenue",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3e3ea97a-5d8e-46f9-a2bb-eaa625e905fa"
+        }
+      ]
+    },
+    {
+      "uuid": "7718db70-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit People",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718db70-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "89bd92f8-9484-4a8a-b828-68e23ce9faaa",
+      "display": "module:Vertical Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/89bd92f8-9484-4a8a-b828-68e23ce9faaa"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e325-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e325-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "5595cb9b-227f-403d-836d-d589b430568e",
+      "display": "Mental Clinic",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/5595cb9b-227f-403d-836d-d589b430568e"
+        }
+      ]
+    },
+    {
+      "uuid": "20403586-2085-4490-890d-b457e4fcb700",
+      "display": "Delete HL7 Inbound Exception",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/20403586-2085-4490-890d-b457e4fcb700"
+        }
+      ]
+    },
+    {
+      "uuid": "ae661591-280b-40a3-9791-cf52cd28a793",
+      "display": "Physiotherapy assessment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ae661591-280b-40a3-9791-cf52cd28a793"
+        }
+      ]
+    },
+    {
+      "uuid": "3b517d3f-c6f3-45d9-b8b0-854133bf2b2a",
+      "display": "Delete Notes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3b517d3f-c6f3-45d9-b8b0-854133bf2b2a"
+        }
+      ]
+    },
+    {
+      "uuid": "2c38b817-d03a-4324-907a-3c1d7d6517bf",
+      "display": "STORE_CREATE_NEW_STOCKABLE_ITEM",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2c38b817-d03a-4324-907a-3c1d7d6517bf"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e52d-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Data Entry Statistics",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e52d-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e788-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Order Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e788-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "cee7e6c9-8317-46f5-80c5-a195df9882f4",
+      "display": "Manage Visit Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/cee7e6c9-8317-46f5-80c5-a195df9882f4"
+        }
+      ]
+    },
+    {
+      "uuid": "eeb33e62-baab-4fdf-88ef-a7ad8d5de363",
+      "display": "App: referenceapplication.vitals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/eeb33e62-baab-4fdf-88ef-a7ad8d5de363"
+        }
+      ]
+    },
+    {
+      "uuid": "f8725843-9759-413a-983c-ac21bc10f0b1",
+      "display": "CLINIC_ADD_LABORATORY_INVESTIGATION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f8725843-9759-413a-983c-ac21bc10f0b1"
+        }
+      ]
+    },
+    {
+      "uuid": "4ee494f0-9887-4e20-b09f-65800bf1f81b",
+      "display": "Manage Concept Name tags",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4ee494f0-9887-4e20-b09f-65800bf1f81b"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d4ba-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Observations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d4ba-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "2e3fd3c2-7cf4-4403-9d68-319eb771d32c",
+      "display": "module:VTC",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2e3fd3c2-7cf4-4403-9d68-319eb771d32c"
+        }
+      ]
+    },
+    {
+      "uuid": "c35450e6-4322-4aed-ad4e-0fe8824b9009",
+      "display": "Gastro Service Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c35450e6-4322-4aed-ad4e-0fe8824b9009"
+        }
+      ]
+    },
+    {
+      "uuid": "8654f322-9b30-424e-8730-9cb0c23ac20b",
+      "display": "CLINIC_DELETE_PRESCRIPTION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8654f322-9b30-424e-8730-9cb0c23ac20b"
+        }
+      ]
+    },
+    {
+      "uuid": "194f674d-dc6a-480e-87f5-1e2889a5113d",
+      "display": "Prosthesis",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/194f674d-dc6a-480e-87f5-1e2889a5113d"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d5a7-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Patient Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d5a7-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "3acc83ea-0cb4-43d4-9f61-332373afee03",
+      "display": "Provider Management Dashboard - View Providers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3acc83ea-0cb4-43d4-9f61-332373afee03"
+        }
+      ]
+    },
+    {
+      "uuid": "1c21cdbc-2bb5-4452-8a4a-f329307dd93f",
+      "display": "View Appointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/1c21cdbc-2bb5-4452-8a4a-f329307dd93f"
+        }
+      ]
+    },
+    {
+      "uuid": "498e9f85-f4d7-4a98-80af-633d23e039b6",
+      "display": "Configure Visits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/498e9f85-f4d7-4a98-80af-633d23e039b6"
+        }
+      ]
+    },
+    {
+      "uuid": "84ff8aee-54dc-45d9-adad-0c5e46069b6f",
+      "display": "App: coreapps.systemAdministration",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/84ff8aee-54dc-45d9-adad-0c5e46069b6f"
+        }
+      ]
+    },
+    {
+      "uuid": "e84e466e-cfb3-4d49-a57a-0f9172ad1503",
+      "display": "View Appointments Blocks",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e84e466e-cfb3-4d49-a57a-0f9172ad1503"
+        }
+      ]
+    },
+    {
+      "uuid": "7718def6-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Locations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718def6-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "027b27f7-01d2-4635-972a-f745d6c9ffed",
+      "display": "Pediatric assessment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/027b27f7-01d2-4635-972a-f745d6c9ffed"
+        }
+      ]
+    },
+    {
+      "uuid": "d0957625-b747-4902-958c-92ada3d57616",
+      "display": "Manage Auto Generation Options",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d0957625-b747-4902-958c-92ada3d57616"
+        }
+      ]
+    },
+    {
+      "uuid": "9b126675-e4f7-4540-bb87-fb80b6a2a291",
+      "display": "Manage Implementation Id",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9b126675-e4f7-4540-bb87-fb80b6a2a291"
+        }
+      ]
+    },
+    {
+      "uuid": "66e72faf-8e22-4990-8c83-1f89eab3db82",
+      "display": "Eye examination",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/66e72faf-8e22-4990-8c83-1f89eab3db82"
+        }
+      ]
+    },
+    {
+      "uuid": "28f0fcba-d059-4acd-a13d-42e8abf284cc",
+      "display": "View Appointment Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/28f0fcba-d059-4acd-a13d-42e8abf284cc"
+        }
+      ]
+    },
+    {
+      "uuid": "f9a1949f-d5f0-44eb-89db-82d15b617f97",
+      "display": "Post operative order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f9a1949f-d5f0-44eb-89db-82d15b617f97"
+        }
+      ]
+    },
+    {
+      "uuid": "7718da14-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Concept Proposals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718da14-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "81e95bce-3f10-11e4-adec-0800271c1b75",
+      "display": "Radiology orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/81e95bce-3f10-11e4-adec-0800271c1b75"
+        }
+      ]
+    },
+    {
+      "uuid": "55094038-d53a-4cee-a28a-17bc1de99c06",
+      "display": "View Top Ten Drugs Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/55094038-d53a-4cee-a28a-17bc1de99c06"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e62a-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Global Properties",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e62a-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "00019783-f7a4-48de-8abc-510eaa5382c9",
+      "display": "Manage Order Set Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/00019783-f7a4-48de-8abc-510eaa5382c9"
+        }
+      ]
+    },
+    {
+      "uuid": "4542c441-884d-411f-b678-72dc8182256a",
+      "display": "CLINIC_ADD_PRESCRIPTION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4542c441-884d-411f-b678-72dc8182256a"
+        }
+      ]
+    },
+    {
+      "uuid": "6f661ada-9849-4ee5-9e8d-88850da7b064",
+      "display": "Sample Acceptance and Results",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6f661ada-9849-4ee5-9e8d-88850da7b064"
+        }
+      ]
+    },
+    {
+      "uuid": "e2af4693-4db1-4677-8b7c-9d2cb6a1fa7c",
+      "display": "Add Problems",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e2af4693-4db1-4677-8b7c-9d2cb6a1fa7c"
+        }
+      ]
+    },
+    {
+      "uuid": "a17175dc-eed6-4dbe-9bdc-c96137eb0019",
+      "display": "View Patient Appointment History",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a17175dc-eed6-4dbe-9bdc-c96137eb0019"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ddc5-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Encounter Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ddc5-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "974d6a9a-7a9e-4ec1-a9bc-310bee031dd2",
+      "display": "App: referenceapplication.legacyAdmin",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/974d6a9a-7a9e-4ec1-a9bc-310bee031dd2"
+        }
+      ]
+    },
+    {
+      "uuid": "7718de28-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage FormEntry XSN",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718de28-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "5e3cb831-ceda-4292-9798-b92d158ef8c1",
+      "display": "Delete HL7 Inbound Archive",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/5e3cb831-ceda-4292-9798-b92d158ef8c1"
+        }
+      ]
+    },
+    {
+      "uuid": "7718de5c-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718de5c-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "02203cdd-23a8-44ec-b36d-9937ce1fd146",
+      "display": "module:Inpatient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/02203cdd-23a8-44ec-b36d-9937ce1fd146"
+        }
+      ]
+    },
+    {
+      "uuid": "062f56f9-6f2c-4109-85aa-e386f5e5ab9b",
+      "display": "View IPD-Mtuha",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/062f56f9-6f2c-4109-85aa-e386f5e5ab9b"
+        }
+      ]
+    },
+    {
+      "uuid": "a6d5fe45-6fbb-42ae-b8cc-17b1318389d4",
+      "display": "Labor partograph",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a6d5fe45-6fbb-42ae-b8cc-17b1318389d4"
+        }
+      ]
+    },
+    {
+      "uuid": "063375b2-9b74-4e38-9b27-854505a24226",
+      "display": "Add HL7 Source",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/063375b2-9b74-4e38-9b27-854505a24226"
+        }
+      ]
+    },
+    {
+      "uuid": "8db9726a-842e-4a5b-9d9b-782690995923",
+      "display": "CLINIC_ATTEND_PROCEDURE_ORDER",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8db9726a-842e-4a5b-9d9b-782690995923"
+        }
+      ]
+    },
+    {
+      "uuid": "05fe6dc1-a867-4056-83ad-1444f483c3a3",
+      "display": "Manage Location Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/05fe6dc1-a867-4056-83ad-1444f483c3a3"
+        }
+      ]
+    },
+    {
+      "uuid": "0aaa2522-9027-425e-9acd-649f2d58612f",
+      "display": "Provider Management API - Read-only",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0aaa2522-9027-425e-9acd-649f2d58612f"
+        }
+      ]
+    },
+    {
+      "uuid": "cb58a0c6-90da-46eb-98be-7f201ef9867d",
+      "display": "Get Order Sets",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/cb58a0c6-90da-46eb-98be-7f201ef9867d"
+        }
+      ]
+    },
+    {
+      "uuid": "c38d6df8-ce37-4a8e-9c30-8c1f72d25507",
+      "display": "App: formentryapp.forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c38d6df8-ce37-4a8e-9c30-8c1f72d25507"
+        }
+      ]
+    },
+    {
+      "uuid": "46b39b26-aea6-4473-be9a-f05f53ac9329",
+      "display": "Task: emr.patient.encounter.edit",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/46b39b26-aea6-4473-be9a-f05f53ac9329"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dc98-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Form Entry",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dc98-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "8d7d7c30-34ea-43b7-b47a-1ed9ca84e740",
+      "display": "View Malaria",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8d7d7c30-34ea-43b7-b47a-1ed9ca84e740"
+        }
+      ]
+    },
+    {
+      "uuid": "673293ac-699e-442b-9316-30970f31c5d6",
+      "display": "Provider Management Dashboard - View Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/673293ac-699e-442b-9316-30970f31c5d6"
+        }
+      ]
+    },
+    {
+      "uuid": "9740f756-0210-405a-b2de-caf20e6fc9b2",
+      "display": "View Patients Attende List by Age and Gender",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9740f756-0210-405a-b2de-caf20e6fc9b2"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e2be-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Upload XSN",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e2be-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "5cc4e9df-e44c-430c-8dc1-84420b255a4d",
+      "display": "app:clinical:labOrder",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/5cc4e9df-e44c-430c-8dc1-84420b255a4d"
+        }
+      ]
+    },
+    {
+      "uuid": "Capture vitals",
+      "display": "67a71486-1a54-468f-ac3e-7091a9a79584",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/Capture vitals"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dd5d-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Concept Sources",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dd5d-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "98b84b49-eef8-4d8a-bb23-1ad4024f7a09",
+      "display": "module:Laboratory",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/98b84b49-eef8-4d8a-bb23-1ad4024f7a09"
+        }
+      ]
+    },
+    {
+      "uuid": "b73f2f17-0351-4461-925e-82a7bd243180",
+      "display": "Assign System Developer Role",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b73f2f17-0351-4461-925e-82a7bd243180"
+        }
+      ]
+    },
+    {
+      "uuid": "86b9a0b6-9514-4420-9e9a-a1453a6ef1cc",
+      "display": "Task: appointmentschedulingui.overbookAppointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/86b9a0b6-9514-4420-9e9a-a1453a6ef1cc"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ea5a-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Problems",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ea5a-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ddf8-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Field Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ddf8-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "8c7a0147-1964-4efa-bd4f-f2f06557f280",
+      "display": "View Attended Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8c7a0147-1964-4efa-bd4f-f2f06557f280"
+        }
+      ]
+    },
+    {
+      "uuid": "bc34943f-a955-4f23-af9b-e83a13ece9dc",
+      "display": "View Token Registrations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/bc34943f-a955-4f23-af9b-e83a13ece9dc"
+        }
+      ]
+    },
+    {
+      "uuid": "7c0989c1-ba6e-4625-b013-3f76af99f4c2",
+      "display": "App: coreapps.patientDashboard",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7c0989c1-ba6e-4625-b013-3f76af99f4c2"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e460-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Concept Datatypes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e460-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e7ba-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e7ba-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "ce528a94-4881-4c8d-b673-cc8eebcb4722",
+      "display": "Eye Clinic Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ce528a94-4881-4c8d-b673-cc8eebcb4722"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ea28-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Privileges",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ea28-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "9d79d9ec-483e-4c26-866c-da5f25b153bb",
+      "display": "View Settings Reports Category",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9d79d9ec-483e-4c26-866c-da5f25b153bb"
+        }
+      ]
+    },
+    {
+      "uuid": "52e74ce9-a45d-468f-84b4-7dc2b2cbf754",
+      "display": "STORE_ADD_NEW_STOCKABLE_ITEM",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/52e74ce9-a45d-468f-84b4-7dc2b2cbf754"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d9e4-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Cohorts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d9e4-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "187ae0b8-dbaa-48ec-8fca-4b0a4783009a",
+      "display": "View Total Amount per provider",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/187ae0b8-dbaa-48ec-8fca-4b0a4783009a"
+        }
+      ]
+    },
+    {
+      "uuid": "c0f155dc-01fd-4262-8b30-02470c5af550",
+      "display": "View OPD",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c0f155dc-01fd-4262-8b30-02470c5af550"
+        }
+      ]
+    },
+    {
+      "uuid": "History and examination",
+      "display": "c393fd1d-3f10-11e4-adec-0800271c1b75",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/History and examination"
+        }
+      ]
+    },
+    {
+      "uuid": "0b29548d-e6bb-4040-9f8f-764aaf9727c9",
+      "display": "App: atlas.manage",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0b29548d-e6bb-4040-9f8f-764aaf9727c9"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dc36-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit User Passwords",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dc36-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "9b2281ee-71ee-4df2-8584-471cd430d24c",
+      "display": "CLINIC_RETIRE_CONFIRMED_DIAGNOSIS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9b2281ee-71ee-4df2-8584-471cd430d24c"
+        }
+      ]
+    },
+    {
+      "uuid": "fa2c9142-5b6b-4a2a-b7ca-e6e3ff9f44b0",
+      "display": "Task: coreapps.markPatientDead",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/fa2c9142-5b6b-4a2a-b7ca-e6e3ff9f44b0"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e42b-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Concept Classes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e42b-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "193c359f-9f36-4d85-8215-e01bc150c26e",
+      "display": "Add HL7 Inbound Archive",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/193c359f-9f36-4d85-8215-e01bc150c26e"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d63d-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add People",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d63d-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "3d9253df-20fb-46d4-a313-175d36d131f4",
+      "display": "Task: appointmentschedulingui.bookAppointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3d9253df-20fb-46d4-a313-175d36d131f4"
+        }
+      ]
+    },
+    {
+      "uuid": "c862aa4d-e5ed-4578-a948-f6da7c68044d",
+      "display": "View TAT At Patient Level",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c862aa4d-e5ed-4578-a948-f6da7c68044d"
+        }
+      ]
+    },
+    {
+      "uuid": "abdda1cd-f4be-4da9-b0d3-0dffeaea776f",
+      "display": "Get Concept Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/abdda1cd-f4be-4da9-b0d3-0dffeaea776f"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dbd2-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Report Objects",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dbd2-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "674b5517-4bec-4ad2-aa79-c89310071879",
+      "display": "Manage Scheduled Report Tasks",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/674b5517-4bec-4ad2-aa79-c89310071879"
+        }
+      ]
+    },
+    {
+      "uuid": "421b84df-ecb9-4dff-84fd-1ef74754c2ee",
+      "display": "CLINIC_ADD_RADIOLOGY_INVESTIGATION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/421b84df-ecb9-4dff-84fd-1ef74754c2ee"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d746-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Cohorts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d746-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "c368886b-3bbe-46ca-b56d-a04c141117f8",
+      "display": "Add HL7 Inbound Exception",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c368886b-3bbe-46ca-b56d-a04c141117f8"
+        }
+      ]
+    },
+    {
+      "uuid": "22f8f589-d30a-4342-9deb-5099644543ac",
+      "display": "Manage Concept Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/22f8f589-d30a-4342-9deb-5099644543ac"
+        }
+      ]
+    },
+    {
+      "uuid": "3ae179ab-f1b8-44d7-8219-e3b94d8e0025",
+      "display": "Manage Order Frequencies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3ae179ab-f1b8-44d7-8219-e3b94d8e0025"
+        }
+      ]
+    },
+    {
+      "uuid": "6c6a672c-042b-407b-bdf5-6038667e9e47",
+      "display": "Delete Conditions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6c6a672c-042b-407b-bdf5-6038667e9e47"
+        }
+      ]
+    },
+    {
+      "uuid": "4a8f7a33-bb28-449d-8b07-8512b907a5f6",
+      "display": "module:Radiology",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4a8f7a33-bb28-449d-8b07-8512b907a5f6"
+        }
+      ]
+    },
+    {
+      "uuid": "1c5c265a-a4b0-4480-a5d9-308703f6f836",
+      "display": "Upload Batch of Identifiers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/1c5c265a-a4b0-4480-a5d9-308703f6f836"
+        }
+      ]
+    },
+    {
+      "uuid": "9945feca-c395-4753-9430-a30bfc3be15b",
+      "display": "NURSING_VIEW_ADMISSION_BUTTON",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9945feca-c395-4753-9430-a30bfc3be15b"
+        }
+      ]
+    },
+    {
+      "uuid": "e151c1d0-8494-4633-ab86-bb94f1619f13",
+      "display": "Edit Visits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e151c1d0-8494-4633-ab86-bb94f1619f13"
+        }
+      ]
+    },
+    {
+      "uuid": "73d36615-9a4a-46a4-8134-2dca15acacc1",
+      "display": "Death registry",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/73d36615-9a4a-46a4-8134-2dca15acacc1"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dcf8-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Concept Classes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dcf8-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "2b0eff7f-26c5-4580-9ca5-a9ba587a7ef2",
+      "display": "Upimaji na ushauri nasaha",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/2b0eff7f-26c5-4580-9ca5-a9ba587a7ef2"
+        }
+      ]
+    },
+    {
+      "uuid": "85921ac1-47f1-40dc-a860-dddca3735775",
+      "display": "View Exemption",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/85921ac1-47f1-40dc-a860-dddca3735775"
+        }
+      ]
+    },
+    {
+      "uuid": "92d2a1ab-d44e-45fa-9ea6-392b3b179be7",
+      "display": "CLINIC_RETIRE_LABORATORY_INVESTIGATION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/92d2a1ab-d44e-45fa-9ea6-392b3b179be7"
+        }
+      ]
+    },
+    {
+      "uuid": "ccbb7924-0d50-4e2e-94d7-0bedd1d9fedc",
+      "display": "Manage HL7 Messages",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ccbb7924-0d50-4e2e-94d7-0bedd1d9fedc"
+        }
+      ]
+    },
+    {
+      "uuid": "be922847-bb5f-4cb0-9bc0-59611424e1ac",
+      "display": "View Lab Patients Attended",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/be922847-bb5f-4cb0-9bc0-59611424e1ac"
+        }
+      ]
+    },
+    {
+      "uuid": "89357b7b-4688-4df3-bacc-96cb74a0e9a7",
+      "display": "CLINIC_RETIRE_PROCEDURE_ORDER",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/89357b7b-4688-4df3-bacc-96cb74a0e9a7"
+        }
+      ]
+    },
+    {
+      "uuid": "aed9a43b-ccca-4c1a-95b9-301034b2bf3a",
+      "display": "View Amount Per Criteria",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/aed9a43b-ccca-4c1a-95b9-301034b2bf3a"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e023-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Relationship Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e023-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "afe848ee-35bc-4a93-97c6-e764931e44ba",
+      "display": "Occupational therapy",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/afe848ee-35bc-4a93-97c6-e764931e44ba"
+        }
+      ]
+    },
+    {
+      "uuid": "eddf209b-571b-4742-9878-3db3faf4db61",
+      "display": "View New Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/eddf209b-571b-4742-9878-3db3faf4db61"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e596-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Encounters",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e596-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "07c94c10-5132-478f-8411-a7c97de89718",
+      "display": "Manage Encounter Roles",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/07c94c10-5132-478f-8411-a7c97de89718"
+        }
+      ]
+    },
+    {
+      "uuid": "67030ff4-4739-4e11-a9a2-5bfa1e57d440",
+      "display": "View Turn Around Time",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/67030ff4-4739-4e11-a9a2-5bfa1e57d440"
+        }
+      ]
+    },
+    {
+      "uuid": "319f63be-bca0-44bb-8833-ee27a1f93c8b",
+      "display": "View Pharmacy",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/319f63be-bca0-44bb-8833-ee27a1f93c8b"
+        }
+      ]
+    },
+    {
+      "uuid": "3e7492ea-9dfc-4d6c-b1ce-0c43e9fe3a20",
+      "display": "STORE_ADD_NEW_BATCH",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3e7492ea-9dfc-4d6c-b1ce-0c43e9fe3a20"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d465-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Encounters",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d465-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a215",
+      "display": "Get Visit Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a215"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e24f-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Patient Dashboard - View Regimen Section",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e24f-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a216",
+      "display": "Get HL7 Inbound Exception",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a216"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a213",
+      "display": "Get Visit Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a213"
+        }
+      ]
+    },
+    {
+      "uuid": "History and examination emd",
+      "display": "6534f5a7-078d-4e5c-824f-db1c06f272dc",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/History and examination emd"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a214",
+      "display": "Get Visits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a214"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a211",
+      "display": "Get Providers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a211"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a212",
+      "display": "Get Location Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a212"
+        }
+      ]
+    },
+    {
+      "uuid": "ac6a6511-6528-437a-96f7-d774abc8517e",
+      "display": "Manage Address Templates",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ac6a6511-6528-437a-96f7-d774abc8517e"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a210",
+      "display": "Get Encounter Roles",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a210"
+        }
+      ]
+    },
+    {
+      "uuid": "d8ac053b-5cac-4dbb-9510-6631444dd3e6",
+      "display": "Run Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d8ac053b-5cac-4dbb-9510-6631444dd3e6"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a219",
+      "display": "Get HL7 Source",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a219"
+        }
+      ]
+    },
+    {
+      "uuid": "f1305789-2dfd-48fd-a994-593da956efb8",
+      "display": "AAAA TEST",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f1305789-2dfd-48fd-a994-593da956efb8"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a217",
+      "display": "Get HL7 Inbound Archive",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a217"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a218",
+      "display": "Get HL7 Inbound Queue",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a218"
+        }
+      ]
+    },
+    {
+      "uuid": "4f9452c5-0e05-4453-8f4d-820083f61566",
+      "display": "Gynecology Service Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4f9452c5-0e05-4453-8f4d-820083f61566"
+        }
+      ]
+    },
+    {
+      "uuid": "c8c2733c-1259-4bc3-a752-5281d74a30e5",
+      "display": "Task: referenceapplication.simpleVisitNote",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c8c2733c-1259-4bc3-a752-5281d74a30e5"
+        }
+      ]
+    },
+    {
+      "uuid": "c842ea69-5b8a-403c-9bf8-423575d5662a",
+      "display": "Manage Identifier Sources",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c842ea69-5b8a-403c-9bf8-423575d5662a"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e0ba-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Scheduler",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e0ba-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "af035209-51e0-4ab1-8f9b-c903b283361e",
+      "display": "View Total Collection By Payment Categories",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/af035209-51e0-4ab1-8f9b-c903b283361e"
+        }
+      ]
+    },
+    {
+      "uuid": "3bfee15c-2dcc-4886-bcf7-d2b512ec91bd",
+      "display": "module:clinic",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3bfee15c-2dcc-4886-bcf7-d2b512ec91bd"
+        }
+      ]
+    },
+    {
+      "uuid": "9f48fb63-131d-426b-86f3-514c72d77ba3",
+      "display": "Update HL7 Inbound Archive",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9f48fb63-131d-426b-86f3-514c72d77ba3"
+        }
+      ]
+    },
+    {
+      "uuid": "c1cdbd39-949e-43e1-8bc2-c0ab9022fef0",
+      "display": "View eIDSR",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c1cdbd39-949e-43e1-8bc2-c0ab9022fef0"
+        }
+      ]
+    },
+    {
+      "uuid": "7da21add-8ecc-4104-b46d-6ff89bc84075",
+      "display": "Get Order Frequencies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7da21add-8ecc-4104-b46d-6ff89bc84075"
+        }
+      ]
+    },
+    {
+      "uuid": "7718da77-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Observations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718da77-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d880-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Patient Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d880-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "28643393-8625-43c8-bedc-7d282f43742c",
+      "display": "Manage Appointment Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/28643393-8625-43c8-bedc-7d282f43742c"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a237",
+      "display": "Get Concept Datatypes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a237"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d70f-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Users",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d70f-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a238",
+      "display": "Get Concept Classes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a238"
+        }
+      ]
+    },
+    {
+      "uuid": "9e1917b4-96a8-403e-9c8d-13b9524ef6d5",
+      "display": "Manage Concept Stop Words",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9e1917b4-96a8-403e-9c8d-13b9524ef6d5"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e4fb-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Concepts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e4fb-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a235",
+      "display": "Get Roles",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a235"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a236",
+      "display": "Get Privileges",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a236"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a233",
+      "display": "Get Order Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a233"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a234",
+      "display": "Get Field Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a234"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a231",
+      "display": "Get Concept Sources",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a231"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a232",
+      "display": "Get Relationship Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a232"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a239",
+      "display": "Get Identifier Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a239"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dff0-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dff0-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ec2b-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ec2b-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "793f579f-27e7-430b-b129-2cbdfa085c03",
+      "display": "View Eye",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/793f579f-27e7-430b-b129-2cbdfa085c03"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e2ee-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Administration Functions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e2ee-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a240",
+      "display": "Get Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a240"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d5f5-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d5f5-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a241",
+      "display": "Get Orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a241"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d94d-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Report Objects",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d94d-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "22f9321e-7ac0-4ed0-8ff9-384331cbfdee",
+      "display": "Patient Dashboard - View Visits Section",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/22f9321e-7ac0-4ed0-8ff9-384331cbfdee"
+        }
+      ]
+    },
+    {
+      "uuid": "47666bde-c5a9-4045-86b6-92ee4054559a",
+      "display": "Task: Modify Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/47666bde-c5a9-4045-86b6-92ee4054559a"
+        }
+      ]
+    },
+    {
+      "uuid": "8c2e4800-0198-4557-a7fc-44e41027ab82",
+      "display": "Manage Report Designs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8c2e4800-0198-4557-a7fc-44e41027ab82"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a226",
+      "display": "Get Global Properties",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a226"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a227",
+      "display": "Get Patient Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a227"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e9c3-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View People",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e9c3-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a224",
+      "display": "Get People",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a224"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a225",
+      "display": "Get Person Attribute Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a225"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a222",
+      "display": "Get Database Changes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a222"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e19f-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Patient Dashboard - View Graphs Section",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e19f-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a223",
+      "display": "Get Relationships",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a223"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a220",
+      "display": "Get Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a220"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a221",
+      "display": "Get Problems",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a221"
+        }
+      ]
+    },
+    {
+      "uuid": "7ec0a250-3355-4f7d-9f6a-9729fc21a83c",
+      "display": "module:Maintenance",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7ec0a250-3355-4f7d-9f6a-9729fc21a83c"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ea9b-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ea9b-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "c9fe3893-69d0-47f8-ac5e-9ac88e762117",
+      "display": "module:registration",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c9fe3893-69d0-47f8-ac5e-9ac88e762117"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e1db-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Patient Dashboard - View Overview Section",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e1db-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d4d465b9-6f0d-4cc2-b05f-f0cb0f70136a",
+      "display": "View Return Patient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d4d465b9-6f0d-4cc2-b05f-f0cb0f70136a"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a228",
+      "display": "Get Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a228"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a229",
+      "display": "Get Concept Reference Terms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a229"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e12c-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Patient Dashboard - View Encounters Section",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e12c-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ed0d-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Users",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ed0d-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d552-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Patient Identifiers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d552-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a230",
+      "display": "Get Concept Map Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a230"
+        }
+      ]
+    },
+    {
+      "uuid": "8fcb5716-4872-4012-bdce-d468726f0b10",
+      "display": "Manage Address Hierarchy",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8fcb5716-4872-4012-bdce-d468726f0b10"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e98f-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e98f-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "9ceb3fda-fab8-459c-9bfd-e9c4bee0e531",
+      "display": "View Laboratory",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9ceb3fda-fab8-459c-9bfd-e9c4bee0e531"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e6c0-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Navigation Menu",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e6c0-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "47876d8d-6860-4a3d-9259-b9c63a513c33",
+      "display": "Manage RESTWS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/47876d8d-6860-4a3d-9259-b9c63a513c33"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e164-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Patient Dashboard - View Forms Section",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e164-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "ff32d0c6-6319-451e-901e-6e59e68d7a04",
+      "display": "Manage Atlas Data",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ff32d0c6-6319-451e-901e-6e59e68d7a04"
+        }
+      ]
+    },
+    {
+      "uuid": "d2fff872-3723-4a1b-8c24-021b75a1e4e1",
+      "display": "Manage Indicator Definitions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d2fff872-3723-4a1b-8c24-021b75a1e4e1"
+        }
+      ]
+    },
+    {
+      "uuid": "505f7def-e7a8-4240-a156-4d21f2996e6c",
+      "display": "module:Therapy Clinic",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/505f7def-e7a8-4240-a156-4d21f2996e6c"
+        }
+      ]
+    },
+    {
+      "uuid": "cb10a31c-b6fd-42a6-9ac8-1e279fa65c0c",
+      "display": "Patient Overview - View Patient Flags",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/cb10a31c-b6fd-42a6-9ac8-1e279fa65c0c"
+        }
+      ]
+    },
+    {
+      "uuid": "182a8ecb-a6e7-431e-b7e3-8b66d22ba929",
+      "display": "Get Notes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/182a8ecb-a6e7-431e-b7e3-8b66d22ba929"
+        }
+      ]
+    },
+    {
+      "uuid": "f271f1b3-37a5-4ca3-a324-3524ae75cb02",
+      "display": "Update HL7 Inbound Exception",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/f271f1b3-37a5-4ca3-a324-3524ae75cb02"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a262",
+      "display": "Patient Overview - View Relationships",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a262"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a263",
+      "display": "Patient Overview - View Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a263"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a260",
+      "display": "Patient Overview - View Problem List",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a260"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a261",
+      "display": "Patient Overview - View Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a261"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a248",
+      "display": "Get Encounters",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a248"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a249",
+      "display": "Get Users",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a249"
+        }
+      ]
+    },
+    {
+      "uuid": "7718da45-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Encounters",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718da45-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a246",
+      "display": "Get Locations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a246"
+        }
+      ]
+    },
+    {
+      "uuid": "329e765a-e238-4bf2-95ea-f29ed8794bf4",
+      "display": "Post operative list",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/329e765a-e238-4bf2-95ea-f29ed8794bf4"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a247",
+      "display": "Get Encounter Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a247"
+        }
+      ]
+    },
+    {
+      "uuid": "638fbe1d-0bbd-435a-8587-d24ad6bfde86",
+      "display": "Follow up",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/638fbe1d-0bbd-435a-8587-d24ad6bfde86"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a244",
+      "display": "Get Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a244"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a245",
+      "display": "Get Observations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a245"
+        }
+      ]
+    },
+    {
+      "uuid": "5636933d-08b9-4d15-9639-faa47e3be64c",
+      "display": "View Referral Register Visits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/5636933d-08b9-4d15-9639-faa47e3be64c"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a242",
+      "display": "Get Patient Cohorts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a242"
+        }
+      ]
+    },
+    {
+      "uuid": "8fbcde66-ae55-4b65-983d-24bb47845258",
+      "display": "Task: referenceapplication.simpleAdmission",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/8fbcde66-ae55-4b65-983d-24bb47845258"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a243",
+      "display": "Get Patient Identifiers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a243"
+        }
+      ]
+    },
+    {
+      "uuid": "790f2ee2-01a2-4c81-94fc-e02ada11c298",
+      "display": "Delete Diagnoses",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/790f2ee2-01a2-4c81-94fc-e02ada11c298"
+        }
+      ]
+    },
+    {
+      "uuid": "94517eb0-8d4b-4931-80fd-d6483fcceecb",
+      "display": "Task: coreapps.endVisit",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/94517eb0-8d4b-4931-80fd-d6483fcceecb"
+        }
+      ]
+    },
+    {
+      "uuid": "ae35879e-e95e-49f3-ad78-8e148d1764f7",
+      "display": "View Calculations",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ae35879e-e95e-49f3-ad78-8e148d1764f7"
+        }
+      ]
+    },
+    {
+      "uuid": "1c2ac3c2-271b-4e61-976b-f19c70b87344",
+      "display": "RCH TB screening",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/1c2ac3c2-271b-4e61-976b-f19c70b87344"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a251",
+      "display": "Get Concepts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a251"
+        }
+      ]
+    },
+    {
+      "uuid": "e48504cb-076c-4d0e-936b-be321840f8d0",
+      "display": "module:Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e48504cb-076c-4d0e-936b-be321840f8d0"
+        }
+      ]
+    },
+    {
+      "uuid": "c287b88b-4d78-4470-a876-963408127636",
+      "display": "STORE_DEDUCT_STOCK_FROM_BATCH",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c287b88b-4d78-4470-a876-963408127636"
+        }
+      ]
+    },
+    {
+      "uuid": "7be9d5ef-0d37-4604-8a4b-6fd75a7465e9",
+      "display": "View Sample By Specimen Sources",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7be9d5ef-0d37-4604-8a4b-6fd75a7465e9"
+        }
+      ]
+    },
+    {
+      "uuid": "a53a9c53-6b24-4c6b-ac5a-ca5e7bd416b7",
+      "display": "app:labOrders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a53a9c53-6b24-4c6b-ac5a-ca5e7bd416b7"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a250",
+      "display": "Get Concept Proposals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a250"
+        }
+      ]
+    },
+    {
+      "uuid": "4d015850-5ab0-4fea-9568-9c2fe8ea2608",
+      "display": "Diagnosis of TB in children and adult",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4d015850-5ab0-4fea-9568-9c2fe8ea2608"
+        }
+      ]
+    },
+    {
+      "uuid": "e97df5ca-400e-4d71-829f-37729c13f0e7",
+      "display": "Manage Providers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e97df5ca-400e-4d71-829f-37729c13f0e7"
+        }
+      ]
+    },
+    {
+      "uuid": "4a2a18f8-b8dd-454b-b1d1-20f418c46b47",
+      "display": "Generate Batch of Identifiers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4a2a18f8-b8dd-454b-b1d1-20f418c46b47"
+        }
+      ]
+    },
+    {
+      "uuid": "617ea797-ea5b-49f9-bc78-78f131ead29a",
+      "display": "Manage Provider Schedules",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/617ea797-ea5b-49f9-bc78-78f131ead29a"
+        }
+      ]
+    },
+    {
+      "uuid": "eba11302-a485-4bd4-aca2-89d975d55245",
+      "display": "View Patients Attended",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/eba11302-a485-4bd4-aca2-89d975d55245"
+        }
+      ]
+    },
+    {
+      "uuid": "fc3cfac6-ed65-4890-bbcc-086e54802d78",
+      "display": "module:Social Welfare",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/fc3cfac6-ed65-4890-bbcc-086e54802d78"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d84c-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Patient Identifiers",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d84c-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dcc7-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Alerts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dcc7-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "9e1aa6d7-b57d-4cec-9977-03b4a4f60b26",
+      "display": "Task: referenceapplication.simpleDischarge",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9e1aa6d7-b57d-4cec-9977-03b4a4f60b26"
+        }
+      ]
+    },
+    {
+      "uuid": "c297d67f-cfa2-466e-bb15-79a0924c9cce",
+      "display": "module:Theatre",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c297d67f-cfa2-466e-bb15-79a0924c9cce"
+        }
+      ]
+    },
+    {
+      "uuid": "efb37879-cb69-479f-a31e-c05878e5f756",
+      "display": "View Register",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/efb37879-cb69-479f-a31e-c05878e5f756"
+        }
+      ]
+    },
+    {
+      "uuid": "c17a9d84-c716-4d1a-8b89-53ac3c97940f",
+      "display": "Provider Management Dashboard - View Historical",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/c17a9d84-c716-4d1a-8b89-53ac3c97940f"
+        }
+      ]
+    },
+    {
+      "uuid": "7718dc04-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718dc04-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "ff41368e-a7f5-4449-b866-bb4eab3311be",
+      "display": "Edit Problems",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ff41368e-a7f5-4449-b866-bb4eab3311be"
+        }
+      ]
+    },
+    {
+      "uuid": "e457486d-b0a5-42fe-aeae-9ae092d7cca7",
+      "display": "Edit Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e457486d-b0a5-42fe-aeae-9ae092d7cca7"
+        }
+      ]
+    },
+    {
+      "uuid": "348a3334-abf0-49e2-8655-33ebd29539c2",
+      "display": "Haemodialysis",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/348a3334-abf0-49e2-8655-33ebd29539c2"
+        }
+      ]
+    },
+    {
+      "uuid": "27d13a7b-a2cf-48b1-aaad-e116435428d4",
+      "display": "View IPD",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/27d13a7b-a2cf-48b1-aaad-e116435428d4"
+        }
+      ]
+    },
+    {
+      "uuid": "d05118c6-2490-4d78-a41a-390e3596a264",
+      "display": "Patient Overview - View Patient Actions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d05118c6-2490-4d78-a41a-390e3596a264"
+        }
+      ]
+    },
+    {
+      "uuid": "0a6c10e5-5e72-474c-ab14-ae9ffa8e907a",
+      "display": "module:Store",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/0a6c10e5-5e72-474c-ab14-ae9ffa8e907a"
+        }
+      ]
+    },
+    {
+      "uuid": "a553ff78-c586-4cfd-bdd7-ed716146b0e4",
+      "display": "App: appointmentschedulingui.home",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/a553ff78-c586-4cfd-bdd7-ed716146b0e4"
+        }
+      ]
+    },
+    {
+      "uuid": "b0ce6180-254a-406a-bbd6-553183ffe39f",
+      "display": "App: coreapps.findPatient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b0ce6180-254a-406a-bbd6-553183ffe39f"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e0eb-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Patient Dashboard - View Demographics Section",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e0eb-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "20f1800d-c1ca-443b-9960-7aa39e5f0d62",
+      "display": "STORE_SETTINGS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/20f1800d-c1ca-443b-9960-7aa39e5f0d62"
+        }
+      ]
+    },
+    {
+      "uuid": "5c8d5d42-ee20-474d-8192-8465c0f0c743",
+      "display": "Manage Cohort Definitions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/5c8d5d42-ee20-474d-8192-8465c0f0c743"
+        }
+      ]
+    },
+    {
+      "uuid": "e1bd70dc-f647-4b29-938b-75d4fb7cb528",
+      "display": "Task: emr.patient.encounter.delete",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e1bd70dc-f647-4b29-938b-75d4fb7cb528"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e65d-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Identifier Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e65d-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "cd7935ee-4e28-4d6d-92c6-f13616bec593",
+      "display": "Get Diagnoses",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/cd7935ee-4e28-4d6d-92c6-f13616bec593"
+        }
+      ]
+    },
+    {
+      "uuid": "59d7cfb0-4650-4817-a151-f91751594386",
+      "display": "Circumcision",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/59d7cfb0-4650-4817-a151-f91751594386"
+        }
+      ]
+    },
+    {
+      "uuid": "3ff5d39d-ac53-4ab6-bcda-a550ddb35340",
+      "display": "Remove Problems",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3ff5d39d-ac53-4ab6-bcda-a550ddb35340"
+        }
+      ]
+    },
+    {
+      "uuid": "d82db328-75c8-4087-803b-c2cd605949f7",
+      "display": "View Total Collection By Service Type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d82db328-75c8-4087-803b-c2cd605949f7"
+        }
+      ]
+    },
+    {
+      "uuid": "e0872dfc-24b5-4b3c-bfe6-78343dc29ac1",
+      "display": "Manage Concept Map Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e0872dfc-24b5-4b3c-bfe6-78343dc29ac1"
+        }
+      ]
+    },
+    {
+      "uuid": "4990a65d-0b9b-40d8-ae22-3a28298aa309",
+      "display": "STORE_ADD_STOCK_ON_BATCH",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/4990a65d-0b9b-40d8-ae22-3a28298aa309"
+        }
+      ]
+    },
+    {
+      "uuid": "d90ee1b2-cf31-4be4-b17c-8396e88dfb3d",
+      "display": "CLINIC_ADD_CONFIRMED_DIAGNOSIS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/d90ee1b2-cf31-4be4-b17c-8396e88dfb3d"
+        }
+      ]
+    },
+    {
+      "uuid": "00ada8cf-3577-4337-91c3-8db3f151fce1",
+      "display": "Tests Settings",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/00ada8cf-3577-4337-91c3-8db3f151fce1"
+        }
+      ]
+    },
+    {
+      "uuid": "3cb59a2f-260d-42b4-ab60-ff4088e6f739",
+      "display": "View Drug Prices Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/3cb59a2f-260d-42b4-ab60-ff4088e6f739"
+        }
+      ]
+    },
+    {
+      "uuid": "81b5d5c9-2e2a-4981-b702-9acc4d311249",
+      "display": "Provider Management API",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/81b5d5c9-2e2a-4981-b702-9acc4d311249"
+        }
+      ]
+    },
+    {
+      "uuid": "7718ec73-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Roles",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718ec73-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d507-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d507-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718db0c-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Edit Patient Programs",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718db0c-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d6de-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d6de-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "e140bccf-4ff1-439e-9857-520a302f86f7",
+      "display": "module:nursing",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/e140bccf-4ff1-439e-9857-520a302f86f7"
+        }
+      ]
+    },
+    {
+      "uuid": "6e8d607e-4fd1-4922-afb5-a1ab22df38d8",
+      "display": "Social worker/counselor",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/6e8d607e-4fd1-4922-afb5-a1ab22df38d8"
+        }
+      ]
+    },
+    {
+      "uuid": "709f7192-cbf7-462c-a01c-eaa867bbf944",
+      "display": "View Appointments Statistics",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/709f7192-cbf7-462c-a01c-eaa867bbf944"
+        }
+      ]
+    },
+    {
+      "uuid": "900ef603-8340-431a-a531-fac612c2abe1",
+      "display": "Task: coreapps.createRetrospectiveVisit",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/900ef603-8340-431a-a531-fac612c2abe1"
+        }
+      ]
+    },
+    {
+      "uuid": "567b46f3-f20d-4fec-8388-af6c3a84b3fd",
+      "display": "Nurse Care Plan",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/567b46f3-f20d-4fec-8388-af6c3a84b3fd"
+        }
+      ]
+    },
+    {
+      "uuid": "9889a66e-9c36-4a52-b87f-b1f0707bc648",
+      "display": "View Emergency Visits Register",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/9889a66e-9c36-4a52-b87f-b1f0707bc648"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d81a-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Delete Orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d81a-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "7718df58-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Manage Order Types",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718df58-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "23e1586b-7350-432d-bb4b-ec8c3d76d89f",
+      "display": "CLINIC_ADD_PROCEDURE_ORDER",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/23e1586b-7350-432d-bb4b-ec8c3d76d89f"
+        }
+      ]
+    },
+    {
+      "uuid": "7718e7eb-1e75-11eb-8bc7-0242c0a85003",
+      "display": "View Patient Cohorts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718e7eb-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "618b5ddf-e9ff-44c5-ae3c-ad8e098416d9",
+      "display": "CLINIC_RETIRE_PRESCRIPTION",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/618b5ddf-e9ff-44c5-ae3c-ad8e098416d9"
+        }
+      ]
+    },
+    {
+      "uuid": "7718d149-1e75-11eb-8bc7-0242c0a85003",
+      "display": "Add Cohorts",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/7718d149-1e75-11eb-8bc7-0242c0a85003"
+        }
+      ]
+    },
+    {
+      "uuid": "b7db0382-9026-4809-b4b1-2b2ecc14b1f7",
+      "display": "Physical disfunction assessment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/b7db0382-9026-4809-b4b1-2b2ecc14b1f7"
+        }
+      ]
+    },
+    {
+      "uuid": "ba3bb5d0-678b-4f3a-96d6-0bb7216cdb3e",
+      "display": "App: coreapps.activeVisits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/privilege/ba3bb5d0-678b-4f3a-96d6-0bb7216cdb3e"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "iCare111-b28e4b60ae310e78db61a5a2",
+      "display": "Ophthalmology",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-b28e4b60ae310e78db61a5a2"
+        }
+      ]
+    },
+    {
+      "uuid": "7ebbfbc0-83c1-4677-be47-4a081de98468",
+      "display": "Application: Configures Metadata",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/7ebbfbc0-83c1-4677-be47-4a081de98468"
+        }
+      ]
+    },
+    {
+      "uuid": "9288fe55-5755-459d-b3fe-ec4bbc989532",
+      "display": "View TotalCollection By Service Type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/9288fe55-5755-459d-b3fe-ec4bbc989532"
+        }
+      ]
+    },
+    {
+      "uuid": "8d94f852-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "System Developer",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/8d94f852-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ]
+    },
+    {
+      "uuid": "67e3e711-e004-4fbf-b032-a78c64929250",
+      "display": "View TAT At Patient Level",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/67e3e711-e004-4fbf-b032-a78c64929250"
+        }
+      ]
+    },
+    {
+      "uuid": "02e5bc19-b1d5-44a0-9626-480ccf938675",
+      "display": "View New Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/02e5bc19-b1d5-44a0-9626-480ccf938675"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-0bbd435a8587d24ad6bfde86",
+      "display": "Follow up",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-0bbd435a8587d24ad6bfde86"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-280b40a39791cf52cd28a793",
+      "display": "Physiotherapy assessment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-280b40a39791cf52cd28a793"
+        }
+      ]
+    },
+    {
+      "uuid": "52d1f60e-de9b-4415-8666-d67ac37aad37",
+      "display": "Social Welfare",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/52d1f60e-de9b-4415-8666-d67ac37aad37"
+        }
+      ]
+    },
+    {
+      "uuid": "c772d961-c39f-4cc3-86c8-e05b48383df8",
+      "display": "Active MAT",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/c772d961-c39f-4cc3-86c8-e05b48383df8"
+        }
+      ]
+    },
+    {
+      "uuid": "122259ed-1d3b-496e-b2af-20ab134aa7b3",
+      "display": "Application: Records Allergies",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/122259ed-1d3b-496e-b2af-20ab134aa7b3"
+        }
+      ]
+    },
+    {
+      "uuid": "734503c9-c508-4273-a83e-eba46d64a5fa",
+      "display": "Inpatient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/734503c9-c508-4273-a83e-eba46d64a5fa"
+        }
+      ]
+    },
+    {
+      "uuid": "f87dbde8-ec8d-4f0e-a083-8d46cfae656f",
+      "display": "Perform procedure",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f87dbde8-ec8d-4f0e-a083-8d46cfae656f"
+        }
+      ]
+    },
+    {
+      "uuid": "e9447b67-59de-4128-b894-aacd7dffaea1",
+      "display": "View OPD - Mahudhurio",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/e9447b67-59de-4128-b894-aacd7dffaea1"
+        }
+      ]
+    },
+    {
+      "uuid": "f7d13237-6045-4ccc-bca1-64cb69675502",
+      "display": "Application: Requests Appointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f7d13237-6045-4ccc-bca1-64cb69675502"
+        }
+      ]
+    },
+    {
+      "uuid": "0dca51b9-8c8f-40e7-b584-a5f9781f53f7",
+      "display": "Application: Edits Existing Encounters",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/0dca51b9-8c8f-40e7-b584-a5f9781f53f7"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-3aa94071b7ac6f75b7833bf4",
+      "display": "Procedure orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-3aa94071b7ac6f75b7833bf4"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-6fbb42aeb8cc17b1318389d4",
+      "display": "Labor partograph",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-6fbb42aeb8cc17b1318389d4"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-d5f044eb89db82d15b617f97",
+      "display": "Post operative order",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-d5f044eb89db82d15b617f97"
+        }
+      ]
+    },
+    {
+      "uuid": "edd1a6fb-170b-4bda-8365-e853f57fe37e",
+      "display": "View Laboratory",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/edd1a6fb-170b-4bda-8365-e853f57fe37e"
+        }
+      ]
+    },
+    {
+      "uuid": "4daec6f0-b5f5-4652-b03c-d756cebe8da0",
+      "display": "Application: Enters ADT Events",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/4daec6f0-b5f5-4652-b03c-d756cebe8da0"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-3f1011e4adec0800271c1b75",
+      "display": "Radiology orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-3f1011e4adec0800271c1b75"
+        }
+      ]
+    },
+    {
+      "uuid": "04d0bcfc-b105-4dd8-946b-888142f09374",
+      "display": "View General Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/04d0bcfc-b105-4dd8-946b-888142f09374"
+        }
+      ]
+    },
+    {
+      "uuid": "7a7914ab-8fe5-4f0f-ba2b-ff3f9259461a",
+      "display": "Theatre",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/7a7914ab-8fe5-4f0f-ba2b-ff3f9259461a"
+        }
+      ]
+    },
+    {
+      "uuid": "70847fd7-8b0d-4fbe-a661-fe8347400566",
+      "display": "Organizational: Registration Clerk",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/70847fd7-8b0d-4fbe-a661-fe8347400566"
+        }
+      ]
+    },
+    {
+      "uuid": "f285e686-bc8e-425e-b1e0-3f83d9698e76",
+      "display": "View Total Per Item and Service Type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f285e686-bc8e-425e-b1e0-3f83d9698e76"
+        }
+      ]
+    },
+    {
+      "uuid": "14ee3df3-b427-486a-a62c-c8f25e0b1b01",
+      "display": "Gynecology Service",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/14ee3df3-b427-486a-a62c-c8f25e0b1b01"
+        }
+      ]
+    },
+    {
+      "uuid": "67e872d5-608f-4a70-baac-847a5d87f51c",
+      "display": "Social MAT",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/67e872d5-608f-4a70-baac-847a5d87f51c"
+        }
+      ]
+    },
+    {
+      "uuid": "cfe51217-b640-4529-a41b-bfe78ba65736",
+      "display": "View Amount Per Criteria",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/cfe51217-b640-4529-a41b-bfe78ba65736"
+        }
+      ]
+    },
+    {
+      "uuid": "9a7aa0bf-0c89-4626-85bc-924afc26e1b9",
+      "display": "View Turn Around Time",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/9a7aa0bf-0c89-4626-85bc-924afc26e1b9"
+        }
+      ]
+    },
+    {
+      "uuid": "5698545e-ac0e-477d-8863-bb62c1bf6806",
+      "display": "View Samples Rejected",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/5698545e-ac0e-477d-8863-bb62c1bf6806"
+        }
+      ]
+    },
+    {
+      "uuid": "3d6b400d-f30a-4a4b-833d-61a49b25f2f3",
+      "display": "View Pharmacy",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/3d6b400d-f30a-4a4b-833d-61a49b25f2f3"
+        }
+      ]
+    },
+    {
+      "uuid": "921b3043-744f-4c08-bf79-9645e7e02d3f",
+      "display": "CTC",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/921b3043-744f-4c08-bf79-9645e7e02d3f"
+        }
+      ]
+    },
+    {
+      "uuid": "2c283d08-8781-4743-9e4f-9626db65739e",
+      "display": "Gastro Service",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/2c283d08-8781-4743-9e4f-9626db65739e"
+        }
+      ]
+    },
+    {
+      "uuid": "722d7e29-6154-4b5d-bfeb-19d4ef452715",
+      "display": "VCT Active",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/722d7e29-6154-4b5d-bfeb-19d4ef452715"
+        }
+      ]
+    },
+    {
+      "uuid": "ed23fc48-52ec-45d5-9c9f-e1ced659b253",
+      "display": "REPORT: View all Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/ed23fc48-52ec-45d5-9c9f-e1ced659b253"
+        }
+      ]
+    },
+    {
+      "uuid": "4d729bef-e180-468a-b616-e13a2ee702bc",
+      "display": "Dental Clinic",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/4d729bef-e180-468a-b616-e13a2ee702bc"
+        }
+      ]
+    },
+    {
+      "uuid": "1ed334b5-313f-4497-bb0e-6804787a1792",
+      "display": "Maintenance",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/1ed334b5-313f-4497-bb0e-6804787a1792"
+        }
+      ]
+    },
+    {
+      "uuid": "7017c65a-482f-48b5-a62d-8ed1299b1d9a",
+      "display": "View IPD-Mtuha",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/7017c65a-482f-48b5-a62d-8ed1299b1d9a"
+        }
+      ]
+    },
+    {
+      "uuid": "9605f155-cc5d-485c-8158-ec98f5524d16",
+      "display": "Sample Tracking",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/9605f155-cc5d-485c-8158-ec98f5524d16"
+        }
+      ]
+    },
+    {
+      "uuid": "57015436-ba66-4077-825d-3aa4fc094b31",
+      "display": "View Top Ten Drugs Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/57015436-ba66-4077-825d-3aa4fc094b31"
+        }
+      ]
+    },
+    {
+      "uuid": "ffb52bac-d6c0-4bbd-b041-5b8a8efa7498",
+      "display": "View OPD",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/ffb52bac-d6c0-4bbd-b041-5b8a8efa7498"
+        }
+      ]
+    },
+    {
+      "uuid": "15890800-c948-4f8a-add7-7675d01fbb60",
+      "display": "TEST CLINIC MODULE FRONT ACCESS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/15890800-c948-4f8a-add7-7675d01fbb60"
+        }
+      ]
+    },
+    {
+      "uuid": "5160f136-da88-4f34-8754-e1ad4a794f29",
+      "display": "View Emergency Visits Register",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/5160f136-da88-4f34-8754-e1ad4a794f29"
+        }
+      ]
+    },
+    {
+      "uuid": "7baed6e8-7355-4747-83b6-0d56a116ada9",
+      "display": "Nursing",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/7baed6e8-7355-4747-83b6-0d56a116ada9"
+        }
+      ]
+    },
+    {
+      "uuid": "f089471c-e00b-468e-96e8-46aea1b339af",
+      "display": "Privilege Level: High",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f089471c-e00b-468e-96e8-46aea1b339af"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-e2384bf295eaf29ed8794bf4",
+      "display": "Post Operative List",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-e2384bf295eaf29ed8794bf4"
+        }
+      ]
+    },
+    {
+      "uuid": "ab2160f6-0941-430c-9752-6714353fbd3c",
+      "display": "Privilege Level: Full",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/ab2160f6-0941-430c-9752-6714353fbd3c"
+        }
+      ]
+    },
+    {
+      "uuid": "90753dca-aae3-4426-831e-621e3b957b1d",
+      "display": "Laboratory Reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/90753dca-aae3-4426-831e-621e3b957b1d"
+        }
+      ]
+    },
+    {
+      "uuid": "2d8fcd0a-3b68-4085-b99e-5f44c3dd5a12",
+      "display": "View Dental",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/2d8fcd0a-3b68-4085-b99e-5f44c3dd5a12"
+        }
+      ]
+    },
+    {
+      "uuid": "76befa44-cf53-4f90-8f95-341d8458f409",
+      "display": "Mental Health Clinic",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/76befa44-cf53-4f90-8f95-341d8458f409"
+        }
+      ]
+    },
+    {
+      "uuid": "226f8247-f37c-4af9-b9f8-e304ed3a4525",
+      "display": "View Settings Reports Category",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/226f8247-f37c-4af9-b9f8-e304ed3a4525"
+        }
+      ]
+    },
+    {
+      "uuid": "92c52e9c-8222-41df-9959-86a047045f08",
+      "display": "View Patients Attended Count by Age and Gender",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/92c52e9c-8222-41df-9959-86a047045f08"
+        }
+      ]
+    },
+    {
+      "uuid": "db2a6a4f-a368-4aad-8599-aa9489a2faa6",
+      "display": "Laboratory App",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/db2a6a4f-a368-4aad-8599-aa9489a2faa6"
+        }
+      ]
+    },
+    {
+      "uuid": "76601b34-3a52-4431-90e0-630ebe6b6239",
+      "display": "View Radiology",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/76601b34-3a52-4431-90e0-630ebe6b6239"
+        }
+      ]
+    },
+    {
+      "uuid": "8d1e0146-c0c0-4779-816f-f34eb3a78fbf",
+      "display": "Store",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/8d1e0146-c0c0-4779-816f-f34eb3a78fbf"
+        }
+      ]
+    },
+    {
+      "uuid": "45d67c7a-e697-41b0-874f-0b8f54f4e4b9",
+      "display": "Sample Collection",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/45d67c7a-e697-41b0-874f-0b8f54f4e4b9"
+        }
+      ]
+    },
+    {
+      "uuid": "41da3542-5106-40eb-bb23-398936e5e44f",
+      "display": "Laboratory Orders",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/41da3542-5106-40eb-bb23-398936e5e44f"
+        }
+      ]
+    },
+    {
+      "uuid": "2d9abbc4-a964-428f-ad75-8ec1233049c6",
+      "display": "Sample Acceptance and Results",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/2d9abbc4-a964-428f-ad75-8ec1233049c6"
+        }
+      ]
+    },
+    {
+      "uuid": "5c196fa6-b347-4db3-be8d-f52ab59b91b9",
+      "display": "View OPD Register",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/5c196fa6-b347-4db3-be8d-f52ab59b91b9"
+        }
+      ]
+    },
+    {
+      "uuid": "c67fdd22-1c44-4230-a7cc-fce73ae53afc",
+      "display": "View Malaria",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/c67fdd22-1c44-4230-a7cc-fce73ae53afc"
+        }
+      ]
+    },
+    {
+      "uuid": "08351506-63ba-4c0d-b410-964ee43b5657",
+      "display": "Application: Configures Forms",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/08351506-63ba-4c0d-b410-964ee43b5657"
+        }
+      ]
+    },
+    {
+      "uuid": "2a1bf5a5-9cd3-477f-af7b-4a62dacaa18b",
+      "display": "View Amount per gender",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/2a1bf5a5-9cd3-477f-af7b-4a62dacaa18b"
+        }
+      ]
+    },
+    {
+      "uuid": "e374cd3c-9a12-4e39-abf5-86fe8ad021f6",
+      "display": "View Eye",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/e374cd3c-9a12-4e39-abf5-86fe8ad021f6"
+        }
+      ]
+    },
+    {
+      "uuid": "37ef5366-9a5f-4ffa-a15f-0e8fe4e04135",
+      "display": "Application: Configures Appointment Scheduling",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/37ef5366-9a5f-4ffa-a15f-0e8fe4e04135"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-e6444c9cb787b1dda09407d9",
+      "display": "Driving license examination",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-e6444c9cb787b1dda09407d9"
+        }
+      ]
+    },
+    {
+      "uuid": "5ff8bee6-c72f-410d-8043-4f058ed92a84",
+      "display": "Organizational: Hospital Administrator",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/5ff8bee6-c72f-410d-8043-4f058ed92a84"
+        }
+      ]
+    },
+    {
+      "uuid": "e0aea374-90a8-453e-b3fe-a91b606dafd4",
+      "display": "View Sample By Specimen Sources",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/e0aea374-90a8-453e-b3fe-a91b606dafd4"
+        }
+      ]
+    },
+    {
+      "uuid": "718e47a3-49d5-4417-b98b-7b89a3b2e360",
+      "display": "Application: Registers Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/718e47a3-49d5-4417-b98b-7b89a3b2e360"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-9a4a46a481342dca15acacc1",
+      "display": "Death registry",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-9a4a46a481342dca15acacc1"
+        }
+      ]
+    },
+    {
+      "uuid": "1152b31b-9e9b-4366-b837-c77485af4edc",
+      "display": "CLINIC: Attend Procedure Orderr",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/1152b31b-9e9b-4366-b837-c77485af4edc"
+        }
+      ]
+    },
+    {
+      "uuid": "66b214ce-ee04-4c57-8304-fa7dfd3bf1bc",
+      "display": "Application: Administers System",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/66b214ce-ee04-4c57-8304-fa7dfd3bf1bc"
+        }
+      ]
+    },
+    {
+      "uuid": "93d03645-6924-46b0-ae9c-a7ddd0a7b39f",
+      "display": "View IPD",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/93d03645-6924-46b0-ae9c-a7ddd0a7b39f"
+        }
+      ]
+    },
+    {
+      "uuid": "8ef5a35e-6a63-4243-a0c9-fe055449daa8",
+      "display": "Eye Clinic",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/8ef5a35e-6a63-4243-a0c9-fe055449daa8"
+        }
+      ]
+    },
+    {
+      "uuid": "862827ae-21c4-40c9-9a9f-33eee46e5152",
+      "display": "RCH",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/862827ae-21c4-40c9-9a9f-33eee46e5152"
+        }
+      ]
+    },
+    {
+      "uuid": "4e7a16f9-d8a0-44d4-b297-f903eda7b278",
+      "display": "Tests Settings",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/4e7a16f9-d8a0-44d4-b297-f903eda7b278"
+        }
+      ]
+    },
+    {
+      "uuid": "0447536e-16ec-4c31-bf70-be57c576b137",
+      "display": "View Top 10 Diagnosis",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/0447536e-16ec-4c31-bf70-be57c576b137"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-d29143eaa2aad69ff5e6426c",
+      "display": "Kinga Tiba baada ya madhara",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-d29143eaa2aad69ff5e6426c"
+        }
+      ]
+    },
+    {
+      "uuid": "3c2ceb47-e2c2-436c-8fbf-569a1725a835",
+      "display": "View Examination Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/3c2ceb47-e2c2-436c-8fbf-569a1725a835"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-8e2249908c831f89eab3db82",
+      "display": "Eye examination",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-8e2249908c831f89eab3db82"
+        }
+      ]
+    },
+    {
+      "uuid": "7f163032-d7d2-4350-933c-38f3f439f1cf",
+      "display": "OT Anethisist (1)",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/7f163032-d7d2-4350-933c-38f3f439f1cf"
+        }
+      ]
+    },
+    {
+      "uuid": "55b9584a-7523-477a-bb42-0301f8890fa3",
+      "display": "View Attended Patients",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/55b9584a-7523-477a-bb42-0301f8890fa3"
+        }
+      ]
+    },
+    {
+      "uuid": "78d85c17-3674-48da-a9be-75d5274f5bab",
+      "display": "View Malaria Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/78d85c17-3674-48da-a9be-75d5274f5bab"
+        }
+      ]
+    },
+    {
+      "uuid": "fdc6e1f6-960f-473d-8102-043fd12745fe",
+      "display": "View MTUHA",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/fdc6e1f6-960f-473d-8102-043fd12745fe"
+        }
+      ]
+    },
+    {
+      "uuid": "4e25c4f6-4fab-4dcf-b1c5-63392207f07f",
+      "display": "View Total Amount per service type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/4e25c4f6-4fab-4dcf-b1c5-63392207f07f"
+        }
+      ]
+    },
+    {
+      "uuid": "639c1e03-6ccc-4190-b09d-5824d4baade5",
+      "display": "View Register",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/639c1e03-6ccc-4190-b09d-5824d4baade5"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-90264809b4b12b2ecc14b1f7",
+      "display": "Physical disfunction assessment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-90264809b4b12b2ecc14b1f7"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-4fd14922afb5a1ab22df38d8",
+      "display": "Social worker/counselor",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-4fd14922afb5a1ab22df38d8"
+        }
+      ]
+    },
+    {
+      "uuid": "f6bb72ce-857a-4ec0-a10d-8e5e16914209",
+      "display": "Application: Manages Atlas",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f6bb72ce-857a-4ec0-a10d-8e5e16914209"
+        }
+      ]
+    },
+    {
+      "uuid": "7f8d78e8-afb3-4d54-8350-b9e154f5d162",
+      "display": "Application: Uses Patient Summary",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/7f8d78e8-afb3-4d54-8350-b9e154f5d162"
+        }
+      ]
+    },
+    {
+      "uuid": "695b1934-4fca-4ef7-8065-6122154a3894",
+      "display": "OT Nurse (1)",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/695b1934-4fca-4ef7-8065-6122154a3894"
+        }
+      ]
+    },
+    {
+      "uuid": "0b1cdfec-ee1f-44bb-b9fa-9159075d9622",
+      "display": "View Referral Register Visits",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/0b1cdfec-ee1f-44bb-b9fa-9159075d9622"
+        }
+      ]
+    },
+    {
+      "uuid": "60b034ee-43bc-40ea-b90f-a14d563c1aef",
+      "display": "Attend Radiology Ordes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/60b034ee-43bc-40ea-b90f-a14d563c1aef"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-01d24635972af745d6c9ffed",
+      "display": "Pediatric assessment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-01d24635972af745d6c9ffed"
+        }
+      ]
+    },
+    {
+      "uuid": "5204f0f5-6c68-4467-afac-891215e7fb62",
+      "display": "Application: Uses Capture Vitals App",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/5204f0f5-6c68-4467-afac-891215e7fb62"
+        }
+      ]
+    },
+    {
+      "uuid": "2ef1932e-1c49-485a-8464-b7c81de116b2",
+      "display": "Application: Schedules Appointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/2ef1932e-1c49-485a-8464-b7c81de116b2"
+        }
+      ]
+    },
+    {
+      "uuid": "d0a3e15c-a269-4295-86b6-8f3fb9371add",
+      "display": "View Total Collection By Patient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/d0a3e15c-a269-4295-86b6-8f3fb9371add"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-67ed40dfac50e9eaecbbd424",
+      "display": "Exemption categories",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-67ed40dfac50e9eaecbbd424"
+        }
+      ]
+    },
+    {
+      "uuid": "035bb6c7-ef51-4adf-8cdd-44a10425b811",
+      "display": "Social Worker",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/035bb6c7-ef51-4adf-8cdd-44a10425b811"
+        }
+      ]
+    },
+    {
+      "uuid": "aec47bf2-af2e-4d65-8955-a406fde8f2d3",
+      "display": "AAAA TEST ROLE",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/aec47bf2-af2e-4d65-8955-a406fde8f2d3"
+        }
+      ]
+    },
+    {
+      "uuid": "a61e2f66-6595-488b-87e9-b95d0d00a862",
+      "display": "View Patients Attended",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/a61e2f66-6595-488b-87e9-b95d0d00a862"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-271b4e61976bf19c70b87344",
+      "display": "RCH TB screening",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-271b4e61976bf19c70b87344"
+        }
+      ]
+    },
+    {
+      "uuid": "a3ddbfb9-5c4e-4c81-b9fa-b9e686852a0e",
+      "display": "Doctor",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/a3ddbfb9-5c4e-4c81-b9fa-b9e686852a0e"
+        }
+      ]
+    },
+    {
+      "uuid": "5c60d628-5fde-4633-bc88-c70d4ffb2085",
+      "display": "OT Doctor (1)",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/5c60d628-5fde-4633-bc88-c70d4ffb2085"
+        }
+      ]
+    },
+    {
+      "uuid": "73e2fc54-cfdc-49eb-845c-f09ce5d639dc",
+      "display": "View Total Amount per Item",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/73e2fc54-cfdc-49eb-845c-f09ce5d639dc"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-46504817a151f91751594386",
+      "display": "Circumcision",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-46504817a151f91751594386"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-8bc348ba8bb3fb62d45610ff",
+      "display": "HIV status of family/household members",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-8bc348ba8bb3fb62d45610ff"
+        }
+      ]
+    },
+    {
+      "uuid": "18f167c1-a65c-4159-8aa7-2d5c7f231c15",
+      "display": "Application: Writes Clinical Notes",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/18f167c1-a65c-4159-8aa7-2d5c7f231c15"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-35bc4a9397c6e764931e44ba",
+      "display": "Occupational therapy",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-35bc4a9397c6e764931e44ba"
+        }
+      ]
+    },
+    {
+      "uuid": "9821be41-7b59-4934-aea1-410a288a5692",
+      "display": "View Total Amount per Visit Type",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/9821be41-7b59-4934-aea1-410a288a5692"
+        }
+      ]
+    },
+    {
+      "uuid": "7b20a831-4b8c-4026-9cb9-13dfb220f466",
+      "display": "View eIDSR",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/7b20a831-4b8c-4026-9cb9-13dfb220f466"
+        }
+      ]
+    },
+    {
+      "uuid": "eaba9bae-10f4-4e72-8ea8-b2ce09a769bd",
+      "display": "Nurse Care Plan",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/eaba9bae-10f4-4e72-8ea8-b2ce09a769bd"
+        }
+      ]
+    },
+    {
+      "uuid": "f895fb6c-e8b5-4eaa-95d1-4f11fd11cced",
+      "display": "Organizational: Doctor",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f895fb6c-e8b5-4eaa-95d1-4f11fd11cced"
+        }
+      ]
+    },
+    {
+      "uuid": "8cad06d4-11a0-4b99-b181-314b5f5faf24",
+      "display": "Organizational: Nurse",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/8cad06d4-11a0-4b99-b181-314b5f5faf24"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-cbcc4cb79250fae61c8952d5",
+      "display": "Pre Operative List",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-cbcc4cb79250fae61c8952d5"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-5ab04fea95689c2fe8ea2608",
+      "display": "Diagnosis of TB in children and adult",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-5ab04fea95689c2fe8ea2608"
+        }
+      ]
+    },
+    {
+      "uuid": "f7fd42ef-880e-40c5-972d-e4ae7c990de2",
+      "display": "Authenticated",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f7fd42ef-880e-40c5-972d-e4ae7c990de2"
+        }
+      ]
+    },
+    {
+      "uuid": "a1f1322a-f0c9-47d7-bcee-8f99f734d659",
+      "display": "View Return Patient",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/a1f1322a-f0c9-47d7-bcee-8f99f734d659"
+        }
+      ]
+    },
+    {
+      "uuid": "b12efdcd-2124-4d01-b3f9-31210272c831",
+      "display": "View Lab Patients Attended",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/b12efdcd-2124-4d01-b3f9-31210272c831"
+        }
+      ]
+    },
+    {
+      "uuid": "8569199c-f657-460a-b5d1-2d112275cea6",
+      "display": "View Revenue",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/8569199c-f657-460a-b5d1-2d112275cea6"
+        }
+      ]
+    },
+    {
+      "uuid": "551174c5-8a95-4ff4-aefa-8a2258759e83",
+      "display": "Oncology Service",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/551174c5-8a95-4ff4-aefa-8a2258759e83"
+        }
+      ]
+    },
+    {
+      "uuid": "bd573814-6ee6-4bd1-99d7-ee5f48cb08d4",
+      "display": "Organizational: System Administrator",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/bd573814-6ee6-4bd1-99d7-ee5f48cb08d4"
+        }
+      ]
+    },
+    {
+      "uuid": "4b56964f-3955-4a7a-82c9-9c863e3013a9",
+      "display": "Application: Schedules And Overbooks Appointments",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/4b56964f-3955-4a7a-82c9-9c863e3013a9"
+        }
+      ]
+    },
+    {
+      "uuid": "774b2af3-6437-4e5a-a310-547554c7c65c",
+      "display": "Anonymous",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/774b2af3-6437-4e5a-a310-547554c7c65c"
+        }
+      ]
+    },
+    {
+      "uuid": "739013b5-4745-44df-a976-43014a39fbf2",
+      "display": "Application: Sees Appointment Schedule",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/739013b5-4745-44df-a976-43014a39fbf2"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-597246599b3281439ec08a35",
+      "display": "Health to education CTC client",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-597246599b3281439ec08a35"
+        }
+      ]
+    },
+    {
+      "uuid": "ec121781-0bd2-4966-8608-3d66ca625a10",
+      "display": "View reports",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/ec121781-0bd2-4966-8608-3d66ca625a10"
+        }
+      ]
+    },
+    {
+      "uuid": "ee107446-3d8d-4378-91a0-23e7f7fdd5de",
+      "display": "View Total Collection By Payment Categories",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/ee107446-3d8d-4378-91a0-23e7f7fdd5de"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-87f74edfa74a5902adcce67f",
+      "display": "Discharge details",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-87f74edfa74a5902adcce67f"
+        }
+      ]
+    },
+    {
+      "uuid": "fcb8e39c-213c-4ebb-a2bd-a0f6c0e37d4e",
+      "display": "Application: Has Super User Privileges",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/fcb8e39c-213c-4ebb-a2bd-a0f6c0e37d4e"
+        }
+      ]
+    },
+    {
+      "uuid": "e16c6165-4534-4fd3-9838-3d7144746e2e",
+      "display": "View Total Amount per provider",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/e16c6165-4534-4fd3-9838-3d7144746e2e"
+        }
+      ]
+    },
+    {
+      "uuid": "3cacb83e-c298-402f-afbf-9eb86457dc3c",
+      "display": "Counsellor",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/3cacb83e-c298-402f-afbf-9eb86457dc3c"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-1bbf46c2af35f9cd8737e2e8",
+      "display": "Surgeon",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-1bbf46c2af35f9cd8737e2e8"
+        }
+      ]
+    },
+    {
+      "uuid": "32ff2fd7-ed3f-426f-9e28-557027f1cfe7",
+      "display": "Pharmacist",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/32ff2fd7-ed3f-426f-9e28-557027f1cfe7"
+        }
+      ]
+    },
+    {
+      "uuid": "8d94f280-c2cc-11de-8d13-0010c6dffd0f",
+      "display": "Provider",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/8d94f280-c2cc-11de-8d13-0010c6dffd0f"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-abf049e2865533ebd29539c2",
+      "display": "Haemodialysis",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-abf049e2865533ebd29539c2"
+        }
+      ]
+    },
+    {
+      "uuid": "74209cb0-89fd-4c82-8d0b-5f2f12620268",
+      "display": "Cashier",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/74209cb0-89fd-4c82-8d0b-5f2f12620268"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-26c545809ca5a9ba587a7ef2",
+      "display": "Upimaji na ushauri nasaha",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-26c545809ca5a9ba587a7ef2"
+        }
+      ]
+    },
+    {
+      "uuid": "be37a656-74a2-42ff-8d6c-688c98d5e068",
+      "display": "View Patients Attende List by Age and Gender",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/be37a656-74a2-42ff-8d6c-688c98d5e068"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-dc6a480e87f51e2889a5113d",
+      "display": "Prosthesis",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-dc6a480e87f51e2889a5113d"
+        }
+      ]
+    },
+    {
+      "uuid": "e42c06a7-1241-4eb5-8724-a4a59bf33099",
+      "display": "Application: Enters Vitals",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/e42c06a7-1241-4eb5-8724-a4a59bf33099"
+        }
+      ]
+    },
+    {
+      "uuid": "3eec8722-22da-4916-ae78-b1be207d5d2b",
+      "display": "Application: Manages Provider Schedules",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/3eec8722-22da-4916-ae78-b1be207d5d2b"
+        }
+      ]
+    },
+    {
+      "uuid": "fdde7ee1-b71f-4b93-b9e8-007362b9e3a1",
+      "display": "Registra",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/fdde7ee1-b71f-4b93-b9e8-007362b9e3a1"
+        }
+      ]
+    },
+    {
+      "uuid": "2b0e4ab9-63c2-484c-b3c1-36387a8c88af",
+      "display": "View Drug Prices Report",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/2b0e4ab9-63c2-484c-b3c1-36387a8c88af"
+        }
+      ]
+    },
+    {
+      "uuid": "f20f5f42-20ee-459c-8c49-6793f474f530",
+      "display": "Nurse",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/f20f5f42-20ee-459c-8c49-6793f474f530"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-a82f4f8b9506faee0b31770d",
+      "display": "VCT/PITC",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/role/iCare111-a82f4f8b9506faee0b31770d"
+        }
+      ]
+    }
+  ],
+  "retired": false,
+  "links": [
+    {
+      "rel": "self",
+      "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+    },
+    {
+      "rel": "full",
+      "uri": "http://192.168.100.163/openmrshttp://192.168.100.163/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003?v=full"
+    }
+  ],
+  "resourceVersion": "1.8"
+}

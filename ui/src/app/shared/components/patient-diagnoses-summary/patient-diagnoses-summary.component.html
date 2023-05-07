@@ -18,7 +18,7 @@
     <mat-progress-bar
       *ngIf="params?.loadingVisit"
       mode="indeterminate"
-      ></mat-progress-bar>
+    ></mat-progress-bar>
     <table
       class="table"
       *ngIf="
@@ -33,11 +33,12 @@
       </thead>
       <tbody>
         <ng-container
-        *ngFor="
+          *ngFor="
             let diagnosisInfo of params?.diagnoses
               | filterDiagnoses: isConfirmedDiagnosis;
             let count = index
-          ">
+          "
+        >
           <tr
             [ngClass]="{ 'text-danger': diagnosisInfo?.voided }"
             *ngIf="!diagnosisInfo?.voided"
@@ -85,12 +86,13 @@
               ?.length > 0
           "
         >
-        <ng-container 
-        *ngFor="
+          <ng-container
+            *ngFor="
               let diagnosisInfo of params?.diagnoses
                 | filterDiagnoses: isConfirmedDiagnosis;
               let count = index
-            ">
+            "
+          >
             <tr
               [ngClass]="{ 'text-danger': diagnosisInfo?.voided }"
               *ngIf="!diagnosisInfo?.voided"
@@ -144,7 +146,7 @@
                 </mat-menu>
               </td>
             </tr>
-        </ng-container>
+          </ng-container>
         </ng-container>
         <ng-container *ngIf="!isInpatient">
           <tr *ngIf="diagnosisField">

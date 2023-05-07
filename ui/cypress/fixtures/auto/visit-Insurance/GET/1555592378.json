@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "2021d683-c5e9-4322-b0b7-e82ce8a2af0a",
+      "property": "iCare.registration.genderOptions.conceptUuid",
+      "value": "bad70d90-9bac-401a-8c49-a440f6a07bf5",
+      "description": null,
+      "display": "I Care - Registration Gender Options Concept Uuid = bad70d90-9bac-401a-8c49-a440f6a07bf5",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/2021d683-c5e9-4322-b0b7-e82ce8a2af0a"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

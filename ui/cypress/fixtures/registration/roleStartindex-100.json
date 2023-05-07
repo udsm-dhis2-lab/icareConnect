@@ -1,0 +1,918 @@
+{
+  "results": [
+    {
+      "uuid": "iCare111-3f1011e4adec0800271c1b75",
+      "name": "Radiology orders",
+      "privileges": [
+        {
+          "uuid": "81e95bce-3f10-11e4-adec-0800271c1b75",
+          "name": "Radiology orders"
+        }
+      ]
+    },
+    {
+      "uuid": "862827ae-21c4-40c9-9a9f-33eee46e5152",
+      "name": "RCH",
+      "privileges": [
+        { "uuid": "bb939a62-4e51-40a4-a75e-e1f36084a2da", "name": "Nurse" },
+        {
+          "uuid": "e140bccf-4ff1-439e-9857-520a302f86f7",
+          "name": "module:nursing"
+        },
+        {
+          "uuid": "89bd92f8-9484-4a8a-b828-68e23ce9faaa",
+          "name": "module:Vertical Programs"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-271b4e61976bf19c70b87344",
+      "name": "RCH TB screening",
+      "privileges": [
+        {
+          "uuid": "1c2ac3c2-271b-4e61-976b-f19c70b87344",
+          "name": "RCH TB screening"
+        }
+      ]
+    },
+    {
+      "uuid": "04fa2841-2c7f-46c5-8ae3-4a9107f7318b",
+      "name": "Records Management",
+      "privileges": []
+    },
+    {
+      "uuid": "fdde7ee1-b71f-4b93-b9e8-007362b9e3a1",
+      "name": "Registra",
+      "privileges": [
+        {
+          "uuid": "c9fe3893-69d0-47f8-ac5e-9ac88e762117",
+          "name": "module:registration"
+        }
+      ]
+    },
+    {
+      "uuid": "ed23fc48-52ec-45d5-9c9f-e1ced659b253",
+      "name": "REPORT: View all Reports",
+      "privileges": [
+        { "uuid": "75c9f7e9-fc84-436e-bae7-098408f0bfb4", "name": "REPORT_ALL" }
+      ]
+    },
+    {
+      "uuid": "2d9abbc4-a964-428f-ad75-8ec1233049c6",
+      "name": "Sample Acceptance and Results",
+      "privileges": [
+        {
+          "uuid": "7718d465-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Add Encounters"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a215",
+          "name": "Get Visit Types"
+        },
+        {
+          "uuid": "65d14b28-3989-11e6-899a-a4d646d86a8a",
+          "name": "Add Visits"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a213",
+          "name": "Get Visit Attribute Types"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a214",
+          "name": "Get Visits"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a211",
+          "name": "Get Providers"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a231",
+          "name": "Get Concept Sources"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a210",
+          "name": "Get Encounter Roles"
+        },
+        {
+          "uuid": "e151c1d0-8494-4633-ab86-bb94f1619f13",
+          "name": "Edit Visits"
+        },
+        { "uuid": "d05118c6-2490-4d78-a41a-390e3596a240", "name": "Get Forms" },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a241",
+          "name": "Get Orders"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a248",
+          "name": "Get Encounters"
+        },
+        {
+          "uuid": "c47af4ef-d757-4636-a218-ba066c2dd840",
+          "name": "app:Laboratory"
+        },
+        { "uuid": "d05118c6-2490-4d78-a41a-390e3596a249", "name": "Get Users" },
+        {
+          "uuid": "7718da45-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Edit Encounters"
+        },
+        {
+          "uuid": "6f661ada-9849-4ee5-9e8d-88850da7b064",
+          "name": "Sample Acceptance and Results"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a244",
+          "name": "Get Patients"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a245",
+          "name": "Get Observations"
+        },
+        {
+          "uuid": "7718d4ba-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Add Observations"
+        },
+        {
+          "uuid": "7718da77-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Edit Observations"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a251",
+          "name": "Get Concepts"
+        },
+        { "uuid": "7718dc69-1e75-11eb-8bc7-0242c0a85003", "name": "Edit Users" }
+      ]
+    },
+    {
+      "uuid": "45d67c7a-e697-41b0-874f-0b8f54f4e4b9",
+      "name": "Sample Collection",
+      "privileges": [
+        {
+          "uuid": "85aa8e96-cb02-4b3d-a411-6fcf5119e43f",
+          "name": "Sample Collection"
+        },
+        { "uuid": "7718d507-1e75-11eb-8bc7-0242c0a85003", "name": "Add Orders" }
+      ]
+    },
+    {
+      "uuid": "9605f155-cc5d-485c-8158-ec98f5524d16",
+      "name": "Sample Tracking",
+      "privileges": [
+        {
+          "uuid": "7718d465-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Add Encounters"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a215",
+          "name": "Get Visit Types"
+        },
+        {
+          "uuid": "65d14b28-3989-11e6-899a-a4d646d86a8a",
+          "name": "Add Visits"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a213",
+          "name": "Get Visit Attribute Types"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a214",
+          "name": "Get Visits"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a211",
+          "name": "Get Providers"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a231",
+          "name": "Get Concept Sources"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a210",
+          "name": "Get Encounter Roles"
+        },
+        {
+          "uuid": "65c81664-1fb4-43ba-88f0-ee70770b26df",
+          "name": "Sample Tracking"
+        },
+        {
+          "uuid": "7718db3e-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Edit Patients"
+        },
+        {
+          "uuid": "e151c1d0-8494-4633-ab86-bb94f1619f13",
+          "name": "Edit Visits"
+        },
+        { "uuid": "d05118c6-2490-4d78-a41a-390e3596a240", "name": "Get Forms" },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a241",
+          "name": "Get Orders"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a248",
+          "name": "Get Encounters"
+        },
+        {
+          "uuid": "c47af4ef-d757-4636-a218-ba066c2dd840",
+          "name": "app:Laboratory"
+        },
+        { "uuid": "d05118c6-2490-4d78-a41a-390e3596a249", "name": "Get Users" },
+        {
+          "uuid": "7718da45-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Edit Encounters"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a244",
+          "name": "Get Patients"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a245",
+          "name": "Get Observations"
+        },
+        {
+          "uuid": "7718d4ba-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Add Observations"
+        },
+        {
+          "uuid": "7718da77-1e75-11eb-8bc7-0242c0a85003",
+          "name": "Edit Observations"
+        },
+        {
+          "uuid": "d05118c6-2490-4d78-a41a-390e3596a251",
+          "name": "Get Concepts"
+        },
+        { "uuid": "7718dc69-1e75-11eb-8bc7-0242c0a85003", "name": "Edit Users" }
+      ]
+    },
+    {
+      "uuid": "1a525b6f-a95a-4b4b-8cc5-681b5be442e4",
+      "name": "Secretary",
+      "privileges": []
+    },
+    {
+      "uuid": "67e872d5-608f-4a70-baac-847a5d87f51c",
+      "name": "Social MAT",
+      "privileges": [
+        {
+          "uuid": "e140bccf-4ff1-439e-9857-520a302f86f7",
+          "name": "module:nursing"
+        }
+      ]
+    },
+    {
+      "uuid": "52d1f60e-de9b-4415-8666-d67ac37aad37",
+      "name": "Social Welfare",
+      "privileges": [
+        {
+          "uuid": "fc3cfac6-ed65-4890-bbcc-086e54802d78",
+          "name": "module:Social Welfare"
+        }
+      ]
+    },
+    {
+      "uuid": "035bb6c7-ef51-4adf-8cdd-44a10425b811",
+      "name": "Social Worker",
+      "privileges": [
+        {
+          "uuid": "e140bccf-4ff1-439e-9857-520a302f86f7",
+          "name": "module:nursing"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-4fd14922afb5a1ab22df38d8",
+      "name": "Social worker/counselor",
+      "privileges": [
+        {
+          "uuid": "6e8d607e-4fd1-4922-afb5-a1ab22df38d8",
+          "name": "Social worker/counselor"
+        }
+      ]
+    },
+    {
+      "uuid": "8d1e0146-c0c0-4779-816f-f34eb3a78fbf",
+      "name": "Store",
+      "privileges": [
+        {
+          "uuid": "20f1800d-c1ca-443b-9960-7aa39e5f0d62",
+          "name": "STORE_SETTINGS"
+        },
+        {
+          "uuid": "4990a65d-0b9b-40d8-ae22-3a28298aa309",
+          "name": "STORE_ADD_STOCK_ON_BATCH"
+        },
+        {
+          "uuid": "52e74ce9-a45d-468f-84b4-7dc2b2cbf754",
+          "name": "STORE_ADD_NEW_STOCKABLE_ITEM"
+        },
+        {
+          "uuid": "2c38b817-d03a-4324-907a-3c1d7d6517bf",
+          "name": "STORE_CREATE_NEW_STOCKABLE_ITEM"
+        },
+        {
+          "uuid": "c287b88b-4d78-4470-a876-963408127636",
+          "name": "STORE_DEDUCT_STOCK_FROM_BATCH"
+        },
+        {
+          "uuid": "0a6c10e5-5e72-474c-ab14-ae9ffa8e907a",
+          "name": "module:Store"
+        },
+        {
+          "uuid": "3e7492ea-9dfc-4d6c-b1ce-0c43e9fe3a20",
+          "name": "STORE_ADD_NEW_BATCH"
+        }
+      ]
+    },
+    {
+      "uuid": "264ce374-f3aa-4a6f-9470-4901e482d89a",
+      "name": "Supplies Officer",
+      "privileges": []
+    },
+    {
+      "uuid": "iCare111-1bbf46c2af35f9cd8737e2e8",
+      "name": "Surgeon",
+      "privileges": [
+        { "uuid": "d4441d5e-1bbf-46c2-af35-f9cd8737e2e8", "name": "Surgeon" }
+      ]
+    },
+    {
+      "uuid": "8d94f852-c2cc-11de-8d13-0010c6dffd0f",
+      "name": "System Developer",
+      "privileges": []
+    },
+    {
+      "uuid": "15890800-c948-4f8a-add7-7675d01fbb60",
+      "name": "TEST CLINIC MODULE FRONT ACCESS",
+      "privileges": [
+        {
+          "uuid": "f8725843-9759-413a-983c-ac21bc10f0b1",
+          "name": "CLINIC_ADD_LABORATORY_INVESTIGATION"
+        },
+        {
+          "uuid": "d8463dd7-4e51-4f94-8e93-b9299672918e",
+          "name": "CLINIC_RETIRE_PROVISIONAL_DIAGNOSIS"
+        },
+        {
+          "uuid": "d90ee1b2-cf31-4be4-b17c-8396e88dfb3d",
+          "name": "CLINIC_ADD_CONFIRMED_DIAGNOSIS"
+        },
+        {
+          "uuid": "67d68d22-a8e8-44e1-b835-f9f3bae8bb77",
+          "name": "CLINIC_ADD_PROVISIONAL_DIAGNOSIS"
+        },
+        {
+          "uuid": "23e1586b-7350-432d-bb4b-ec8c3d76d89f",
+          "name": "CLINIC_ADD_PROCEDURE_ORDER"
+        },
+        {
+          "uuid": "df6328f8-7c16-4257-baa4-5429a7e0e043",
+          "name": "CLINIC_DELETE_CONFIRMED_DIAGNOSIS"
+        },
+        {
+          "uuid": "8654f322-9b30-424e-8730-9cb0c23ac20b",
+          "name": "CLINIC_DELETE_PRESCRIPTION"
+        },
+        {
+          "uuid": "618b5ddf-e9ff-44c5-ae3c-ad8e098416d9",
+          "name": "CLINIC_RETIRE_PRESCRIPTION"
+        },
+        {
+          "uuid": "3a67fd84-5b9a-4ae5-a1fd-eac0a89e871b",
+          "name": "CLINIC_DELETE_RADIOLOGY_INVESTIGATION"
+        },
+        {
+          "uuid": "ddd26277-8807-4892-b921-3d3479e1c3e5",
+          "name": "CLINIC_RETIRE_RADIOLOGY_INVESTIGRATION"
+        },
+        {
+          "uuid": "1fad1030-f3ec-44a1-bb4b-3e616ea33770",
+          "name": "CLINIC_DELETE_LABORATORY_INVESTIGATION"
+        },
+        {
+          "uuid": "69409280-ba6b-445e-995b-27e2ff97d0ea",
+          "name": "CLINIC_DELETE_PROCEDURE_ORDER"
+        },
+        {
+          "uuid": "f222a2e6-e9b7-421e-8fdb-76d78381276e",
+          "name": "CLINIC_DELETE_PROVISIONAL_DIAGNOSIS"
+        },
+        {
+          "uuid": "9b2281ee-71ee-4df2-8584-471cd430d24c",
+          "name": "CLINIC_RETIRE_CONFIRMED_DIAGNOSIS"
+        },
+        {
+          "uuid": "92d2a1ab-d44e-45fa-9ea6-392b3b179be7",
+          "name": "CLINIC_RETIRE_LABORATORY_INVESTIGATION"
+        },
+        {
+          "uuid": "89357b7b-4688-4df3-bacc-96cb74a0e9a7",
+          "name": "CLINIC_RETIRE_PROCEDURE_ORDER"
+        },
+        {
+          "uuid": "4542c441-884d-411f-b678-72dc8182256a",
+          "name": "CLINIC_ADD_PRESCRIPTION"
+        },
+        {
+          "uuid": "421b84df-ecb9-4dff-84fd-1ef74754c2ee",
+          "name": "CLINIC_ADD_RADIOLOGY_INVESTIGATION"
+        }
+      ]
+    },
+    {
+      "uuid": "4e7a16f9-d8a0-44d4-b297-f903eda7b278",
+      "name": "Tests Settings",
+      "privileges": [
+        {
+          "uuid": "00ada8cf-3577-4337-91c3-8db3f151fce1",
+          "name": "Tests Settings"
+        }
+      ]
+    },
+    {
+      "uuid": "7a7914ab-8fe5-4f0f-ba2b-ff3f9259461a",
+      "name": "Theatre",
+      "privileges": [
+        {
+          "uuid": "c297d67f-cfa2-466e-bb15-79a0924c9cce",
+          "name": "module:Theatre"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-26c545809ca5a9ba587a7ef2",
+      "name": "Upimaji na ushauri nasaha",
+      "privileges": [
+        {
+          "uuid": "2b0eff7f-26c5-4580-9ca5-a9ba587a7ef2",
+          "name": "Upimaji na ushauri nasaha"
+        }
+      ]
+    },
+    {
+      "uuid": "722d7e29-6154-4b5d-bfeb-19d4ef452715",
+      "name": "VCT Active",
+      "privileges": [
+        {
+          "uuid": "e140bccf-4ff1-439e-9857-520a302f86f7",
+          "name": "module:nursing"
+        }
+      ]
+    },
+    {
+      "uuid": "iCare111-a82f4f8b9506faee0b31770d",
+      "name": "VCT/PITC",
+      "privileges": [
+        { "uuid": "23251ebf-a82f-4f8b-9506-faee0b31770d", "name": "VCT/PITC" }
+      ]
+    },
+    {
+      "uuid": "cfe51217-b640-4529-a41b-bfe78ba65736",
+      "name": "View Amount Per Criteria",
+      "privileges": [
+        {
+          "uuid": "aed9a43b-ccca-4c1a-95b9-301034b2bf3a",
+          "name": "View Amount Per Criteria"
+        }
+      ]
+    },
+    {
+      "uuid": "2a1bf5a5-9cd3-477f-af7b-4a62dacaa18b",
+      "name": "View Amount per gender",
+      "privileges": [
+        {
+          "uuid": "47623674-3291-4af2-8d0b-87bf5fd6d4d9",
+          "name": "View Amount per gender"
+        }
+      ]
+    },
+    {
+      "uuid": "55b9584a-7523-477a-bb42-0301f8890fa3",
+      "name": "View Attended Patients",
+      "privileges": [
+        {
+          "uuid": "8c7a0147-1964-4efa-bd4f-f2f06557f280",
+          "name": "View Attended Patients"
+        }
+      ]
+    },
+    {
+      "uuid": "2d8fcd0a-3b68-4085-b99e-5f44c3dd5a12",
+      "name": "View Dental",
+      "privileges": [
+        {
+          "uuid": "18f1b140-74e1-4a61-ac1e-59a1fb0dd935",
+          "name": "View Dental"
+        }
+      ]
+    },
+    {
+      "uuid": "2b0e4ab9-63c2-484c-b3c1-36387a8c88af",
+      "name": "View Drug Prices Report",
+      "privileges": [
+        {
+          "uuid": "3cb59a2f-260d-42b4-ab60-ff4088e6f739",
+          "name": "View Drug Prices Report"
+        }
+      ]
+    },
+    {
+      "uuid": "7b20a831-4b8c-4026-9cb9-13dfb220f466",
+      "name": "View eIDSR",
+      "privileges": [
+        { "uuid": "c1cdbd39-949e-43e1-8bc2-c0ab9022fef0", "name": "View eIDSR" }
+      ]
+    },
+    {
+      "uuid": "5160f136-da88-4f34-8754-e1ad4a794f29",
+      "name": "View Emergency Visits Register",
+      "privileges": [
+        {
+          "uuid": "9889a66e-9c36-4a52-b87f-b1f0707bc648",
+          "name": "View Emergency Visits Register"
+        }
+      ]
+    },
+    {
+      "uuid": "3c2ceb47-e2c2-436c-8fbf-569a1725a835",
+      "name": "View Examination Report",
+      "privileges": [
+        {
+          "uuid": "6a7aa875-1d06-42de-9d73-23bb46851c2b",
+          "name": "View Examination Report"
+        }
+      ]
+    },
+    {
+      "uuid": "e374cd3c-9a12-4e39-abf5-86fe8ad021f6",
+      "name": "View Eye",
+      "privileges": [
+        { "uuid": "793f579f-27e7-430b-b129-2cbdfa085c03", "name": "View Eye" }
+      ]
+    },
+    {
+      "uuid": "04d0bcfc-b105-4dd8-946b-888142f09374",
+      "name": "View General Report",
+      "privileges": [
+        {
+          "uuid": "a4e00403-e1a3-48fc-86d2-cb71ce41ef72",
+          "name": "View General Report"
+        }
+      ]
+    },
+    {
+      "uuid": "93d03645-6924-46b0-ae9c-a7ddd0a7b39f",
+      "name": "View IPD",
+      "privileges": [
+        { "uuid": "27d13a7b-a2cf-48b1-aaad-e116435428d4", "name": "View IPD" }
+      ]
+    },
+    {
+      "uuid": "7017c65a-482f-48b5-a62d-8ed1299b1d9a",
+      "name": "View IPD-Mtuha",
+      "privileges": [
+        {
+          "uuid": "062f56f9-6f2c-4109-85aa-e386f5e5ab9b",
+          "name": "View IPD-Mtuha"
+        }
+      ]
+    },
+    {
+      "uuid": "b12efdcd-2124-4d01-b3f9-31210272c831",
+      "name": "View Lab Patients Attended",
+      "privileges": [
+        {
+          "uuid": "be922847-bb5f-4cb0-9bc0-59611424e1ac",
+          "name": "View Lab Patients Attended"
+        }
+      ]
+    },
+    {
+      "uuid": "edd1a6fb-170b-4bda-8365-e853f57fe37e",
+      "name": "View Laboratory",
+      "privileges": [
+        {
+          "uuid": "9ceb3fda-fab8-459c-9bfd-e9c4bee0e531",
+          "name": "View Laboratory"
+        }
+      ]
+    },
+    {
+      "uuid": "c67fdd22-1c44-4230-a7cc-fce73ae53afc",
+      "name": "View Malaria",
+      "privileges": [
+        {
+          "uuid": "8d7d7c30-34ea-43b7-b47a-1ed9ca84e740",
+          "name": "View Malaria"
+        }
+      ]
+    },
+    {
+      "uuid": "78d85c17-3674-48da-a9be-75d5274f5bab",
+      "name": "View Malaria Report",
+      "privileges": [
+        {
+          "uuid": "2d93e4fb-5acc-4d7e-aced-3baf0fcabad8",
+          "name": "View Malaria Report"
+        }
+      ]
+    },
+    {
+      "uuid": "fdc6e1f6-960f-473d-8102-043fd12745fe",
+      "name": "View MTUHA",
+      "privileges": [
+        { "uuid": "1f0a2cc2-4966-4118-b91d-be61855f4ac1", "name": "View MTUHA" }
+      ]
+    },
+    {
+      "uuid": "02e5bc19-b1d5-44a0-9626-480ccf938675",
+      "name": "View New Patients",
+      "privileges": [
+        {
+          "uuid": "eddf209b-571b-4742-9878-3db3faf4db61",
+          "name": "View New Patients"
+        }
+      ]
+    },
+    {
+      "uuid": "ffb52bac-d6c0-4bbd-b041-5b8a8efa7498",
+      "name": "View OPD",
+      "privileges": [
+        { "uuid": "c0f155dc-01fd-4262-8b30-02470c5af550", "name": "View OPD" }
+      ]
+    },
+    {
+      "uuid": "e9447b67-59de-4128-b894-aacd7dffaea1",
+      "name": "View OPD - Mahudhurio",
+      "privileges": [
+        {
+          "uuid": "1d7bfa05-6158-4e09-a79a-839b19719e7d",
+          "name": "View OPD - Mahudhurio"
+        }
+      ]
+    },
+    {
+      "uuid": "5c196fa6-b347-4db3-be8d-f52ab59b91b9",
+      "name": "View OPD Register",
+      "privileges": [
+        {
+          "uuid": "7bb92342-18d6-4dd6-8a07-8aaf3f328e3a",
+          "name": "View OPD Register"
+        }
+      ]
+    },
+    {
+      "uuid": "be37a656-74a2-42ff-8d6c-688c98d5e068",
+      "name": "View Patients Attende List by Age and Gender",
+      "privileges": [
+        {
+          "uuid": "9740f756-0210-405a-b2de-caf20e6fc9b2",
+          "name": "View Patients Attende List by Age and Gender"
+        }
+      ]
+    },
+    {
+      "uuid": "a61e2f66-6595-488b-87e9-b95d0d00a862",
+      "name": "View Patients Attended",
+      "privileges": [
+        {
+          "uuid": "eba11302-a485-4bd4-aca2-89d975d55245",
+          "name": "View Patients Attended"
+        }
+      ]
+    },
+    {
+      "uuid": "92c52e9c-8222-41df-9959-86a047045f08",
+      "name": "View Patients Attended Count by Age and Gender",
+      "privileges": [
+        {
+          "uuid": "2641807b-63ba-4180-92c1-424f23a74896",
+          "name": "View Patients Attended Count by Age and Gender"
+        }
+      ]
+    },
+    {
+      "uuid": "3d6b400d-f30a-4a4b-833d-61a49b25f2f3",
+      "name": "View Pharmacy",
+      "privileges": [
+        {
+          "uuid": "319f63be-bca0-44bb-8833-ee27a1f93c8b",
+          "name": "View Pharmacy"
+        }
+      ]
+    },
+    {
+      "uuid": "76601b34-3a52-4431-90e0-630ebe6b6239",
+      "name": "View Radiology",
+      "privileges": [
+        {
+          "uuid": "e71720f5-32cd-4092-bf07-1a8f436c5e40",
+          "name": "View Radiology"
+        }
+      ]
+    },
+    {
+      "uuid": "0b1cdfec-ee1f-44bb-b9fa-9159075d9622",
+      "name": "View Referral Register Visits",
+      "privileges": [
+        {
+          "uuid": "5636933d-08b9-4d15-9639-faa47e3be64c",
+          "name": "View Referral Register Visits"
+        }
+      ]
+    },
+    {
+      "uuid": "639c1e03-6ccc-4190-b09d-5824d4baade5",
+      "name": "View Register",
+      "privileges": [
+        {
+          "uuid": "efb37879-cb69-479f-a31e-c05878e5f756",
+          "name": "View Register"
+        }
+      ]
+    },
+    {
+      "uuid": "ec121781-0bd2-4966-8608-3d66ca625a10",
+      "name": "View reports",
+      "privileges": [
+        {
+          "uuid": "e48504cb-076c-4d0e-936b-be321840f8d0",
+          "name": "module:Reports"
+        }
+      ]
+    },
+    {
+      "uuid": "a1f1322a-f0c9-47d7-bcee-8f99f734d659",
+      "name": "View Return Patient",
+      "privileges": [
+        {
+          "uuid": "d4d465b9-6f0d-4cc2-b05f-f0cb0f70136a",
+          "name": "View Return Patient"
+        }
+      ]
+    },
+    {
+      "uuid": "8569199c-f657-460a-b5d1-2d112275cea6",
+      "name": "View Revenue",
+      "privileges": [
+        {
+          "uuid": "3e3ea97a-5d8e-46f9-a2bb-eaa625e905fa",
+          "name": "View Revenue"
+        }
+      ]
+    },
+    {
+      "uuid": "e0aea374-90a8-453e-b3fe-a91b606dafd4",
+      "name": "View Sample By Specimen Sources",
+      "privileges": [
+        {
+          "uuid": "7be9d5ef-0d37-4604-8a4b-6fd75a7465e9",
+          "name": "View Sample By Specimen Sources"
+        }
+      ]
+    },
+    {
+      "uuid": "5698545e-ac0e-477d-8863-bb62c1bf6806",
+      "name": "View Samples Rejected",
+      "privileges": [
+        {
+          "uuid": "8ebc3e46-62b7-49c5-ae7a-8df7f2489f1e",
+          "name": "View Samples Rejected"
+        }
+      ]
+    },
+    {
+      "uuid": "226f8247-f37c-4af9-b9f8-e304ed3a4525",
+      "name": "View Settings Reports Category",
+      "privileges": [
+        {
+          "uuid": "9d79d9ec-483e-4c26-866c-da5f25b153bb",
+          "name": "View Settings Reports Category"
+        }
+      ]
+    },
+    {
+      "uuid": "67e3e711-e004-4fbf-b032-a78c64929250",
+      "name": "View TAT At Patient Level",
+      "privileges": [
+        {
+          "uuid": "c862aa4d-e5ed-4578-a948-f6da7c68044d",
+          "name": "View TAT At Patient Level"
+        }
+      ]
+    },
+    {
+      "uuid": "0447536e-16ec-4c31-bf70-be57c576b137",
+      "name": "View Top 10 Diagnosis",
+      "privileges": [
+        {
+          "uuid": "2479f15f-62aa-4954-9e64-9929746098e9",
+          "name": "View Top 10 Diagnosis"
+        }
+      ]
+    },
+    {
+      "uuid": "57015436-ba66-4077-825d-3aa4fc094b31",
+      "name": "View Top Ten Drugs Report",
+      "privileges": [
+        {
+          "uuid": "55094038-d53a-4cee-a28a-17bc1de99c06",
+          "name": "View Top Ten Drugs Report"
+        }
+      ]
+    },
+    {
+      "uuid": "73e2fc54-cfdc-49eb-845c-f09ce5d639dc",
+      "name": "View Total Amount per Item",
+      "privileges": [
+        {
+          "uuid": "2f4840be-c0c1-4ccb-96c7-d8788deef512",
+          "name": "View Total Amount per Item"
+        }
+      ]
+    },
+    {
+      "uuid": "e16c6165-4534-4fd3-9838-3d7144746e2e",
+      "name": "View Total Amount per provider",
+      "privileges": [
+        {
+          "uuid": "187ae0b8-dbaa-48ec-8fca-4b0a4783009a",
+          "name": "View Total Amount per provider"
+        }
+      ]
+    },
+    {
+      "uuid": "4e25c4f6-4fab-4dcf-b1c5-63392207f07f",
+      "name": "View Total Amount per service type",
+      "privileges": [
+        {
+          "uuid": "884a7074-9066-4b8b-9fa5-25a110f41496",
+          "name": "View Total Amount per service type"
+        }
+      ]
+    },
+    {
+      "uuid": "9821be41-7b59-4934-aea1-410a288a5692",
+      "name": "View Total Amount per Visit Type",
+      "privileges": [
+        {
+          "uuid": "af628623-ebfd-4214-a7d5-5fe0394e395a",
+          "name": "View Total Amount per Visit Type"
+        }
+      ]
+    },
+    {
+      "uuid": "d0a3e15c-a269-4295-86b6-8f3fb9371add",
+      "name": "View Total Collection By Patient",
+      "privileges": [
+        {
+          "uuid": "39ad7cdb-507e-47ac-9ceb-c02c3a695071",
+          "name": "View Total Collection By Patient"
+        }
+      ]
+    },
+    {
+      "uuid": "ee107446-3d8d-4378-91a0-23e7f7fdd5de",
+      "name": "View Total Collection By Payment Categories",
+      "privileges": [
+        {
+          "uuid": "af035209-51e0-4ab1-8f9b-c903b283361e",
+          "name": "View Total Collection By Payment Categories"
+        }
+      ]
+    },
+    {
+      "uuid": "f285e686-bc8e-425e-b1e0-3f83d9698e76",
+      "name": "View Total Per Item and Service Type",
+      "privileges": [
+        {
+          "uuid": "f46df9f0-b10a-4a1c-9591-e98d4bb2bcd2",
+          "name": "View Total Per Item and Service Type"
+        }
+      ]
+    },
+    {
+      "uuid": "9288fe55-5755-459d-b3fe-ec4bbc989532",
+      "name": "View TotalCollection By Service Type",
+      "privileges": [
+        {
+          "uuid": "d82db328-75c8-4087-803b-c2cd605949f7",
+          "name": "View Total Collection By Service Type"
+        }
+      ]
+    },
+    {
+      "uuid": "9a7aa0bf-0c89-4626-85bc-924afc26e1b9",
+      "name": "View Turn Around Time",
+      "privileges": [
+        {
+          "uuid": "67030ff4-4739-4e11-a9a2-5bfa1e57d440",
+          "name": "View Turn Around Time"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "prev",
+      "uri": "http://127.0.0.1/openmrs/ws/rest/v1/role?limit=100&v=custom%3A%28uuid%2Cname%2Cprivileges%3A%28uuid%2Cname%29%29&"
+    }
+  ]
+}

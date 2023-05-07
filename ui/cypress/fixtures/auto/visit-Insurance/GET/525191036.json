@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "uuid": "14a0f9ce-aec4-4bac-a764-7a07a3e7cd73",
+      "property": "iCare.filters.billing.paymentstatus.\t0a6eca72-2175-4164-a8ce-4446565fdade.1",
+      "value": "0a6eca72-2175-4164-a8ce-4446565fdade",
+      "description": null,
+      "display": "I Care - Filters Billing Paymentstatus 0 A 6 Eca 72 - 2175 - 4164 - A 8 Ce - 4446565 Fdade 1 = 0a6eca72-2175-4164-a8ce-4446565fdade",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/14a0f9ce-aec4-4bac-a764-7a07a3e7cd73"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "135e45b4-5a07-44a2-9a7f-be53bd043c12",
+      "property": "iCare.filters.billing.visitattributetype.PTYPE000IIIIIIIIIIIIIIIIIIIIIIIATYPE.1",
+      "value": "00000004444IIIIIIIIIIIIIIIIIIIIIIIII",
+      "description": null,
+      "display": "I Care - Filters Billing Visitattributetype PTYPE 000 IIIIIIIIIIIIIIIIIIIIIIIATYPE 1 = 00000004444IIIIIIIIIIIIIIIIIIIIIIIII",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/135e45b4-5a07-44a2-9a7f-be53bd043c12"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

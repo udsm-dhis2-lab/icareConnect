@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "f430eec5-60ea-4398-a10d-ef0a485eee50",
+      "property": "icare.registration.form.contactInfo.residenceLocationUuid",
+      "value": "2150c401-de94-4a6c-941d-2844db1a1dc0",
+      "description": "uuid for Tanzania tree with administrative tag",
+      "display": "Icare - Registration Form Contact Info Residence Location Uuid = 2150c401-de94-4a6c-941d-2844db1a1dc0",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/f430eec5-60ea-4398-a10d-ef0a485eee50"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

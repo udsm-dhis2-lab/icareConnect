@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "1b01d350-5041-44bd-b6ce-7090eb7e5b53",
+      "property": "iCare.Serives.Configurations",
+      "value": "[{\"id\":\"2mnxl2eb-5345-11e8-5555-40b034c3cfee\",\"uuid\":\"2mnxl2eb-5345-11e8-5555-40b034c3cfee\",\"name\":\"OPD\",\"serviceConcept\":{\"id\":\"00000003IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"uuid\":\"00000003IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"name\":\"OPD\"}},{\"id\":\"8d74026d-e345-41d9-b5d1-aea721fc4ccd\",\"uuid\":\"8d74026d-e345-41d9-b5d1-aea721fc4ccd\",\"name\":\"IPD\",\"serviceConcept\":{\"id\":\"47cdd021-b169-4bbe-876c-f7051430bfd4\",\"uuid\":\"47cdd021-b169-4bbe-876c-f7051430bfd4\",\"name\":\"IPD\"}},{\"id\":\"2msir5eb-5ww5-11e8-5555-40b034c3cfee\",\"uuid\":\"2msir5eb-5ww5-11e8-5555-40b034c3cfee\",\"name\":\"Health Programs\",\"serviceConcept\":{\"id\":\"00000004IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"uuid\":\"00000004IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"name\":\"Health Programs\"}},{\"id\":\"b25f6197-0ccd-473f-968b-dfc95f9b6894\",\"uuid\":\"b25f6197-0ccd-473f-968b-dfc95f9b6894\",\"name\":\"Specilized Clinics\",\"serviceConcept\":{\"id\":\"b70dfb10-4dfb-49e5-88e7-5226703ba90c\",\"uuid\":\"b70dfb10-4dfb-49e5-88e7-5226703ba90c\",\"name\":\"Specialized Clinics\"}},{\"id\":\"54e8ffdc-dea0-4ef0-852f-c23e06d16066\",\"uuid\":\"54e8ffdc-dea0-4ef0-852f-c23e06d16066\",\"name\":\"Diagnostic\",\"serviceConcept\":{\"id\":\"540a391c-a6eb-41f6-9c05-cb791184e604\",\"uuid\":\"540a391c-a6eb-41f6-9c05-cb791184e604\",\"name\":\"Diagnostic Service\"}}]",
+      "description": null,
+      "display": "I Care - Serives Configurations = [{\"id\":\"2mnxl2eb-5345-11e8-5555-40b034c3cfee\",\"uuid\":\"2mnxl2eb-5345-11e8-5555-40b034c3cfee\",\"name\":\"OPD\",\"serviceConcept\":{\"id\":\"00000003IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"uuid\":\"00000003IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"name\":\"OPD\"}},{\"id\":\"8d74026d-e345-41d9-b5d1-aea721fc4ccd\",\"uuid\":\"8d74026d-e345-41d9-b5d1-aea721fc4ccd\",\"name\":\"IPD\",\"serviceConcept\":{\"id\":\"47cdd021-b169-4bbe-876c-f7051430bfd4\",\"uuid\":\"47cdd021-b169-4bbe-876c-f7051430bfd4\",\"name\":\"IPD\"}},{\"id\":\"2msir5eb-5ww5-11e8-5555-40b034c3cfee\",\"uuid\":\"2msir5eb-5ww5-11e8-5555-40b034c3cfee\",\"name\":\"Health Programs\",\"serviceConcept\":{\"id\":\"00000004IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"uuid\":\"00000004IIIIIIIIIIIIIIIIIIIIIIIIIIII\",\"name\":\"Health Programs\"}},{\"id\":\"b25f6197-0ccd-473f-968b-dfc95f9b6894\",\"uuid\":\"b25f6197-0ccd-473f-968b-dfc95f9b6894\",\"name\":\"Specilized Clinics\",\"serviceConcept\":{\"id\":\"b70dfb10-4dfb-49e5-88e7-5226703ba90c\",\"uuid\":\"b70dfb10-4dfb-49e5-88e7-5226703ba90c\",\"name\":\"Specialized Clinics\"}},{\"id\":\"54e8ffdc-dea0-4ef0-852f-c23e06d16066\",\"uuid\":\"54e8ffdc-dea0-4ef0-852f-c23e06d16066\",\"name\":\"Diagnostic\",\"serviceConcept\":{\"id\":\"540a391c-a6eb-41f6-9c05-cb791184e604\",\"uuid\":\"540a391c-a6eb-41f6-9c05-cb791184e604\",\"name\":\"Diagnostic Service\"}}]",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrs/ws/rest/v1/systemsetting/1b01d350-5041-44bd-b6ce-7090eb7e5b53"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}

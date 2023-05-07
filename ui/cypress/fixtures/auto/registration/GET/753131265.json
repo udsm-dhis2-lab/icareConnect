@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "uuid": "2mnxl2eb-5345-11e8-5555-40b034c3cfee",
+      "name": "OPD",
+      "display": "OPD"
+    },
+    {
+      "uuid": "2msir5eb-5ww5-11e8-5555-40b034c3cfee",
+      "name": "Health Programs",
+      "display": "Health Programs"
+    },
+    {
+      "uuid": "8d74026d-e345-41d9-b5d1-aea721fc4ccd",
+      "name": "IPD",
+      "display": "IPD"
+    },
+    {
+      "uuid": "b25f6197-0ccd-473f-968b-dfc95f9b6894",
+      "name": "Specilized Clinics",
+      "display": "Specilized Clinics"
+    },
+    {
+      "uuid": "54e8ffdc-dea0-4ef0-852f-c23e06d16066",
+      "name": "Diagnostic Service",
+      "display": "Diagnostic Service"
+    }
+  ]
+}

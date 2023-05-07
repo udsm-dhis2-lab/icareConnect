@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "uuid": "d06ee2f1-2a90-4757-b70b-16ce0e461c73",
+      "property": "iCare.clinic.genericPrescription.encounterType",
+      "value": "d2d1f3a2-abcb-498e-8845-4bdc16e04551",
+      "description": "To be used as encounter type when creating generic prescription encounter",
+      "display": "I Care - Clinic Generic Prescription Encounter Type = d2d1f3a2-abcb-498e-8845-4bdc16e04551",
+      "datatypeClassname": null,
+      "datatypeConfig": null,
+      "preferredHandlerClassname": null,
+      "handlerConfig": null,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://127.0.0.1/openmrshttp://127.0.0.1/openmrs/ws/rest/v1/systemsetting/d06ee2f1-2a90-4757-b70b-16ce0e461c73"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ]
+}
