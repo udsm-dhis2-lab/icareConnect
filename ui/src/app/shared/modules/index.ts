@@ -8,6 +8,7 @@ import { NgxMultipleItemsFilterModule } from "./ngx-multiple-item-filter/ngx-mul
 import { NgxOpenmrsHttpclientServiceModule } from "./openmrs-http-client/ngx-openmrs-httpclient-service.module";
 import { NgxPeriodFilterModule } from "./period-filter/period-filter.module";
 import { NgxStandardReportsModule } from "./standard-report/standard-report.module";
+import { NgxiCareHumanResourceModule } from "./human-resource/human-resource.module";
 
 export const modules: any[] = [
   NgxOpenmrsHttpclientServiceModule,
@@ -20,4 +21,5 @@ export const modules: any[] = [
   NgxMatSelectSearchModule,
   NgxPeriodFilterModule,
   NgxMultipleItemsFilterModule,
+  NgxiCareHumanResourceModule,
 ];

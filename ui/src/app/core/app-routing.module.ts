@@ -159,6 +159,13 @@ const routes: Routes = [
         loadChildren: () =>
           import("../modules/dhis2/dhis2.module").then((m) => m.DHIS2Module),
       },
+      {
+        path: "human-resource",
+        loadChildren: () =>
+          import("../modules/human-resource/human-resource.module").then(
+            (m) => m.HumanResourceModule
+          ),
+      },
     ],
   },
   {

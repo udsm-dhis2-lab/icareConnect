@@ -199,4 +199,13 @@ export const ICARE_APPS: ICAREApp[] = [
     path: "/dhis2",
     order: 20,
   },
+  ,
+  {
+    name: "HR",
+    id: "human-resource",
+    image: "assets/material/hr.png",
+    icon: "",
+    path: "/human-resource",
+    order: 21,
+  },
 ];
