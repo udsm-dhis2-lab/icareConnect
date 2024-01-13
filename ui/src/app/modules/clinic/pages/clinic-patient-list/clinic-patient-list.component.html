@@ -29,16 +29,7 @@
         [selectedIndex]="selectedTab.value"
         (selectedIndexChange)="selectedTab.setValue($event)"
       >
-        <!-- <mat-tab label="All Active Patients">
-          <div class="p-2" *ngIf="selectedTab.value === 0">
-            <app-patient-list
-              [isTabularList]="true"
-              [itemsPerPage]="25"
-              [currentLocation]="(currentLocation$ | async)?.id"
-              (selectPatient)="onSelectPatient($event)"
-            ></app-patient-list>
-          </div>
-        </mat-tab> -->
+  
         <mat-tab label="Awaiting Consultation">
           <!-- <div class="p-2" *ngIf="selectedTab.value === 0"> -->
           <ng-template matTabContent>
@@ -79,21 +70,33 @@
             ></app-patient-list>
           </div>
         </mat-tab> -->
+
+        <!--
+          This piece of code below displays all patients with associated laboratory tests
+        -->
         <mat-tab label="With Laboratory Tests">
-          <!-- <div class="p-2" *ngIf="selectedTab.value === 2"> -->
+          <!--
+            The following line is a workaround to ensure that the tab content gets displayed after the tab selection.
+          -->
+          <div class="p-2" *ngIf="selectedTab.value === 2"> 
 
           <ng-template matTabContent>
+            <!--
+              The part below suggests that the application has a reusable component specifically designed to display lists of patients, which is being reused here to show the patients with laboratory test,
+            -->
             <app-patient-list
               [currentLocation]="(currentLocation$ | async)?.id"
               [shouldShowParentLocation]="true"
               [orderType]="params?.labTestOrderType"
               [isTabularList]="true"
               [itemsPerPage]="10"
-              (selectPatient)="onSelectPatient($event)"
+              (selectPatient)="onSelectPatient($event)" 
             ></app-patient-list>
           </ng-template>
-          <!-- </div> -->
+          </div>
         </mat-tab>
+
+
         <mat-tab label="With Radiology Orders">
           <!-- <div class="p-2" *ngIf="selectedTab.value === 2"> -->
 
@@ -134,6 +137,8 @@
             ></app-patient-list>
           </ng-template>
         </mat-tab>
+
+
         <mat-tab
           label="All Patients"
           *ngIf="
@@ -153,6 +158,8 @@
             ></app-patient-list>
           </ng-template>
         </mat-tab>
+
+        
         <mat-tab
           label="Every Patients History"
           *ngIf="
