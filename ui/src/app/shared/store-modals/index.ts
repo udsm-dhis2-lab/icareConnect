@@ -9,8 +9,6 @@ import { RequestCancelComponent } from "./request-cancel/request-cancel.componen
 import { RequisitionFormDialogComponent } from "./requisition-form-dialog/requisition-form-dialog.component";
 import { RequisitionFormComponent } from "./requisition-form/requisition-form.component";
 import { StockInvoiceFormDialogComponent } from "./stock-invoice-form-dialog/stock-invoice-form-dialog.component";
-import { StoreAddNewUserModalComponent } from "./store-add-new-user-modal/store-add-new-user-modal.component";
-import { StoreEditUserModalComponent } from "./store-edit-user-modal/store-edit-user-modal.component";
 
 export const sharedStoreModals: any[] = [
   LedgerFormComponent,
@@ -24,6 +22,4 @@ export const sharedStoreModals: any[] = [
   StockInvoiceFormDialogComponent,
   RequisitionFormDialogComponent,
   ConsumeStockItemModalComponent,
-  StoreAddNewUserModalComponent,
-  StoreEditUserModalComponent,
 ];
