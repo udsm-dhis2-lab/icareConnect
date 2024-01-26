@@ -39,9 +39,10 @@ export class PatientHistoryComponent implements OnInit {
     username?: string;
     systemId?: string;
     userProperties?: object;
-    person?: import("/home/masembo/Project/DHIS2/NEW ICARE/icare/ui/src/app/shared/resources/openmrs").PersonGetRef;
-    privileges?: import("/home/masembo/Project/DHIS2/NEW ICARE/icare/ui/src/app/shared/resources/openmrs").PrivilegeGetRef[];
-    roles?: import("/home/masembo/Project/DHIS2/NEW ICARE/icare/ui/src/app/shared/resources/openmrs").RoleGetRef[];
+    //Changes made here
+    person?: import("src/app/shared/resources/openmrs").PersonGetRef;
+    privileges?: import("src/app/shared/resources/openmrs").PrivilegeGetRef[];
+    roles?: import("src/app/shared/resources/openmrs").RoleGetRef[];
     provider?: { uuid?: string; display?: string };
   }>;
   constructor(
@@ -52,13 +53,7 @@ export class PatientHistoryComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadingData = true;
-    // if(this.location){
-    //   this.customForms$ = this.store.select(
-    //     getCustomOpenMRSFormsByIds(this.location?.forms || [])
-    //   );
-    // } else {
-    //   this.customForms$ = this.store.select(getAllForms);
-    // }
+
     this.customForms$ = this.store.select(getAllForms);
     this.facilityDetails$ = this.store.select(getParentLocation);
     this.currentUser$ = this.store.select(getCurrentUserDetails);
