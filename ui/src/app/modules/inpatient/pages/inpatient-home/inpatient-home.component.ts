@@ -2,8 +2,8 @@ import { Component, Input, OnInit } from "@angular/core";
 import { MatDialog } from "@angular/material/dialog";
 import { ActivatedRoute } from "@angular/router";
 import { select, Store } from "@ngrx/store";
-import { Observable } from "rxjs";
-import { take, takeLast } from "rxjs/operators";
+import {Observable, of} from "rxjs";
+import {catchError, take, takeLast, tap} from "rxjs/operators"; 
 import { Location } from "src/app/core/models";
 import { LocationService } from "src/app/core/services";
 import { OccupiedLocationStatusModalComponent } from "src/app/shared/components/occupied-location-status-modal/occupied-location-status-modal.component";
@@ -28,7 +28,7 @@ import {
   getAllAdmittedPatientVisits,
   getVisitLoadingState,
 } from "src/app/store/selectors/visit.selectors";
-
+import {TableColumn} from "../../../../shared/models/table-column.model";
 @Component({
   selector: "app-inpatient-home",
   templateUrl: "./inpatient-home.component.html",
@@ -44,6 +44,7 @@ export class InpatientHomeComponent implements OnInit {
   orderType$: Observable<any>;
   settingCurrentLocationStatus$: Observable<boolean>;
   currentLocationUuid: string;
+  billingColumns: TableColumn[];
 
   constructor(
     private store: Store<AppState>,
@@ -84,6 +85,32 @@ export class InpatientHomeComponent implements OnInit {
     //   });
 
     // console.log("this.currentLocation?.uuid", this.currentLocation);
+    
+    // Adding the method implementation logic for the Table and filter module 
+     this.billingColumns = [
+      {
+        id: "index",
+        label: "#",
+      },
+      {
+        id: "patientName",
+        label: "Name",
+      },
+      {
+        id: "patientGender",
+        label: "Gender",
+      },
+      {
+        id: "locationName",
+        label: "Location",
+      },
+      {
+        id: "patientAge",
+        label: "Age",
+      },
+    ];
+
+    
     this.currentLocation = this.location;
     this.bedsUnderCurrentWard$ = this.store.select(getAllBedsUnderCurrentWard, {
       id: this.currentLocation?.uuid,
