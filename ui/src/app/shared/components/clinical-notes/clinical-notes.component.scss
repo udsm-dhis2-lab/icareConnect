@@ -8,8 +8,17 @@
   border-radius: 3px;
   font-size: 14px;
 }
+// changed border to red  when vital is abnormal
 
 .current-clinical-form {
   background-color: #eee;
   padding: 15px 15px;
+  border:red;
+  color:red;
+}
+
+// code to change color to green if it is normal
+.current-clinical-form-normal { 
+ border: green;
+  color:black;
 }

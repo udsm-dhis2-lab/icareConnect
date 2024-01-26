@@ -79,6 +79,7 @@ import { BillingService } from "src/app/modules/billing/services/billing.service
 import { map, map as rxMap } from "rxjs/operators";
 import { keyBy, orderBy } from "lodash";
 import { loadActiveVisit } from "src/app/store/actions/visit.actions";
+// changed the color of the "View Vitals" button to red if it is abnoraml and green otherwise
 
 @Component({
   selector: "app-shared-patient-dashboard",
@@ -555,4 +556,38 @@ export class SharedPatientDashboardComponent implements OnInit {
   reload(currentPatient: Patient) {
     this.store.dispatch(loadActiveVisit({ patientId: currentPatient?.id }));
   }
+
+  // method which change the input borders automatically to red for abnomal vitals and green otherwise
+  private static updateInputBorderColor(inputElement: HTMLInputElement, isValid: boolean): void {
+    if (isValid) {
+      inputElement.style.borderColor = 'green';
+    } else {
+      inputElement.style.borderColor = 'red';
+    }
+  }
+
+  // method that give popup notification if vital is abnormal 
+  function showAbnormalVitalNotification(vitalName: string): void {
+  const message = `Abnormal ${vitalName} detected!`;
+
+  // Display a popup notification using window.alert
+  window.alert(message);
+}
+
+// Function to show a notification if patient's vital is within accepted range
+function showVitalNotification(patientName: string, vitalValue: number, acceptedRange: [number, number]): void {
+    const [minRange, maxRange] = acceptedRange;
+
+    if (vitalValue >= minRange && vitalValue <= maxRange) {
+        const notificationOptions: NotificationOptions = {
+            body: `${patientName}'s vital is within the accepted range (${minRange} - ${maxRange}).`,
+        };
+
+        if (Notification.permission === 'granted') {
+            new Notification('Vital Notification', notificationOptions);
+        } else {
+            console.warn('Notification permission not granted.');
+        }
+    }
+}
 }
