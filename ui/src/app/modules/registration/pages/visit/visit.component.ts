@@ -36,12 +36,34 @@ import { map } from "rxjs/operators";
 import { getCurrentUserPrivileges } from "src/app/store/selectors/current-user.selectors";
 import { toISOStringFormat } from "src/app/shared/helpers/format-date.helper";
 import { SharedConfirmationComponent } from "src/app/shared/components/shared-confirmation/shared-confirmation.component";
+import { PaymentService } from '../services/payment.service';
+
+
 
 @Component({
   selector: "app-visit",
   templateUrl: "./visit.component.html",
   styleUrls: ["./visit.component.scss"],
 })
+
+export class PaymentComponent {
+  currentPaymentMethod: string;
+
+  constructor(private paymentService: PaymentService) {
+    this.currentPaymentMethod = this.paymentService.getCurrentPaymentMethod();
+  }
+
+  changePaymentMethod(newPaymentMethod: string): void {
+    this.paymentService.changePaymentMethod(newPaymentMethod);
+    this.currentPaymentMethod = this.paymentService.getCurrentPaymentMethod();
+  }
+
+  handleMenuSelection(selectedOption: string): void {
+    this.changePaymentMethod(selectedOption);
+  }
+}
+
+
 export class VisitComponent implements OnInit {
   params: any;
   name: string;
@@ -54,9 +76,36 @@ export class VisitComponent implements OnInit {
   vertService: string;
   Rooms: string;
   Payment: string;
+  paymentOptions: any[] = []; // Array to store payment options
   editMode: boolean = false;
   disableEditingPayments: boolean = false;
   isEmergencyVisit: boolean = false;
+
+  // Assume the RegistrationService is injected
+  constructor(private registrationService: RegistrationService) {}
+
+  ngOnInit() {
+    // Call the method to retrieve payment options
+    this.loadPaymentOptions();
+  }
+
+  // Method to load payment options
+  loadPaymentOptions() {
+    this.registrationService.getPaymentOptionsHierarchy().subscribe((options: any[]) => {
+      this.paymentOptions = options;
+    });
+  }
+
+  // Additional methods and logic for handling payment options in your component
+  // ...
+
+  // Example method to handle payment selection
+  onPaymentSelection(paymentOption: any) {
+    this.Payment = paymentOption.name;
+    // Add additional logic as needed
+  }
+}
+
 
   existingVisitUuid: string;
 
