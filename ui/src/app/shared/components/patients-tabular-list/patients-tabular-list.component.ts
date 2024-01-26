@@ -1,9 +1,12 @@
+//This is the particular file that has been causing errors
 import { EventEmitter, OnChanges, Output, ViewChild } from "@angular/core";
 import { Component, Input, OnInit } from "@angular/core";
 import { MatPaginator } from "@angular/material/paginator";
 import { MatTableDataSource } from "@angular/material/table";
 import { sanitizePatientsVisitsForTabularPatientListing } from "../../helpers/sanitize-visits-list-for-patient-tabular-listing.helper";
 import { Visit } from "../../resources/visits/models/visit.model";
+import { PatientLabResultsSummaryComponent } from "../patient-lab-results-summary/patient-lab-results-summary.component";
+
 
 @Component({
   selector: "app-patients-tabular-list",
@@ -17,9 +20,8 @@ export class PatientsTabularListComponent implements OnInit, OnChanges {
   @Input() itemsPerPage: number;
   @Input() page: number;
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
-  @Output() patientVisitDetails: EventEmitter<any> = new EventEmitter<any>();
-  @Output() shouldLoadNewList: EventEmitter<boolean> =
-    new EventEmitter<boolean>();
+  @output() patientVisitDetails: EventEmitter<any> = new EventEmitter<any>();
+  @Output() shouldLoadNewList: EventEmitter<boolean> = new EventEmitter<boolean>();
   currentPage: number = 0;
 
   displayedColumns: string[] = [
@@ -61,10 +63,14 @@ export class PatientsTabularListComponent implements OnInit, OnChanges {
     this.dataSource.paginator = this.paginator;
   }
 
-  getSelectedPatient(event, patientVisitDetails) {
+
+  getSelectedPatient(event, patientLaboratoryResults) {
     event.stopPropagation();
-    this.patientVisitDetails.emit(patientVisitDetails);
+    //The below line fixes the bug that has been caused by the code line commented below it 
+    this.patientVisitDetails.emit(PatientLabResultsSummaryComponent);
+    //this.patientVisitDetails.emit(patientVIsitDetails);
   }
+  
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
