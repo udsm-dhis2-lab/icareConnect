@@ -30,7 +30,7 @@ export class AttendProcedureOrderComponent implements OnInit {
   savingObservations$: Observable<boolean>;
   billLoadingState$: Observable<boolean>;
   currentBills$: Observable<any>;
-  doesPatientHasPendingPaymentForTheCurrentVisitType$: Observable<boolean>;
+  doesPatientHasPendingPaymentForTheCurrentVisitType$: Observable<any>;
   provider$: Observable<ProviderGet>;
   visit$: Observable<any>;
   patient$: Observable<any>;
@@ -72,3 +72,7 @@ export class AttendProcedureOrderComponent implements OnInit {
     this.dialogRef.close(event);
   }
 }
+
+
+// the module does not attend to all diseases, seems there is bad connection/ linking 
+// in diseases in the procedure module
