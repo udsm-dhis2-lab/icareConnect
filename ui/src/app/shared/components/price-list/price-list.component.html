@@ -15,25 +15,51 @@
     priceListDepartments: priceListDepartments$ | async
   } as params"
 >
-  <div class="d-flex justify-content-between mb-2">
-    <div class="h4 font-weight-normal">Price List</div>
-    <button
-      mat-flat-button
-      color="primary"
-      [disabled]="addingPricingItem"
-      style="height: 40px"
-      (click)="onCreate($event, params?.pricingItems)"
-    >
-      <mat-icon *ngIf="!addingPricingItem">add</mat-icon>
-      <mat-spinner
-        color="primary"
-        *ngIf="addingPricingItem"
-        [diameter]="20"
-        style="display: inline-block !important; margin-right: 4px"
-      ></mat-spinner>
-      <span>Add Item</span>
-    </button>
-  </div>
+
+
+
+  <!-- MODIFIED CODE TO ADD DOWNLOAD AND UPLOAD BUTTONS -->
+    <div class="d-flex justify-content-between mb-2">
+      <!-- THE "PRICE LIST" HEADER -->
+      <div class="h4 font-weight-normal">Price List</div>
+
+      <!-- ADDED DIV FOR THE BUTTONS -->
+      <div class="d-flex justify-content-between" style="width: 500px;">
+        
+                <!-- THE "UPLOAD EXCEL FOR PRICING ITEMS" BUTTON -->
+                <!-- LINAH'S CODE -->
+                <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
+        
+                <!-- THE "DOWNLOAD EXCEL FOR PRICING ITEMS" BUTTON -->
+                <!-- CAREEN'S CODE -->
+                <button mat-flat-button color="primary"
+                style="height: 40px; width: auto; justify-content: center;"
+                (click)="exportToExcel()">Download Excel</button>
+                
+                
+
+              <!-- THE "ADD ITEM" BUTTON WHICH EXISTED INITIALLY -->
+                <button
+                  mat-flat-button
+                  color="primary"
+                  [disabled]="addingPricingItem"
+                  style="height: 40px"
+                  (click)="onCreate($event, params?.pricingItems)"
+                >
+                  <mat-icon *ngIf="!addingPricingItem">add</mat-icon>
+                  <mat-spinner
+                    color="primary"
+                    *ngIf="addingPricingItem"
+                    [diameter]="20"
+                    style="display: inline-block !important; margin-right: 4px"
+                  ></mat-spinner>
+                  <span>Add Item</span>
+                </button>
+      </div>
+
+    </div>
+
+
 
   <div
     *ngIf="params?.priceListDepartments"
@@ -50,6 +76,8 @@
         >
       </mat-select>
     </mat-form-field>
+
+
     <div class="w-75">
       <div class="d-flex justify-content-end mb-2">
         <button
