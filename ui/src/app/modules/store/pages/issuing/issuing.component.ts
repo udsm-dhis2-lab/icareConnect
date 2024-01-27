@@ -1,5 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-import { MatLegacyCheckboxChange as MatCheckboxChange } from "@angular/material/legacy-checkbox";
 import { MatLegacyDialog as MatDialog } from "@angular/material/legacy-dialog";
 import { MatLegacySelectChange as MatSelectChange } from "@angular/material/legacy-select";
 import { select, Store } from "@ngrx/store";
@@ -32,6 +31,7 @@ import { RequestCancelComponent } from "../../modals/request-cancel/request-canc
 })
 export class IssuingComponent implements OnInit {
   issuingList$: Observable<IssuingObject[]>;
+  searchTerm: string;
   loadingIssuingList$: Observable<boolean>;
   currentStore$: Observable<LocationGet>;
   stores$: Observable<any>;
@@ -76,15 +76,13 @@ export class IssuingComponent implements OnInit {
             if (response) {
               this.getAllIssuing();
             }
-            if(response?.error && response?.message){
+            if (response?.error && response?.message) {
               this.errors = [
                 ...this.errors,
                 {
-                  error: {
-                    
-                  }
-                }
-              ]
+                  error: {},
+                },
+              ];
             }
           });
       }
@@ -92,8 +90,8 @@ export class IssuingComponent implements OnInit {
   }
 
   getSelection(event: any, issue?: any): void {
-    issue = event?.issue ? event?.issue : issue 
-    event = event?.event ? event?.event : event 
+    issue = event?.issue ? event?.issue : issue;
+    event = event?.event ? event?.event : event;
     if (event?.checked) {
       this.selectedIssues[issue?.id] = issue;
     } else {
@@ -105,7 +103,6 @@ export class IssuingComponent implements OnInit {
       });
       this.selectedIssues = newSelectedIssues;
     }
-
   }
 
   getSelectedStore(event: MatSelectChange): void {
@@ -113,12 +110,81 @@ export class IssuingComponent implements OnInit {
     this.getAllIssuing();
   }
 
-  getAllIssuing(): void {
-    this.issuingList$ = this.issuingService.getAllIssuings(
-      JSON.parse(localStorage.getItem("currentLocation"))?.uuid,
-      this.requestingLocation?.uuid
-    );
+  // creating the search function
+
+  //the event listener
+
+  searchIssuing(event: any): void {
+    this.searchTerm = event.target?.value;
+    setTimeout(() => {
+      this.getAllIssuing();
+    }, 200);
   }
+  
+  // the search function
+
+  getAllIssuing(): void {
+    if (this.searchTerm) {
+      this.issuingList$ = this.issuingList$.pipe(
+        map((issuingList) => {
+          return issuingList.filter((issuing) => {
+            return (
+              issuing?.name
+                ?.toLowerCase()
+                .includes(this.searchTerm?.toLowerCase()) ||
+              issuing?.status
+                ?.toLowerCase()
+                .includes(this.searchTerm?.toLowerCase())
+            );
+          });
+        })
+      );
+    } else {
+      this.issuingList$ = this.issuingService.getAllIssuings(
+        JSON.parse(localStorage.getItem("currentLocation"))?.uuid,
+        this.requestingLocation?.uuid
+      );
+    }
+  }
+
+//end of creating a search function
+
+  //FIXME: This is a fix for the search functionality
+  // search issues by search term
+  // searchIssuing(event: any): void {
+  //   this.searchTerm = event.target?.value;
+  //   setTimeout(() => {
+  //     // call the search function
+  //     this.getIssuing();
+  //   }, 200)
+  // }
+
+    getIssuing(): void {
+    if (this.searchTerm) {
+      // return issuingList with search term
+      this.issuingList$ = this.issuingList$.pipe(
+        map((issuingList) => {
+          return issuingList.filter((issuing) => {
+            return (
+              issuing?.name?.toLowerCase().includes(this.searchTerm?.toLowerCase()) ||
+              issuing?.status?.toLowerCase().includes(this.searchTerm?.toLowerCase()) 
+            );
+          });
+        })
+      );
+
+    } else {
+      this.issuingList$ = this.issuingService.getAllIssuings(
+        JSON.parse(localStorage.getItem("currentLocation"))?.uuid,
+        this.requestingLocation?.uuid
+      );
+    }
+  }
+
+
+
+
+
 
   onReject(e, issue?: IssuingObject): void {
     // e.stopPropagation();
@@ -178,8 +244,8 @@ export class IssuingComponent implements OnInit {
         const groupedRequisitions = requisitionData?.requisitions;
         const nonExpiredBatches = this.getBatchsNotExpired(
           flatten(
-            requisitionData?.stockStatus.map(
-              (stockStatus) => stockStatus?.batches
+            requisitionData?.IssuingStatus.map(
+              (IssuingStatus) => IssuingStatus?.batches
             )
           )
         );
