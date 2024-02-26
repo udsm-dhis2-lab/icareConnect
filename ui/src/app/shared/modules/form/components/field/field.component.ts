@@ -32,7 +32,7 @@ import { FormService } from "../../services";
     { provide: MAT_DATE_FORMATS, useValue: DATE_FORMATS_DD_MM_YYYY },
   ],
 })
-export class FieldComponent implements AfterViewInit {
+export class FieldComponent implements  AfterViewInit {
   @Input() field: Field<string>;
   @Input() isReport: boolean;
   @Input() value: any;
@@ -40,6 +40,7 @@ export class FieldComponent implements AfterViewInit {
   @Input() isCheckBoxButton: boolean;
   @Input() fieldClass: string;
   @Input() shouldDisable: boolean;
+  @Input() sample:any;
   members$: Observable<any[]> = of([]);
 
   constructor(private formService: FormService) {}
@@ -51,6 +52,7 @@ export class FieldComponent implements AfterViewInit {
   @Output() fileFieldUpdate: EventEmitter<any> = new EventEmitter<any>();
 
   ngAfterViewInit() {
+    this.initializeFieldData();
     if (typeof this.field?.value === "object") {
       this.value =
         this.field?.value && (this.field?.value as any)?.length > 0
@@ -94,6 +96,42 @@ export class FieldComponent implements AfterViewInit {
     } else if (this.field?.options?.length > 0) {
       this.members$ = of(this.field?.options);
     }
+    this.fieldUpdate.emit(this.form);
+  }
+  private initializeFieldData(): void {
+    console.log("here is---------->", this.field);
+    if (this.field?.key === "firstName") {
+      this.form.controls[this.field.id].setValue(this.sample.patient.givenName);
+    }else if (this.field?.key === "middleName")
+    {
+      this.form.controls[this.field.id].setValue(this.sample.patient.familyName2);
+    }else if (this.field?.key === "lastName")
+    {
+
+      this.form.controls[this.field.id].setValue(this.sample.patient.familyName);
+    }else if (this.field?.key === "gender")
+    {
+
+      this.form.controls[this.field.id].setValue(this.sample.patient.gender);
+      
+    }else if (this.field?.key === "mobileNumber")
+    {
+      this.form.controls[this.field.id].setValue(this.sample.patient.givenName);
+    }else if (this.field?.key === "email")
+    {
+      this.form.controls[this.field.id].setValue(this.sample.patient.email);
+    }
+    else if (this.field?.key === "address")
+    {
+      this.form.controls[this.field.id].setValue(this.sample.patient.addresses);
+    }
+    else if (this.field?.label === "File No.")
+    {
+      this.form.controls[this.field.id].setValue(this.sample.patient.identifiers[0].id);
+    }
+
+
+
     this.fieldUpdate.emit(this.form);
   }
 
@@ -150,6 +188,7 @@ export class FieldComponent implements AfterViewInit {
   }
 
   onFieldUpdate(event?: KeyboardEvent): void {
+    console.log("Form inspection datas----------------",this.form);
     this.fieldUpdate.emit(this.form);
   }
 

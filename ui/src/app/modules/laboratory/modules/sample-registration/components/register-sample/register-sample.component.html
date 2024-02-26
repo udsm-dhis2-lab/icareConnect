@@ -282,7 +282,45 @@
         class="w-100"
         *ngIf="selectedTabGroup === 'LIST' && !fromMaintenance"
       >
-        <app-samples-list></app-samples-list>
+        <app-samples-list 
+        [mrnGeneratorSourceUuid]="params?.mrnGeneratorSourceUuid"
+        [preferredPersonIdentifier]="params?.preferredPersonIdentifier"
+        [provider]="provider"
+        [agencyConceptConfigs]="params?.agencyConceptConfigs"
+        [referFromFacilityVisitAttribute]="
+          params?.referFromFacilityVisitAttribute
+        "
+        [currentUser]="currentUser"
+        [labNumberCharactersCount]="params?.labNumberCharactersCount"
+        [referringDoctorAttributes]="params?.referringDoctorAttributes"
+        [labSections]="labSections"
+        [specimenSources]="specimenSources"
+        [testsFromExternalSystemsConfigs]="
+          params?.testsFromExternalSystemsConfigs
+        "
+        [specimenSourceConceptUuid]="params?.specimenSourceConceptUuid"
+        [personPhoneAttributeTypeUuid]="personPhoneAttributeTypeUuid"
+        [personEmailAttributeTypeUuid]="personEmailAttributeTypeUuid"
+        [barcodeSettings]="params?.barcodeSettings"
+        [allRegistrationFields]="
+          allRegistrationFields
+            | createLabFields
+              : params?.referringDoctorAttributes
+              : params?.agencyConceptConfigs
+              : params?.referFromFacilityVisitAttribute
+              : params?.identifierTypes
+        "
+        [LISConfigurations]="LISConfigurations"
+        [labTestRequestProgramStageId]="
+          params?.labTestRequestProgramStageId
+        "
+        [sampleRegistrationCategories]="
+              params?.sampleRegistrationCategories
+            "
+        [sampleRegistrationCategoriesConceptUuid]="params?.sampleRegistrationCategoriesConceptUuid"
+        [provider]="provider"
+        [identifierTypes]="params?.identifierTypes"
+        [unifiedCodingReferenceConceptSourceUuid]="params?.unifiedCodingReferenceConceptSourceUuid"></app-samples-list>
       </div>
     </div>
   </div>

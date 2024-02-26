@@ -28,6 +28,7 @@ export class PersonDetailsComponent implements OnInit {
   @Input() referFromFacilityVisitAttribute: string;
   @Input() maximumDate: string;
   @Input() allRegistrationFields: any;
+  @Input() sample: any;
 
   @Input() personEmailAttributeTypeUuid: string;
   @Input() personPhoneAttributeTypeUuid: string;
@@ -46,7 +47,8 @@ export class PersonDetailsComponent implements OnInit {
   showOtherIdentifiers: boolean = false;
   patientUuid: string;
   identifierTypes: any[] = [];
-  age: number = 0;
+  age: number =  0;
+
   month: number = 0;
   searchByIdentifier: boolean = false;
 
@@ -74,6 +76,10 @@ export class PersonDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    console.log("Form data here------------------------>>>>>>>>>>>",this.sample);
+    if(this.sample){
+     this.age = this.sample?.patient?.age;
+    }
     this.pinnedCategory = localStorage.getItem("pinnedCategory");
     this.personDetailsCategory = this.pinnedCategory
       ? this.pinnedCategory

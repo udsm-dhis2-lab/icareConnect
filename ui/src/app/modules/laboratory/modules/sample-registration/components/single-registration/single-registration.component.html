@@ -49,6 +49,7 @@
           (personDetails)="onGetPersonDetails($event)"
           (fromExternalSystem)="onGetIsDataFromExternalSystem($event)"
           (selectedSystem)="onGetSelectedSystem($event)"
+          [sample]="sample"
         ></app-person-details>
       </fieldset>
     </div>
@@ -82,7 +83,9 @@
         </fieldset>
       </div>
     </div>
+    {{testformData(renderGenericForms,registrationCategory)}}
     <div class="col-12" *ngIf="renderGenericForms">
+      
       <app-dynamic-openmrs-registration-dashboard
         [registrationCategory]="registrationCategory"
         (formDataUpdate)="onCustomFormUpdate($event)"
@@ -331,7 +334,7 @@
       </div>
     </div>
     <div class="col-12 d-flex justify-content-end mt-2 mb-2">
-      <button
+      <button *ngIf="!isOnEdit"
         mat-stroked-button
         [disabled]="
           errorMessage ||
@@ -345,6 +348,7 @@
         Save to Reject
       </button>
       <button
+      *ngIf="!isOnEdit"
         mat-flat-button
         color="primary"
         [disabled]="
@@ -357,7 +361,22 @@
         class="ml-2"
         (click)="onSave($event, false, params?.labLocations)"
       >
-        Save & Continue
+      Save & Continue
+      </button>
+      <button
+        *ngIf="isOnEdit"
+        mat-flat-button
+        color="primary"
+        [disabled]="
+          errorMessage ||
+          !broughtOnTimeValid ||
+          !receivedOnTimeValid ||
+          !collectedOnTimeValid ||
+          !isGeneralObsFormValid
+        "
+        class="ml-2"
+      >
+      Save Updates
       </button>
     </div>
   </div>

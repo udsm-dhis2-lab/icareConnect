@@ -13,6 +13,7 @@ import { SamplesService } from "../../services/samples.service";
 })
 export class SharedSampleDetailsComponent implements OnInit {
   @Input() sample: any;
+  @Input() isOnEdit:boolean;
   isClinical: boolean;
   encounterInformation$: Observable<any>;
   sampleConditions$: Observable<any>;

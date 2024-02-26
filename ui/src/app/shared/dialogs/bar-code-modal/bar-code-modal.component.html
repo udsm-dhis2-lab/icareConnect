@@ -64,6 +64,10 @@
             {{ params?.sampleData?.dateTimeCreated | date:"dd/MM/yyyy" }}
           </span>
         </p>
+        <p class="filenumber" >
+          {{ params?.sampleData?.patient?.identifiers[0]?.name }}
+          {{ params?.sampleData?.patient?.identifiers[0]?.id }}
+        </p>
       </div>
     </div>
     <!-- <div *ngIf="dialogData?.sampleLabelsUsedDetails && params?.sampleData && dialogData?.isLis">

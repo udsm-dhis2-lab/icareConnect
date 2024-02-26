@@ -75,6 +75,7 @@
         [isFormHorizontal]="true"
         [fields]="primaryIdentifierFields"
         (formUpdate)="onUpdatePrimaryIdentifierForm($event)"
+        [sample]="sample"
       ></app-form>
     </div>
     <div class="col-2">
@@ -116,11 +117,13 @@
     *ngIf="showOtherIdentifiers"
     [fields]="identifiersFields"
     (formUpdate)="onUpdateIdentifierForm($event)"
+    [sample]="sample"
   ></app-form>
   <app-form
     [fields]="personFields"
     [isFormHorizontal]="true"
     (formUpdate)="onFormUpdate($event)"
+    [sample]="sample"
   ></app-form>
 
   <div class="row">
@@ -131,6 +134,7 @@
             [fields]="personDOBField"
             [isFormHorizontal]="true"
             (formUpdate)="onFormUpdate($event)"
+            [sample]="sample"
           ></app-form>
         </div>
         <!-- <div class="col-6">
@@ -191,5 +195,6 @@
     [fields]="personFieldsGroupThree"
     [isFormHorizontal]="true"
     (formUpdate)="onFormUpdate($event)"
+    [sample]="sample"
   ></app-form>
 </div>

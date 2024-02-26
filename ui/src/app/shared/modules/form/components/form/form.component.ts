@@ -33,6 +33,7 @@ export class FormComponent implements OnInit {
   @Input() shouldDisable: boolean;
   @Input() isReport: boolean;
   @Input() colClass: string;
+  @Input() sample:any;
 
   @Output() formUpdate: EventEmitter<any> = new EventEmitter<any>();
   @Output() enterKeyPressedFields: EventEmitter<any> = new EventEmitter<any>();

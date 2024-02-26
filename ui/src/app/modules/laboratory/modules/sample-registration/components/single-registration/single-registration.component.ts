@@ -44,7 +44,9 @@ import { Textbox } from "src/app/shared/modules/form/models/text-box.model";
 })
 export class SingleRegistrationComponent implements OnInit, AfterViewInit {
   labSampleLabel$: Observable<string>;
+  @Input() sample: any;
   @Input() mrnGeneratorSourceUuid: string;
+  @Input() isOnEdit:boolean;
   @Input() preferredPersonIdentifier: string;
   @Input() provider: any;
   @Input() agencyConceptConfigs: any;
@@ -177,7 +179,9 @@ export class SingleRegistrationComponent implements OnInit, AfterViewInit {
     //   "sampleRegistrationCategories refKey",
     //   this.sampleRegistrationCategories
     // );
+    console.log("provider data are edit mode----------------------------->",this.provider);
     this.registrationCategory = this.sampleRegistrationCategories[0];
+    console.log("registrationCategory data are edit mode----------------------------->",this.registrationCategory);
     const userLocationsIds = JSON.parse(
       this.currentUser?.userProperties?.locations
     );
@@ -258,6 +262,12 @@ export class SingleRegistrationComponent implements OnInit, AfterViewInit {
 
   onGetFormId(id: string): void {
     this.formId = id;
+  }
+  
+  testformData(desc:any,registrationCategory:any){
+    // console.log("renderGenericForms status----------------------------->",desc);
+    // console.log("registrationCategory status----------------------------->",registrationCategory);
+    // console.log("this.formId status----------------------------->",this.formId);
   }
 
   get maximumDate() {
