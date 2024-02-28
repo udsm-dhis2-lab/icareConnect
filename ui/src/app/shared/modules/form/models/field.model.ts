@@ -12,8 +12,8 @@ export class Field<T> {
   disabled: boolean;
   options: DropdownOption[];
   placeholder: string;
-  min: number | string;
-  max: number | string;
+  min?: number | string;
+  max?: number | string;
   hidden: boolean;
   units: string;
   rows?: number;
@@ -29,6 +29,7 @@ export class Field<T> {
   multiple?: boolean;
   allowCustomDateTime?: boolean;
   conceptUuid?: string;
+  
 
   constructor(
     options: {

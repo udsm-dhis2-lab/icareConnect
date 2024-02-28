@@ -78,6 +78,7 @@ export class SingleRegistrationComponent implements OnInit, AfterViewInit {
   currentLocation: Location;
   patientPayload: any;
   personDetailsData: any;
+  userID:any;
   savingData: boolean = false;
   savingDataResponse: any = null;
   currentSampleLabel: string;
@@ -175,11 +176,10 @@ export class SingleRegistrationComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
-    // console.log(
-    //   "sampleRegistrationCategories refKey",
-    //   this.sampleRegistrationCategories
-    // );
-    console.log("provider data are edit mode----------------------------->",this.provider);
+    console.log("sample on edit mode ----------------------------->",this.sample);
+    console.log("Person Data are before -------------------------------",this.personDetailsData);
+    if (this.isOnEdit) {this.userID = this.sample.patient.uuid}
+    console.log("Person Data are after -------------------------------",this.userID);
     this.registrationCategory = this.sampleRegistrationCategories[0];
     console.log("registrationCategory data are edit mode----------------------------->",this.registrationCategory);
     const userLocationsIds = JSON.parse(
@@ -671,7 +671,12 @@ export class SingleRegistrationComponent implements OnInit, AfterViewInit {
     }
     let confirmationDialogue = this.dialog.open(SharedConfirmationComponent, {
       width: "25%",
-      data: {
+      data: this.isOnEdit ? {
+        modalTitle:  `Update sample`,
+        modalMessage: `Proceed with saving Updated sample?`,
+        showRemarksInput: false,
+        confirmationButtonText: "Proceed",
+      } : {
         modalTitle: forRejection ? `Save to reject sample` : `Save sample`,
         modalMessage: forRejection
           ? `You are about to register to reject the current sample. Proceed?`
@@ -895,9 +900,10 @@ export class SingleRegistrationComponent implements OnInit, AfterViewInit {
                           this.registrationService
                             .createPatient(
                               this.patientPayload,
-                              this.personDetailsData?.patientUuid
+                              this.isOnEdit ? this.userID : this.personDetailsData?.patientUuid
                             )
                             .subscribe((patientResponse) => {
+                              console.log("patience edited --------------------------",patientResponse)
                               this.savingDataResponse = patientResponse;
                               if (!patientResponse?.error) {
                                 // TODO: SOftcode visit type

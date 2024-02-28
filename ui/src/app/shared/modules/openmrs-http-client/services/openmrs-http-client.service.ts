@@ -40,7 +40,7 @@ export class OpenmrsHttpClientService {
     const newHttpConfig = this._getHttpConfig(httpConfig);
 
     const httpOptions = this._getHttpOptions(newHttpConfig.httpHeaders);
-    console.log("url ----------------------->",url)
+    // console.log("url ----------------------->",url)
     return this._getFromServer(url, newHttpConfig, httpOptions);
   }
 
@@ -49,7 +49,7 @@ export class OpenmrsHttpClientService {
 
     const httpOptions = this._getHttpOptions(newHttpConfig.httpHeaders);
     const rootUrl = this._getRootUrl();
-
+    console.log("url executed ------------------",rootUrl + url)
     return httpOptions
       ? this.httpClient.post(rootUrl + url, data, httpOptions)
       : this.httpClient.post(rootUrl + url, data);
@@ -77,8 +77,8 @@ export class OpenmrsHttpClientService {
 
   private _getFromServer(url, httpConfig: HttpConfig, httpOptions: any) {
     const rootUrl = this._getRootUrl();
-    console.log("root url ----------------------->",rootUrl + url);
-    console.log("httpclients -------------",this.httpClient);
+    // console.log("root url ----------------------->",rootUrl + url);
+    // console.log("httpclients -------------",this.httpClient);
     return httpOptions
       ? this.httpClient.get(rootUrl + url, httpOptions)
       : this.httpClient.get(rootUrl + url);

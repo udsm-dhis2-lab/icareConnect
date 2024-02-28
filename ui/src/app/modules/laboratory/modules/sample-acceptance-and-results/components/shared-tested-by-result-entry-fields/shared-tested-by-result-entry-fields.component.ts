@@ -12,6 +12,7 @@ import { formatDateToYYMMDD } from "src/app/shared/services/visits.service";
 })
 export class SharedTestedByResultEntryFieldsComponent implements OnInit {
   @Input() order!: any;
+  @Input()dateCreated: any;
   testedByFormFields!: any;
   @Output() selectedTestedByFormFields: EventEmitter<any> =
     new EventEmitter<any>();
@@ -21,6 +22,7 @@ export class SharedTestedByResultEntryFieldsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    console.log("in the input side =-------------------------",this.dateCreated)
     this.order?.allocations?.forEach((allocation) => {
       const formattedAllocation: any = new SampleAllocation(
         allocation
@@ -53,9 +55,13 @@ export class SharedTestedByResultEntryFieldsComponent implements OnInit {
         this.createTestedByDetailsField();
       }
     });
+    this.createTestedByDetailsField();
   }
 
   createTestedByDetailsField(): void {
+    const today = new Date();
+  const formattedDateCreated = this.dateCreated ? formatDateToYYMMDD(new Date(this.dateCreated)) : null;
+
     this.testedByFormFields = [
       new Dropdown({
         id: "testedBy",
@@ -71,6 +77,8 @@ export class SharedTestedByResultEntryFieldsComponent implements OnInit {
         key: "date",
         value: this.testedDate,
         label: "Date tested",
+        min: formattedDateCreated, // Set the minimum date
+        max: formatDateToYYMMDD(today), // Set the maximum date
       }),
     ];
   }

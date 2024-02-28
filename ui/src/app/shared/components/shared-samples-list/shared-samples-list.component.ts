@@ -349,7 +349,9 @@ export class SharedSamplesListComponent implements OnInit, AfterViewInit {
     });
   }
 
-  onResultsEntryAndReview(e: Event, sample: any): void {
+  onResultsEntryAndReview(e: Event, sample: any,createdDate:any): void {
+    console.log("event clicked ------------------>",e)
+    console.log("sample data ------------------------>",sample);
     e.stopPropagation();
     this.resultEntrySample.emit(sample);
   }

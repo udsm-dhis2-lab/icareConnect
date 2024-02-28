@@ -10,7 +10,7 @@
   <mat-toolbar color="primary">
     <div class="w-100 d-flex justify-content-between">
       <div class="w-50 d-flex justify-content-left">
-        Result entry & Review
+        Result entry & Review --
         <span class="ml-4" *ngIf="!data?.LISConfigurations?.isLIS">
           <span
             >- Patient:
@@ -437,6 +437,7 @@
                             (selectedTestedByFormFields)="
                               onGetSelectedTestedBy($event, order)
                             "
+                            [dateCreated]="dateCreated"
                           >
                           </app-shared-tested-by-result-entry-fields>
                         </div>

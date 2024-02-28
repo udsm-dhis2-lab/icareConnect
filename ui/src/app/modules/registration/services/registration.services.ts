@@ -33,6 +33,7 @@ export class RegistrationService {
 
   updatePatient(patientPayload, uuid) {
     let url = `patient/${uuid}?v=full`;
+    console.log("Edit function executed ------------------",url)
     return this.httpClient.post(url, patientPayload).pipe(
       map((response) => response),
       catchError((error) => of(error))

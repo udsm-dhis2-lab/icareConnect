@@ -57,6 +57,7 @@ export class SharedResultsEntryAndViewModalComponent implements OnInit {
   parametersSearchingText: any = {};
   attributes: any;
   attributeTypeUuid: any;
+  dateCreated:any;
   calculatedParameters: any = {};
 
   constructor(
@@ -74,6 +75,8 @@ export class SharedResultsEntryAndViewModalComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    console.log("dialogy load here ---------------------------",this.data.sample.dateCreated)
+    this.dateCreated  = this.data.sample.dateCreated;
     this.preferredName = this.data?.LISConfigurations?.isLIS
       ? "SHORT"
       : "FULLY_SPECIFIED";

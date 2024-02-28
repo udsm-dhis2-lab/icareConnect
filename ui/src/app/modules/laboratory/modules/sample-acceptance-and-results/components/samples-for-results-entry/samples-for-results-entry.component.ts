@@ -87,6 +87,7 @@ export class SamplesForResultsEntryComponent implements OnInit {
     providerDetails: any,
     actionType: string
   ): void {
+    
     this.dialog
       .open(SharedResultsEntryAndViewModalComponent, {
         data: {
