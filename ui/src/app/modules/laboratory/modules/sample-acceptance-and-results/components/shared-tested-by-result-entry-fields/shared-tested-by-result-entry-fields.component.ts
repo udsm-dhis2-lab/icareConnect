@@ -77,8 +77,8 @@ export class SharedTestedByResultEntryFieldsComponent implements OnInit {
         key: "date",
         value: this.testedDate,
         label: "Date tested",
-        min: formattedDateCreated, // Set the minimum date
-        max: formatDateToYYMMDD(today), // Set the maximum date
+        min: formattedDateCreated, // minimum date for sample input verification
+        max: formatDateToYYMMDD(today), //  maximum date to avoid user picking date out  respective date
       }),
     ];
   }
