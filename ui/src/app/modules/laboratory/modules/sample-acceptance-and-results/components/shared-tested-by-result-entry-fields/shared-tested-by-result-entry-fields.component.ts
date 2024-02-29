@@ -22,7 +22,6 @@ export class SharedTestedByResultEntryFieldsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log("in the input side =-------------------------",this.dateCreated)
     this.order?.allocations?.forEach((allocation) => {
       const formattedAllocation: any = new SampleAllocation(
         allocation
