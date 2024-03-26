@@ -1324,7 +1324,7 @@ public class ICareController {
 		List<Map<String, Object>> commonlyUsedItems = new ArrayList<>();
 		List<Object[]> orderedItems = iCareService.getCommonlyOrderedItems(visitUuid, orderTypeUuid, limit, startIndex, isDrug);
 		for (Object[] orderedItemsRowInfo: orderedItems) {
-			Integer count = (Integer) orderedItemsRowInfo[1];
+			Long count = Long.valueOf(orderedItemsRowInfo[1]);
 			Drug drugDetails = new Drug();
 			Concept orderedItemConcept = new Concept();
 			if (isDrug == null || isDrug == true) {
@@ -1332,7 +1332,6 @@ public class ICareController {
 			} else {
 				orderedItemConcept = (Concept)  orderedItemsRowInfo[0];
 			}
-
 			Map<String, Object> returnObj = new HashMap<>();
 			Map<String, Object> orderedItemData = new HashMap<>();
 			if (isDrug == null || isDrug == true) {
