@@ -75,6 +75,7 @@ export class CurrentPatientDispensingComponent implements OnInit {
     this.currentLocation$ = this.store.pipe(select(getCurrentLocation(false)));
     this.currentPatient$ = this.store.select(getCurrentPatient);
     this.provider$ = this.store.select(getProviderDetails);
+    
     this.generalMetadataConfigurations$ = this.systemSettingsService
       .getSystemSettingsByKey("iCare.GeneralMetadata.Configurations")
       .pipe(
@@ -97,6 +98,9 @@ export class CurrentPatientDispensingComponent implements OnInit {
           return response;
         })
       );
+      this.generalMetadataConfigurations$.subscribe((item)=>{
+        console.log("generalMetadataConfigurations$ ..",item)
+      });
     this.genericPrescriptionEncounterType$ = this.systemSettingsService
       .getSystemSettingsByKey("iCare.clinic.genericprescription.encounterType")
       .pipe(

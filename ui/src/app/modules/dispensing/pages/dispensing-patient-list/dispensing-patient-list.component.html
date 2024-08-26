@@ -36,7 +36,7 @@
               ></app-patient-list>
             </div>
           </mat-tab>
-          <mat-tab label="To dispense" *ngIf="params?.useGenericPrescription && params?.useGenericPrescription === 'true'">
+          <mat-tab label="To be dispensed" *ngIf="params?.useGenericPrescription && params?.useGenericPrescription === 'true'">
             <div class="p-2">
               <app-patient-list
                 [isTabularList]="true"
