@@ -51,6 +51,8 @@ export class FieldComponent implements AfterViewInit {
   @Output() fileFieldUpdate: EventEmitter<any> = new EventEmitter<any>();
 
   ngAfterViewInit() {
+
+    console.log("Field Component Initialized", this.field);
     if (typeof this.field?.value === "object") {
       this.value =
         this.field?.value && (this.field?.value as any)?.length > 0
