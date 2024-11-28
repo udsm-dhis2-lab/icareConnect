@@ -15,7 +15,7 @@ import { ThisReceiver } from "@angular/compiler";
   styleUrls: ["./discounts.component.scss"],
 })
 export class DiscountsComponent implements OnInit {
-  @Input() discountItems: any[];
+  @Input() discountItems: any[]=[];
   @Input() discountItemsCount;
   @Input() currentPatient: any;
   @Input() logo: any;
@@ -145,8 +145,8 @@ export class DiscountsComponent implements OnInit {
       disableClose: true,
       data: {
         billItems: this.selection?.selected.map((item) => {
-          delete item["name"];
-          delete item["amount"];
+          // delete item["name"];
+          // delete item["amount"];
 
           let billItem = {
             ...item,
@@ -179,8 +179,8 @@ export class DiscountsComponent implements OnInit {
           data: {
             ...paymentResponse,
             billItems: this.selection?.selected.map((item) => {
-              delete item["name"];
-              delete item["amount"];
+              // delete item["name"];
+              // delete item["amount"];
 
               let billItem = {
                 ...item,
@@ -233,8 +233,23 @@ export class DiscountsComponent implements OnInit {
       width: "600px",
       disableClose: true,
       data: {
-        billItems: this.selection?.selected,
-        items: this.discountItems,
+        billItems: this.selection?.selected.map((item) => {
+          // Construct billItem 
+          let billItem = {
+            ...item,
+            discounted: false,
+          };
+          let bill = item?.invoice?.uuid; 
+          return new BillItem(billItem, bill);
+        }),
+        items: this.discountItems.map((item) => {
+          let billItem = {
+            ...item,
+            discounted: false,
+          };
+          let bill = item?.invoice?.uuid; // Retrieve the invoice UUID if available
+          return new BillItem(billItem, bill);
+        }),
         bill: this.bill,
         totalPayableBill: this.totalPayableBill,
         paymentType: this.selectedPaymentType,
@@ -244,4 +259,5 @@ export class DiscountsComponent implements OnInit {
       },
     });
   }
+  
 }
