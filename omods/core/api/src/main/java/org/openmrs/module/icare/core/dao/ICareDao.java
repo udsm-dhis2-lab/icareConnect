@@ -25,6 +25,8 @@ import org.openmrs.module.icare.core.Item;
 import org.openmrs.module.icare.core.ListResult;
 import org.openmrs.module.icare.core.Pager;
 import org.openmrs.module.icare.core.Summary;
+import org.openmrs.module.icare.core.utils.IncomingSMS;
+import org.openmrs.module.icare.core.utils.OutgoingSMS;
 import org.openmrs.module.icare.core.utils.PatientWrapper;
 import org.openmrs.module.icare.core.utils.VisitWrapper;
 import org.openmrs.module.icare.store.models.OrderStatus;
@@ -1188,6 +1190,40 @@ public class ICareDao extends BaseDAO<Item> {
 		}
 		return query.list();
 	}
+
+
+    //IcareSMS
+	//insert outgoing messages to outgoing message table to be sent later
+	public void saveOutgoingMessage(OutgoingSMS outgoingSMS) {
+		getSession().save(outgoingSMS);
+	}
+	
+	//save incoming messages to the incoming message table
+	public void save(String from, String messageContent, String messageType) {
+		IncomingSMS incomingSMS = new IncomingSMS(from, messageContent, messageType);
+		getSession().save(incomingSMS);
+	}
+	
+	// pull outgoing messsages from outgoing message table
+	public List<OutgoingSMS> findByStatus(String status) {
+		DbSession session = getSession();
+		String queryStr = "SELECT os FROM OutgoingSMS os WHERE os.status = :status";
+		Query query = session.createQuery(queryStr);
+		query.setParameter("status", status);
+		System.out.println("Executing query: " + queryStr + " with status: " + status);
+		
+		List<OutgoingSMS> results = query.list();
+		System.out.println("Number of messages found: " + results.size());
+		
+		return results;
+	}
+	
+	//Set status of the pulled message to SENT status
+	public void updateStatusOutgoingSMS(OutgoingSMS outgoingSMS) {
+		getSession().save(outgoingSMS);
+	}
+	
+
 	
 	// public boolean updateGepgControlNumber(String controlNumber, String uuid) {
 	// DbSession session = getSession();
@@ -1241,5 +1277,5 @@ public class ICareDao extends BaseDAO<Item> {
 		}
 		return query.list();
 	}
-	
+
 }

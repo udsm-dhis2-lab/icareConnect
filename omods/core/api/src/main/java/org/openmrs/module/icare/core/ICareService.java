@@ -220,7 +220,19 @@ public interface ICareService extends OpenmrsService {
 	        Integer numberOfVisits) throws Exception;
 	
 	Map<String, Object> sendReferralDataToMediator(String uuid) throws Exception;
+
+	Map<String, Object> generateVisitsData(Date startDate, Date endDate, Boolean sendToExternalMediator) throws Exception;
+
+	// Icaresms
+	void processIncomingMessage(String from, String message, String messageType);
 	
+	public Map<String, Object> error();
+	
+	String insertOutgoingMessages(String recipient, String message);
+	
+	Map<String, Object> handleOutgoingsms();
+
 	String getSharedRecordsFromExternalMediator(String hfrCode, String id, String idType, String referralNumber)
 	        throws Exception;
+
 }

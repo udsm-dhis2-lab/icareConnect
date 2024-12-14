@@ -1,3 +1,91 @@
+
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public License,
+ * v. 2.0. If a copy of the MPL was not distributed with this file, You can
+ * obtain one at http://mozilla.org/MPL/2.0/. OpenMRS is also distributed under
+ * the terms of the Healthcare Disclaimer located at http://openmrs.org/license.
+ * <p>
+ * Copyright (C) OpenMRS Inc. OpenMRS is a registered trademark and the OpenMRS
+ * graphic logo is a trademark of OpenMRS Inc.
+ */
+package org.openmrs.module.icare.web.controller;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.codehaus.jackson.JsonParser;
+import org.codehaus.jackson.map.ObjectMapper;
+import org.json.JSONObject;
+import org.openmrs.*;
+import org.openmrs.api.*;
+import org.openmrs.api.context.Context;
+import org.openmrs.module.icare.ICareConfig;
+import org.openmrs.module.icare.auditlog.AuditLog;
+import org.openmrs.module.icare.auditlog.api.AuditLogService;
+import org.openmrs.module.icare.auditlog.api.db.AuditLogDAO;
+import org.openmrs.module.icare.billing.ItemNotPayableException;
+import org.openmrs.module.icare.billing.OrderMetaData;
+import org.openmrs.module.icare.billing.models.ItemPrice;
+import org.openmrs.module.icare.billing.models.Prescription;
+import org.openmrs.module.icare.billing.services.BillingService;
+import org.openmrs.module.icare.billing.services.insurance.Claim;
+import org.openmrs.module.icare.billing.services.insurance.ClaimResult;
+import org.openmrs.module.icare.core.*;
+import org.openmrs.module.icare.core.models.CommonlyOrderedDrugs;
+import org.openmrs.module.icare.core.models.EncounterPatientProgram;
+import org.openmrs.module.icare.core.models.EncounterPatientState;
+import org.openmrs.module.icare.core.models.PasswordHistory;
+import org.openmrs.module.icare.core.utils.EncounterWrapper;
+import org.openmrs.module.icare.core.utils.PatientWrapper;
+import org.openmrs.module.icare.core.utils.VisitWrapper;
+import org.openmrs.module.icare.store.models.OrderStatus;
+import org.openmrs.module.icare.store.models.Stock;
+import org.openmrs.module.icare.store.services.StoreService;
+import org.openmrs.module.webservices.rest.web.RestConstants;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
+
+import javax.mail.Session;
+import javax.naming.ConfigurationException;
+import javax.transaction.Transactional;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+
+/**
+ * This class configured as controller using annotation and mapped with the URL of
+ * 'module/${rootArtifactid}/${rootArtifactid}Link.form'.
+ */
+@Controller
+@RequestMapping(value = "/rest/" + RestConstants.VERSION_1 + "/icare")
+public class ICareController {
+	
+	@Autowired
+	ICareService iCareService;
+	
+	@Autowired
+	StoreService storeService;
+	
+	@Autowired
+	BillingService billingService;
+	
+	@Autowired
+	OrderService orderService;
+	
+	@Autowired
+	EncounterService encounterService;
+	
+	@Autowired
+	ConceptService conceptService;
+	
+	/** Logger for this class and subclasses */
+	protected final Log log = LogFactory.getLog(getClass());
+	
+
 /**
  * This Source Code Form is subject to the terms of the Mozilla Public License,
  * v. 2.0. If a copy of the MPL was not distributed with this file, You can
@@ -86,6 +174,7 @@ public class ICareController {
 	/** Logger for this class and subclasses */
 	protected final Log log = LogFactory.getLog(getClass());
 	
+
 	@RequestMapping(value = "idgen", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> onGenerateId() {
@@ -1489,6 +1578,8 @@ public class ICareController {
 		results.put("results", commonlyUsedItems);
 		return results;
 	}
+
+
 	
 	@RequestMapping(value = "solditems", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
@@ -1687,6 +1778,70 @@ public class ICareController {
 		orderResponse.put("orderNumber", savedOrder.getOrderNumber());
 		return orderResponse;
 	}
+
+	
+	@RequestMapping(value = "generatehduapidatatemplate", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+	@ResponseBody
+	public Map<String, Object> onPGenerateReportForHDUAPI(@RequestBody Map<String, Object> visitParameters) throws Exception {
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		Date startDate = formatter.parse(visitParameters.get("startDate").toString());
+		Date endDate = formatter.parse(visitParameters.get("endDate").toString());
+		Map<String, Object> response = iCareService.generateVisitsData(startDate, endDate,
+		    (Boolean) visitParameters.get("sendToExternal"));
+		return response;
+	}
+
+
+	// IcareSMS endpoints currently handling two actions, outgoing and incoming actions
+    @RequestMapping(value = "icaresms/handle-actions", method = RequestMethod.POST)
+	@ResponseBody
+	public Map<String, Object> handleRequest(
+         @RequestParam(value = "action") String action,
+		 @RequestParam(value = "from", required = false) String from,
+		 @RequestParam(value = "message", required = false) String message,
+		 @RequestParam(value = "messageType", required = false) String messageType
+	)throws Exception{
+		Map<String, Object> response = new HashMap<>();
+        //AdministrationService administrationService = Context.getAdministrationService();
+		if (ICareConfig.ACTION_INCOMING.equals(action)) {
+			iCareService.processIncomingMessage(from, message, messageType);
+			System.out.println("Processed successfully");
+		}
+		else if (ICareConfig.ACTION_OUTGOING.equals(action)) {
+			return iCareService.handleOutgoingsms();
+		}
+		else{
+           response.put("Error", iCareService.error());
+		}
+
+       return response;
+	}
+	
+	//This endpoint insert the messages that later will be pulled by icaresms
+	//It will be used with the web to collect number of phones and messages
+	@RequestMapping(value = "icaresms/outgoing-message", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+	@ResponseBody
+	public String insertOutgoingMessages(@RequestBody Map<String, Object> messagePayload) throws Exception {
+		List<String> recipients = (List<String>) messagePayload.get("recipients");
+		String message = (String) messagePayload.get("message");
+		
+		if (recipients == null || recipients.isEmpty()) {
+			throw new IllegalArgumentException("Recipients list cannot be null or empty");
+		}
+		
+		String response = null;
+		for (String recipient : recipients) {
+			try {
+				response = iCareService.insertOutgoingMessages(recipient, message);
+			}
+			catch (Exception e) {
+				throw new RuntimeException("Error saving message for " + recipient + ": " + e.getMessage());
+			}
+		}
+		return response;
+	}
+}
+
 	
 	@RequestMapping(value = "generatehduapidatatemplate", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
@@ -1755,3 +1910,4 @@ public class ICareController {
 		}
 	}
 }
+
