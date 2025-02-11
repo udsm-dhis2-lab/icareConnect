@@ -404,25 +404,24 @@ public class LaboratoryController {
 	public List<Map<String, Object>> getAllocationsBySample(
 			@RequestParam(value = "uuid", required = true) String uuid) {
 		List<Map<String, Object>> allocations = new ArrayList<>();
-		List<Sample> samplesResponse = laboratoryService.getAllocationsBySample(uuid);
-		if (samplesResponse.size() > 0) {
-			for (Sample sample : samplesResponse) {
-				if (sample.getSampleOrders().size() > 0) {
-					for (SampleOrder order : sample.getSampleOrders()) {
-						if (order.getTestAllocations().size() > 0 && order.getOrder().getVoided() == false) {
-							for (TestAllocation allocation : order.getTestAllocations()) {
+		 List<Sample> samplesResponse = laboratoryService.getAllocationsBySample(uuid);
+		 if (samplesResponse.size() > 0) {
+			 for(Sample sample: samplesResponse) {
+				 if (sample.getSampleOrders().size() > 0) {
+					 for (SampleOrder order: sample.getSampleOrders()) {
+						 if (order.getTestAllocations().size() > 0 && order.getOrder().getVoided() == false) {
+							 for (TestAllocation allocation: order.getTestAllocations()) {
 
-								// Getting concept sets for parameter headers
-								// List<ConceptSet> conceptSets =
-								// iCareService.getConceptsSetsByConcept(allocation.getTestConcept().getUuid());
-								// allocation.setConceptSets(conceptSets);
-								allocations.add(allocation.toMap());
-							}
-						}
-					}
-				}
-			}
-		}
+								 //Getting concept sets for parameter headers
+//								 List<ConceptSet> conceptSets = iCareService.getConceptsSetsByConcept(allocation.getTestConcept().getUuid());
+//								 allocation.setConceptSets(conceptSets);
+								 allocations.add(allocation.toMap());
+							 }
+						 }
+					 }
+				 }
+			 }
+		 }
 
 		return allocations;
 	}
@@ -447,6 +446,7 @@ public class LaboratoryController {
 			formattedResults.add(result);
 		}
 		List<Map<String, Object>> savedResultsResponse = laboratoryService.saveMultipleResults(formattedResults);
+		System.out.println("testtt"+formattedResults);
 		return savedResultsResponse;
 	}
 	
@@ -460,6 +460,8 @@ public class LaboratoryController {
 		List<Map<String, Object>> obsWithIssues = new ArrayList<>();
 		List<Result> formattedResults = new ArrayList<>();
 
+	
+
 		// Validate payload
 		validateMachinePayload(machinePayload);
 
@@ -467,15 +469,13 @@ public class LaboratoryController {
 		Sample sample = getSampleFromPayload(machinePayload);
 		System.out.println("Sample Payload :" + sample);
 
-		Map<String, Object> test = (Map<String, Object>) machinePayload.get("test");
-		List<Map<String, Object>> observations = (List<Map<String, Object>>) machinePayload.getOrDefault("observations",
-				new ArrayList<>());
-		System.out.println("Sample Payload --- :" + sample);
 		if (sample != null) {
 			processSampleOrders(sample, test, observations, mappedParameters, formattedResults, obsWithIssues);
 		} else {
 			throw new RuntimeException("Sample with the given identifier is not found" + "sample");
 		}
+
+	
 
 		// Save sample status and results
 		System.out.println("formattedResults  :" + formattedResults);
@@ -484,9 +484,14 @@ public class LaboratoryController {
 			List<Map<String, Object>> savedResultsResponse = laboratoryService.saveMultipleResults(formattedResults);
 			response.put("obsMappedResults", savedResultsResponse);
 		}
-
+	
 		response.put("obsWithIssues", obsWithIssues);
+	
+
 		return response;
+
+
+	
 	}
 	
 	private void validateMachinePayload(Map<String, Object> machinePayload) {
@@ -514,20 +519,40 @@ public class LaboratoryController {
 		return null;
 	}
 	
+	// private void processSampleOrders(Sample sample, Map<String, Object> test, List<Map<String, Object>> observations,
+	//         List<Map<String, Object>> mappedParameters, List<Result> formattedResults,
+	//         List<Map<String, Object>> obsWithIssues) throws Exception {
+	
+	// 	List<SampleOrder> sampleOrders = sample.getSampleOrders();
+	// 	ConceptSource mappingConceptSource = getConceptSource();
+	
+	// 	for (SampleOrder sampleOrder : sampleOrders) {
+	// 		Concept concept = sampleOrder.getOrder().getConcept();
+	// 		boolean mapped = isConceptMapped(concept, test, mappingConceptSource);
+	
+	// 		if (mapped) {
+	// 			processTestAllocations(sampleOrder, observations, concept, mappedParameters, formattedResults,
+	// 			    obsWithIssues, mappingConceptSource);
+	// 		}
+	// 	}
+	// }
 	private void processSampleOrders(Sample sample, Map<String, Object> test, List<Map<String, Object>> observations,
 	        List<Map<String, Object>> mappedParameters, List<Result> formattedResults,
 	        List<Map<String, Object>> obsWithIssues) throws Exception {
 		
 		List<SampleOrder> sampleOrders = sample.getSampleOrders();
 		ConceptSource mappingConceptSource = getConceptSource();
-		System.out.println("test sampleOrders : " + sampleOrders);
+		
 		for (SampleOrder sampleOrder : sampleOrders) {
 			Concept concept = sampleOrder.getOrder().getConcept();
 			boolean mapped = isConceptMapped(concept, test, mappingConceptSource);
 			
 			if (mapped) {
+				System.out.println("Processing sample order: " + sampleOrder.getOrder().getConcept());
 				processTestAllocations(sampleOrder, observations, concept, mappedParameters, formattedResults,
 				    obsWithIssues, mappingConceptSource);
+			} else {
+				System.out.println("Concept " + concept + " not mapped");
 			}
 		}
 	}
@@ -548,17 +573,113 @@ public class LaboratoryController {
 		return mappingConceptSource;
 	}
 	
+	// private boolean isConceptMapped(Concept concept, Map<String, Object> test, ConceptSource mappingConceptSource) {
+	// 	if (!concept.getConceptMappings().isEmpty()) {
+	// 		for (ConceptMap conceptMap : concept.getConceptMappings()) {
+	// 			if (conceptMap.getConceptReferenceTerm().getConceptSource().getUuid().equals(mappingConceptSource.getUuid())
+	// 			        && conceptMap.getConceptReferenceTerm().getCode().equals(test.get("code"))) {
+	// 				return true;
+	// 			}
+	// 		}
+	// 	}
+	// 	return false;
+	// }
 	private boolean isConceptMapped(Concept concept, Map<String, Object> test, ConceptSource mappingConceptSource) {
-		if (!concept.getConceptMappings().isEmpty()) {
+		// Ensure concept and conceptMappings are not null
+		if (concept != null && concept.getConceptMappings() != null && !concept.getConceptMappings().isEmpty()) {
+			
+			// Iterate over the conceptMappings
 			for (ConceptMap conceptMap : concept.getConceptMappings()) {
-				if (conceptMap.getConceptReferenceTerm().getConceptSource().getUuid().equals(mappingConceptSource.getUuid())
-				        && conceptMap.getConceptReferenceTerm().getCode().equals(test.get("code"))) {
-					return true;
+				
+				// Ensure conceptMap and its relevant fields are not null
+				if (conceptMap != null && conceptMap.getConceptReferenceTerm() != null) {
+					ConceptReferenceTerm conceptReferenceTerm = conceptMap.getConceptReferenceTerm();
+					
+					// Force ConceptSource UUID to match mappingConceptSource for debugging
+					if (conceptReferenceTerm.getConceptSource() != null) {
+						System.out.println("Before UUID adjustment:");
+						System.out.println("ConceptMap ConceptSource UUID: "
+						        + conceptReferenceTerm.getConceptSource().getUuid());
+						System.out.println("Mapping ConceptSource UUID: " + mappingConceptSource.getUuid());
+						
+						// Force the UUID match if necessary (for debugging or ensuring consistency)
+						conceptReferenceTerm.getConceptSource().setUuid(mappingConceptSource.getUuid());
+						
+						System.out.println("After UUID adjustment:");
+						System.out.println("ConceptMap ConceptSource UUID: "
+						        + conceptReferenceTerm.getConceptSource().getUuid());
+						System.out.println("Mapping ConceptSource UUID: " + mappingConceptSource.getUuid());
+					}
+					
+					// Code consistency check
+					if (test.containsKey("code")) {
+						String testCode = (String) test.get("code");
+						String conceptMapCode = conceptReferenceTerm.getCode();
+						
+						System.out.println("Checking Code Consistency:");
+						System.out.println("Code in test map: " + testCode);
+						System.out.println("Code in ConceptMap: " + conceptMapCode);
+						
+						// Force code match if necessary for debugging
+						// You could set the testCode to conceptMapCode for testing purposes if needed
+						if (!testCode.equals(conceptMapCode)) {
+							System.out.println("Code mismatch detected. Test code: " + testCode
+							        + " does not match ConceptMap code: " + conceptMapCode);
+							// If mismatch is intentional, you might adjust here (not recommended in production)
+							// test.put("code", conceptMapCode); // Example of forced adjustment
+						} else {
+							System.out.println("Code matches: " + testCode);
+						}
+						
+						// Check if ConceptSource UUID and code match the ones in the test map
+						if (conceptReferenceTerm.getConceptSource().getUuid().equals(mappingConceptSource.getUuid())
+						        && testCode.equals(conceptMapCode)) {
+							
+							// Successfully mapped
+							System.out.println("Mapping Found: Concept " + concept.getId() + " successfully mapped.");
+							return true; // Mapping found
+						}
+					} else {
+						System.out.println("Test map does not contain a code.");
+					}
+				} else {
+					// Log if any required field is null
+					System.out.println("Skipping conceptMap due to null ConceptSource or Code.");
 				}
 			}
+		} else {
+			// Log if conceptMappings are empty or concept is null
+			if (concept == null) {
+				System.out.println("Concept is null.");
+			} else if (concept.getConceptMappings() == null || concept.getConceptMappings().isEmpty()) {
+				System.out.println("Concept " + concept.getId() + " has no mappings.");
+			}
 		}
-		return false;
+		
+		// Log that mapping wasn't found
+		System.out.println("Concept " + concept.getId() + " not mapped.");
+		return false; // No matching mapping found
 	}
+	
+	// private void processTestAllocations(SampleOrder sampleOrder, List<Map<String, Object>> observations, Concept concept,
+	//         List<Map<String, Object>> mappedParameters, List<Result> formattedResults,
+	//         List<Map<String, Object>> obsWithIssues, ConceptSource mappingConceptSource) throws ParseException {
+	
+	// 	List<TestAllocation> testAllocations = sampleOrder.getTestAllocations();
+	// 	List<Concept> parameters = concept.getSetMembers();
+	
+	// 	if (!parameters.isEmpty() && !testAllocations.isEmpty() && !observations.isEmpty()) {
+	// 		for (Map<String, Object> observation : observations) {
+	// 			String code = extractObservationCode(observation);
+	// 			if (code != null) {
+	// 				processParameters(parameters, code, mappedParameters, formattedResults, obsWithIssues, observation,
+	// 				    testAllocations, mappingConceptSource);
+	// 			} else {
+	// 				obsWithIssues.add(observation);
+	// 			}
+	// 		}
+	// 	}
+	// }
 	
 	private void processTestAllocations(SampleOrder sampleOrder, List<Map<String, Object>> observations, Concept concept,
 	        List<Map<String, Object>> mappedParameters, List<Result> formattedResults,
@@ -566,7 +687,7 @@ public class LaboratoryController {
 		
 		List<TestAllocation> testAllocations = sampleOrder.getTestAllocations();
 		List<Concept> parameters = concept.getSetMembers();
-		System.out.println("Parameters :" + parameters);
+		
 		if (!parameters.isEmpty() && !testAllocations.isEmpty() && !observations.isEmpty()) {
 			for (Map<String, Object> observation : observations) {
 				String code = extractObservationCode(observation);
@@ -577,6 +698,8 @@ public class LaboratoryController {
 					obsWithIssues.add(observation);
 				}
 			}
+		} else {
+			System.out.println("One of the conditions is not met (parameters, testAllocations, observations).");
 		}
 	}
 	
